@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Morning Briefing</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 16px;
+            padding-top: 70px;
+            background: #f9f9f9;
+        }
+        h1 {
+            font-size: 1.8em;
+            border-bottom: 3px solid #2563eb;
+            padding-bottom: 10px;
+            margin-bottom: 5px;
+        }
+        h2 {
+            font-size: 1.4em;
+            color: #2563eb;
+            margin-top: 30px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 8px;
+        }
+        h3 {
+            font-size: 1.1em;
+            margin-top: 25px;
+            margin-bottom: 8px;
+            color: #1e40af;
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+        }
+        h3 em {
+            font-weight: normal;
+            color: #666;
+            font-size: 0.85em;
+        }
+        blockquote {
+            background: #e8f4fc;
+            border-left: 4px solid #2563eb;
+            margin: 10px 0;
+            padding: 12px 16px;
+            font-style: italic;
+            color: #444;
+            border-radius: 0 8px 8px 0;
+        }
+        p {
+            margin: 12px 0;
+            text-align: justify;
+        }
+        a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        hr {
+            border: none;
+            border-top: 2px solid #ddd;
+            margin: 30px 0;
+        }
+        ol {
+            padding-left: 20px;
+        }
+        ol li {
+            margin: 8px 0;
+            padding-left: 5px;
+        }
+        strong {
+            color: #1e3a5f;
+        }
+
+        /* TTS Controls */
+        .tts-controls {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(135deg, #1e40af 0%, #2563eb 100%);
+            padding: 12px 16px;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+        }
+        .tts-btn {
+            background: white;
+            color: #1e40af;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            transition: all 0.2s;
+        }
+        .tts-btn:hover {
+            background: #f0f7ff;
+            transform: scale(1.02);
+        }
+        .tts-btn:active {
+            transform: scale(0.98);
+        }
+        .tts-btn.playing {
+            background: #fef3c7;
+            color: #92400e;
+        }
+        .tts-btn.paused {
+            background: #fee2e2;
+            color: #991b1b;
+        }
+        .play-btn {
+            background: #e8f4fc;
+            border: 1px solid #2563eb;
+            color: #1e40af;
+            padding: 4px 10px;
+            border-radius: 15px;
+            font-size: 12px;
+            cursor: pointer;
+            white-space: nowrap;
+            flex-shrink: 0;
+            transition: all 0.2s;
+        }
+        .play-btn:hover {
+            background: #2563eb;
+            color: white;
+        }
+        .play-btn.playing {
+            background: #fbbf24;
+            border-color: #f59e0b;
+            color: #78350f;
+        }
+        .next-btn {
+            background: #f0fdf4;
+            border: 1px solid #22c55e;
+            color: #166534;
+            padding: 4px 10px;
+            border-radius: 15px;
+            font-size: 12px;
+            cursor: pointer;
+            white-space: nowrap;
+            flex-shrink: 0;
+            transition: all 0.2s;
+        }
+        .next-btn:hover {
+            background: #22c55e;
+            color: white;
+        }
+        .speed-select {
+            padding: 8px 12px;
+            border-radius: 20px;
+            border: none;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+
+        /* Dark mode support */
+        @media (prefers-color-scheme: dark) {
+            body {
+                background: #1a1a2e;
+                color: #e0e0e0;
+            }
+            h1, h2, h3 {
+                color: #60a5fa;
+            }
+            h3 em {
+                color: #9ca3af;
+            }
+            blockquote {
+                background: #1e3a5f;
+                border-left-color: #60a5fa;
+                color: #d1d5db;
+            }
+            a {
+                color: #60a5fa;
+            }
+            hr {
+                border-top-color: #374151;
+            }
+            strong {
+                color: #93c5fd;
+            }
+            .tts-controls {
+                background: linear-gradient(135deg, #1e3a5f 0%, #1e40af 100%);
+            }
+            .play-btn {
+                background: #1e3a5f;
+                border-color: #60a5fa;
+                color: #60a5fa;
+            }
+            .play-btn:hover {
+                background: #60a5fa;
+                color: #1a1a2e;
+            }
+            .next-btn {
+                background: #1a3a2e;
+                border-color: #22c55e;
+                color: #22c55e;
+            }
+            .next-btn:hover {
+                background: #22c55e;
+                color: #1a1a2e;
+            }
+        }
+
+        /* Mobile optimizations */
+        @media (max-width: 600px) {
+            body {
+                padding: 12px;
+                padding-top: 65px;
+                font-size: 16px;
+            }
+            h1 {
+                font-size: 1.5em;
+            }
+            h2 {
+                font-size: 1.25em;
+            }
+            h3 {
+                font-size: 1.05em;
+                flex-wrap: wrap;
+            }
+            blockquote {
+                padding: 10px 12px;
+                margin: 8px 0;
+            }
+            p {
+                text-align: left;
+            }
+            .tts-controls {
+                padding: 8px 12px;
+                gap: 6px;
+            }
+            .tts-btn {
+                padding: 6px 12px;
+                font-size: 13px;
+            }
+            .speed-select {
+                padding: 6px 8px;
+                font-size: 13px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="tts-controls">
+        <button class="tts-btn" id="playAllBtn" onclick="togglePlayAll()">
+            <span id="playAllIcon">▶️</span> <span id="playAllText">Listen All</span>
+        </button>
+        <button class="tts-btn" id="stopBtn" onclick="stopSpeech()">
+            ⏹️ Stop
+        </button>
+        <select class="speed-select" id="speedSelect" onchange="setSpeed(this.value)">
+            <option value="0.75">0.75x</option>
+            <option value="1" selected>1x</option>
+            <option value="1.25">1.25x</option>
+            <option value="1.5">1.5x</option>
+            <option value="2">2x</option>
+        </select>
+    </div>
+
+{{CONTENT}}
+
+    <script>
+        let currentUtterance = null;
+        let isPlaying = false;
+        let isPaused = false;
+        let currentSpeed = 1;
+        let allNewsText = [];
+        let currentIndex = 0;
+
+        // Initialize after DOM loads
+        document.addEventListener('DOMContentLoaded', function() {
+            addPlayButtons();
+            collectAllNews();
+        });
+
+        function addPlayButtons() {
+            const h3s = document.querySelectorAll('h3');
+            h3s.forEach((h3, index) => {
+                const btn = document.createElement('button');
+                btn.className = 'play-btn';
+                btn.id = `playBtn${index}`;
+                btn.innerHTML = '▶️ Play';
+                btn.onclick = () => playNewsItem(index);
+                h3.insertBefore(btn, h3.firstChild);
+
+                // Add next button (except for last item)
+                if (index < h3s.length - 1) {
+                    const nextBtn = document.createElement('button');
+                    nextBtn.className = 'next-btn';
+                    nextBtn.innerHTML = '⏭️ Next';
+                    nextBtn.onclick = () => playNewsItem(index + 1);
+                    h3.appendChild(nextBtn);
+                }
+            });
+        }
+
+        function collectAllNews() {
+            const h3s = document.querySelectorAll('h3');
+            h3s.forEach((h3, index) => {
+                let text = h3.textContent.replace('▶️ Play', '').trim();
+
+                // Get the content after h3 until next h3 or h2
+                let content = '';
+                let sibling = h3.nextElementSibling;
+                while (sibling && !['H2', 'H3', 'HR'].includes(sibling.tagName)) {
+                    if (sibling.tagName === 'BLOCKQUOTE') {
+                        content += sibling.textContent + '. ';
+                    } else if (sibling.tagName === 'P') {
+                        content += sibling.textContent + ' ';
+                    }
+                    sibling = sibling.nextElementSibling;
+                }
+
+                allNewsText.push({
+                    title: text,
+                    content: content.trim(),
+                    element: h3
+                });
+            });
+        }
+
+        function speak(text, onEnd) {
+            if (!('speechSynthesis' in window)) {
+                alert('Text-to-speech not supported in this browser');
+                return;
+            }
+
+            currentUtterance = new SpeechSynthesisUtterance(text);
+            currentUtterance.rate = currentSpeed;
+            currentUtterance.pitch = 1;
+
+            // Try to get a good voice
+            const voices = speechSynthesis.getVoices();
+            const preferredVoice = voices.find(v =>
+                v.name.includes('Samantha') ||
+                v.name.includes('Google') ||
+                v.name.includes('Natural') ||
+                v.lang.startsWith('en')
+            );
+            if (preferredVoice) {
+                currentUtterance.voice = preferredVoice;
+            }
+
+            currentUtterance.onend = onEnd;
+            currentUtterance.onerror = (e) => {
+                console.error('Speech error:', e);
+                if (onEnd) onEnd();
+            };
+
+            speechSynthesis.speak(currentUtterance);
+        }
+
+        function playNewsItem(index) {
+            stopSpeech();
+
+            const item = allNewsText[index];
+            if (!item) return;
+
+            const btn = document.getElementById(`playBtn${index}`);
+            btn.innerHTML = '🔊 Playing';
+            btn.classList.add('playing');
+            isPlaying = true;
+            currentIndex = index;
+
+            // Scroll to current item
+            item.element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+
+            const fullText = `${item.title}. ${item.content}`;
+
+            speak(fullText, () => {
+                btn.innerHTML = '▶️ Play';
+                btn.classList.remove('playing');
+
+                // Auto-play next item if there is one
+                if (index + 1 < allNewsText.length) {
+                    playNewsItem(index + 1);
+                } else {
+                    isPlaying = false;
+                }
+            });
+        }
+
+        function togglePlayAll() {
+            const btn = document.getElementById('playAllBtn');
+            const icon = document.getElementById('playAllIcon');
+            const text = document.getElementById('playAllText');
+
+            if (isPlaying && !isPaused) {
+                // Pause
+                speechSynthesis.pause();
+                isPaused = true;
+                btn.classList.remove('playing');
+                btn.classList.add('paused');
+                icon.textContent = '▶️';
+                text.textContent = 'Resume';
+            } else if (isPaused) {
+                // Resume
+                speechSynthesis.resume();
+                isPaused = false;
+                btn.classList.remove('paused');
+                btn.classList.add('playing');
+                icon.textContent = '⏸️';
+                text.textContent = 'Pause';
+            } else {
+                // Start from beginning
+                playAllSequential(0);
+            }
+        }
+
+        function playAllSequential(index) {
+            if (index >= allNewsText.length) {
+                resetPlayAllButton();
+                return;
+            }
+
+            const btn = document.getElementById('playAllBtn');
+            const icon = document.getElementById('playAllIcon');
+            const text = document.getElementById('playAllText');
+
+            btn.classList.add('playing');
+            icon.textContent = '⏸️';
+            text.textContent = 'Pause';
+            isPlaying = true;
+            currentIndex = index;
+
+            // Highlight current item
+            const itemBtn = document.getElementById(`playBtn${index}`);
+            if (itemBtn) {
+                itemBtn.innerHTML = '🔊 Playing';
+                itemBtn.classList.add('playing');
+                allNewsText[index].element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            }
+
+            const item = allNewsText[index];
+            const fullText = `News ${index + 1}. ${item.title}. ${item.content}`;
+
+            speak(fullText, () => {
+                // Reset current button
+                if (itemBtn) {
+                    itemBtn.innerHTML = '▶️ Play';
+                    itemBtn.classList.remove('playing');
+                }
+
+                if (!isPaused && isPlaying) {
+                    // Play next
+                    playAllSequential(index + 1);
+                }
+            });
+        }
+
+        function stopSpeech() {
+            speechSynthesis.cancel();
+            isPlaying = false;
+            isPaused = false;
+
+            // Reset all buttons
+            document.querySelectorAll('.play-btn').forEach(btn => {
+                btn.innerHTML = '▶️ Play';
+                btn.classList.remove('playing');
+            });
+
+            resetPlayAllButton();
+        }
+
+        function resetPlayAllButton() {
+            const btn = document.getElementById('playAllBtn');
+            const icon = document.getElementById('playAllIcon');
+            const text = document.getElementById('playAllText');
+
+            btn.classList.remove('playing', 'paused');
+            icon.textContent = '▶️';
+            text.textContent = 'Listen All';
+            isPlaying = false;
+            isPaused = false;
+        }
+
+        function setSpeed(speed) {
+            currentSpeed = parseFloat(speed);
+            if (isPlaying && currentUtterance) {
+                // Restart with new speed
+                const wasPlaying = isPlaying;
+                const idx = currentIndex;
+                stopSpeech();
+                if (wasPlaying) {
+                    setTimeout(() => playAllSequential(idx), 100);
+                }
+            }
+        }
+
+        // Load voices (needed for some browsers)
+        if ('speechSynthesis' in window) {
+            speechSynthesis.getVoices();
+            speechSynthesis.onvoiceschanged = () => speechSynthesis.getVoices();
+        }
+    </script>
+</body>
+</html>

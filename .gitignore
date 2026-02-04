@@ -1,0 +1,7 @@
+node_modules/
+venv/
+logs/
+*.log
+.DS_Store
+kokoro-v1.0.onnx
+voices-v1.0.bin

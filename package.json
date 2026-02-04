@@ -1,0 +1,10 @@
+{
+  "name": "daily-news",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "daily-news": "claude -p \"Search for today's news and update daily_briefing.md with: 10 top geopolitical stories and 10 top financial stories. Format: H3 headline with date AND time in italics (e.g. 'Feb 3, 2:30 PM' - when the first article was published, NEVER use future dates, only today or earlier), then a blockquote (>) with a 1-2 sentence summary, then 3 detailed paragraphs per story. List 10 sources at the end of each section.\"",
+    "build": "node build-html.js",
+    "open": "npm run build && open daily_briefing.html"
+  }
+}
