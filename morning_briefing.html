@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Morning Briefing</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 16px;
+            padding-top: 70px;
+            background: #f9f9f9;
+        }
+        h1 {
+            font-size: 1.8em;
+            border-bottom: 3px solid #2563eb;
+            padding-bottom: 10px;
+            margin-bottom: 5px;
+        }
+        h2 {
+            font-size: 1.4em;
+            color: #2563eb;
+            margin-top: 30px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 8px;
+        }
+        h3 {
+            font-size: 1.1em;
+            margin-top: 25px;
+            margin-bottom: 8px;
+            color: #1e40af;
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        h3 .title-text {
+            flex: 1;
+        }
+        .next-btn {
+            background: #f0fdf4;
+            border: 1px solid #22c55e;
+            color: #166534;
+            padding: 4px 12px;
+            border-radius: 15px;
+            font-size: 12px;
+            font-weight: 600;
+            cursor: pointer;
+            white-space: nowrap;
+            transition: all 0.2s;
+        }
+        .next-btn:hover {
+            background: #22c55e;
+            color: white;
+        }
+        h3 em {
+            font-weight: normal;
+            color: #666;
+            font-size: 0.85em;
+        }
+        blockquote {
+            background: #e8f4fc;
+            border-left: 4px solid #2563eb;
+            margin: 10px 0;
+            padding: 12px 16px;
+            font-style: italic;
+            color: #444;
+            border-radius: 0 8px 8px 0;
+        }
+        p {
+            margin: 12px 0;
+            text-align: justify;
+        }
+        a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        hr {
+            border: none;
+            border-top: 2px solid #ddd;
+            margin: 30px 0;
+        }
+        ol {
+            padding-left: 20px;
+        }
+        ol li {
+            margin: 8px 0;
+            padding-left: 5px;
+        }
+        strong {
+            color: #1e3a5f;
+        }
+
+        /* Audio Controls */
+        .tts-controls {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(135deg, #1e40af 0%, #2563eb 100%);
+            padding: 12px 16px;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+        }
+        .tts-btn {
+            background: white;
+            color: #1e40af;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            transition: all 0.2s;
+        }
+        .tts-btn:hover {
+            background: #f0f7ff;
+            transform: scale(1.02);
+        }
+        .tts-btn:active {
+            transform: scale(0.98);
+        }
+        .tts-btn.playing {
+            background: #fef3c7;
+            color: #92400e;
+        }
+        .speed-select {
+            padding: 8px 12px;
+            border-radius: 20px;
+            border: none;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+
+        /* Story audio player */
+        .story-audio {
+            width: 100%;
+            height: 40px;
+            margin: 10px 0;
+            border-radius: 20px;
+        }
+        .story-audio::-webkit-media-controls-panel {
+            background: #e8f4fc;
+        }
+
+        /* Dark mode support */
+        @media (prefers-color-scheme: dark) {
+            body {
+                background: #1a1a2e;
+                color: #e0e0e0;
+            }
+            h1, h2, h3 {
+                color: #60a5fa;
+            }
+            h3 em {
+                color: #9ca3af;
+            }
+            blockquote {
+                background: #1e3a5f;
+                border-left-color: #60a5fa;
+                color: #d1d5db;
+            }
+            a {
+                color: #60a5fa;
+            }
+            hr {
+                border-top-color: #374151;
+            }
+            strong {
+                color: #93c5fd;
+            }
+            .tts-controls {
+                background: linear-gradient(135deg, #1e3a5f 0%, #1e40af 100%);
+            }
+            .story-audio::-webkit-media-controls-panel {
+                background: #1e3a5f;
+            }
+            .next-btn {
+                background: #1a3a2e;
+                border-color: #22c55e;
+                color: #22c55e;
+            }
+            .next-btn:hover {
+                background: #22c55e;
+                color: #1a1a2e;
+            }
+        }
+
+        /* Mobile optimizations */
+        @media (max-width: 600px) {
+            body {
+                padding: 12px;
+                padding-top: 65px;
+                font-size: 16px;
+            }
+            h1 {
+                font-size: 1.5em;
+            }
+            h2 {
+                font-size: 1.25em;
+            }
+            h3 {
+                font-size: 1.05em;
+            }
+            blockquote {
+                padding: 10px 12px;
+                margin: 8px 0;
+            }
+            p {
+                text-align: left;
+            }
+            .tts-controls {
+                padding: 8px 12px;
+                gap: 6px;
+            }
+            .tts-btn {
+                padding: 6px 12px;
+                font-size: 13px;
+            }
+            .speed-select {
+                padding: 6px 8px;
+                font-size: 13px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="tts-controls">
+        <button class="tts-btn" id="playAllBtn" onclick="togglePlayAll()">
+            <span id="playAllIcon">▶️</span> <span id="playAllText">Listen All</span>
+        </button>
+        <button class="tts-btn" id="stopBtn" onclick="stopPlayback()">
+            ⏹️ Stop
+        </button>
+        <select class="speed-select" id="speedSelect" onchange="setSpeed(this.value)">
+            <option value="0.75">0.75x</option>
+            <option value="1" selected>1x</option>
+            <option value="1.25">1.25x</option>
+            <option value="1.5">1.5x</option>
+            <option value="2">2x</option>
+        </select>
+    </div>
+
+<h1>Morning Briefing</h1>
+<p>Research Generated: February 03, 2026, 09:21 PM PST</p>
+<hr>
+<h2>Geopolitical News</h2>
+<hr>
+<h3>Russia Launches Largest Combined Missile and Drone Attack on Ukraine&#39;s Energy Grid</h3>
+<audio class="story-audio" controls src="audio/story-01.mp3"></audio>
+<p><em>Feb 3</em></p>
+<blockquote>
+<p>Russia fired approximately 450 drones and 71 missiles at Ukraine overnight, targeting power infrastructure across at least five regions in what President Zelenskyy called the most extensive energy strike since the beginning of 2026.</p>
+</blockquote>
+<p>Ukraine&#39;s air force reported that 38 missiles and 412 drones were shot down or suppressed, but 27 missiles and 31 drones impacted targets across 27 locations. Missiles struck electrical substations in Kyiv, Kharkiv, Dnipro, and Odesa, with strikes in the capital hitting the Darnytska Thermal Power Plant (TPP-4), the Kyivska substation, and TPP-5. More than 1,100 buildings in Kyiv&#39;s Darnytskyi and Dniprovskyi districts were left without heating, Mayor Vitali Klitschko confirmed, and emergency power outages were introduced on the left bank of the Dnipro River.</p>
+<p>DTEK, Ukraine&#39;s largest private energy firm, described the damage to its power plants as &quot;significant,&quot; calling it the ninth massive attack on its thermal power stations since October 2025. NATO fighter jets in Poland were scrambled in response, though no airspace violations were recorded. German fighter jets and Dutch anti-air defense systems were also put on alert.</p>
+<p>Zelenskyy accused Russia of exploiting the U.S. proposal to halt attacks on energy facilities not to support diplomacy but to stockpile missiles and strike during the coldest days of winter. The attack came just days before a new round of trilateral peace talks involving U.S., Ukrainian, and Russian representatives, scheduled to resume in the United Arab Emirates on Wednesday. &quot;Without pressure on Russia, there will be no end to this war,&quot; Zelenskyy said.</p>
+<hr>
+<h3>New START Treaty Set to Expire, Ending Last Nuclear Arms Control Agreement Between U.S. and Russia</h3>
+<audio class="story-audio" controls src="audio/story-02.mp3"></audio>
+<p><em>Feb 4</em></p>
+<blockquote>
+<p>The New START treaty, the last remaining nuclear arms control agreement between the United States and Russia, expires on February 5, 2026, with no successor agreement in place or under negotiation.</p>
+</blockquote>
+<p>The treaty, signed in 2010 and extended for five years in 2021, limited the U.S. and Russia to 1,550 deployed strategic nuclear warheads on 700 deployed delivery systems. Under its terms, New START could only be extended once, meaning this expiration was always inevitable unless a new deal was negotiated. Russia proposed in September 2025 to continue adhering to the treaty&#39;s limits for one year after expiration, but the Kremlin says Washington has not formally responded. President Trump reportedly said of the agreement, &quot;If it expires, it expires.&quot;</p>
+<p>The breakdown of the treaty&#39;s verification regime began in 2020 when COVID halted on-site inspections. After tensions escalated over the war in Ukraine, the U.S. assessed Russia was in non-compliance in February 2023, and Putin subsequently suspended Russian compliance, rejecting inspections and data exchange. Kremlin spokesperson Peskov warned that &quot;in a few days the world may find itself in a more dangerous situation than before.&quot;</p>
+<p>With the Bulletin of the Atomic Scientists&#39; Doomsday Clock moved to 89 seconds to midnight, the expiration marks a historic moment. The U.S. and Russia hold 87 percent of the world&#39;s nuclear weapons, and for the first time in decades, there are no arms control negotiations underway — bilateral or multilateral — and none are even planned. China&#39;s ongoing nuclear expansion adds further complexity to what experts describe as a new era of potentially unconstrained nuclear buildups.</p>
+<hr>
+<h3>U.S. and Iran Prepare for High-Stakes Nuclear Talks in Istanbul</h3>
+<audio class="story-audio" controls src="audio/story-03.mp3"></audio>
+<p><em>Feb 3</em></p>
+<blockquote>
+<p>White House envoy Steve Witkoff and Iranian Foreign Minister Abbas Araghchi are expected to meet Friday in Istanbul alongside representatives from multiple Arab and Muslim countries in an effort to avert military confrontation and restart nuclear diplomacy.</p>
+</blockquote>
+<p>The summit, set for February 6, would be the first meeting between U.S. and Iranian officials since the collapse of negotiations and the 12-day war last June. The foreign ministers of Turkey, Qatar, Egypt, Oman, the UAE, Saudi Arabia, and Pakistan are expected to attend, reflecting an unprecedented regional effort to prevent further escalation. The immediate goal appears modest: establish a channel, prevent conflict, and determine whether nuclear-focused diplomacy can restart before confrontation becomes the default.</p>
+<p>The talks come amid a massive U.S. military buildup in the Persian Gulf. President Trump has insisted that the only way to avoid military conflict is a swift deal, while Iran&#39;s supreme leader warned that any U.S. attack would spark a &quot;regional war.&quot; Iran has indicated readiness to negotiate but rejects previous U.S. demands that any deal cover its missile program and regional proxies in addition to the nuclear issue.</p>
+<p>Iran&#39;s security chief Ali Larijani said a framework for nuclear talks was making progress, while the country&#39;s president ordered his team to open fresh talks with the U.S. However, fundamental disagreements remain: the Trump administration wants a comprehensive package deal covering nuclear, missile, and proxy issues, while Iran insists only the nuclear program is on the table. A source familiar with the planning cautioned that &quot;nothing is final until it happens.&quot;</p>
+<hr>
+<h3>Gaza&#39;s Rafah Border Crossing Reopens After Nearly Two Years</h3>
+<audio class="story-audio" controls src="audio/story-04.mp3"></audio>
+<p><em>Feb 2</em></p>
+<blockquote>
+<p>The Rafah border crossing between Egypt and Gaza reopened on Monday for the first time in nearly two years, allowing a limited number of Palestinians to enter and exit the territory as part of the U.S.-backed ceasefire agreement.</p>
+</blockquote>
+<p>Israel authorized 50 Palestinians per day to cross on foot, with the crossing coordinated with Egypt and supervised by the European Union. On the first day, the World Health Organization confirmed that 15 Palestinians were allowed to leave — five medical patients and their companions. The Palestinian Ministry of Health estimates more than 20,000 patients in Gaza are awaiting permission to travel abroad for treatment, including at least 440 life-threatening cases. Nearly 1,300 people have died while waiting for permission to leave for medical care.</p>
+<p>The crossing had been closed since May 2024 during Israel&#39;s military offensive. Its reopening followed the return of the final deceased hostage, Ran Gvili, to Israel, completing the first phase of the 20-point ceasefire agreement. The U.S. announced the start of the second phase two weeks ago when President Trump launched his Board of Peace in Davos. However, UNRWA Commissioner-General Philippe Lazzarini described the truce as &quot;a ceasefire in name only,&quot; noting nearly 500 people have been killed since it began, including more than 100 children.</p>
+<p>Significant challenges remain. There is no agreement yet on allowing humanitarian aid through the crossing — only people are currently permitted to pass. Israel continues to ban more than 30 aid organizations from operating in Gaza, including Doctors Without Borders and Oxfam. A new Palestinian police force for Gaza and an international stabilization force to oversee Hamas&#39; disarmament, both outlined in the U.S. plan, have yet to see progress.</p>
+<hr>
+<h3>Trump Escalates Pressure on Cuba, Cutting Off Oil Supplies and Demanding a Deal</h3>
+<audio class="story-audio" controls src="audio/story-05.mp3"></audio>
+<p><em>Feb 1</em></p>
+<blockquote>
+<p>President Trump signed an executive order authorizing tariffs on countries that sell or supply oil to Cuba, declaring a national emergency under IEEPA, while simultaneously indicating the U.S. has begun preliminary talks with Cuban leaders.</p>
+</blockquote>
+<p>The executive order, signed January 29, puts direct pressure on Mexico, which became Cuba&#39;s primary oil supplier after Trump halted Venezuelan oil shipments following Maduro&#39;s ouster. On Monday, Trump announced that Mexico &quot;is going to cease&quot; sending oil to Cuba, a move that could devastate the island&#39;s already fragile energy situation. Mexican President Claudia Sheinbaum warned the cutoff could cause a humanitarian crisis.</p>
+<p>Secretary of State Marco Rubio testified before the Senate Foreign Relations Committee on January 28, acknowledging the administration&#39;s desire for regime change in Cuba, noting it is a precondition under the Helms-Burton Act for lifting the longstanding embargo. Trump said the U.S. had begun talking with &quot;the highest people in Cuba&quot; and expressed confidence a deal could be reached.</p>
+<p>Cuba&#39;s deputy foreign minister Carlos Fernandez de Cossio confirmed the two countries were in communication but stressed the exchanges had not yet evolved into formal dialogue. He said Cuba was &quot;ready to have a serious, meaningful and responsible dialogue&quot; while insisting that the country&#39;s constitution, economy, and socialist system remain off the table. As oil reserves dwindle and blackouts spread across the country, the shift in tone suggests the Cuban government is grappling with the severity of the situation.</p>
+<hr>
+<h3>U.S. Government Shutdown Ends After Trump Signs Five-Bill Funding Package</h3>
+<audio class="story-audio" controls src="audio/story-06.mp3"></audio>
+<p><em>Feb 3</em></p>
+<blockquote>
+<p>President Trump signed a massive funding package on Tuesday to end the brief partial government shutdown that began January 31, providing full-year funding for most of the federal government while putting DHS on a two-week continuing resolution.</p>
+</blockquote>
+<p>The shutdown was triggered after Senate Democrats reached a deal with the White House to separate homeland security spending from the rest of the government funding bill, but with the House in recess, parts of the federal government ran out of money at midnight Saturday. The bill passed the House on a vote of 217-214. During the shutdown, 10,000 Federal Aviation Administration workers and about 8,000 of the State Department&#39;s 27,000 direct-hire employees were furloughed, while air traffic controllers and essential embassy services continued without pay.</p>
+<p>The funding impasse stemmed from the second fatal shooting by immigration officers in Minneapolis, which derailed what had been bipartisan momentum to avoid a funding lapse. Democrats insisted on changes to rein in Immigration and Customs Enforcement and Customs and Border Protection before agreeing to DHS funding. The legislation includes language guaranteeing back pay to federal employees who were briefly furloughed.</p>
+<p>The measure sets up a frantic 10-day window for Congress to negotiate a DHS funding agreement. Rep. Robert Aderholt, a senior member of the Appropriations Committee, said securing a deal will be &quot;very difficult.&quot; The Bureau of Labor Statistics also announced that the January 2026 Employment Situation report will not be released as scheduled on February 6 and will be rescheduled upon the resumption of government funding.</p>
+<hr>
+<h3>Over 200 Killed in Mine Collapse at Rebel-Controlled Coltan Mine in Eastern Congo</h3>
+<audio class="story-audio" controls src="audio/story-07.mp3"></audio>
+<p><em>Jan 31</em></p>
+<blockquote>
+<p>A catastrophic landslide at the Rubaya coltan mine in eastern Democratic Republic of the Congo killed more than 200 people, including miners, children, and market women, after heavy rains caused hand-dug tunnels to cave in.</p>
+</blockquote>
+<p>The Rubaya mines, controlled by the Rwanda-backed M23 rebel group since 2024, produce about 15 percent of the world&#39;s coltan, which is processed into tantalum — a heat-resistant metal critical for mobile phones, computers, aerospace components, and gas turbines. Miners dig long, poorly constructed parallel tunnels by hand with limited support and no safe evacuation routes. An adviser to the North Kivu province governor confirmed at least 227 deaths, with some bodies still buried in mud.</p>
+<p>Since seizing Rubaya, M23 has imposed taxes on the monthly trade and transport of 120 metric tonnes of coltan, generating at least $800,000 per month, according to a U.N. report. The coltan is then exported to Rwanda. The collapse is one of the deadliest disasters in years in a region already facing a humanitarian crisis and ongoing armed conflict. Former miners told the AP that repeated landslides have occurred because the tunnels are dug by hand, poorly constructed, and never maintained.</p>
+<p>Congo&#39;s government expressed solidarity with victims&#39; families and accused the rebels of illegally and unsafely exploiting the region&#39;s natural resources while blaming Rwanda. An M23 spokesperson accused the government of politicizing the tragedy. The Trump administration hosted the leaders of Rwanda and Congo in December and oversaw the signing of a peace deal that critics say has done little to slow the fighting.</p>
+<hr>
+<h3>Japan Heads to Snap Election on February 8 as PM Takaichi Seeks Mandate</h3>
+<audio class="story-audio" controls src="audio/story-08.mp3"></audio>
+<p><em>Feb 4</em></p>
+<blockquote>
+<p>Prime Minister Sanae Takaichi, Japan&#39;s first female PM, dissolved parliament and called a snap election for February 8 after just three months in office, riding approval ratings of around 70 percent and pledging to resign if the ruling bloc fails to win a majority.</p>
+</blockquote>
+<p>The election will determine all 465 seats of the House of Representatives. Takaichi&#39;s gamble comes after the departure of longtime coalition partner Komeito, which left the ruling bloc in October over disagreements with Takaichi&#39;s leadership and the handling of the LDP slush fund scandal, ending 26 years of partnership. The LDP subsequently formed a new coalition with the Japan Innovation Party (Ishin) under leader Hirofumi Yoshimura.</p>
+<p>The opposition has consolidated as well. In January, the Constitutional Democratic Party of Japan merged with Komeito to form the Centrist Reform Alliance, which currently holds 172 seats. Polls show the LDP leading with 36.1 percent support versus 13.9 percent for the Centrist Reform Alliance, and analysts predict the LDP could win a majority. Key voter concerns include cost of living, wages, and the persistently weak yen, with inflation above the Bank of Japan&#39;s target for 45 consecutive months and declining real wages.</p>
+<p>The election is being closely watched internationally. Tokyo and Beijing have been embroiled in a diplomatic dispute since Takaichi made remarks in November suggesting Japan could become involved if China takes military action against Taiwan. The outcome will shape Japan&#39;s defense posture, trade relationships, and approach to the U.S. alliance at a time of heightened geopolitical tension across Asia.</p>
+<hr>
+<h3>Trump Administration Tightens Grip on Venezuela After Military Ouster of Maduro</h3>
+<audio class="story-audio" controls src="audio/story-09.mp3"></audio>
+<p><em>Feb 1</em></p>
+<blockquote>
+<p>Following the U.S. military capture of Venezuelan President Nicolás Maduro in January&#39;s &quot;Operation Absolute Resolve,&quot; the Trump administration is moving to consolidate control over Venezuela&#39;s oil industry and extend pressure across the Western Hemisphere.</p>
+</blockquote>
+<p>Maduro and his wife Cilia Flores were transferred to New York where they pleaded not guilty to narco-terrorism, drug trafficking, and weapons charges. A defiant Maduro told the judge he had been kidnapped in Caracas. Maduro ally Delcy Rodríguez was sworn in as acting president, while Trump claimed the U.S. would &quot;run&quot; Venezuela until a transition takes place. Secretary of Energy Chris Wright said it was &quot;quite likely&quot; American companies would have an expanded presence in Venezuela&#39;s oil industry.</p>
+<p>The ouster has reshaped hemispheric politics. Trump has used the action to send a clear message to China: &quot;The Western Hemisphere has no room for another superpower.&quot; Opposition leader María Corina Machado, who escaped Venezuela in December 2025 to receive the Nobel Peace Prize, has supported the military action, but Trump has stated she &quot;doesn&#39;t have the support&quot; to lead. Former National Security Adviser John Bolton called this a &quot;major mistake,&quot; warning that Washington &quot;threw Machado under the bus.&quot;</p>
+<p>Congressional debate continues over the legality and policy goals of the operation. Members of Congress have disagreed on the legality of the military strikes, seizures of vessels, Maduro&#39;s military ouster, and the potential energy deal. The action has also destabilized Cuba, which was heavily dependent on Venezuelan oil, prompting Trump&#39;s parallel pressure campaign against Havana.</p>
+<hr>
+<h3>Water Emerges as Escalating Geopolitical Flashpoint Across Multiple Continents</h3>
+<audio class="story-audio" controls src="audio/story-10.mp3"></audio>
+<p><em>Feb 3</em></p>
+<blockquote>
+<p>Half of humanity already lives under water stress, and 2026 is seeing the governance vacuum around shared water resources deepen, with the Indus Waters Treaty suspended, Ethiopia&#39;s Nile dam operational with no binding agreement, and China building the world&#39;s largest dam with no downstream treaty.</p>
+</blockquote>
+<p>The Indus Waters Treaty between India and Pakistan, one of the oldest water-sharing agreements in the world, was suspended in 2025 amid rising tensions between the two nuclear-armed neighbors. Without a functioning framework, downstream Pakistan faces increasing vulnerability to India&#39;s upstream infrastructure decisions. The dispute adds another volatile dimension to an already fraught bilateral relationship that includes territorial disputes over Kashmir and periodic military standoffs.</p>
+<p>Ethiopia&#39;s Grand Ethiopian Renaissance Dam on the Blue Nile is now fully operational, fulfilling Addis Ababa&#39;s long-standing ambition to generate hydroelectric power for its population of over 120 million. However, Egypt and Sudan — which depend on the Nile for over 90 percent of their freshwater — have never reached a binding agreement with Ethiopia over water allocation and filling schedules. Egypt has repeatedly described the dam as an existential threat, and the absence of a legal framework leaves the situation unresolved and dangerous.</p>
+<p>China&#39;s construction of the world&#39;s largest dam on the Yarlung Tsangpo (the upper Brahmaputra) in Tibet has alarmed downstream nations India and Bangladesh. With no downstream treaty in place, Beijing&#39;s control of water flows could have devastating consequences for hundreds of millions of people who depend on the Brahmaputra basin for agriculture and drinking water. Experts warn that water is shifting from being a contested resource to a loaded weapon, and there is no international architecture adequate to manage these escalating disputes.</p>
+<hr>
+<h3>Sources — Geopolitical</h3>
+<ol>
+<li><a href="https://kyivindependent.com/russia-launches-mass-attack-across-ukraine-signaling-end-of-energy-ceasefire/">Kyiv Independent — Russia launches mass attack across Ukraine</a></li>
+<li><a href="https://www.icanw.org/new_start_expiration_what_it_means_and_what_s_next">ICAN — The expiration of New START: what it means and what&#39;s next</a></li>
+<li><a href="https://www.nbcnews.com/world/iran/iran-nuclear-talks-donald-trump-supreme-leader-khamenei-war-rcna257074">NBC News — U.S. and Iran may hold talks in Istanbul</a></li>
+<li><a href="https://www.washingtonpost.com/world/2026/02/02/israel-egypt-gaza-rafah-crossing/">Washington Post — Rafah crossing between Gaza and Egypt reopens</a></li>
+<li><a href="https://www.nbcnews.com/politics/politics-news/trump-says-us-starting-talk-cuba-moves-cut-oil-supplies-rcna256905">NBC News — Trump says U.S. is &#39;starting to talk to Cuba&#39;</a></li>
+<li><a href="https://www.npr.org/2026/02/03/g-s1-108506/house-vote-end-government-shutdown">NPR — House votes to end partial government shutdown</a></li>
+<li><a href="https://www.aljazeera.com/news/2026/1/31/more-than-200-killed-in-mine-collapse-in-eastern-dr-congo-report">Al Jazeera — More than 200 killed in mine collapse in eastern DR Congo</a></li>
+<li><a href="https://www.japantimes.co.jp/commentary/2026/02/04/japan/cheat-sheet-for-japans-snap-election/">Japan Times — A cheat sheet to Takaichi&#39;s snap election</a></li>
+<li><a href="https://www.pbs.org/newshour/world/after-maduros-ouster-trump-warns-cuba-to-make-a-deal-before-its-too-late">PBS — After Maduro&#39;s ouster, Trump warns Cuba</a></li>
+<li><a href="https://www.ey.com/en_gl/insights/geostrategy/geostrategic-outlook">EY — Top 10 geopolitical developments in 2026</a></li>
+</ol>
+<hr>
+<h2>Financial News</h2>
+<hr>
+<h3>Precious Metals Suffer Historic Crash as Gold Drops 21% and Silver Plunges 41% From Record Highs</h3>
+<audio class="story-audio" controls src="audio/story-11.mp3"></audio>
+<p><em>Jan 31</em></p>
+<blockquote>
+<p>Gold and silver experienced their worst single-day declines since 1980, with gold tumbling over 12% and silver crashing 31.4% on January 31 after President Trump&#39;s nomination of Kevin Warsh as Fed Chair sent the dollar soaring and triggered massive margin calls.</p>
+</blockquote>
+<p>The crash was sudden and violent. Gold prices plunged $380 — nearly 7% — in just 28 minutes on January 29, while silver collapsed 11% in the same window. By Friday&#39;s close, gold settled at $4,745, down from Thursday&#39;s record $5,608, and silver futures plummeted to $78.53. The selling extended into the following week, with London spot gold dropping as much as 21.2% from its record high to $4,404, and silver losing 41.1% from its all-time high above $121 to hit $71.67.</p>
+<p>The trigger was Trump&#39;s nomination of Kevin Warsh, widely perceived as hawkish on inflation and monetary discipline. Prior to the announcement, investors had been pricing in aggressive rate cuts for 2026, a scenario that historically supports precious metals. The stronger dollar made gold less attractive for foreign buyers, while higher expected rates increased the opportunity cost of holding the noninterest-paying metal. CME Group hiked margin requirements for precious metals futures twice in one week, amplifying the forced selling as leveraged positions were liquidated.</p>
+<p>Despite the carnage, most analysts remain bullish longer-term. Deutsche Bank reiterated its $6,000 per ounce gold target, while JP Morgan expects gold to reach $6,300 by year-end. The ProShares Ultra Silver fund dropped more than 62% and the iShares Silver Trust ETF lost 31% — both funds&#39; worst days on record. Trading volumes in the SLV silver ETF exceeded those of Apple and Amazon combined, making it one of the most traded securities in history.</p>
+<hr>
+<h3>Anthropic&#39;s AI Tool Triggers $285 Billion Software Stock Rout</h3>
+<audio class="story-audio" controls src="audio/story-12.mp3"></audio>
+<p><em>Feb 3</em></p>
+<blockquote>
+<p>Anthropic&#39;s announcement of a legal plug-in for its Claude AI platform sparked the largest single-day decline in software stocks since April&#39;s tariff selloff, wiping approximately $285 billion in market value as investors raced to dump shares across the sector.</p>
+</blockquote>
+<p>A Goldman Sachs basket of U.S. software stocks sank 6%, while the iShares Expanded Tech-Software Sector ETF fell 4.6% in its sixth consecutive day of declines — coming off a 15% plunge in January, its worst month since 2008. Individual names including HubSpot, ServiceTitan, ServiceNow, Atlassian, Klaviyo, DocuSign, Asana, PagerDuty, Salesforce, Workday, and Adobe all sank to fresh 52-week lows. PayPal, Expedia, EPAM Systems, Equifax, and Intuit dropped more than 10%.</p>
+<p>The reaction was driven not by surprise at AI&#39;s capabilities, but by Anthropic&#39;s strategic pivot from positioning itself purely as a large language model provider to stepping into applications and business workflows — the layer where demand is actually monetized. The selloff started in London before U.S. markets opened, with RELX PLC, Experian, and the London Stock Exchange Group posting steep losses. The contagion spread to alternative asset managers: Ares Management, KKR, and TPG each fell by more than 10%, while Apollo Global and Blackstone dropped as much as 8%, reflecting fears about private credit exposure to AI-disrupted industries.</p>
+<p>Software sentiment is the &quot;worst ever,&quot; according to Jefferies, and &quot;radioactive,&quot; per Bloomberg Intelligence. However, Palantir bucked the trend, closing up nearly 7% on strong earnings. Some fund managers view the selloff as an opportunity, with Microsoft trading at about 23 times estimated earnings — near its lowest in three years — and technical indicators showing oversold conditions.</p>
+<hr>
+<h3>SpaceX Acquires xAI in Record-Breaking $1.25 Trillion Merger</h3>
+<audio class="story-audio" controls src="audio/story-13.mp3"></audio>
+<p><em>Feb 2</em></p>
+<blockquote>
+<p>Elon Musk&#39;s SpaceX acquired his artificial intelligence startup xAI in the largest merger in corporate history, valuing the combined company at $1.25 trillion, with SpaceX at $1 trillion and xAI at $250 billion.</p>
+</blockquote>
+<p>Musk announced the deal in a blog post, saying he was forming &quot;the most ambitious, vertically-integrated innovation engine on (and off) Earth, with AI, rockets, space-based internet,&quot; and the X social media platform. The transaction comes ahead of a potential blockbuster IPO for SpaceX later this year, reportedly being prepared for as early as June. SpaceX was valued at $800 billion in a December 2025 secondary share sale, and xAI was valued at $230 billion in its January funding round.</p>
+<p>The strategic vision centers on building data centers in space. Musk argues that terrestrial resources cannot satisfy AI compute demand and that only limitless solar energy can power the world&#39;s AI needs. SpaceX recently asked the FCC for authorization to launch up to 1 million satellites as part of its &quot;orbital data centers&quot; plan, with Musk estimating that within two to three years, the lowest-cost way to generate AI compute will be in space. SpaceX generated an estimated $8 billion in profit on $15-16 billion of revenue in 2025, while xAI is currently burning approximately $1 billion per month.</p>
+<p>The merger raises significant questions. Neither company responded to inquiries about whether the deal requires regulatory review, including potential examination by CFIUS. Some former xAI employees have publicly expressed concern about a culture clash between the two organizations. The combined entity — likely to be followed by an IPO and possibly a megamerger with Tesla — will serve as the ultimate test of Musk&#39;s ability to captivate investors based on far-out promises.</p>
+<hr>
+<h3>Bitcoin Crashes Below $73,000 to 16-Month Low as Crypto Rout Deepens</h3>
+<audio class="story-audio" controls src="audio/story-14.mp3"></audio>
+<p><em>Feb 3</em></p>
+<blockquote>
+<p>Bitcoin briefly dived below $73,000 on Tuesday, hitting its lowest level since November 2024 and marking a 40% decline from its October 2025 record high above $126,000, as nearly $2.5 billion in leveraged long positions were liquidated in 24 hours.</p>
+</blockquote>
+<p>The cryptocurrency slumped from above $83,000 over the weekend to as low as $72,884, wiping roughly $800 billion in market value since its peak and knocking it out of the global top 10 assets. Digital asset investment products recorded a second consecutive week of outflows totaling $1.7 billion, according to CoinShares, with year-to-date outflows reaching $1 billion. The Crypto Fear &amp; Greed Index sat at 17, deep in &quot;extreme fear&quot; territory.</p>
+<p>Multiple factors converged to drive the decline. Kevin Warsh&#39;s nomination as Fed Chair signaled a potential hawkish policy shift that sent the dollar soaring, making risk assets less attractive. Escalating U.S.-Iran tensions raised fears of broader conflict, prompting investors to offload risk positions. The historic precious metals crash added to the panic as gold, silver, and crypto sold off simultaneously — undermining Bitcoin&#39;s narrative as a safe haven. Massive margin calls triggered forced selling, creating a self-reinforcing downward spiral.</p>
+<p>Glassnode data shows that smaller holders (those with less than 10 BTC) have been persistently selling for over a month, while &quot;mega-whales&quot; holding 1,000+ BTC have been quietly accumulating. Veteran trader Peter Brandt warned that Bitcoin could drop to $66,800, while some research firms have flagged $58,000 as a possibility if selling pressure continues. The parallels to the 2022 crypto winter raise concerns that speculative excess has not fully unwound.</p>
+<hr>
+<h3>Kevin Warsh Nominated as Federal Reserve Chair, Faces Senate Confirmation Hurdles</h3>
+<audio class="story-audio" controls src="audio/story-15.mp3"></audio>
+<p><em>Jan 30</em></p>
+<blockquote>
+<p>President Trump formally nominated former Federal Reserve Governor Kevin Warsh to succeed Jerome Powell as Fed Chair, a pick that rattled markets and faces opposition from within his own party in the Senate.</p>
+</blockquote>
+<p>Warsh&#39;s nomination, announced January 30, represents a significant step toward the White House asserting more control over the Fed, one of the few remaining independent federal agencies. Trump told reporters aboard Air Force One that he expected Warsh to lower interest rates if confirmed. The nomination sent the dollar soaring and contributed to the historic crash in precious metals and crypto, as markets repriced expectations for monetary policy.</p>
+<p>However, confirmation faces a critical hurdle. Senator Thom Tillis, a Republican on the Senate Banking Committee, has stated he will oppose Warsh&#39;s nomination until the federal investigation into current Chair Jerome Powell is &quot;fully and transparently resolved.&quot; With the committee&#39;s 13-11 Republican-Democrat composition, Tillis has the ability to single-handedly block the nomination from advancing to a full Senate vote. Senate Majority Leader John Thune has said Warsh will &quot;probably not&quot; be confirmed without Tillis&#39;s support.</p>
+<p>Warsh served on the Fed&#39;s Board of Governors from 2006 to 2011 and is widely perceived as more hawkish on inflation and monetary discipline than current market expectations. In April 2025, he delivered a notable speech to the Group of Thirty and the IMF on Fed policy and independence. He also sits on the boards of e-commerce companies Coupang and UPS. Trump said he believes Warsh could pick up votes from some Democrats, calling him a &quot;high-quality person.&quot;</p>
+<hr>
+<h3>Palantir Surges on Blowout Q4 Earnings and 61% Revenue Growth Guidance for 2026</h3>
+<audio class="story-audio" controls src="audio/story-16.mp3"></audio>
+<p><em>Feb 3</em></p>
+<blockquote>
+<p>Palantir reported Q4 revenue of $1.41 billion, beating the $1.33 billion consensus by 6%, and issued full-year 2026 guidance of $7.19 billion — implying 61% growth versus Wall Street&#39;s 43% estimate — sending shares up 7% after hours.</p>
+</blockquote>
+<p>The AI-powered software company posted adjusted earnings of 25 cents per share versus 23 cents expected, with net income totaling $608 million compared to $79 million a year ago. U.S. revenue drove the results, surging 93% year-over-year to $1.08 billion, led by U.S. Commercial revenue growth of 137% to $507 million and U.S. Government revenue growth of 66% to $570 million. The company closed 180 deals worth over $1 million, 84 deals above $5 million, and 61 deals above $10 million during the quarter.</p>
+<p>Palantir&#39;s guidance crushed expectations across every metric. For Q1 2026, the company guided revenue of $1.53-$1.54 billion versus estimates of $1.32 billion. Full-year U.S. Commercial revenue is expected to grow at least 115%, and adjusted free cash flow is projected at $3.9-$4.1 billion. Analysts noted that Palantir is &quot;on course to reach $10B in revenue at the fastest growth rate and highest margins perhaps in software history.&quot; Bank of America maintained a buy rating with a $255 price target, while Citi raised its target to $260.</p>
+<p>Palantir stood as a rare bright spot in a software sector under siege, closing up nearly 7% on Tuesday even as the broader iShares Software ETF plunged 5%. However, the stock trades at approximately 142 times expected earnings — the third-highest multiple in the S&amp;P 500 — raising questions about whether even exceptional execution can justify the valuation. CEO Alex Karp said the company is &quot;at the outset, the very beginning&quot; of the AI opportunity.</p>
+<hr>
+<h3>U.S. Stock Markets Whipsaw as Tech Rotation Accelerates and Software Stocks Crater</h3>
+<audio class="story-audio" controls src="audio/story-17.mp3"></audio>
+<p><em>Feb 3</em></p>
+<blockquote>
+<p>The S&amp;P 500 fell 0.84% to 6,917.81 and the Nasdaq shed 1.43% as investors dumped technology stocks, while the Dow briefly touched a new intraday record of 49,653 before closing down 0.34% at 49,241 in a dramatic rotation out of tech.</p>
+</blockquote>
+<p>The selloff was led by the &quot;Magnificent Seven&quot; mega-caps: Microsoft and Meta both fell more than 2%, Nvidia slumped nearly 3% adding to its losses for the year, and Apple was marginally lower. Advanced Micro Devices added to bearish sentiment with a disappointing sales forecast. The iShares Software ETF is now down 20% year-to-date, including another 5% decline on Tuesday, as investors grow increasingly concerned about AI disrupting software companies&#39; future growth and profit margins.</p>
+<p>The rotation reflected a broader repricing of the tech ecosystem. While AI enablers like Palantir and select semiconductor names held up, application-layer software companies bore the brunt. Private credit and alternative asset managers also came under pressure, with Blue Owl, TPG, Ares Management, and KKR all falling by double-digit percentages on fears about exposure to AI-disrupted industries. Apollo Global dropped 7% and BlackRock shed 5%.</p>
+<p>In the prior session, U.S. stocks had closed higher to kick off February: the Dow gained 515 points (1.05%), the S&amp;P 500 rose 0.54%, and the Nasdaq gained 0.56%. European stocks had climbed further into record territory. The reversal underscores the volatility gripping markets as investors navigate earnings season, the government shutdown, precious metals turmoil, and the structural implications of AI disruption for traditional software business models.</p>
+<hr>
+<h3>Government Shutdown Delays January Jobs Report as Key Economic Data Goes Dark</h3>
+<audio class="story-audio" controls src="audio/story-18.mp3"></audio>
+<p><em>Feb 3</em></p>
+<blockquote>
+<p>The Bureau of Labor Statistics announced that the January 2026 Employment Situation report will not be released as scheduled on February 6, depriving markets of a critical data point during a period of heightened uncertainty.</p>
+</blockquote>
+<p>The delay is a direct consequence of the partial government shutdown that ran from January 31 to February 3. The jobs report is typically one of the most closely watched economic indicators, influencing Federal Reserve policy decisions, market positioning, and investor sentiment. Its absence comes at a particularly consequential moment: markets are already navigating extreme volatility in precious metals, a tech rotation, and the nomination of Kevin Warsh as Fed Chair, which has reset expectations for monetary policy.</p>
+<p>Today&#39;s economic calendar still includes several important releases: the ADP January employment change report, December factory orders, and the January ISM Services PMI. Major earnings reports expected today include Eli Lilly, AbbVie, Novartis, Novo Nordisk, Uber, Alphabet, Qualcomm, and Arm Holdings. The Alphabet report after market close will be particularly significant, with analysts expecting revenue to climb 15% to $111.4 billion and EPS of $2.65, driven by a projected 35% rise in Google Cloud revenue to $16.2 billion.</p>
+<p>The BLS said the jobs report will be rescheduled upon the resumption of government funding. While the shutdown has ended, the two-week continuing resolution for DHS funding sets up another potential disruption in mid-February if Congress cannot reach a deal on immigration enforcement reform. The combination of missing data, political uncertainty, and market volatility creates an unusually opaque environment for investors trying to gauge the health of the U.S. economy.</p>
+<hr>
+<h3>Alphabet Reports Q4 Earnings Today With $4 Trillion Valuation on the Line</h3>
+<audio class="story-audio" controls src="audio/story-19.mp3"></audio>
+<p><em>Feb 4</em></p>
+<blockquote>
+<p>Alphabet is set to report Q4 2025 earnings after market close today, with Wall Street expecting revenue of $111.4 billion (up 15%) and EPS of $2.65, in a report that will test whether AI momentum can sustain the company&#39;s record valuation.</p>
+</blockquote>
+<p>Google Cloud is the focal point, with analysts projecting a 35% revenue increase to $16.2 billion. With a reported backlog of $155 billion at the end of Q3, the focus will be on conversion velocity and whether Alphabet can close the gap with AWS and Azure. Google Services, which includes Search and YouTube ad revenue and accounts for the majority of Alphabet&#39;s revenue, is expected to see a more modest 13% climb to $94.9 billion.</p>
+<p>The central narrative for 2026 is the transition from AI experimentation to monetization. Alphabet has aggressively integrated its Gemini models across its ecosystem, and investors want to see concrete returns on its massive AI capital expenditure. Jefferies recently raised its price target to $400, suggesting significant upside if AI execution remains strong. However, with the stock at all-time highs and a $4 trillion valuation, there is limited room for error.</p>
+<p>Beyond earnings, Alphabet faces significant structural risks. Judge Leonie Brinkema issued a landmark ruling that Google wielded an illegal monopoly over advertising technology, and the Department of Justice is pushing for a full divestiture of the Google Ad Manager suite. A decision on remedies is expected in early 2026. Google&#39;s search dominance is also facing unprecedented challenges as the cost of acquiring users rises and AI competitors erode the distinctiveness of its algorithms.</p>
+<hr>
+<h3>Deutsche Bank Reiterates $6,000 Gold Target as Precious Metals Rebound From Crash</h3>
+<audio class="story-audio" controls src="audio/story-20.mp3"></audio>
+<p><em>Feb 3</em></p>
+<blockquote>
+<p>Gold and silver staged a partial recovery on Tuesday after their historic selloff, with spot gold rising about 6% to $4,939 and silver advancing 10% to $86.96, while Deutsche Bank maintained its year-end $6,000 per ounce gold forecast.</p>
+</blockquote>
+<p>Deutsche Bank cited &quot;significant institutional investors&quot; signaling &quot;gradual multi-year diversification away from dollar-denominated assets&quot; as the key driver for its bullish outlook. JP Morgan analysts also weighed in with an even more aggressive target of $6,300 per ounce by year-end, representing a 30% gain from current levels. Both banks view the correction as a reset within a continuing secular bull market rather than a fundamental reversal.</p>
+<p>The fundamental drivers supporting precious metals remain intact: central bank buying continues at elevated levels, geopolitical uncertainty persists across multiple theaters, and concerns about fiat currency stability have not diminished. Gold and silver rallied 66% and 135% respectively over the course of 2025, and between Trump&#39;s inauguration and the end of January 2026, gold prices nearly doubled while silver rose nearly four-fold, reflecting deep-seated concerns about the global monetary order.</p>
+<p>The volatility has been unprecedented in modern markets. &quot;Having observed this market for 40 years, this level of volatility is unprecedented,&quot; said Bruce Ikemizu, formerly head of Chinese bank ICBC&#39;s Tokyo precious metals desk. Major gold producers including Newmont, Barrick Mining, and Agnico Eagle Mines saw shares decline more than 10% during the crash. Market participants are watching closely to see whether the recovery holds or whether another wave of margin calls and forced selling could push prices lower again.</p>
+<hr>
+<h3>Sources — Financial</h3>
+<ol>
+<li><a href="https://www.cnbc.com/2026/02/02/gold-silver-sell-off-historic-plunge-.html">CNBC — Silver and gold extend losses after historic plunge</a></li>
+<li><a href="https://www.bloomberg.com/news/articles/2026-02-03/legal-software-stocks-plunge-as-anthropic-releases-new-ai-tool">Bloomberg — Anthropic AI Tool Sparks Selloff From Software to Broader Market</a></li>
+<li><a href="https://www.cnbc.com/2026/02/02/elon-musk-spacex-xai-ipo.html">CNBC — SpaceX acquires xAI ahead of potential IPO</a></li>
+<li><a href="https://www.cnbc.com/2026/02/03/bitcoin-price-today.html">CNBC — Bitcoin briefly breaks below $73,000</a></li>
+<li><a href="https://www.cnbc.com/2026/02/02/palantir-pltr-q4-2025-earnings.html">CNBC — Palantir Q4 2025 earnings</a></li>
+<li><a href="https://www.cnbc.com/2026/02/02/stock-market-today-live-updates.html">CNBC — Stock market news for Feb. 3, 2026</a></li>
+<li><a href="https://www.bloomberg.com/news/articles/2026-02-03/stock-market-today-dow-s-p-live-updates">Bloomberg — Stock Market Today: Dow, S&amp;P Live Updates for February 4</a></li>
+<li><a href="https://www.cnn.com/2026/02/02/investing/gold-silver-bitcoin-us-stock-market">CNN Business — It&#39;s been a weird few days on Wall Street</a></li>
+<li><a href="https://finance.yahoo.com/news/alphabet-set-to-report-q4-earnings-in-test-of-stocks-rally-amid-googles-ai-wins-195254201.html">Yahoo Finance — Alphabet set to report Q4 earnings</a></li>
+<li><a href="https://www.aljazeera.com/economy/2026/2/3/gold-and-silver-prices-soared-then-plummeted-whats-going-on">Al Jazeera — Gold and silver prices soared, then plummeted</a></li>
+</ol>
+
+
+
+    <script>
+        let audioPlayers = [];
+        let currentIndex = 0;
+        let isPlayingAll = false;
+
+        document.addEventListener('DOMContentLoaded', function() {
+            // Collect all audio players
+            audioPlayers = Array.from(document.querySelectorAll('.story-audio'));
+
+            // Add Next buttons to each h3
+            const h3s = document.querySelectorAll('h3');
+            h3s.forEach((h3, index) => {
+                // Skip if it's the last story or a "Sources" header
+                if (h3.textContent.toLowerCase().includes('sources')) return;
+                if (index >= audioPlayers.length - 1) return;
+
+                const nextBtn = document.createElement('button');
+                nextBtn.className = 'next-btn';
+                nextBtn.innerHTML = '⏭️ Next';
+                nextBtn.onclick = (e) => {
+                    e.stopPropagation();
+                    playNextStory(index);
+                };
+                h3.appendChild(nextBtn);
+            });
+
+            // Add event listeners to each audio player
+            audioPlayers.forEach((audio, index) => {
+                // Stop all other audio when one starts playing
+                audio.addEventListener('play', () => {
+                    audioPlayers.forEach((other, otherIndex) => {
+                        if (otherIndex !== index && !other.paused) {
+                            other.pause();
+                        }
+                    });
+                    currentIndex = index;
+                });
+
+                // Handle ended event - auto-play next story
+                audio.addEventListener('ended', () => {
+                    if (index < audioPlayers.length - 1) {
+                        currentIndex = index + 1;
+                        playAudio(currentIndex);
+                    } else {
+                        resetPlayAllButton();
+                    }
+                });
+            });
+        });
+
+        function playAudio(index) {
+            if (index >= 0 && index < audioPlayers.length) {
+                const audio = audioPlayers[index];
+                audio.playbackRate = parseFloat(document.getElementById('speedSelect').value);
+                audio.play();
+                audio.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            }
+        }
+
+        function playNextStory(currentIdx) {
+            // Stop current audio
+            if (audioPlayers[currentIdx]) {
+                audioPlayers[currentIdx].pause();
+            }
+            // Play next
+            const nextIdx = currentIdx + 1;
+            if (nextIdx < audioPlayers.length) {
+                currentIndex = nextIdx;
+                playAudio(nextIdx);
+            }
+        }
+
+        function togglePlayAll() {
+            const btn = document.getElementById('playAllBtn');
+            const icon = document.getElementById('playAllIcon');
+            const text = document.getElementById('playAllText');
+
+            if (isPlayingAll) {
+                // Pause current
+                if (audioPlayers[currentIndex]) {
+                    audioPlayers[currentIndex].pause();
+                }
+                isPlayingAll = false;
+                btn.classList.remove('playing');
+                icon.textContent = '▶️';
+                text.textContent = 'Resume';
+            } else {
+                // Start or resume playing
+                isPlayingAll = true;
+                btn.classList.add('playing');
+                icon.textContent = '⏸️';
+                text.textContent = 'Pause';
+                playAudio(currentIndex);
+            }
+        }
+
+        function stopPlayback() {
+            isPlayingAll = false;
+            audioPlayers.forEach(audio => {
+                audio.pause();
+                audio.currentTime = 0;
+            });
+            currentIndex = 0;
+            resetPlayAllButton();
+        }
+
+        function resetPlayAllButton() {
+            const btn = document.getElementById('playAllBtn');
+            const icon = document.getElementById('playAllIcon');
+            const text = document.getElementById('playAllText');
+
+            btn.classList.remove('playing');
+            icon.textContent = '▶️';
+            text.textContent = 'Listen All';
+            isPlayingAll = false;
+        }
+
+        function setSpeed(speed) {
+            const rate = parseFloat(speed);
+            audioPlayers.forEach(audio => {
+                audio.playbackRate = rate;
+            });
+        }
+    </script>
+</body>
+</html>
