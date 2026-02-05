@@ -539,11 +539,72 @@
                         currentIndex = index + 1;
                         playAudio(currentIndex);
                     } else {
-                        resetPlayAllButton();
+                        const text = document.getElementById('playAllText');
+                        text.textContent = 'Listen All';
+                        updatePlayingState(false);
                     }
                 });
             });
         });
+
+        function updateMediaSession(index) {
+            if (!('mediaSession' in navigator)) return;
+            // Get story title from corresponding h3
+            const h3s = Array.from(document.querySelectorAll('h3')).filter(
+                h => !h.textContent.toLowerCase().includes('sources')
+            );
+            const title = h3s[index]?.textContent?.replace('⏭️ Next', '').trim() || `Story ${index + 1}`;
+            const briefingTitle = document.querySelector('h1')?.textContent || 'Morning Briefing';
+
+            navigator.mediaSession.metadata = new MediaMetadata({
+                title: title,
+                artist: briefingTitle,
+                album: new Date().toLocaleDateString(),
+            });
+
+            navigator.mediaSession.setActionHandler('play', () => {
+                audioPlayers[currentIndex]?.play();
+                updatePlayingState(true);
+            });
+            navigator.mediaSession.setActionHandler('pause', () => {
+                audioPlayers[currentIndex]?.pause();
+                updatePlayingState(false);
+            });
+            navigator.mediaSession.setActionHandler('nexttrack', () => {
+                if (currentIndex < audioPlayers.length - 1) {
+                    audioPlayers[currentIndex]?.pause();
+                    currentIndex++;
+                    playAudio(currentIndex);
+                }
+            });
+            navigator.mediaSession.setActionHandler('previoustrack', () => {
+                // If more than 3 seconds in, restart current; otherwise go to previous
+                const current = audioPlayers[currentIndex];
+                if (current && current.currentTime > 3) {
+                    current.currentTime = 0;
+                } else if (currentIndex > 0) {
+                    current?.pause();
+                    currentIndex--;
+                    playAudio(currentIndex);
+                }
+            });
+        }
+
+        function updatePlayingState(playing) {
+            const btn = document.getElementById('playAllBtn');
+            const icon = document.getElementById('playAllIcon');
+            const text = document.getElementById('playAllText');
+            isPlayingAll = playing;
+            if (playing) {
+                btn.classList.add('playing');
+                icon.textContent = '⏸️';
+                text.textContent = 'Pause';
+            } else {
+                btn.classList.remove('playing');
+                icon.textContent = '▶️';
+                text.textContent = 'Resume';
+            }
+        }
 
         function playAudio(index) {
             if (index >= 0 && index < audioPlayers.length) {
@@ -551,6 +612,7 @@
                 audio.playbackRate = parseFloat(document.getElementById('speedSelect').value);
                 audio.play();
                 audio.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                updateMediaSession(index);
             }
         }
 
@@ -568,48 +630,24 @@
         }
 
         function togglePlayAll() {
-            const btn = document.getElementById('playAllBtn');
-            const icon = document.getElementById('playAllIcon');
-            const text = document.getElementById('playAllText');
-
             if (isPlayingAll) {
-                // Pause current
-                if (audioPlayers[currentIndex]) {
-                    audioPlayers[currentIndex].pause();
-                }
-                isPlayingAll = false;
-                btn.classList.remove('playing');
-                icon.textContent = '▶️';
-                text.textContent = 'Resume';
+                audioPlayers[currentIndex]?.pause();
+                updatePlayingState(false);
             } else {
-                // Start or resume playing
-                isPlayingAll = true;
-                btn.classList.add('playing');
-                icon.textContent = '⏸️';
-                text.textContent = 'Pause';
+                updatePlayingState(true);
                 playAudio(currentIndex);
             }
         }
 
         function stopPlayback() {
-            isPlayingAll = false;
             audioPlayers.forEach(audio => {
                 audio.pause();
                 audio.currentTime = 0;
             });
             currentIndex = 0;
-            resetPlayAllButton();
-        }
-
-        function resetPlayAllButton() {
-            const btn = document.getElementById('playAllBtn');
-            const icon = document.getElementById('playAllIcon');
             const text = document.getElementById('playAllText');
-
-            btn.classList.remove('playing');
-            icon.textContent = '▶️';
             text.textContent = 'Listen All';
-            isPlayingAll = false;
+            updatePlayingState(false);
         }
 
         function setSpeed(speed) {
