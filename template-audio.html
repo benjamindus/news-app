@@ -140,6 +140,35 @@
             background: #fef3c7;
             color: #92400e;
         }
+        .tts-btn.research {
+            background: #f0fdf4;
+            color: #166534;
+            border: 2px solid #22c55e;
+        }
+        .tts-btn.research:hover {
+            background: #dcfce7;
+        }
+        .tts-btn.research.running {
+            background: #fef3c7;
+            color: #92400e;
+            border-color: #f59e0b;
+            cursor: wait;
+        }
+        .tts-btn.research.error {
+            background: #fee2e2;
+            color: #991b1b;
+            border-color: #ef4444;
+        }
+        .tts-btn.research.done {
+            background: #dcfce7;
+            color: #166534;
+            border-color: #22c55e;
+        }
+        .controls-separator {
+            width: 1px;
+            background: rgba(255, 255, 255, 0.3);
+            margin: 0 4px;
+        }
         .speed-select {
             padding: 8px 12px;
             border-radius: 20px;
@@ -201,6 +230,32 @@
                 background: #22c55e;
                 color: #1a1a2e;
             }
+            .tts-btn.research {
+                background: #1a3a2e;
+                color: #22c55e;
+                border-color: #22c55e;
+            }
+            .tts-btn.research:hover {
+                background: #166534;
+            }
+            .tts-btn.research.running {
+                background: #422006;
+                color: #fbbf24;
+                border-color: #f59e0b;
+            }
+            .tts-btn.research.error {
+                background: #450a0a;
+                color: #fca5a5;
+                border-color: #ef4444;
+            }
+            .tts-btn.research.done {
+                background: #1a3a2e;
+                color: #4ade80;
+                border-color: #22c55e;
+            }
+            .controls-separator {
+                background: rgba(255, 255, 255, 0.15);
+            }
         }
 
         /* Mobile optimizations */
@@ -256,6 +311,10 @@
             <option value="1.5">1.5x</option>
             <option value="2">2x</option>
         </select>
+        <div class="controls-separator"></div>
+        <button class="tts-btn research" id="researchBtn" onclick="runResearch()">
+            <span id="researchIcon">🔍</span> <span id="researchText">Run Research</span>
+        </button>
     </div>
 
 {{CONTENT}}
@@ -382,6 +441,55 @@
             audioPlayers.forEach(audio => {
                 audio.playbackRate = rate;
             });
+        }
+
+        // Run Research
+        async function runResearch() {
+            const btn = document.getElementById('researchBtn');
+            const icon = document.getElementById('researchIcon');
+            const text = document.getElementById('researchText');
+
+            if (btn.classList.contains('running')) return;
+
+            btn.classList.remove('error', 'done');
+            btn.classList.add('running');
+            icon.textContent = '⏳';
+            text.textContent = 'Researching...';
+
+            try {
+                const res = await fetch('/api/research', { method: 'POST' });
+                const data = await res.json();
+
+                if (res.ok) {
+                    btn.classList.remove('running');
+                    btn.classList.add('done');
+                    icon.textContent = '✅';
+                    text.textContent = 'Done! Reloading...';
+                    setTimeout(() => window.location.reload(), 1500);
+                } else {
+                    btn.classList.remove('running');
+                    btn.classList.add('error');
+                    icon.textContent = '❌';
+                    text.textContent = 'Failed';
+                    console.error('Research failed:', data.error);
+                    setTimeout(() => {
+                        btn.classList.remove('error');
+                        icon.textContent = '🔍';
+                        text.textContent = 'Run Research';
+                    }, 5000);
+                }
+            } catch (err) {
+                btn.classList.remove('running');
+                btn.classList.add('error');
+                icon.textContent = '❌';
+                text.textContent = 'Failed';
+                console.error('Research error:', err);
+                setTimeout(() => {
+                    btn.classList.remove('error');
+                    icon.textContent = '🔍';
+                    text.textContent = 'Run Research';
+                }, 5000);
+            }
         }
     </script>
 </body>
