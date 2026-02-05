@@ -2,9 +2,23 @@ import { createServer } from 'http';
 import { readFileSync, existsSync } from 'fs';
 import { execSync, spawn } from 'child_process';
 import { extname, join } from 'path';
+import { networkInterfaces } from 'os';
 
 const PORT = process.env.PORT || 3000;
+const HOST = '0.0.0.0';
 const PROJECT_DIR = new URL('.', import.meta.url).pathname;
+
+function getLocalIP() {
+    const nets = networkInterfaces();
+    for (const name of Object.keys(nets)) {
+        for (const net of nets[name]) {
+            if (net.family === 'IPv4' && !net.internal) {
+                return net.address;
+            }
+        }
+    }
+    return 'localhost';
+}
 
 const MIME_TYPES = {
     '.html': 'text/html',
@@ -125,6 +139,9 @@ const server = createServer(async (req, res) => {
     serveFile(res, filePath);
 });
 
-server.listen(PORT, () => {
-    console.log(`Morning Briefing server running at http://localhost:${PORT}`);
+server.listen(PORT, HOST, () => {
+    const localIP = getLocalIP();
+    console.log(`Morning Briefing server running:`);
+    console.log(`  Local:   http://localhost:${PORT}`);
+    console.log(`  Network: http://${localIP}:${PORT}  ← open this on your phone`);
 });
