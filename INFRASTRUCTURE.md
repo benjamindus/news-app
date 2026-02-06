@@ -14,7 +14,7 @@ ssh briefing@5.161.109.207
 ### Key Files
 - `run-scheduled.sh` - Entry point, auto-pulls from GitHub, routes to correct briefing based on time
 - `update-morning.sh` - Morning briefing (6 AM Mon-Sat PST)
-- `update-daily.sh` - Daily briefing (6 PM daily PST)
+- `update-daily.sh` - Daily briefing (4 PM daily PST)
 - `update-weekly-news.sh` - Weekly news (Sun 7 AM PST)
 - `update-weekly-science.sh` - Weekly science (Sun 7:30 AM PST)
 - `update-weekly-finance.sh` - Weekly finance (Sun 8 AM PST)
@@ -75,7 +75,7 @@ Each update script checks other briefing files for existing headlines (`### ` li
 ### Cron Schedule (as briefing user, times in UTC)
 ```
 0 14 * * 1-6  # Morning 6AM PST (Mon-Sat)
-0 2 * * *     # Daily 6PM PST
+0 0 * * *     # Daily 4PM PST
 0 15 * * 0    # Weekly news Sun 7AM PST
 30 15 * * 0   # Weekly science Sun 7:30AM PST
 0 16 * * 0    # Weekly finance Sun 8AM PST

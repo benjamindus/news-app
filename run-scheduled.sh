@@ -25,8 +25,8 @@ if [ "$HOUR" = "06" ] && [ "$WEEKDAY" != "7" ]; then
     exit 0
 fi
 
-# Daily briefing: 6:00 PM every day
-if [ "$HOUR" = "18" ]; then
+# Daily briefing: 4:00 PM every day
+if [ "$HOUR" = "16" ]; then
     echo "Running daily briefing..."
     ./update-daily.sh
     exit 0
