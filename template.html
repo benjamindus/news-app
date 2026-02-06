@@ -37,8 +37,13 @@
             margin-bottom: 8px;
             color: #1e40af;
             display: flex;
-            align-items: flex-start;
+            align-items: center;
+            flex-wrap: wrap;
             gap: 8px;
+        }
+        h3 .title-text {
+            flex: 1;
+            min-width: 0;
         }
         h3 em {
             font-weight: normal;
@@ -353,12 +358,20 @@
         function addPlayButtons() {
             const h3s = document.querySelectorAll('h3');
             h3s.forEach((h3, index) => {
+                // Wrap existing title content in a span so buttons go to the right
+                const titleSpan = document.createElement('span');
+                titleSpan.className = 'title-text';
+                while (h3.firstChild) {
+                    titleSpan.appendChild(h3.firstChild);
+                }
+                h3.appendChild(titleSpan);
+
                 const btn = document.createElement('button');
                 btn.className = 'play-btn';
                 btn.id = `playBtn${index}`;
                 btn.innerHTML = '▶️ Play';
                 btn.onclick = () => playNewsItem(index);
-                h3.insertBefore(btn, h3.firstChild);
+                h3.appendChild(btn);
 
                 // Add next button (except for last item)
                 if (index < h3s.length - 1) {
@@ -374,7 +387,8 @@
         function collectAllNews() {
             const h3s = document.querySelectorAll('h3');
             h3s.forEach((h3, index) => {
-                let text = h3.textContent.replace('▶️ Play', '').trim();
+                const titleEl = h3.querySelector('.title-text');
+                let text = (titleEl || h3).textContent.replace('▶️ Play', '').replace('⏭️ Next', '').trim();
 
                 // Get the content after h3 until next h3 or h2
                 let content = '';
