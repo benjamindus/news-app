@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Morning Briefing</title>
+    <title>News Briefing</title>
     <style>
         * {
             box-sizing: border-box;
@@ -15,7 +15,7 @@
             max-width: 800px;
             margin: 0 auto;
             padding: 16px;
-            padding-top: 70px;
+            padding-top: 120px;
             background: #f9f9f9;
         }
         h1 {
@@ -102,32 +102,58 @@
             color: #1e3a5f;
         }
 
-        /* Audio Controls */
-        .tts-controls {
+        /* Header Controls */
+        .header-controls {
             position: fixed;
             top: 0;
             left: 0;
             right: 0;
-            background: linear-gradient(135deg, #1e40af 0%, #2563eb 100%);
-            padding: 12px 16px;
-            display: flex;
-            justify-content: center;
-            gap: 10px;
             z-index: 1000;
             box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+        }
+        .briefing-selector {
+            background: linear-gradient(135deg, #1e3a5f 0%, #1e40af 100%);
+            padding: 10px 16px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 12px;
+        }
+        .briefing-selector label {
+            color: white;
+            font-weight: 600;
+            font-size: 14px;
+        }
+        .briefing-select {
+            padding: 8px 16px;
+            border-radius: 20px;
+            border: 2px solid white;
+            background: white;
+            font-size: 14px;
+            font-weight: 600;
+            color: #1e40af;
+            cursor: pointer;
+            min-width: 180px;
+        }
+        .tts-controls {
+            background: linear-gradient(135deg, #1e40af 0%, #2563eb 100%);
+            padding: 10px 16px;
+            display: flex;
+            justify-content: center;
+            gap: 8px;
         }
         .tts-btn {
             background: white;
             color: #1e40af;
             border: none;
-            padding: 8px 16px;
+            padding: 8px 14px;
             border-radius: 20px;
-            font-size: 14px;
+            font-size: 13px;
             font-weight: 600;
             cursor: pointer;
             display: flex;
             align-items: center;
-            gap: 6px;
+            gap: 5px;
             transition: all 0.2s;
         }
         .tts-btn:hover {
@@ -145,9 +171,23 @@
             padding: 8px 12px;
             border-radius: 20px;
             border: none;
-            font-size: 14px;
+            font-size: 13px;
             font-weight: 600;
             cursor: pointer;
+        }
+
+        /* Briefing sections */
+        .briefing-section {
+            display: none;
+        }
+        .briefing-section.active {
+            display: block;
+        }
+        .no-content {
+            text-align: center;
+            padding: 40px 20px;
+            color: #666;
+            font-style: italic;
         }
 
         /* Story audio player */
@@ -187,6 +227,9 @@
             strong {
                 color: #93c5fd;
             }
+            .briefing-selector {
+                background: linear-gradient(135deg, #0f172a 0%, #1e3a5f 100%);
+            }
             .tts-controls {
                 background: linear-gradient(135deg, #1e3a5f 0%, #1e40af 100%);
             }
@@ -202,13 +245,16 @@
                 background: #22c55e;
                 color: #1a1a2e;
             }
+            .no-content {
+                color: #9ca3af;
+            }
         }
 
         /* Mobile optimizations */
         @media (max-width: 600px) {
             body {
                 padding: 12px;
-                padding-top: 65px;
+                padding-top: 115px;
                 font-size: 16px;
             }
             h1 {
@@ -227,38 +273,58 @@
             p {
                 text-align: left;
             }
-            .tts-controls {
+            .briefing-selector {
                 padding: 8px 12px;
-                gap: 6px;
+            }
+            .briefing-select {
+                min-width: 150px;
+                font-size: 13px;
+            }
+            .tts-controls {
+                padding: 8px 10px;
+                gap: 5px;
+                flex-wrap: wrap;
             }
             .tts-btn {
-                padding: 6px 12px;
-                font-size: 13px;
+                padding: 6px 10px;
+                font-size: 12px;
             }
             .speed-select {
                 padding: 6px 8px;
-                font-size: 13px;
+                font-size: 12px;
             }
         }
     </style>
 </head>
 <body>
-    <div class="tts-controls">
-        <button class="tts-btn" id="playAllBtn" onclick="togglePlayAll()">
-            <span id="playAllIcon">▶️</span> <span id="playAllText">Listen All</span>
-        </button>
-        <button class="tts-btn" id="stopBtn" onclick="stopPlayback()">
-            ⏹️ Stop
-        </button>
-        <button class="tts-btn" onclick="jumpAudio(-30)">-30s</button>
-        <button class="tts-btn" onclick="jumpAudio(30)">+30s</button>
-        <select class="speed-select" id="speedSelect" onchange="setSpeed(this.value)">
-            <option value="0.75">0.75x</option>
-            <option value="1">1x</option>
-            <option value="1.25">1.25x</option>
-            <option value="1.5" selected>1.5x</option>
-            <option value="2">2x</option>
-        </select>
+    <div class="header-controls">
+        <div class="briefing-selector">
+            <label for="briefingSelect">Briefing:</label>
+            <select class="briefing-select" id="briefingSelect" onchange="switchBriefing(this.value)">
+                <option value="morning">Morning News</option>
+                <option value="daily">Daily News</option>
+                <option value="weekly-news">Weekly News</option>
+                <option value="weekly-science">Weekly Science</option>
+                <option value="weekly-finance">Weekly Finance</option>
+            </select>
+        </div>
+        <div class="tts-controls">
+            <button class="tts-btn" id="playAllBtn" onclick="togglePlayAll()">
+                <span id="playAllIcon">▶️</span> <span id="playAllText">Listen All</span>
+            </button>
+            <button class="tts-btn" id="stopBtn" onclick="stopPlayback()">
+                ⏹️ Stop
+            </button>
+            <button class="tts-btn" onclick="jumpAudio(-30)">-30s</button>
+            <button class="tts-btn" onclick="jumpAudio(30)">+30s</button>
+            <select class="speed-select" id="speedSelect" onchange="setSpeed(this.value)">
+                <option value="0.75">0.75x</option>
+                <option value="1">1x</option>
+                <option value="1.25">1.25x</option>
+                <option value="1.5" selected>1.5x</option>
+                <option value="2">2x</option>
+            </select>
+        </div>
     </div>
 
 {{CONTENT}}
@@ -267,28 +333,70 @@
         let audioPlayers = [];
         let currentIndex = 0;
         let isPlayingAll = false;
+        let currentBriefing = 'morning';
 
         document.addEventListener('DOMContentLoaded', function() {
-            // Collect all audio players
-            audioPlayers = Array.from(document.querySelectorAll('.story-audio'));
+            // Load saved briefing preference
+            const saved = localStorage.getItem('selectedBriefing');
+            if (saved) {
+                document.getElementById('briefingSelect').value = saved;
+                currentBriefing = saved;
+            }
 
-            // Add Next buttons to each h3, with title wrapped for right-alignment
-            const h3s = document.querySelectorAll('h3');
+            // Show the selected briefing
+            switchBriefing(currentBriefing);
+        });
+
+        function switchBriefing(briefingId) {
+            // Stop any playing audio
+            stopPlayback();
+
+            // Hide all sections
+            document.querySelectorAll('.briefing-section').forEach(section => {
+                section.classList.remove('active');
+            });
+
+            // Show selected section
+            const section = document.getElementById('section-' + briefingId);
+            if (section) {
+                section.classList.add('active');
+            }
+
+            // Save preference
+            currentBriefing = briefingId;
+            localStorage.setItem('selectedBriefing', briefingId);
+
+            // Re-initialize audio players for this section
+            initAudioPlayers();
+        }
+
+        function initAudioPlayers() {
+            const activeSection = document.querySelector('.briefing-section.active');
+            if (!activeSection) return;
+
+            audioPlayers = Array.from(activeSection.querySelectorAll('.story-audio'));
+            currentIndex = 0;
+
+            // Add Next buttons to each h3 in active section
+            const h3s = activeSection.querySelectorAll('h3');
             let storyIndex = 0;
             h3s.forEach((h3) => {
-                // Skip if it's a "Sources" header
+                // Skip if it's a "Sources" header or already processed
                 if (h3.textContent.toLowerCase().includes('sources')) return;
+                if (h3.querySelector('.next-btn')) return;
 
                 const currentStoryIndex = storyIndex;
                 storyIndex++;
 
-                // Wrap existing title content in a span so buttons go to the right
-                const titleSpan = document.createElement('span');
-                titleSpan.className = 'title-text';
-                while (h3.firstChild) {
-                    titleSpan.appendChild(h3.firstChild);
+                // Wrap existing title content in a span if not already wrapped
+                if (!h3.querySelector('.title-text')) {
+                    const titleSpan = document.createElement('span');
+                    titleSpan.className = 'title-text';
+                    while (h3.firstChild) {
+                        titleSpan.appendChild(h3.firstChild);
+                    }
+                    h3.appendChild(titleSpan);
                 }
-                h3.appendChild(titleSpan);
 
                 if (currentStoryIndex >= audioPlayers.length - 1) return;
 
@@ -308,9 +416,13 @@
 
             // Add event listeners to each audio player
             audioPlayers.forEach((audio, index) => {
-                // Stop all other audio when one starts playing, and enforce speed
-                audio.addEventListener('play', () => {
-                    enforceRate(audio);
+                // Remove old listeners by cloning
+                const newAudio = audio.cloneNode(true);
+                audio.parentNode.replaceChild(newAudio, audio);
+                audioPlayers[index] = newAudio;
+
+                newAudio.addEventListener('play', () => {
+                    enforceRate(newAudio);
                     audioPlayers.forEach((other, otherIndex) => {
                         if (otherIndex !== index && !other.paused) {
                             other.pause();
@@ -319,24 +431,20 @@
                     currentIndex = index;
                 });
 
-                // playing fires after browser internals settle — re-enforce rate
-                audio.addEventListener('playing', () => {
-                    enforceRate(audio);
-                    // Delayed enforcement for mobile media controls that reset rate late
-                    setTimeout(() => enforceRate(audio), 100);
-                    setTimeout(() => enforceRate(audio), 500);
+                newAudio.addEventListener('playing', () => {
+                    enforceRate(newAudio);
+                    setTimeout(() => enforceRate(newAudio), 100);
+                    setTimeout(() => enforceRate(newAudio), 500);
                 });
 
-                // Catch any unexpected rate changes (e.g. from iOS media controls)
-                audio.addEventListener('ratechange', () => {
+                newAudio.addEventListener('ratechange', () => {
                     const expected = parseFloat(document.getElementById('speedSelect').value);
-                    if (!audio.paused && Math.abs(audio.playbackRate - expected) > 0.01) {
-                        audio.playbackRate = expected;
+                    if (!newAudio.paused && Math.abs(newAudio.playbackRate - expected) > 0.01) {
+                        newAudio.playbackRate = expected;
                     }
                 });
 
-                // Handle ended event - auto-play next story
-                audio.addEventListener('ended', () => {
+                newAudio.addEventListener('ended', () => {
                     if (index < audioPlayers.length - 1) {
                         currentIndex = index + 1;
                         playAudio(currentIndex);
@@ -347,7 +455,7 @@
                     }
                 });
             });
-        });
+        }
 
         function enforceRate(audio) {
             const rate = parseFloat(document.getElementById('speedSelect').value);
@@ -358,12 +466,14 @@
 
         function updateMediaSession(index) {
             if (!('mediaSession' in navigator)) return;
-            // Get story title from corresponding h3
-            const h3s = Array.from(document.querySelectorAll('h3')).filter(
+            const activeSection = document.querySelector('.briefing-section.active');
+            if (!activeSection) return;
+
+            const h3s = Array.from(activeSection.querySelectorAll('h3')).filter(
                 h => !h.textContent.toLowerCase().includes('sources')
             );
             const title = h3s[index]?.textContent?.replace('⏭️ Next', '').trim() || `Story ${index + 1}`;
-            const briefingTitle = document.querySelector('h1')?.textContent || 'Morning Briefing';
+            const briefingTitle = activeSection.querySelector('h1')?.textContent || 'News Briefing';
 
             navigator.mediaSession.metadata = new MediaMetadata({
                 title: title,
@@ -387,7 +497,6 @@
                 }
             });
             navigator.mediaSession.setActionHandler('previoustrack', () => {
-                // If more than 3 seconds in, restart current; otherwise go to previous
                 const current = audioPlayers[currentIndex];
                 if (current && current.currentTime > 3) {
                     current.currentTime = 0;
@@ -440,11 +549,9 @@
         }
 
         function playNextStory(currentIdx) {
-            // Stop current audio
             if (audioPlayers[currentIdx]) {
                 audioPlayers[currentIdx].pause();
             }
-            // Play next
             const nextIdx = currentIdx + 1;
             if (nextIdx < audioPlayers.length) {
                 currentIndex = nextIdx;

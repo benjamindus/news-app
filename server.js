@@ -60,10 +60,10 @@ const server = createServer(async (req, res) => {
     }
 
     // Serve static files
-    let filePath = req.url === '/' ? 'morning_briefing.html' : req.url.slice(1);
+    let filePath = req.url === '/' ? 'briefing.html' : req.url.slice(1);
 
     // Rebuild HTML on each page load to pick up latest content
-    if (filePath === 'morning_briefing.html') {
+    if (filePath === 'briefing.html') {
         try {
             buildHtml();
         } catch (err) {
@@ -76,7 +76,7 @@ const server = createServer(async (req, res) => {
 
 server.listen(PORT, HOST, () => {
     const localIP = getLocalIP();
-    console.log(`Morning Briefing server running:`);
+    console.log(`News Briefing server running:`);
     console.log(`  Local:   http://localhost:${PORT}`);
     console.log(`  Network: http://${localIP}:${PORT}  ← open this on your phone`);
 });
