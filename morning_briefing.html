@@ -141,35 +141,6 @@
             background: #fef3c7;
             color: #92400e;
         }
-        .tts-btn.research {
-            background: #f0fdf4;
-            color: #166534;
-            border: 2px solid #22c55e;
-        }
-        .tts-btn.research:hover {
-            background: #dcfce7;
-        }
-        .tts-btn.research.running {
-            background: #fef3c7;
-            color: #92400e;
-            border-color: #f59e0b;
-            cursor: wait;
-        }
-        .tts-btn.research.error {
-            background: #fee2e2;
-            color: #991b1b;
-            border-color: #ef4444;
-        }
-        .tts-btn.research.done {
-            background: #dcfce7;
-            color: #166534;
-            border-color: #22c55e;
-        }
-        .controls-separator {
-            width: 1px;
-            background: rgba(255, 255, 255, 0.3);
-            margin: 0 4px;
-        }
         .speed-select {
             padding: 8px 12px;
             border-radius: 20px;
@@ -231,32 +202,6 @@
                 background: #22c55e;
                 color: #1a1a2e;
             }
-            .tts-btn.research {
-                background: #1a3a2e;
-                color: #22c55e;
-                border-color: #22c55e;
-            }
-            .tts-btn.research:hover {
-                background: #166534;
-            }
-            .tts-btn.research.running {
-                background: #422006;
-                color: #fbbf24;
-                border-color: #f59e0b;
-            }
-            .tts-btn.research.error {
-                background: #450a0a;
-                color: #fca5a5;
-                border-color: #ef4444;
-            }
-            .tts-btn.research.done {
-                background: #1a3a2e;
-                color: #4ade80;
-                border-color: #22c55e;
-            }
-            .controls-separator {
-                background: rgba(255, 255, 255, 0.15);
-            }
         }
 
         /* Mobile optimizations */
@@ -314,10 +259,6 @@
             <option value="1.5" selected>1.5x</option>
             <option value="2">2x</option>
         </select>
-        <div class="controls-separator"></div>
-        <button class="tts-btn research" id="researchBtn" onclick="runResearch()">
-            <span id="researchIcon">🔍</span> <span id="researchText">Run Research</span>
-        </button>
     </div>
 
 <h1>Morning Briefing</h1>
@@ -631,7 +572,9 @@
                         currentIndex = index + 1;
                         playAudio(currentIndex);
                     } else {
-                        resetPlayAllButton();
+                        const text = document.getElementById('playAllText');
+                        text.textContent = 'Listen All';
+                        updatePlayingState(false);
                     }
                 });
             });
@@ -644,12 +587,72 @@
             }
         }
 
+        function updateMediaSession(index) {
+            if (!('mediaSession' in navigator)) return;
+            // Get story title from corresponding h3
+            const h3s = Array.from(document.querySelectorAll('h3')).filter(
+                h => !h.textContent.toLowerCase().includes('sources')
+            );
+            const title = h3s[index]?.textContent?.replace('⏭️ Next', '').trim() || `Story ${index + 1}`;
+            const briefingTitle = document.querySelector('h1')?.textContent || 'Morning Briefing';
+
+            navigator.mediaSession.metadata = new MediaMetadata({
+                title: title,
+                artist: briefingTitle,
+                album: new Date().toLocaleDateString(),
+            });
+
+            navigator.mediaSession.setActionHandler('play', () => {
+                audioPlayers[currentIndex]?.play();
+                updatePlayingState(true);
+            });
+            navigator.mediaSession.setActionHandler('pause', () => {
+                audioPlayers[currentIndex]?.pause();
+                updatePlayingState(false);
+            });
+            navigator.mediaSession.setActionHandler('nexttrack', () => {
+                if (currentIndex < audioPlayers.length - 1) {
+                    audioPlayers[currentIndex]?.pause();
+                    currentIndex++;
+                    playAudio(currentIndex);
+                }
+            });
+            navigator.mediaSession.setActionHandler('previoustrack', () => {
+                // If more than 3 seconds in, restart current; otherwise go to previous
+                const current = audioPlayers[currentIndex];
+                if (current && current.currentTime > 3) {
+                    current.currentTime = 0;
+                } else if (currentIndex > 0) {
+                    current?.pause();
+                    currentIndex--;
+                    playAudio(currentIndex);
+                }
+            });
+        }
+
+        function updatePlayingState(playing) {
+            const btn = document.getElementById('playAllBtn');
+            const icon = document.getElementById('playAllIcon');
+            const text = document.getElementById('playAllText');
+            isPlayingAll = playing;
+            if (playing) {
+                btn.classList.add('playing');
+                icon.textContent = '⏸️';
+                text.textContent = 'Pause';
+            } else {
+                btn.classList.remove('playing');
+                icon.textContent = '▶️';
+                text.textContent = 'Resume';
+            }
+        }
+
         function playAudio(index) {
             if (index >= 0 && index < audioPlayers.length) {
                 const audio = audioPlayers[index];
                 audio.playbackRate = parseFloat(document.getElementById('speedSelect').value);
                 audio.play();
                 audio.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                updateMediaSession(index);
             }
         }
 
@@ -667,48 +670,24 @@
         }
 
         function togglePlayAll() {
-            const btn = document.getElementById('playAllBtn');
-            const icon = document.getElementById('playAllIcon');
-            const text = document.getElementById('playAllText');
-
             if (isPlayingAll) {
-                // Pause current
-                if (audioPlayers[currentIndex]) {
-                    audioPlayers[currentIndex].pause();
-                }
-                isPlayingAll = false;
-                btn.classList.remove('playing');
-                icon.textContent = '▶️';
-                text.textContent = 'Resume';
+                audioPlayers[currentIndex]?.pause();
+                updatePlayingState(false);
             } else {
-                // Start or resume playing
-                isPlayingAll = true;
-                btn.classList.add('playing');
-                icon.textContent = '⏸️';
-                text.textContent = 'Pause';
+                updatePlayingState(true);
                 playAudio(currentIndex);
             }
         }
 
         function stopPlayback() {
-            isPlayingAll = false;
             audioPlayers.forEach(audio => {
                 audio.pause();
                 audio.currentTime = 0;
             });
             currentIndex = 0;
-            resetPlayAllButton();
-        }
-
-        function resetPlayAllButton() {
-            const btn = document.getElementById('playAllBtn');
-            const icon = document.getElementById('playAllIcon');
             const text = document.getElementById('playAllText');
-
-            btn.classList.remove('playing');
-            icon.textContent = '▶️';
             text.textContent = 'Listen All';
-            isPlayingAll = false;
+            updatePlayingState(false);
         }
 
         function jumpAudio(seconds) {
@@ -723,135 +702,6 @@
             audioPlayers.forEach(audio => {
                 audio.playbackRate = rate;
             });
-        }
-
-        // Run Research
-        const GITHUB_OWNER = 'benjamindus';
-        const GITHUB_REPO = 'morning-briefing';
-        const WORKFLOW_FILE = 'run-research.yml';
-
-        function getGitHubToken() {
-            let token = localStorage.getItem('gh_pat');
-            if (!token) {
-                token = prompt('Enter a GitHub Personal Access Token with "actions" scope.\nThis is stored locally in your browser and never sent anywhere except GitHub API.');
-                if (token) localStorage.setItem('gh_pat', token.trim());
-            }
-            return token;
-        }
-
-        async function runResearch() {
-            const btn = document.getElementById('researchBtn');
-            const icon = document.getElementById('researchIcon');
-            const text = document.getElementById('researchText');
-
-            if (btn.classList.contains('running')) return;
-
-            const token = getGitHubToken();
-            if (!token) return;
-
-            btn.classList.remove('error', 'done');
-            btn.classList.add('running');
-            icon.textContent = '⏳';
-            text.textContent = 'Triggering...';
-
-            const triggerTime = new Date().toISOString();
-
-            try {
-                const res = await fetch(
-                    `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/actions/workflows/${WORKFLOW_FILE}/dispatches`,
-                    {
-                        method: 'POST',
-                        headers: {
-                            'Authorization': `Bearer ${token}`,
-                            'Accept': 'application/vnd.github.v3+json',
-                        },
-                        body: JSON.stringify({ ref: 'main' }),
-                    }
-                );
-
-                if (res.status === 204) {
-                    text.textContent = 'Researching...';
-                    pollWorkflowStatus(token, triggerTime);
-                } else if (res.status === 401 || res.status === 403) {
-                    localStorage.removeItem('gh_pat');
-                    throw new Error('Invalid token — removed. Try again.');
-                } else {
-                    throw new Error(`GitHub API error: ${res.status}`);
-                }
-            } catch (err) {
-                showResearchError(err.message);
-            }
-        }
-
-        async function pollWorkflowStatus(token, triggerTime) {
-            const btn = document.getElementById('researchBtn');
-            const icon = document.getElementById('researchIcon');
-            const text = document.getElementById('researchText');
-
-            const maxWait = 10 * 60 * 1000;
-            const startTime = Date.now();
-
-            const poll = async () => {
-                if (Date.now() - startTime > maxWait) {
-                    showResearchError('Timed out after 10 minutes');
-                    return;
-                }
-
-                try {
-                    const res = await fetch(
-                        `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/actions/runs?per_page=1&event=workflow_dispatch`,
-                        {
-                            headers: {
-                                'Authorization': `Bearer ${token}`,
-                                'Accept': 'application/vnd.github.v3+json',
-                            },
-                        }
-                    );
-                    const data = await res.json();
-                    const run = data.workflow_runs?.[0];
-
-                    if (run && new Date(run.created_at) >= new Date(triggerTime)) {
-                        if (run.status === 'completed') {
-                            if (run.conclusion === 'success') {
-                                btn.classList.remove('running');
-                                btn.classList.add('done');
-                                icon.textContent = '✅';
-                                text.textContent = 'Done! Reloading...';
-                                setTimeout(() => window.location.reload(), 2000);
-                            } else {
-                                showResearchError(`Workflow ${run.conclusion}`);
-                            }
-                            return;
-                        }
-                        // Still running
-                        const elapsed = Math.round((Date.now() - startTime) / 1000);
-                        text.textContent = `Researching... (${elapsed}s)`;
-                    }
-                } catch (err) {
-                    console.error('Poll error:', err);
-                }
-
-                setTimeout(poll, 15000);
-            };
-
-            setTimeout(poll, 10000);
-        }
-
-        function showResearchError(message) {
-            const btn = document.getElementById('researchBtn');
-            const icon = document.getElementById('researchIcon');
-            const text = document.getElementById('researchText');
-
-            btn.classList.remove('running');
-            btn.classList.add('error');
-            icon.textContent = '❌';
-            text.textContent = message || 'Failed';
-            console.error('Research error:', message);
-            setTimeout(() => {
-                btn.classList.remove('error');
-                icon.textContent = '🔍';
-                text.textContent = 'Run Research';
-            }, 5000);
         }
     </script>
 </body>

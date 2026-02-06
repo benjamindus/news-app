@@ -1,6 +1,6 @@
 import { createServer } from 'http';
 import { readFileSync, existsSync } from 'fs';
-import { execSync, spawn } from 'child_process';
+import { execSync } from 'child_process';
 import { extname, join } from 'path';
 import { networkInterfaces } from 'os';
 
@@ -29,8 +29,6 @@ const MIME_TYPES = {
     '.md': 'text/markdown',
 };
 
-let researchInProgress = false;
-
 function buildHtml() {
     execSync('node build-html.js', { cwd: PROJECT_DIR });
 }
@@ -50,36 +48,6 @@ function serveFile(res, filePath) {
     res.end(content);
 }
 
-function runResearch() {
-    return new Promise((resolve, reject) => {
-        const scriptPath = join(PROJECT_DIR, 'update-briefing.sh');
-
-        if (existsSync(scriptPath)) {
-            const child = spawn('bash', [scriptPath], {
-                cwd: PROJECT_DIR,
-                env: { ...process.env, PATH: `/opt/homebrew/bin:/usr/local/bin:${process.env.PATH}` },
-            });
-
-            let stdout = '';
-            let stderr = '';
-            child.stdout.on('data', (data) => { stdout += data; });
-            child.stderr.on('data', (data) => { stderr += data; });
-
-            child.on('close', (code) => {
-                if (code === 0) {
-                    resolve(stdout);
-                } else {
-                    reject(new Error(`Research script exited with code ${code}: ${stderr}`));
-                }
-            });
-
-            child.on('error', (err) => reject(err));
-        } else {
-            reject(new Error('update-briefing.sh not found'));
-        }
-    });
-}
-
 const server = createServer(async (req, res) => {
     // CORS headers for local dev
     res.setHeader('Access-Control-Allow-Origin', '*');
@@ -88,39 +56,6 @@ const server = createServer(async (req, res) => {
     if (req.method === 'OPTIONS') {
         res.writeHead(204);
         res.end();
-        return;
-    }
-
-    // API: Run research
-    if (req.method === 'POST' && req.url === '/api/research') {
-        if (researchInProgress) {
-            res.writeHead(409, { 'Content-Type': 'application/json' });
-            res.end(JSON.stringify({ error: 'Research already in progress' }));
-            return;
-        }
-
-        researchInProgress = true;
-        console.log('Starting research...');
-
-        try {
-            const output = await runResearch();
-            console.log('Research completed successfully');
-            res.writeHead(200, { 'Content-Type': 'application/json' });
-            res.end(JSON.stringify({ status: 'ok', output }));
-        } catch (err) {
-            console.error('Research failed:', err.message);
-            res.writeHead(500, { 'Content-Type': 'application/json' });
-            res.end(JSON.stringify({ error: err.message }));
-        } finally {
-            researchInProgress = false;
-        }
-        return;
-    }
-
-    // API: Check research status
-    if (req.method === 'GET' && req.url === '/api/research/status') {
-        res.writeHead(200, { 'Content-Type': 'application/json' });
-        res.end(JSON.stringify({ inProgress: researchInProgress }));
         return;
     }
 
