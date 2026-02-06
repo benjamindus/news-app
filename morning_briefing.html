@@ -592,10 +592,16 @@
                 h3.appendChild(nextBtn);
             });
 
+            // Set initial playback rate on all players
+            const initialRate = parseFloat(document.getElementById('speedSelect').value);
+            audioPlayers.forEach(audio => { audio.playbackRate = initialRate; });
+
             // Add event listeners to each audio player
             audioPlayers.forEach((audio, index) => {
-                // Stop all other audio when one starts playing
+                // Stop all other audio when one starts playing, and enforce speed
                 audio.addEventListener('play', () => {
+                    const rate = parseFloat(document.getElementById('speedSelect').value);
+                    audio.playbackRate = rate;
                     audioPlayers.forEach((other, otherIndex) => {
                         if (otherIndex !== index && !other.paused) {
                             other.pause();
