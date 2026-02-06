@@ -274,9 +274,13 @@
 
             // Add Next buttons to each h3, with title wrapped for right-alignment
             const h3s = document.querySelectorAll('h3');
-            h3s.forEach((h3, index) => {
+            let storyIndex = 0;
+            h3s.forEach((h3) => {
                 // Skip if it's a "Sources" header
                 if (h3.textContent.toLowerCase().includes('sources')) return;
+
+                const currentStoryIndex = storyIndex;
+                storyIndex++;
 
                 // Wrap existing title content in a span so buttons go to the right
                 const titleSpan = document.createElement('span');
@@ -286,14 +290,14 @@
                 }
                 h3.appendChild(titleSpan);
 
-                if (index >= audioPlayers.length - 1) return;
+                if (currentStoryIndex >= audioPlayers.length - 1) return;
 
                 const nextBtn = document.createElement('button');
                 nextBtn.className = 'next-btn';
                 nextBtn.innerHTML = '⏭️ Next';
                 nextBtn.onclick = (e) => {
                     e.stopPropagation();
-                    playNextStory(index);
+                    playNextStory(currentStoryIndex);
                 };
                 h3.appendChild(nextBtn);
             });
