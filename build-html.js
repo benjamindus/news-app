@@ -35,8 +35,9 @@ briefings.forEach(briefing => {
 
     if (hasAudio) {
         // Inject audio players after each H3 (news story header)
+        // Use .*? to match h3 content that may include inner HTML like <em> tags
         let storyNum = 0;
-        htmlBody = htmlBody.replace(/<h3>([^<]+)<\/h3>/g, (match, title) => {
+        htmlBody = htmlBody.replace(/<h3>(.*?)<\/h3>/g, (match, title) => {
             // Skip "Sources" headers
             if (title.toLowerCase().includes('sources')) {
                 return match;
