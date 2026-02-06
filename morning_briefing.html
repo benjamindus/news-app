@@ -628,6 +628,20 @@
                     playAudio(currentIndex);
                 }
             });
+            navigator.mediaSession.setActionHandler('seekbackward', (details) => {
+                const current = audioPlayers[currentIndex];
+                if (current) {
+                    const skipTime = details.seekOffset || 30;
+                    current.currentTime = Math.max(current.currentTime - skipTime, 0);
+                }
+            });
+            navigator.mediaSession.setActionHandler('seekforward', (details) => {
+                const current = audioPlayers[currentIndex];
+                if (current) {
+                    const skipTime = details.seekOffset || 30;
+                    current.currentTime = Math.min(current.currentTime + skipTime, current.duration);
+                }
+            });
         }
 
         function updatePlayingState(playing) {
