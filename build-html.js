@@ -54,16 +54,8 @@ briefings.forEach(briefing => {
     allContent += `<div class="briefing-section" id="section-${briefing.id}">\n${htmlBody}\n</div>\n\n`;
 });
 
-// Check if any briefing has audio
-const hasAnyAudio = briefings.some(b => existsSync(`${b.audioDir}/story-01.mp3`));
-
-// Use appropriate template
-const templateFile = hasAnyAudio ? 'template-audio.html' : 'template.html';
-const template = readFileSync(templateFile, 'utf-8');
+const template = readFileSync('template-audio.html', 'utf-8');
 const output = template.replace('{{CONTENT}}', allContent);
 writeFileSync('briefing.html', output);
 
 console.log(`Built briefing.html with ${briefings.filter(b => existsSync(b.mdFile)).length} briefings`);
-if (hasAnyAudio) {
-    console.log('Audio players enabled');
-}
