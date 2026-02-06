@@ -47,7 +47,7 @@ PREFERRED SOURCES — prioritize stories from these outlets:
 Inflation/Finance Metrics: Bloomberg, Financial Times, FT Alphaville, Wall Street Journal, Reuters Business, The Economist, Federal Reserve releases, Bureau of Labor Statistics, CNBC, MarketWatch, Barron's, Nikkei, Institutional Investor, The Information, Seeking Alpha, Morningstar
 Crypto: CoinDesk, The Block, Decrypt, CoinTelegraph, Bloomberg Crypto, Reuters, DL News, Blockworks
 
-Format: H3 headline with ONLY the date in italics (e.g. 'Feb 3' - use the ACTUAL publication date). Then a blockquote (>) with a 1-2 sentence summary, then 3 detailed paragraphs per story. Include Week of [date range] and use this EXACT timestamp: Research Generated: $CURRENT_TIME. List 10 sources at the end of each section.${DEDUP_INSTRUCTION}" --allowedTools "Edit,Write,WebSearch"
+Format: H3 headline with ONLY the date in italics (e.g. 'Feb 3' - use the ACTUAL publication date). Then a blockquote (>) with a 1-2 sentence summary, then 3 detailed paragraphs per story. Include Week of [date range] and use this EXACT timestamp: Research Generated: $CURRENT_TIME. List 10 sources at the end of each section.${DEDUP_INSTRUCTION}" --allowedTools "Edit,Write,WebSearch" --dangerously-skip-permissions
 
 # Generate audio with Kokoro TTS
 source venv/bin/activate
