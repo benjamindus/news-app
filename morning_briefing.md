@@ -1,6 +1,6 @@
 # Morning Briefing
 
-Research Generated: February 04, 2026, 06:00 AM PST
+Research Generated: February 06, 2026, 06:00 AM PST
 
 ---
 
@@ -8,148 +8,148 @@ Research Generated: February 04, 2026, 06:00 AM PST
 
 ---
 
-### 1. NATO Secretary General Rutte Visits Kyiv, Pledges $15 Billion for Ukrainian Weapons
+### 1. Winter Olympics 2026 Opens with Historic Dual Cauldron Lighting in Milan and Cortina
+*Feb 6*
+
+> The 2026 Winter Olympics opened with a spectacular ceremony at Milan's San Siro stadium, marking the first time in Olympic history that two cauldrons were lit simultaneously — one in Milan at the Arco della Pace and another in Cortina d'Ampezzo at Piazza Dibona.
+
+Over 2,900 athletes from 93 countries marched in the Parade of Nations as the Games officially began. The ceremony featured performances from Mariah Carey, Andrea Bocelli, Laura Pausini, and Italian rapper Ghali, along with world-renowned pianist Lang Lang. Actor Pierfrancesco Favino and The White Lotus star Sabrina Impacciatore also participated in the festivities. The dual cauldron lighting represented the geographical spread of the Games across the Lombardy and Veneto regions.
+
+The opening ceremony took place from 2 PM to 5 PM ET, with activations occurring simultaneously in Predazzo, Livigno, and Cortina d'Ampezzo in addition to the main Milan venue. Greece led the Parade of Nations as the birthplace of the Olympics, followed by the other delegations in alphabetical order according to Italian. The event organizers emphasized the sustainable and innovative aspects of these Games, which span multiple competition venues across northern Italy.
+
+Italy's first Winter Olympics since Turin 2006 comes amid significant global attention, with the ceremony broadcast to an estimated worldwide audience of over 1 billion viewers. Competition begins immediately in several sports including figure skating and ski jumping. The Games will run through February 22, featuring 116 medal events across 16 disciplines.
+
+---
+
+### 2. Balochistan Attacks Kill Over 225 as Pakistan Launches Massive Counterterrorism Operation
 *Feb 3*
 
-> NATO Secretary General Mark Rutte made an unannounced visit to Kyiv on Monday, addressing Ukraine's parliament, visiting a bombed heating plant, and pledging to find over $15 billion to purchase weapons for the Ukrainian Armed Forces.
+> The Balochistan Liberation Army launched "Operation Herof 2.0," a coordinated assault across at least nine districts of Pakistan's Balochistan province, triggering a 40-hour military response that left at least 225 dead including militants, security personnel, and civilians.
 
-Rutte arrived in Kyiv just hours after Russia launched approximately 450 drones and 71 missiles at Ukrainian energy infrastructure — what President Zelenskyy called the most extensive energy strike of 2026. The NATO chief visited a civilian heating plant struck by Russian missiles alongside Ukraine's energy and foreign affairs ministers before holding bilateral meetings with Zelenskyy, Prime Minister Denys Shmyhal, and senior defense officials. In his address to the Verkhovna Rada, Rutte said Putin was "gravely mistaken" to believe Ukraine was weak or that allied support would falter, declaring that Russian attacks "do not signal Moscow is serious about peace."
+The attacks began around 3:00 AM local time on January 31, targeting police stations, paramilitary outposts, a high-security prison in Quetta, and civilian vehicles across Quetta, Gwadar, Mastung, Nushki, Pasni, and Kharan. Militants employed guns, grenades, and suicide vests in what Pakistani officials described as the most significant coordinated insurgent operation in years. BLA released videos showing female fighters participating in the attacks, labeling the operation a follow-up to their August 2024 offensive.
 
-Rutte outlined three layers of security guarantees currently under negotiation. The first is a strengthened Ukrainian army funded by partners as the "first line of defence." Combined, the three levels aim to ensure that "for Russia to attack again will be a very bad decision." He said the guarantees were "90 percent" agreed upon and pledged to find more than $15 billion to purchase weapons for Ukraine. NATO has already supplied around 75 percent of Ukraine's Patriot missiles and 90 percent of missiles used in other air defense systems through the Prioritised Ukraine Requirements List.
+Pakistani military and police forces announced the conclusion of operations on February 5, claiming to have killed 145 BLA fighters while acknowledging the deaths of 17 security personnel and 31 civilians. The BLA disputed these figures, claiming to have killed 280 security personnel and captured 18 prisoners, though provided no evidence. Pakistan deployed helicopters and drones to end the standoff, with security operations extending across multiple remote districts of the restive province.
 
-The visit comes at a pivotal moment. Trilateral peace talks involving U.S., Ukrainian, and Russian representatives are scheduled to resume in the United Arab Emirates this week, and Rutte also mentioned that foreign troops would be deployed to Ukraine "immediately after the conclusion of a peace agreement." Russia's Deputy Chairman of the Federation Council Committee on Defense and Security responded by warning against the deployment of NATO troops in Ukraine. Zelenskyy, meanwhile, accused Russia of exploiting the proposed energy ceasefire to stockpile missiles for winter strikes.
-
----
-
-### 2. Saif al-Islam Gaddafi Assassinated in Libya
-*Feb 3*
-
-> Saif al-Islam Gaddafi, the most prominent son of late Libyan dictator Muammar Gaddafi and once seen as his heir-apparent, was shot dead by four armed men at his residence in Zintan, southwest of Tripoli.
-
-The assailants stormed Saif al-Islam's residence after disabling surveillance cameras and executed him in his garden before fleeing, according to his political adviser Abdurrahim. Libya's attorney general's office confirmed his death from gunshot wounds after investigators and forensic doctors examined the body. His political team described the killing as a "cowardly and treacherous assassination." The 53-year-old had been based in Zintan since 2011 — first as a prisoner, then as a free man plotting his political return after his release in 2017.
-
-Some reports linked the killing to clashes with the 444th Brigade, a prominent Tripoli-based militia, though the group denied involvement. Conflicting accounts emerged about the exact location — some family members suggested he died near the Algerian border, but the majority of sources place the incident in Zintan. No arrests have been announced as authorities continue their investigation. Saif al-Islam had been wanted by the International Criminal Court for crimes against humanity related to the 2011 uprising.
-
-Libya expert Emadeddin Badi said the killing was "likely to cast him as a martyr for a significant segment of the population, while also shifting electoral dynamics by removing a major obstacle to presidential elections." Saif al-Islam had maintained a following among loyalists of the former regime and had announced his candidacy for presidential elections that have been repeatedly delayed. Libya remains divided between a UN-backed government in Tripoli and an eastern administration backed by Khalifa Haftar, and has struggled to hold elections since the NATO-backed uprising that toppled and killed Muammar Gaddafi in 2011.
+The attacks highlight the ongoing insurgency in Pakistan's largest but least populated province, where separatist groups have waged a decades-long campaign against the central government. The BLA, designated a terrorist organization by Pakistan, the UK, and the US, seeks independence for the ethnic Baloch people and has increasingly targeted Chinese interests in the region, including the strategic Gwadar port. The scale of the coordinated attacks represents a significant escalation in the conflict.
 
 ---
 
-### 3. Trump and Colombia's Petro Hold Surprise Cordial Meeting at White House
-*Feb 3*
+### 3. Sudan Famine Spreads as Acute Malnutrition Reaches Crisis Levels in Darfur
+*Feb 5*
 
-> President Trump hosted Colombian President Gustavo Petro at the White House for a two-hour closed-door meeting that defused months of escalating tensions, with Petro emerging with a personalized MAGA hat altered to read "Make Americas Great Again."
+> Acute malnutrition has reached famine levels in two additional towns in Sudan's North Darfur region, with nearly 53% of children under five suffering from acute malnutrition in Um Baru — almost double the famine threshold — according to the Integrated Food Security Phase Classification.
 
-The meeting — the first in-person encounter between the two leaders — came exactly one month after the U.S. military capture of Venezuelan President Nicolás Maduro. Trump had previously labeled Petro a "drug leader" without evidence and suggested he could meet a similar fate to Maduro. Secretary of State Marco Rubio granted Petro a temporary U.S. entry authorization for the visit after his visa had been revoked. Senator Rand Paul helped facilitate a phone call between the leaders in late January that set the meeting in motion.
+Sudan now represents the world's largest hunger crisis, with famine conditions confirmed in Al Fasher and Kadugli and the risk of famine in 20 additional areas across Greater Darfur and Greater Kordofan. Nearly 4.2 million cases of acute malnutrition are expected in 2026, including more than 800,000 cases of severe acute malnutrition — a sharp increase from 2025 levels. The UN reports that hunger is expected to worsen from February as food stocks run out and fighting continues.
 
-The tone proved strikingly warm. "We got along very well," Trump told reporters afterward. Petro said Trump told him "I like you" and described the interaction as "a meeting between two equals who have different ways of thinking." The Colombian president posted photos on social media showing a signed copy of Trump's "The Art of the Deal" inscribed "You are great," and a note reading "Gustavo — a great honor. I love Colombia." Petro proposed adding an "S" to Trump's signature slogan — "Make Americas Great Again" — and said the president appeared to like the idea.
+The humanitarian catastrophe stems from the civil war that erupted in April 2023 between the Sudanese Armed Forces and the Rapid Support Forces, which has displaced over 12 million people. In the western regions of Sudan — notably North Darfur, South Darfur, West Kordofan, and South Kordofan — conflict and severely restricted humanitarian access are driving the sharp deterioration. More than 70 percent of Sudan's hospitals have been destroyed, and UN officials estimate that rehabilitating essential infrastructure will cost $350 million.
 
-The leaders discussed counternarcotics cooperation, with Colombia being the world's top coca producer. Petro said they specifically discussed bolstering border economies near Venezuela and Ecuador to fight drug flows. The meeting was attended by Vice President JD Vance, Secretary of State Rubio, and Senator Bernie Moreno of Ohio, who was born in Colombia. While no joint press conference was held and significant policy differences remain — including on sanctions and immigration — the meeting represents a notable de-escalation from the threats and insults that defined the relationship throughout 2025.
-
----
-
-### 4. Iran Protest Death Toll Surpasses 6,400 as Brutal Crackdown Continues
-*Feb 1*
-
-> The verified death toll from Iran's ongoing protest crackdown has risen to 6,425 adult protesters, 146 minors, and 57 non-participants, according to the human rights group HRANA, while doctors inside Iran estimate the true figure could be 20,000 to 30,000 or higher.
-
-The protests erupted on December 28, 2025, fueled by economic freefall and the rial's loss of more than 40 percent of its value since Israel's 12-day conflict with Iran in June. On January 8, security forces launched what observers described as "Iran's Babi Yar" — the deadliest incident of repression since the Islamic Republic took power in 1979. Supreme Leader Khamenei ordered forces to "crush the protests by any means necessary" and later acknowledged "thousands of people" had been killed, blaming President Trump for the violence. Internal Ministry of Health estimates indicated at least 30,000 people were killed in the first 48 hours of the crackdown alone.
-
-The situation on the ground remains dire. Patrols and checkpoints are ubiquitous across urban centers, with increased police and military deployments. In Tehran, daily life has slowed markedly, with many shops closed and streets described as operating under "a de facto curfew." Four current Iranian officials told Reuters that public anger has reached a point where "fear is no longer a deterrent," and that a U.S. strike combined with continued protests could cause the regime to collapse. In a significant development, Iranian Foreign Minister Araghchi reportedly sent a personal message to U.S. Special Envoy Witkoff stating that Iran had canceled the planned execution of 800 anti-regime protesters.
-
-The international response has intensified. The UK announced sweeping sanctions designating ten individuals and one organization involved in enabling brutality. German Chancellor Friedrich Merz characterized the crackdown as a "sign of weakness," asserting the regime was in its "final days." Amnesty International called for "global diplomatic action." Meanwhile, the U.S. has deployed an aircraft carrier group and fighter jets to the Middle East in its most significant military buildup in the region since operations preceding strikes on Iranian nuclear facilities in mid-2025, pairing the force movements with demands that Iran stop killing protesters and not restart its nuclear program.
+The World Food Programme and UNICEF have called for urgent international action to address the crisis, but aid delivery remains severely constrained by ongoing conflict and access restrictions. The government has declared 2026 "the Year of Peace" under a National Peace Initiative, but fighting continues in multiple regions. The UN Security Council is expected to receive a 120-day briefing on Sudan in February, with the UK — holding the Council's rotating presidency — planning to elevate the session to ministerial level.
 
 ---
 
-### 5. ICE Immigration Crackdown Targets Refugees and Children in Minnesota
-*Feb 2*
+### 4. UAE Plans Housing Complex for Displaced Palestinians in Israeli-Controlled Southern Gaza
+*Feb 5*
 
-> More than 100 refugees with no criminal background have been arrested in Minnesota under the Trump administration's "Operation Metro Surge," with many flown to detention in Texas, while the detention of a five-year-old boy sparked national outrage and a federal court rebuke.
+> The United Arab Emirates has drafted plans to build the "UAE Temporary Emirates Housing Complex" to house thousands of displaced Palestinians in a part of southern Gaza under Israeli military control near Rafah, according to maps obtained by Reuters and Haaretz.
 
-The Department of Homeland Security announced the operation on January 9 to reexamine thousands of refugee cases in Minnesota, focusing on those who arrived in recent years and have not yet received green cards. Adrian Conejo Arias and his five-year-old son Liam were apprehended by ICE in January, producing a viral photograph that became a symbol of the expanding crackdown. U.S. District Judge Fred Biery ordered their release and lambasted the administration's "ill-conceived and incompetently-implemented government pursuit of daily deportation quotas."
+The proposed compound would sit near the "Yellow Line" agreed under an October ceasefire to demarcate Israeli- and Hamas-controlled areas. Rafah, once home to a quarter million people near the Egypt border, has been almost completely destroyed and depopulated by Israeli forces. The housing plan is part of broader reconstruction efforts expected to begin under U.S. President Donald Trump's framework for a durable peace, with American officials hoping that building in Israeli-controlled areas could generate momentum toward Hamas' disarmament.
 
-Another federal judge, John Tunheim, ordered the release of detained refugees and granted a temporary pause in detentions, writing: "At its best, America serves as a haven of individual liberties in a world too often full of tyranny and cruelty. We abandon that ideal when we subject our neighbors to fear and chaos." Immigration attorneys argued DHS was relying on an arcane statute allowing detention of people with pending green card applications as a pretext to search for fraud. Jane Graupman of the International Institute of Minnesota called the treatment "un-American," noting that "refugees are probably the most vetted population that comes to the United States."
+The "Alternative Safe Communities" concept was designed as a way of gradually "choking Hamas off" by encouraging Gazans to leave Hamas-controlled zones, depriving the militant group of its civilian population. However, for the strategy to be effective, it would need to be built at scale, housing hundreds of thousands of Palestinians. Diplomats have expressed doubt about whether Palestinians would voluntarily move to areas under Israeli control.
 
-The Minnesota operations have had ripple effects across communities. School districts report high absentee rates and increased virtual schooling as fear spreads among immigrant families. Two fatal shootings by federal agents in Minneapolis have drawn scrutiny. Many refugees detained and later released in Texas were left on the streets with no money, documents, or way to return home. Nationally, ICE detention has surged 75 percent to more than 70,000, the highest level ever recorded, while arrests of people with no criminal record increased 2,450 percent in the administration's first year. Governor Tim Walz has written to Homeland Security Secretary Kristi Noem requesting information on detained children.
-
----
-
-### 6. Sudan Army Breaks RSF Siege of Kadugli as Government Returns to Khartoum
-*Feb 3*
-
-> Sudan's military announced it has broken through the Rapid Support Forces' siege of Kadugli, the South Kordofan capital where the UN confirmed famine last year, marking its second major advance in less than a week as the government consolidates its return to Khartoum.
-
-The breakthrough at Kadugli follows the government's official return to Khartoum in January after nearly three years of operating from the Red Sea city of Port Sudan. Khartoum International Airport received its first scheduled commercial flight in over two years on February 1 — a Sudan Airways flight from Port Sudan carrying dozens of passengers — with officials saying the facility can now handle up to four flights daily. More than 12 million people have been displaced since the civil war erupted in April 2023 between the army and the RSF, including nearly 4 million who fled to neighboring countries.
-
-Police in Khartoum have arrested 500 people for impersonating security forces and shut down 40 illegal offices as part of a broader effort to assert state authority, collect illegal weapons, and dismantle irregular armed groups. The city has seen a steady daily return of displaced residents and a resurgence of commercial activity since the military regained control in March 2025. However, more than 70 percent of Sudan's hospitals have been destroyed, and UN officials estimate that rehabilitating the capital's essential infrastructure will cost $350 million.
-
-A New York Times investigation revealed the existence of a secret airbase in Egypt's Western Desert allegedly used to launch Turkish-made drones at targets in Sudan, representing a shift from Egypt's previous diplomatic role to active military support for the Sudanese army. The government has declared 2026 "the Year of Peace" under a National Peace Initiative, but fighting continues in multiple regions. The UN Security Council is expected to receive a 120-day briefing on Sudan in February, with the UK — holding the Council's rotating presidency — planning to elevate the session to ministerial level.
+International donors have been reluctant to commit funds to the plan, worried that disagreements over disarming Hamas militants could lead the parties back to full-scale conflict. The proposal has also raised concerns about potentially creating a permanent division of Gaza. Meanwhile, humanitarian conditions remain dire: UNRWA reports that Israel has blocked approximately 6,000 aid trucks destined for Gaza, with protesters blocking border crossings at Nitzana and Karem Abu Salem throughout early February.
 
 ---
 
-### 7. Europe Confronts Strategic Autonomy Crisis as Washington Shifts Defense Posture
-*Feb 3*
+### 5. Japan Heads to Snap Election as PM Takaichi Seeks Mandate for Ruling Coalition
+*Feb 6*
 
-> The 2026 U.S. National Defense Strategy explicitly reframes American support for European defense as contingent on burden-sharing, stating that European allies are "expected to take the lead in the conventional defense of Europe" with America providing only critical enablers.
+> Japanese voters head to the polls on February 8 in snap elections called by Prime Minister Sanae Takaichi, Japan's first female premier, who is seeking to translate historically high approval ratings into a clear mandate for her Liberal Democratic Party-Japan Innovation Party coalition.
 
-The strategic shift has accelerated Europe's most ambitious defense buildup since the Cold War. The EU's "ReArm Europe" plan, endorsed by leaders in March 2025, outlines up to €800 billion in additional defense spending through 2030, with two pillars: a fiscal escape clause allowing member states to increase military budgets by up to 1.5 percent of GDP outside deficit rules (generating an estimated €650 billion), and a €150 billion loan instrument called SAFE for investment in missile defense, drones, and cybersecurity. Nineteen member states have fully subscribed to the SAFE loans.
+The election comes just four months into Takaichi's tenure, which began on October 21, 2025, after she won the LDP presidential election. Polls show the LDP and its coalition partner are likely to secure more than 300 of the 465 seats in the House of Representatives, well above the 233 needed for a majority. Takaichi's cabinet approval rating stands at 62% in NHK surveys, with some polls placing her support in the 70% range — historically high figures that prompted the decision to call early elections.
 
-Germany is leading the charge, allocating €82.69 billion for the Bundeswehr in its 2026 budget — about 15 percent of total federal spending — with plans to lift defense spending to nearly 3.5 percent of GDP by 2029. European defense budgets are rising approximately 13 percent year-on-year. At NATO's July summit, allies agreed to Trump's demand for 5 percent of GDP in combined defense and security spending by 2035. However, NATO Secretary General Rutte himself warned against European overconfidence: "If you really want to go it alone, forget that you can ever get there with 5 percent. It will be 10 percent. You have to build up your own nuclear capability."
+The political landscape has been reshaped by a surprise opposition merger. On January 16, the Constitutional Democratic Party of Japan, the largest opposition party, joined with Komeito — the LDP's former coalition partner for 26 years — to create a new party called the "Centrist Reform Alliance." This realignment marks a significant shift in Japanese politics, with Komeito's departure from its longtime alliance with the LDP potentially signaling broader changes in the country's political dynamics.
 
-Critical vulnerabilities persist. China controls 90 percent of the world's rare-earth magnets and supplies 98 percent of what Europe imports — materials essential for drone motors, missile guidance systems, and other military equipment. Beijing's recent export restrictions on these materials compound the challenge. European manufacturers must find 600,000 skilled defense industry workers by 2030, with 200,000 needed by 2026. Analysts warn that without accelerated force integration and industrial consolidation, Europe risks "mistaking motion for momentum" — spending more without becoming strategically capable.
-
----
-
-### 8. North Korea Launches Ballistic Missiles as Korean Peninsula Tensions Escalate
-*Jan 27*
-
-> North Korea launched multiple short-range ballistic missiles toward its eastern waters on January 27, the second such test that month, as the regime heightens tensions ahead of a major Workers' Party congress and the Council on Foreign Relations elevates the Korean Peninsula to its top tier of global conflict risks.
-
-The missiles were launched from an area northeast of Pyongyang and flew approximately 350 kilometers each. Japan condemned the launches as violations of UN Security Council resolutions and lodged a formal protest with North Korea. The tests followed an earlier volley on January 4, timed to coincide with South Korean President Lee Jae Myung's state visit to China. Pyongyang said its earlier January launches involved hypersonic missiles that successfully hit targets 1,000 kilometers away, signaling continued advances in weapons technology.
-
-The 2026 U.S. National Defense Strategy has intensified uncertainty on the peninsula. While acknowledging the DPRK as a "direct military threat," it asserts that South Korea is "capable of taking primary responsibility for deterring North Korea with critical but more limited U.S. support" — a significant departure from the posture of previous administrations. The 2025 National Security Strategy notably omitted any reference to denuclearizing North Korea for the first time since the DPRK withdrew from the NPT in 2003, fueling speculation that Trump may seek a diplomatic accommodation. Kim Jong Un has made clear he will refuse negotiations unless the U.S. abandons its "obsession with denuclearization."
-
-South Korean President Lee asked Chinese counterpart Xi Jinping to play a mediation role, proposing a freeze on Pyongyang's nuclear program in exchange for "compensation or some form of return." However, prospects for diplomacy remain dim. North Korea has also accused South Korea of sending surveillance drones into its airspace on at least two occasions since September 2025, warning Seoul would "never be able to evade responsibility." At the UN Security Council, China and Russia continue to block responses to missile launches and have called for sanctions to be eased.
+Takaichi's economic program includes significant spending plans and potential tax relief measures that will be put before voters. The election is being closely watched internationally, particularly given Japan's strategic role in the U.S.-led alliance system in the Indo-Pacific and ongoing tensions with China over Taiwan. Analysts note that snap elections can be risky, but Takaichi appears to have calculated that her current popularity provides an optimal window to consolidate power.
 
 ---
 
-### 9. Crans-Montana Bar Fire Death Toll Reaches 41 as Criminal Investigation Deepens
-*Feb 1*
+### 6. US-Iran Indirect Talks End "For Now" in Oman After Critical Nuclear Negotiations
+*Feb 6*
 
-> The death toll from the New Year's Eve fire at Le Constellation bar in the Swiss ski resort of Crans-Montana has risen to 41 — including an 18-year-old Swiss national — as prosecutors investigate the bar's owners for negligent homicide and multiple safety failures emerge.
+> Iran announced that indirect talks with the United States mediated by Oman have concluded "for now," following days of critical negotiations in Muscat where Iranian Foreign Minister Abbas Araghchi met separately with Omani officials and U.S. envoys Steve Witkoff and Jared Kushner.
 
-The fire broke out at approximately 1:30 a.m. on January 1 during a packed New Year's celebration, killing 40 people initially and injuring 119 others. More than half of those killed were teenagers. Swiss authorities believe the blaze was ignited when lit sparklers attached to champagne bottles set fire to the bar's soundproofing insulation, which owner Jacques Moretti told prosecutors he had purchased from a do-it-yourself store and installed himself without authorization. The fire spread with extraordinary speed, likely developing into a flashover that engulfed the interior within seconds.
+The talks represented a significant diplomatic effort amid weeks of escalating tensions, with negotiations shifting from the originally planned venue of Istanbul to Oman at the last minute. The Omani Foreign Minister served as intermediary, shuttling between the Iranian and American delegations. While specific details of the discussions remain confidential, the negotiations are understood to have focused on Iran's nuclear program and the broader regional security situation.
 
-The investigation has revealed systemic safety failures. No fire checks had taken place at Le Constellation since 2019. Former employees claimed fire extinguishers were locked in a storage room. The basement bar had no sprinkler system. Social media images from renovation work suggest the staircase connecting the basement to ground level was narrowed, creating a fatal bottleneck. Surveillance footage from the bar's own cameras is unavailable, and by the time prosecutors requested video from 250 public cameras in the village, the files had already been deleted under a seven-day retention policy.
+The talks come amid a severe domestic crisis in Iran, where protests have resulted in thousands of deaths according to human rights organizations. In a notable development during the lead-up to negotiations, Iranian Foreign Minister Araghchi reportedly sent a personal message to U.S. Special Envoy Witkoff stating that Iran had canceled the planned execution of 800 anti-regime protesters. The international community has intensified pressure on Tehran, with the EU designating Iran's Revolutionary Guard as a terrorist organization.
 
-The disaster has prompted a broader reckoning with Swiss fire safety regulation. Valais is one of the few Swiss cantons that does not legally require building insurance — the mechanism through which other cantons conduct fire inspections. Of 128 bars and restaurants in Crans-Montana, only 40 had been inspected during 2025 despite annual inspections being required. The municipal council imposed an immediate ban on pyrotechnic devices in enclosed areas and commissioned an external firm to inspect all public establishments. Switzerland's intercantonal fire safety standards authority halted an ongoing liberalization of safety rules pending the investigation results.
+Oil tankers passing through the Strait of Hormuz have increased speed amid the heightened tensions between Washington and Tehran. The talks' inconclusive ending — characterized by Iran as suspended "for now" rather than collapsed — leaves open the possibility of resumed negotiations, though the timeline and conditions remain unclear. Both sides face significant domestic political constraints that complicate any potential agreement.
 
 ---
 
-### 10. Rome Introduces Trevi Fountain Tourist Fee to Combat Overtourism
-*Feb 2*
+### 7. Starmer Apologizes to Epstein Victims as Mandelson Scandal Deepens UK Leadership Crisis
+*Feb 5*
 
-> Foreign visitors must now pay €2 ($2.35) to access Rome's Trevi Fountain up close, as Italy's capital becomes the latest European city to impose entry fees on crowded heritage sites in an effort to manage tourist flows and fund preservation.
+> British Prime Minister Keir Starmer apologized to Jeffrey Epstein's victims for appointing Peter Mandelson as U.S. Ambassador, as Scotland Yard launched a criminal investigation into the veteran Labour politician on suspicion of misconduct in public office over allegations he shared government information with the convicted sex offender.
 
-The fee, which took effect February 2, applies from 9 a.m. to 10 p.m. most days, with free access after hours. Tickets can be purchased online or via QR codes at the site. Children under five, people with disabilities, and Rome residents are exempt. The fountain still can be viewed from a distance for free, but closer access requires a ticket. Officials estimate the measure will generate €6.5 million ($7.6 million) per year. The famous coins tossed into the fountain — approximately €1.5 million annually — will continue to be donated to the Catholic charity Caritas.
+The scandal has plunged Starmer's government into crisis, with Labour MPs describing the party mood as "febrile and mutinous." Mandelson resigned from the Labour Party on February 1 and has since stepped down from the House of Lords amid mounting scrutiny. Leaked documents revealed serious allegations including reports that Mandelson and his husband received payments from Epstein, and that in 2009 and 2010, Mandelson allegedly passed sensitive government information to the financier.
 
-The Trevi Fountain draws an estimated 30,000 visitors daily, with peak days reaching 70,000, totaling more than 9 million visitors annually. Tourism Assessor Alessandro Onorato said tourists were "shocked by the fact that the city of Rome is only asking for 2 euros for a site of this level." On the first day, a group of Spanish tourists refused to pay and stood outside the barriers, flinging coins toward the fountain from above — several missing the water entirely.
+Starmer defended his initial decision to appoint Mandelson, stating: "If I knew then what I know now, he would never have been anywhere near government." Officials are reportedly drafting legislation to fast-track the removal of Mandelson's peerage. The Prime Minister is facing growing calls for his resignation, with critics arguing his handling of the issue has undermined public trust and raised national security concerns stemming from poor vetting processes.
 
-The fee was rolled out alongside a new €5 tourist ticket (the Roma Mic card) for select civic museums including the Napoleonic Museum and the Giovanni Barracco Museum of Ancient Sculpture. It follows a growing trend of Italian measures targeting overtourism — Venice introduced a peak-time entry fee for day trippers in 2024 — and mirrors broader European efforts to balance tourism revenue with quality of life for residents and preservation of cultural heritage. Rome attracted a record 50 million tourists in 2025, straining infrastructure and local services in the historic center.
+The crisis comes at a challenging time for the UK government, with borrowing costs under pressure and the pound facing volatility. UK gilt yields have risen as markets assess the political uncertainty. The scandal has dominated British media coverage and Parliament, overshadowing the government's policy agenda. Opposition leaders have demanded a full independent inquiry into how Mandelson's appointment was approved despite his documented connections to Epstein.
+
+---
+
+### 8. Taiwan-China Tensions Escalate as Beijing Masses 100,000 Troops for Strait Exercises
+*Feb 5*
+
+> China has assembled nearly 100,000 troops along the Taiwan Strait for military exercises, with December drills involving 90 aircraft sorties crossing the center line, four amphibious assault ship formations, and 19 Chinese ships entering Taiwan's 24-mile buffer zone in what analysts describe as rehearsals for blockade scenarios.
+
+The "Justice Mission" exercises marked the first instance of Chinese military and coast guard vessels entering Taiwan's contiguous zone in significant numbers, representing a significant escalation in Beijing's pressure campaign. The late-year drills were widely interpreted as practice for coercive scenarios short of outright war — particularly a blockade or quarantine designed to strangle Taiwan economically and politically without triggering immediate global conflict.
+
+Pentagon assessments indicate China aims to achieve by 2027 the capabilities required to prevail in a Taiwan conflict involving the United States. This requires three integrated strategic capabilities: the ability to credibly win at acceptable cost, deterring or constraining American intervention, and deterring involvement of U.S. allies and partners. The U.S. recently approved an $11 billion arms package for Taiwan and condemned Beijing's "provocative" military drills.
+
+Despite the military buildup, life in Taiwan continues largely normally, with residents expressing determination rather than fear. The State Department has urged "Beijing to exercise restraint, cease its military pressure against Taiwan, and instead engage in meaningful dialogue." However, China has rejected such calls, framing U.S. arms sales as the primary threat to cross-strait stability. Analysts note that while invasion remains unlikely in the near term, the risk of miscalculation during increasingly aggressive exercises continues to grow.
+
+---
+
+### 9. Mexico's Sheinbaum Defies Trump, Vows Nation "Will Never Be Colony or Protectorate"
+*Feb 5*
+
+> Mexican President Claudia Sheinbaum delivered a defiant address marking the 109th anniversary of Mexico's 1917 Constitution, declaring "México no regresará a ser colonia ni protectorado de nadie" (Mexico will not return to being a colony or protectorate of anyone) while pledging to protect national resources.
+
+The speech came amid escalating tensions with the Trump administration over immigration, trade, and cartel violence. Sheinbaum directly rebutted Trump's assertions that criminal organizations control Mexico, stating on February 4: "It is false that cartels govern Mexico." The rhetorical confrontation follows Trump's characterization of Mexico as a "narco-state" and his threats of significant tariffs and other punitive measures.
+
+Despite the tensions, Mexico has maintained humanitarian assistance to Cuba, with Sheinbaum pledging to send food and other supplies while pursuing diplomatic channels to continue oil shipments "without seeking confrontation." The Cuba issue has become another flashpoint with Washington, as Trump has escalated pressure on the island nation by cutting off oil supplies. Mexico's position reflects its traditional foreign policy principles of non-intervention and solidarity with Latin American neighbors.
+
+Sheinbaum has also focused on domestic infrastructure development, conducting a two-day tour of Sonora where she inaugurated a highway and announced plans for a port modernization project on the Gulf of California. Her approval ratings remain strong despite the external pressures, as she seeks to balance Mexico's critical economic relationship with the United States against assertions of national sovereignty. The Trump administration's deportation operations and trade threats continue to test the bilateral relationship.
+
+---
+
+### 10. North Korea Dismisses Vice Premier Ahead of Major Party Congress Unveiling Nuclear Plans
+*Feb 4*
+
+> Kim Jong Un has dismissed a vice premier over troubles in a factory modernization project as he tightens discipline among officials ahead of a major Workers' Party congress where North Korea plans to unveil "next-stage plans for further bolstering up the country's nuclear war deterrent."
+
+The upcoming party congress, the first of its kind in five years, represents one of the authoritarian regime's biggest propaganda spectacles and is intended to review projects, establish political and economic priorities, and reshuffle officials. Kim has been focusing on showcasing agricultural and infrastructure achievements, opening North Korea's largest greenhouse farm on the Chinese border and inaugurating the Sambaing Stockbreeding Farm with "fashionable houses," a solar power station, hospital, and kindergarten.
+
+Rising revenues from foreign trade and cybercrime are giving Kim greater policy options, enabling him to suppress certain economic sectors and pursue military priorities with fewer constraints. The regime ordered boosted missile production in 2026 and has conducted multiple ballistic missile tests in recent months. The Congress will likely formalize new military doctrines and potentially announce leadership changes as Kim consolidates power.
+
+Human Rights Watch's annual report described North Korea as maintaining "unrelenting repression, hunger, and inequality," noting continued severe restrictions on freedoms and information. The international community has limited visibility into internal regime dynamics, though analysts suggest the dismissal of senior officials signals ongoing concerns about meeting Kim's ambitious modernization targets. The party congress dates have not been officially announced but are expected in the coming weeks.
 
 ---
 
 ### Sources — Geopolitical
 
-1. [NATO — Secretary General in Kyiv: NATO stands with Ukraine](https://www.nato.int/en/news-and-events/articles/news/2026/02/03/nato-secretary-general-in-kyiv-nato-stands-with-ukraine)
-2. [Al Jazeera — Saif al-Islam Gaddafi, son of former leader, killed in Libya](https://www.aljazeera.com/news/2026/2/3/saif-al-islam-gaddafi-son-of-former-leader-killed-in-libya)
-3. [Al Jazeera — 'A great honor': Key takeaways from Trump's meeting with Colombia's Petro](https://www.aljazeera.com/news/2026/2/4/a-great-honor-takeaways-from-trumps-warm-meeting-with-colombias-petro)
-4. [Wikipedia — 2026 Iran massacres](https://en.wikipedia.org/wiki/2026_Iran_massacres)
-5. [NPR — Refugees relive the trauma they fled as ICE targets them in Minnesota](https://www.npr.org/2026/02/02/nx-s1-5686396/ice-arrest-refugees-legal-minneapolis-minnesota-immigration)
-6. [Al Jazeera — Sudan military claims to break siege of key Kordofan city of Kadugli](https://www.aljazeera.com/news/2026/2/3/sudan-military-claims-to-break-siege-of-key-kordofan-city-of-kadugli)
-7. [Lowy Institute — A pivotal moment for European strategic autonomy](https://www.lowyinstitute.org/the-interpreter/pivotal-moment-european-strategic-autonomy-courtesy-trump)
-8. [Al Jazeera — North Korea fires suspected ballistic missiles into sea](https://www.aljazeera.com/news/2026/1/27/north-korea-fires-suspected-ballistic-missiles-into-sea-s-korea-japan-say)
-9. [NPR — Swiss Alpine bar fire claims 41st victim](https://www.npr.org/2026/02/01/nx-s1-5695756/swiss-alpine-bar-fire-claims-41st-victim)
-10. [NPR — Trevi Fountain fee takes effect as Rome seeks to manage tourist crowds](https://www.npr.org/2026/02/03/g-s1-108471/trevi-fountain-fee-takes-effect)
+1. [NBC News — Winter Olympics 2026 opening ceremony: Where to watch, date, time, performers](https://www.nbcnews.com/sports/olympics/winter-olympics-opening-ceremony-2026-watch-time-performers-milan-rcna257086)
+2. [Al Jazeera — Pakistani forces kill 145 fighters in Balochistan after deadly attacks](https://www.aljazeera.com/news/2026/2/2/pakistani-forces-kill-145-fighters-in-balochistan-after-deadly-attacks)
+3. [Al Jazeera — Famine conditions spread to more towns in Sudan's Darfur, experts warn](https://www.aljazeera.com/news/2026/2/5/famine-conditions-spread-to-more-towns-in-sudans-darfur-experts-warn)
+4. [Haaretz — UAE Drafts Gaza Housing Compound for Displaced Palestinians in Israeli-controlled Area](https://www.haaretz.com/gaza/2026-02-05/ty-article/uae-drafts-gaza-housing-compound-for-displaced-palestinians-in-israeli-controlled-area/0000019c-2eab-d6dd-a3bc-7fbb350c0000)
+5. [CNBC — Japan's Takaichi eyes decisive mandate as polls point to snap election landslide](https://www.cnbc.com/2026/02/06/japan-election-takaichi-ldp-landslide-polls-ldp-trump-innovation-party-nikkei.html)
+6. [Al Jazeera — US-Iran talks live: Indirect negotiations in Oman ended 'for now'](https://www.aljazeera.com/news/liveblog/2026/2/6/us-iran-talks-live-critical-negotiations-set-to-begin-in-oman)
+7. [Al Jazeera — How Epstein-Mandelson files rocked the UK government](https://www.aljazeera.com/news/2026/2/5/how-epstein-mandelson-files-rocked-the-uk-government)
+8. [The Diplomat — China's Taiwan Drills Are Crossing a New Line](https://thediplomat.com/2026/01/chinas-taiwan-drills-are-crossing-a-new-line/)
+9. [ABC News — Mexico's Sheinbaum pledges to send humanitarian aid to Cuba](https://abcnews.go.com/International/wireStory/mexicos-sheinbaum-pledges-send-humanitarian-aid-cuba-129759101)
+10. [NK News — Kim Jong Un opens North Korea's largest greenhouse farm to date on China border](https://www.nknews.org/2026/02/kim-jong-un-opens-north-koreas-largest-greenhouse-farm-to-date-on-china-border/)
 
 ---
 
@@ -157,145 +157,145 @@ The fee was rolled out alongside a new €5 tourist ticket (the Roma Mic card) f
 
 ---
 
-### 1. Eli Lilly Blows Past Estimates on Surging Zepbound and Mounjaro Demand
+### 1. Wall Street Selloff Turns Into Stampede as Emerging Markets Post Worst Week Since November
+*Feb 6*
+
+> Wall Street's retreat from risk accelerated into a full stampede this week, with emerging markets on track for their steepest weekly decline since November as the MSCI Emerging Markets Index fell 1.5% on Friday and Korean shares triggered a circuit breaker after a 5% dive in the KOSPI.
+
+The selloff has been driven by a steady drumbeat of negative news stoking anxiety about valuations many suspected had already run up too far. Alphabet's announcement of up to $185 billion in 2026 AI capital expenditures spooked investors concerned about the financial impact of massive AI investments. Rather than a single trigger, the rout reflects accumulated concerns about tech valuations, rising layoffs, and uncertainty over monetary policy.
+
+The S&P 500 has now turned negative for 2026 after losing 1.23% on Wednesday, while the Nasdaq Composite declined 1.59%. Korean markets saw three program-trading halts in five sessions during one of the most volatile weeks in recent years, with the Kospi falling more than 5% in a single session before retail investors stepped in to prevent a break below 5,000. The carnage has spread across asset classes, with gold, silver, and cryptocurrencies all experiencing sharp declines.
+
+The broader market tracked declines across Asian peers after Wall Street closed mostly lower overnight, amid a persistent tech sector selloff. Most "Magnificent Seven" mega-cap names remain under pressure, though the divergence between AI infrastructure enablers and application-layer software companies has become increasingly pronounced. Investors face limited visibility with the January jobs report delayed indefinitely due to the government shutdown.
+
+---
+
+### 2. US January Layoffs Hit Highest Level Since 2009 as Hiring Plans Collapse
+*Feb 5*
+
+> U.S.-based employers announced 108,435 job cuts in January — a threefold increase from December and more than double January 2025 — marking the highest January layoff total since 2009, according to outplacement firm Challenger, Gray & Christmas.
+
+About 40% of the January layoff announcements came from just two firms: UPS (30,000 cuts tied to its wind-down of Amazon delivery arrangements) and Amazon (16,000 cuts). The healthcare industry announced more than 17,000 job cuts, the highest in that sector since April 2020. January's layoff announcements were concentrated in five industries: transportation, technology, healthcare and health products, chemicals, and financial services.
+
+Companies announced just 5,306 new hires in January, also the lowest for the month since Challenger began tracking the data in 2009. Initial jobless claims for the week ending January 31 rose to 231,000, an increase of 22,000 from the prior week. The data paints a picture of a "low-hire, low-fire" environment that appears to be deteriorating as employers grow pessimistic about the 2026 outlook.
+
+The labor market weakness comes at a particularly challenging time, with the Bureau of Labor Statistics unable to release the January jobs report due to the government shutdown. "Most of these plans were set at the end of 2025, signaling employers are less-than-optimistic about the outlook for 2026," noted Andy Challenger. The data may fuel concerns among Federal Reserve policymakers about whether additional support is needed for the economy.
+
+---
+
+### 3. AMD Crashes 17% in Worst Rout Since 2017 as AI Guidance Disappoints
 *Feb 4*
 
-> Eli Lilly reported Q4 revenue of $19.3 billion, up 43% year-over-year, and issued 2026 guidance of $80–$83 billion in revenue — well above the $77.6 billion consensus — driven by explosive demand for weight-loss drug Zepbound and diabetes treatment Mounjaro.
+> Advanced Micro Devices suffered its worst single-day decline since 2017, plunging 17% after issuing first-quarter guidance that fell short of the market's most bullish AI expectations despite posting record Q4 revenue of $10.27 billion — up 23% year-over-year.
 
-Adjusted earnings came in at $7.54 per share, crushing the $6.67 consensus estimate. Mounjaro generated $7.41 billion in Q4 revenue versus $6.63 billion expected, while Zepbound posted $4.3 billion against estimates of $3.41 billion. For the full year, Mounjaro sales grew 99 percent to $22.97 billion and Zepbound surged 175 percent to $13.54 billion. The company also guided adjusted earnings of $33.50 to $35.00 per share for 2026, above the $33.23 consensus.
+The selloff erased more than $60 billion in market capitalization in a single trading session, with shares closing at $200.19. AMD guided Q1 revenue of approximately $9.8 billion — a 5% sequential decline that investors interpreted as a sign of slowing momentum despite the figure exceeding analyst consensus of $9.38 billion. In a market conditioned to expect "Nvidia-style" exponential growth every quarter, this seasonal dip triggered massive profit-taking.
 
-CEO Dave Ricks told CNBC he expects upcoming government Medicare coverage of obesity treatments to expand the U.S. market this year, calling it "a big multiplier on the eligible pool" of patients. Lilly also expects to launch a GLP-1 pill for obesity in Q2, pending U.S. approval, which would add a significant new revenue stream. However, the company warned of a global pricing decline in the low- to mid-teens percentage range, driven by its deal with the Trump administration, new direct-to-consumer Zepbound rates, and lower Medicaid pricing on older products.
+Prior to the crash, AMD shares had roughly doubled over the past year amid the AI infrastructure boom. CEO Lisa Su noted that the company is in "active discussions" for additional sales of its next-generation MI450 chip, with the ramp "on schedule to start in the second half of the year." However, concerns mounted that a significant portion of Q4 data center revenue came from $390 million in China-bound AI chip sales approved under a U.S. license.
 
-The results stand in stark contrast to rival Novo Nordisk, which warned the same week that it expects sales and profit to decline as much as 13 percent in 2026 amid intensifying competition and pricing pressure. Shares of Eli Lilly rose over 7 percent in premarket trading to $1,092 from Tuesday's close of $1,003. The divergence between the two GLP-1 leaders is becoming a defining narrative in pharmaceuticals, with Lilly's broader pipeline and aggressive capacity expansion giving it an increasingly clear competitive advantage.
-
----
-
-### 2. AMD Drops 9% Despite Earnings Beat as AI Guidance Disappoints
-*Feb 4*
-
-> Advanced Micro Devices fell 9% in premarket trading after its first-quarter forecast failed to match elevated expectations for AI-driven growth, dragging Broadcom, Micron, and other semiconductor names lower despite AMD posting Q4 earnings of $1.53 per share on $10.27 billion in revenue — both above consensus.
-
-AMD guided first-quarter revenue of $9.8 billion, above the $9.38 billion consensus but below the $10 billion-plus that some bullish analysts had projected given the massive AI infrastructure buildout by hyperscalers. Net income climbed to $1.51 billion from $482 million a year ago. However, a significant portion of Q4 data center revenue came from $390 million in China-bound AI chip sales approved under a U.S. license — without which the segment would have missed estimates.
-
-CEO Lisa Su said AMD was in "active discussions" for additional sales of its next-generation MI450 chip, with the ramp "on schedule to start in the second half of the year." The company's October deal with OpenAI, which could see the startup take a 10 percent stake in AMD and deploy 6 gigawatts of Instinct GPUs, remains a key catalyst for the second half of 2026. However, Goldman Sachs maintained a neutral rating, citing "limited near-term operating leverage" given AMD's heavy software and systems investments.
-
-The reaction reflects a broader challenge facing semiconductor companies outside of Nvidia: even strong results are being punished when guidance falls short of the market's most optimistic AI scenarios. Deutsche Bank maintained a hold rating, noting investors are "likely to be disappointed from the outsized impact of China GPU revenues" but sees the second half of 2026 as AMD's inflection point. Barclays maintained an overweight rating with a $300 target, implying 24 percent upside from current levels.
+Cathie Wood's ARK Invest responded to the crash by purchasing $28 million in AMD shares. Deutsche Bank maintained a hold rating, noting the second half of 2026 could be an inflection point, while Barclays maintained an overweight rating with a $300 price target implying 24% upside. The reaction reflects a broader challenge facing semiconductor companies outside of Nvidia: even strong results are being punished when guidance fails to meet the most optimistic scenarios.
 
 ---
 
-### 3. Uber Reports Record Bookings and Plans Robotaxi Expansion to 15 Cities
-*Feb 4*
+### 4. Oracle Announces $50 Billion Capital Raise for Cloud Infrastructure Expansion
+*Feb 1*
 
-> Uber reported Q4 gross bookings of $54.1 billion, topping the $53.1 billion estimate, with revenue of $14.37 billion and record quarterly GAAP operating income of $1.8 billion, while announcing plans to facilitate autonomous vehicle trips in up to 15 cities by year-end.
+> Oracle announced plans to raise $45-50 billion in 2026 through a combination of debt and equity sales to build additional cloud infrastructure capacity, reflecting the unprecedented scale of financing needed to meet AI-driven demand from major customers including AMD, Meta, NVIDIA, OpenAI, TikTok, and xAI.
 
-Mobility revenue rose 19 percent year-over-year to $8.2 billion, while delivery revenue climbed 30 percent to $4.9 billion. Quarterly trips grew 22 percent to more than 40 million per day, with the platform surpassing 200 million monthly active users. Full-year 2025 results included $193 billion in gross bookings and $10 billion in free cash flow. Net income of $296 million was depressed by a $1.6 billion pretax headwind from equity investment revaluations.
+The financing structure will see approximately half raised through equity-linked and common equity issuances, including mandatory convertible preferred securities and a new at-the-market equity program of up to $20 billion. The debt portion will be completed through a single investment-grade senior unsecured bond issuance early in 2026. Goldman Sachs will lead the bond offering, while Citigroup will lead the equity issuances.
 
-For Q1 2026, Uber guided gross bookings of $52.0–$53.5 billion, representing 17–21 percent constant-currency growth, and Non-GAAP EPS of $0.65–$0.72, representing 37 percent growth at the midpoint. CEO Dara Khosrowshahi emphasized the autonomous vehicle roadmap, with plans to expand to Houston, Los Angeles, San Francisco, London, Munich, Hong Kong, Zurich, and Madrid. By 2029, Uber intends to be the world's largest facilitator of autonomous vehicle trips.
+Oracle's announcement underscores the massive capital requirements facing cloud infrastructure providers competing for AI workloads. Unlike hyperscalers such as Amazon, Microsoft, and Google that can largely self-fund expansion, Oracle is turning to capital markets to keep pace with contracted demand from its largest Oracle Cloud Infrastructure customers. The raise represents one of the largest corporate capital raises in recent memory.
 
-Shares initially fell after the report but rose 3 percent during the analyst call as management detailed autonomous vehicle progress. Uber's AV strategy — partnering with companies like Waymo rather than building its own technology — positions it as the dominant ride-hailing aggregator regardless of which self-driving technology prevails. The delivery segment's 30 percent growth rate was a particular bright spot, driven by grocery and retail expansion beyond restaurant food delivery.
+The company's stock has benefited from the AI infrastructure buildout, with Oracle positioning itself as a key player in providing the computing capacity needed for training and running large language models. The capital raise will fund new data centers, server procurement, and networking infrastructure. Analysts note that while the dilutive impact of equity issuance is a concern, Oracle's contracted backlog provides visibility into future revenue streams that justify the investment.
 
 ---
 
-### 4. Chipotle Sinks on Fourth Straight Quarter of Declining Restaurant Traffic
+### 5. Nvidia-OpenAI $100 Billion Deal Stalls as Negotiations Go "On Ice"
 *Feb 3*
 
-> Chipotle shares tumbled as much as 11% after the fast-casual chain reported that customer traffic fell 3.2% in Q4 — the fourth consecutive quarterly decline — and projected flat same-store sales growth for 2026, below the 1.8% increase analysts had expected.
+> Five months after OpenAI and Nvidia announced a $100 billion deal, no contract has been signed and no money has changed hands, with Wall Street Journal reporting that negotiations are "on ice" after Nvidia executives expressed doubts about OpenAI's business model and lack of business discipline.
 
-Comparable restaurant sales fell 2.5 percent in the fourth quarter, driven by the 3.2 percent drop in transactions partially offset by a 0.7 percent increase in average check from higher menu prices. For the full year, Chipotle posted its first annual same-store sales decline since 2016, down 1.7 percent, even as total revenue climbed 5.4 percent to $11.9 billion from new store openings and price increases. Excluding impairment costs, Chipotle earned 25 cents per share on net sales of $2.98 billion.
+Nvidia CEO Jensen Huang has told industry associates that the investment was "nonbinding and not finalized," while criticizing what he characterized as insufficient discipline in OpenAI's business strategy. Huang also shared concerns about competition from firms like Google and Anthropic. Since the deal was announced, the relationship has become more complicated: Nvidia has invested in rival AI labs, while OpenAI struck a $10 billion deal with chip startup Cerebras and has pursued partnerships with AMD and Broadcom for custom AI chips.
 
-Executives acknowledged a pullback in spending from consumers across all income levels, with low-income diners making the most significant behavioral shift. Traffic among lower- to middle-income consumers and the 25–35 age cohort has dropped meaningfully. Management said it does not plan to fully offset mid-single-digit food inflation in 2026, accepting near-term margin pressure to reinforce its value positioning rather than pricing out cost-conscious customers.
+Huang publicly denied reports that he was unhappy with OpenAI, calling such characterizations "nonsense" and stating: "We are going to make a huge investment in OpenAI. I believe in OpenAI, the work that they do is incredible, they are one of the most consequential companies of our time." However, analysts suggest any eventual investment will likely be in the $20-30 billion range rather than the originally announced $100 billion.
 
-The stock has now fallen approximately 33 percent over the past year, dragging the company's market value to about $51 billion. Chipotle plans to open 350–370 new restaurants in 2026, including 10–15 international locations. Analysts point to the launch of a high-protein menu including snack-ready protein cups and the return of chicken al pastor — described as its most-requested limited-time item — as potential catalysts to reverse the traffic decline. However, the broader environment for casual and fast-casual dining remains challenged as consumers tighten budgets amid persistent inflation.
-
----
-
-### 5. ADP Report Shows Private Hiring Slumped to Just 22,000 Jobs in January
-*Feb 4*
-
-> Private-sector employers added only 22,000 positions in January — less than half the 45,000 forecast — and the total would have been negative without a surge of 74,000 hires in education and health services, according to the ADP employment report.
-
-The report starts 2026 on the same lackluster note as 2025 ended: a low-hire, low-fire environment that may fuel concerns among Federal Reserve policymakers that more support is needed. The January total was below the downwardly revised 37,000 increase in December. Leading the slowdown was manufacturing, which has lost jobs every month since March 2024, along with professional and business services and large employers. Pay growth for job-stayers held steady at 4.5 percent year-over-year, while job-changers saw annualized pay growth slow to 6.4 percent from 6.6 percent.
-
-The report arrives during a data vacuum created by the partial government shutdown. The Bureau of Labor Statistics has postponed the official January Employment Situation report — typically the most closely watched economic indicator — indefinitely. Its absence deprives the Federal Reserve, investors, and policymakers of a critical data point during a period of extreme market volatility across precious metals, tech stocks, and crypto. Treasury yields were little changed following the report, with the 10-year yield holding near 4.27 percent.
-
-Outside of education and health care, the only sectors showing meaningful job creation were financial activities (14,000), construction (9,000), and trade, transportation, and utilities along with leisure and hospitality (4,000 each). The weakness in hiring, combined with the missing jobs report and the nomination of inflation hawk Kevin Warsh as Fed Chair, creates an unusually opaque environment for gauging the health of the U.S. labor market.
+The stalled negotiations highlight the evolving dynamics in the AI industry, where the largest players are increasingly hedging their bets across multiple partnerships and technologies. Nvidia's dominant position in AI chips gives it leverage in these negotiations, while OpenAI's need for computing capacity to train next-generation models creates pressure to secure supply from multiple sources. The ultimate resolution of these talks will signal how the AI ecosystem's major players are aligning for the next phase of competition.
 
 ---
 
-### 6. Software Sector Enters Bear Market as AI Disruption Fears Intensify
-*Feb 3*
+### 6. Uber Falls 5% Despite Record Quarter as Guidance Disappoints
+*Feb 5*
 
-> The iShares Expanded Tech-Software Sector ETF has fallen 20% year-to-date — entering technical bear market territory — as investors dump application-layer software stocks on growing fears that AI tools like Anthropic's Claude Code are fundamentally disrupting business models across the industry.
+> Uber shares dropped 5.2% after the company reported record Q4 results including 3.6 billion trips and 200 million monthly active users, but issued Q1 2026 guidance below Wall Street's aggressive targets for both mobility and delivery segments.
 
-The selloff has been indiscriminate. HubSpot, ServiceTitan, ServiceNow, Atlassian, DocuSign, Salesforce, Workday, and Adobe have all hit fresh 52-week lows. Even companies that beat estimates are being punished: ServiceNow topped expectations on every metric with 20.5 percent revenue growth, yet fell nearly 10 percent. Microsoft beat on Azure's 39 percent cloud growth and still dropped 10 percent. Software sentiment is "the worst ever," according to Jefferies, and "radioactive" per Bloomberg Intelligence.
+The company reported Q4 revenue of $14.37 billion, a 20% year-over-year increase, but adjusted EPS of $0.71 missed the analyst consensus of $0.80 by nearly 11%. The shortfall was largely attributed to a $1.6 billion pre-tax headwind from equity investment revaluations and rising operational costs. For Q1 2026, Uber projected adjusted EBITDA and bookings below expectations, suggesting a sequential slowdown in demand.
 
-The contagion has spread beyond software into private credit. UBS analysts estimate 25–35 percent of the private credit market is exposed to AI disruption risk. Blue Owl, TPG, Ares Management, and KKR all fell by double-digit percentages, while Apollo Global dropped 7 percent and BlackRock shed 5 percent. About 70 percent of software providers now admit that the cost of delivering AI features is eating into profitability, challenging the era of "infinite margins" for SaaS companies. Macro strategist Andreas Steno Larsen declared "software is dead."
+Lyft shares fell 3.1% in sympathy with Uber's decline, with the rival ride-hailing company scheduled to report its own Q4 results on February 10. The weak guidance from Uber raises questions about the broader on-demand economy's trajectory as consumers face persistent inflation pressures. Both companies have been expanding into new verticals including autonomous vehicles, grocery delivery, and advertising.
 
-The iShares Software ETF has recorded a "death cross" — its 50-day moving average crossing below the 200-day — and year-to-date, the VanEck Oil Services ETF has outperformed it by more than 50 percentage points. However, some fund managers see opportunity. Microsoft now trades at about 23 times estimated earnings, near its lowest multiple in three years, with technical indicators showing oversold conditions. Palantir remains a rare bright spot in the sector, closing up 7 percent on strong earnings even as the broader software ETF plunged 5 percent on the same day.
-
----
-
-### 7. Dow Touches Record High Before Reversing on Tech Rotation
-*Feb 3*
-
-> The Dow Jones Industrial Average briefly touched a new all-time intraday high of 49,653 before reversing to close down 0.34% at 49,241, as a dramatic rotation out of technology stocks lifted economically sensitive sectors while dragging the Nasdaq down 1.43%.
-
-The split market reflected a deepening divergence between old-economy winners and tech losers. The Dow's gains were led by Verizon (+3.6%), Cisco Systems (+3.1%), and Walmart (+3.0%), while Salesforce (-7.0%), IBM (-6.3%), and Microsoft (-2.9%) weighed on the index. The S&P 500 fell 0.84 percent to 6,917.81. The session came a day after the Dow surged 515 points on strong manufacturing data and trade optimism, underscoring the volatility gripping markets during earnings season.
-
-Most "Magnificent Seven" mega-cap names were in the red, with Nvidia slumping nearly 3 percent, Meta and Microsoft both falling more than 2 percent, and Apple marginally lower. The rotation reflected a repricing of the tech ecosystem as investors distinguish between AI enablers and companies whose business models are threatened by AI disruption. While AI hardware and select semiconductor names held up, application-layer software companies bore the brunt of selling pressure.
-
-The broader backdrop includes the government shutdown, precious metals turmoil, a pending Alphabet earnings report after the close, and the nomination of Kevin Warsh as Fed Chair, which has reset expectations for monetary policy. With the January jobs report delayed indefinitely and ADP showing only 22,000 private-sector jobs added, investors face limited visibility into economic conditions. Economically sensitive small-cap stocks in the Russell 2000 outperformed, extending a pattern that began in January as the "Great Rotation" thesis gains momentum.
+Despite the guidance concerns, Uber announced plans to expand autonomous vehicle trips to up to 15 cities by year-end, including Houston, Los Angeles, San Francisco, London, Munich, Hong Kong, Zurich, and Madrid. CEO Dara Khosrowshahi stated that by 2029, Uber intends to be the world's largest facilitator of autonomous vehicle trips. The company's AV strategy — partnering with technology companies rather than building its own self-driving systems — positions it to benefit regardless of which autonomous technology ultimately prevails.
 
 ---
 
-### 8. Small-Cap "Great Rotation" Accelerates as Russell 2000 Outperforms Large-Caps
-*Feb 3*
+### 7. ECB and Bank of England Hold Rates Steady Amid Growth and Inflation Uncertainty
+*Feb 5*
 
-> The Russell 2000 has outperformed the S&P 500 by 8 percentage points in the first five weeks of 2026, surging nearly 8% as capital flows out of mega-cap tech and into domestically focused small-cap stocks in what Wall Street is calling the "Great Rotation."
+> The European Central Bank held interest rates unchanged at 2% for the fifth consecutive meeting, while the Bank of England voted 5-4 to maintain rates at 3.75% in a closer-than-expected decision that signals internal divisions over the pace of monetary easing.
 
-The rotation began in early January after economic data confirmed a "Goldilocks" scenario of cooling inflation without recession. The Russell 2000 posted a 13-session winning streak relative to the S&P 500, outperforming by an average of 45 basis points per day — tying a record set in 2008. The valuation gap driving the move reached a 25-year extreme by end of 2025, with the Russell 2000 trading at roughly 18 times forward earnings versus the S&P 500 at 26 times.
+The ECB commented that inflation trajectory and economic conditions did not warrant a move, but warned the outlook was "unpredictable" given tariff threats and currency volatility. Around 85% of economists surveyed by Reuters expect the ECB to leave rates unchanged for the rest of 2026, with ECB President Lagarde playing down concerns about the euro's recent rally. The updated assessment confirms that inflation should stabilize at the 2% target in the medium term.
 
-Three structural factors underpin the rotation. First, the Federal Reserve's easing cycle has brought the target rate to 3.50–3.75 percent, providing critical relief for small-caps where nearly 50 percent of outstanding debt is floating-rate. Second, smaller companies are projected to see 30–35 percent earnings growth in 2026, significantly outpacing the 22 percent expected from the "Magnificent Seven," creating an "earnings handoff." Third, the political landscape's emphasis on "America First" industrial policy and the One Big Beautiful Bill Act's fiscal tailwinds disproportionately benefit smaller domestic companies, defense contractors, and regional banks.
+The Bank of England's decision was notably closer than expected, with four members voting to cut rates by 25 basis points to 3.5% versus forecasts of a 7-2 hold. The narrow margin demonstrates building pressure for rate cuts despite inflation remaining above target. Pay growth and services price inflation have generally continued to ease, reflecting the impact of monetary policy and evidence of subdued economic growth.
 
-Regional banks have led the charge, benefiting from a steepening yield curve and middle-market M&A activity. Cyclicals including industrials, energy, and materials have been the biggest beneficiaries of the rotation. Jefferies equity strategist Steven DeSanctis set a year-end target of 2,825 for the Russell 2000, projecting 14 percent gains. However, risks remain: inflation is still above the Fed's 2 percent target, and the overall quality of small-cap stocks is lower, with unprofitable biotech and speculative tech subsectors potentially vulnerable to sharp reversals.
-
----
-
-### 9. U.S. Yield Curve Nears Widest Spread in Four Years Ahead of Treasury Auctions
-*Feb 4*
-
-> The spread between 2-year and 10-year U.S. Treasury yields has widened to approximately 69 basis points, closing in on a four-year high of 74 basis points reached in April 2025, as the nomination of inflation hawk Kevin Warsh as Fed Chair reshapes the fixed-income landscape.
-
-The 10-year yield held near 4.28 percent on Wednesday, little changed after initially dipping on the weak ADP employment report. Investors continue to price in two Fed rate cuts in 2026, likely in June and October, but the Warsh nomination has introduced significant uncertainty about the pace and extent of easing. Warsh, who opposed a larger Fed balance sheet during the 2008 financial crisis, is widely perceived as more hawkish than current Chair Jerome Powell, contributing to the curve steepening that has played out since late January.
-
-The Treasury Department said it now expects to borrow $574 billion in Q1, $3 billion less than projected in November, mainly reflecting a higher cash balance at the start of the quarter. Quarterly bond-sale plans due Wednesday will provide additional clues on future government issuance. Meanwhile, the partial government shutdown has created a data vacuum, with the January jobs report postponed indefinitely and today's ADP report showing only 22,000 private-sector jobs added — reinforcing the "low-hire, low-fire" labor market narrative.
-
-The steepening curve has significant implications for the "Great Rotation" into small-cap stocks, as regional banks and other financials benefit from wider spreads between short- and long-term rates. Charles Schwab's 2026 outlook projects two to three Fed rate cuts amid steady economic growth and ongoing inflation pressures. The ISM manufacturing data this week showed an unexpected rebound in U.S. factory activity, adding to yields while complicating the case for aggressive rate cuts. Bond investors face a challenging environment where policy uncertainty, delayed data, and political factors around the Fed Chair nomination create unusually wide error bands for rate forecasts.
+Both central banks face challenging balancing acts as they navigate persistent inflation pressures against slowing growth and external risks from potential U.S. tariffs. UK borrowing costs have come under pressure amid the Mandelson political crisis, while eurozone economies grapple with weak manufacturing and uncertain trade policy. Economists expect the Bank of England could begin cutting as early as March or April if economic data weakens further.
 
 ---
 
-### 10. Europe Launches €800 Billion ReArm Defense Spending Plan
-*Feb 3*
+### 8. ARM Holdings Beats Estimates as Chip Designer Posts Fourth Consecutive Billion-Dollar Quarter
+*Feb 5*
 
-> The European Commission's "ReArm Europe / Readiness 2030" plan has entered its implementation phase, with 19 member states subscribing to €150 billion in defense loans and 16 activating fiscal escape clauses that could generate €650 billion in additional military spending by 2030.
+> ARM Holdings reported Q3 fiscal 2026 earnings of $0.43 per share, beating the $0.41 consensus, with revenue rising 26% to $1.24 billion as the chip designer extends its record-breaking momentum driven by AI-related demand for its processor architectures.
 
-The plan's two financial pillars represent the most ambitious European defense initiative since NATO's founding. The Stability and Growth Pact's escape clause allows countries to increase military budgets by up to 1.5 percent of GDP without the spending counting toward national deficit limits. The €150 billion SAFE loan instrument, adopted by the EU Council in May 2025, funds investment in missile defense, drones, and cybersecurity, with requirements favoring European manufacturers. The plan targets 55 percent of all military purchases from European factories by 2030, with joint procurement reaching 40 percent by 2027.
+License revenue rose 25% to $505 million while royalty revenue increased 27% to $737 million, driven by higher royalty rates for newer products like Armv9 and Arm compute subsystems. The company provided strong Q4 guidance with EPS of $0.54-0.62 (versus consensus of $0.49) and revenue of $1.4-1.5 billion (above the $1.4 billion consensus), marking what would be its ninth consecutive earnings beat.
 
-Germany has emerged as the leading spender, allocating €82.69 billion for the Bundeswehr in 2026 — approximately 15 percent of the total federal budget — with plans to reach nearly 3.5 percent of GDP by 2029, up from 2.1 percent in 2024. European defense budgets are rising approximately 13 percent year-on-year, with the EU-27 collectively surpassing the 2 percent GDP benchmark for the first time. Goldman Sachs projects the defense-driven fiscal push could support 1.3 percent GDP growth for the eurozone in 2026.
+ARM shares initially traded lower following the after-hours report before recovering during the regular session the next day. The volatile reaction reflects the heightened scrutiny facing semiconductor stocks amid the broader tech selloff, even when companies deliver strong results. ARM's business model — licensing chip designs rather than manufacturing them — provides exposure to virtually every segment of the semiconductor market.
 
-However, critical challenges threaten execution. European manufacturers must find 600,000 skilled defense industry workers by 2030, with 200,000 needed by 2026. China controls 90 percent of the world's rare-earth magnets and supplies 98 percent of Europe's imports of materials essential for drone motors, missile guidance systems, and other military equipment — and Beijing has recently imposed export restrictions on these critical inputs. Defense production has unusually long delivery cycles, with order books covering four to five years of output, meaning the impact on actual production and GDP growth will be gradual rather than immediate.
+The company benefits from the proliferation of AI across devices from data centers to smartphones, with its power-efficient architectures increasingly favored for AI inference workloads. ARM's customer base includes nearly every major technology company, providing diversified exposure to the AI buildout. Analysts note that ARM's royalty rate increases on newer chip designs could drive continued revenue growth even if unit shipments stabilize.
+
+---
+
+### 9. Philip Morris Reports Record Year as Smoke-Free Products Reach 41.5% of Sales
+*Feb 6*
+
+> Philip Morris International reported full-year 2025 results with net revenue reaching $40.6 billion and smoke-free products rising to 41.5% of total sales, while guiding for 11-13% EPS growth in 2026 and setting new three-year targets for revenue and operating income growth.
+
+Q4 results came in line with expectations, with adjusted diluted EPS of $7.54 for the full year representing growth of 14.8% versus 2024. The company's transformation away from traditional cigarettes continues to accelerate, with smoke-free products now comprising more than $17 billion of annual revenue. PMI set 2026-2028 compound annual growth targets of 6-8% for net revenues on an organic basis and 9-11% for adjusted diluted EPS.
+
+The company described 2025 as "another remarkable year of results" with a fifth consecutive year of volume growth and strong operating margin expansion. Shares traded down 1.4% to $179.50 following the release, with investors having largely priced in the strong performance. The 2026 guidance suggests continued momentum in the company's pivot toward reduced-risk products including heated tobacco and nicotine pouches.
+
+PMI's transformation story contrasts with challenges facing traditional tobacco companies as smoking rates decline in developed markets. The company's IQOS heated tobacco system and ZYN nicotine pouches have emerged as significant growth drivers. However, management warned of global pricing declines in the low- to mid-teens percentage range driven by its deal with the Trump administration, new direct-to-consumer pricing, and lower Medicaid pricing on older products.
+
+---
+
+### 10. KOSPI Triggers Three Circuit Breakers in Five Sessions as Korean Markets Whipsaw
+*Feb 6*
+
+> South Korea's stock market experienced one of its most volatile weeks in recent memory, with three program-trading halts triggered in five sessions as the KOSPI swung between daily drops of over 5% and rallies of nearly 7%, testing investor resolve during the global tech selloff.
+
+The circuit breaker mechanism — triggered when KOSPI 200 futures move more than 5% from the previous day's close within a single minute — activated repeatedly as global tech concerns cascaded through Asian markets. On Monday, the Kospi fell 5.26% in a single session, triggering a brief halt and breaking below the 5,000 level. A day later it surged 6.84%, forcing another halt. Friday saw a third sidecar activation as panic selling briefly sent the index below 4,900.
+
+Retail investors provided crucial support during the volatility, stepping in to buy during the sharpest selloffs and keeping the benchmark above 5,000 by Friday's close. The Korean market's sensitivity to tech sector sentiment reflects its heavy weighting toward semiconductor and electronics companies, particularly Samsung Electronics and SK hynix, which are exposed to global AI-related demand fluctuations.
+
+The extreme volatility highlights how concentrated bets on AI-related themes have created fragile market conditions that can unwind rapidly when sentiment shifts. Korean shares led the emerging market selloff, with the MSCI Emerging Markets Index posting its steepest weekly decline since November. Analysts note that while fundamental valuations have become more attractive, technical damage from the volatility may take time to repair.
 
 ---
 
 ### Sources — Financial
 
-1. [CNBC — Eli Lilly blows past quarterly estimates on Zepbound and Mounjaro sales](https://www.cnbc.com/2026/02/04/eli-lilly-lly-earnings-q4-2025.html)
-2. [CNBC — AMD is down 9% after reporting earnings](https://www.cnbc.com/2026/02/04/amd-stock-earnings-forecast-chips.html)
-3. [CNBC — Uber Q4 2025 earnings](https://www.cnbc.com/2026/02/04/uber-uber-2025-q4-earnings.html)
-4. [CNBC — Chipotle stock sinks as restaurant chain reports falling traffic](https://www.cnbc.com/2026/02/03/chipotle-cmg-q4-2025-earnings.html)
-5. [CNBC — ADP jobs report January 2026](https://www.cnbc.com/2026/02/04/adp-jobs-report-january-2026.html)
-6. [CNBC — Software stocks enter bear market on AI disruption fear](https://www.cnbc.com/2026/01/29/software-stocks-enter-bear-market-on-ai-disruption-fear-with-servicenow-plunging-11percent-thursday.html)
-7. [Bloomberg — Stock Market Today: Dow, S&P Live Updates for February 4](https://www.bloomberg.com/news/articles/2026-02-03/stock-market-today-dow-s-p-live-updates)
-8. [FinancialContent — The Great Rotation of 2026: Russell 2000 Surges](https://markets.financialcontent.com/stocks/article/marketminute-2026-1-14-the-great-rotation-of-2026-russell-2000-surges-58-as-small-caps-eclipse-mega-cap-tech)
-9. [Bloomberg — US Yield Curve Nears Widest in Four Years](https://www.bloomberg.com/news/articles/2026-02-04/us-yield-curve-nears-widest-in-four-years-with-auctions-in-focus)
-10. [European Commission — Future of European Defence: ReArm Europe](https://commission.europa.eu/topics/defence/future-european-defence_en)
+1. [Bloomberg — Wall Street's Selloff Turned Into a Stampede This Week](https://www.bloomberg.com/news/newsletters/2026-02-06/wall-street-s-selloff-turned-into-a-stampede-this-week)
+2. [CNBC — Layoffs in January were the highest to start a year since 2009, Challenger says](https://www.cnbc.com/2026/02/05/layoff-and-hiring-announcements-hit-their-worst-january-levels-since-2009-challenger-says.html)
+3. [Bloomberg — AMD Suffers Worst Rout Since 2017 on Disappointing Forecast](https://www.bloomberg.com/news/articles/2026-02-03/amd-outlook-disappoints-investors-seeking-bigger-ai-payoff)
+4. [Bloomberg — Oracle to Raise Up to $50 Billion in Debt and Equity This Year](https://www.bloomberg.com/news/articles/2026-02-01/oracle-to-raise-up-to-50-billion-this-year-for-cloud-investment)
+5. [CNBC — Nvidia, OpenAI appear stalled on their mega deal](https://www.cnbc.com/2026/02/03/nvidia-openai-stalled-on-their-mega-deal-ai-giants-need-each-other.html)
+6. [CNBC — Uber (UBER) 2025 Q4 earnings](https://www.cnbc.com/2026/02/04/uber-uber-2025-q4-earnings.html)
+7. [Bloomberg — ECB And BOE Keep Interest Rates Unchanged](https://www.bloomberg.com/news/newsletters/2026-02-05/ecb-and-boe-keep-interest-rates-unchanged)
+8. [ARM Newsroom — Arm delivers fourth consecutive billion-dollar revenue quarter](https://newsroom.arm.com/news/arm-q3-fye26-results)
+9. [Stock Titan — Philip Morris International Reports 2025 Fourth-Quarter & Full-Year Results](https://www.stocktitan.net/news/PM/philip-morris-international-reports-2025-fourth-quarter-full-year-w5jnx7clgayx.html)
+10. [Korea Herald — Retail absorbs shock as Kospi survives volatile week](https://www.koreaherald.com/article/10671568)
