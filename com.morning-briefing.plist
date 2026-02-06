@@ -6,15 +6,43 @@
     <string>com.morning-briefing</string>
     <key>ProgramArguments</key>
     <array>
-        <string>/Users/borisdus/code/morning-briefing/update-briefing.sh</string>
+        <string>/Users/borisdus/code/morning-briefing/run-scheduled.sh</string>
     </array>
     <key>StartCalendarInterval</key>
-    <dict>
-        <key>Hour</key>
-        <integer>6</integer>
-        <key>Minute</key>
-        <integer>0</integer>
-    </dict>
+    <array>
+        <!-- Morning briefing: 6:00 AM daily -->
+        <dict>
+            <key>Hour</key>
+            <integer>6</integer>
+            <key>Minute</key>
+            <integer>0</integer>
+        </dict>
+        <!-- Weekly news: Sunday 8:00 AM -->
+        <dict>
+            <key>Weekday</key>
+            <integer>0</integer>
+            <key>Hour</key>
+            <integer>8</integer>
+            <key>Minute</key>
+            <integer>0</integer>
+        </dict>
+        <!-- Weekly science: Saturday 9:00 AM -->
+        <dict>
+            <key>Weekday</key>
+            <integer>6</integer>
+            <key>Hour</key>
+            <integer>9</integer>
+            <key>Minute</key>
+            <integer>0</integer>
+        </dict>
+        <!-- Daily/Weekly finance: 6:00 PM daily (script determines which) -->
+        <dict>
+            <key>Hour</key>
+            <integer>18</integer>
+            <key>Minute</key>
+            <integer>0</integer>
+        </dict>
+    </array>
     <key>StandardOutPath</key>
     <string>/Users/borisdus/code/morning-briefing/logs/output.log</string>
     <key>StandardErrorPath</key>
