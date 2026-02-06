@@ -17,30 +17,30 @@
             <key>Minute</key>
             <integer>0</integer>
         </dict>
-        <!-- Weekly news: Sunday 8:00 AM -->
+        <!-- Weekly news: Sunday 7:00 AM -->
+        <dict>
+            <key>Weekday</key>
+            <integer>0</integer>
+            <key>Hour</key>
+            <integer>7</integer>
+            <key>Minute</key>
+            <integer>0</integer>
+        </dict>
+        <!-- Weekly science: Sunday 7:30 AM -->
+        <dict>
+            <key>Weekday</key>
+            <integer>0</integer>
+            <key>Hour</key>
+            <integer>7</integer>
+            <key>Minute</key>
+            <integer>30</integer>
+        </dict>
+        <!-- Weekly finance: Sunday 8:00 AM -->
         <dict>
             <key>Weekday</key>
             <integer>0</integer>
             <key>Hour</key>
             <integer>8</integer>
-            <key>Minute</key>
-            <integer>0</integer>
-        </dict>
-        <!-- Weekly science: Sunday 9:00 AM -->
-        <dict>
-            <key>Weekday</key>
-            <integer>0</integer>
-            <key>Hour</key>
-            <integer>9</integer>
-            <key>Minute</key>
-            <integer>0</integer>
-        </dict>
-        <!-- Weekly finance: Sunday 10:00 AM -->
-        <dict>
-            <key>Weekday</key>
-            <integer>0</integer>
-            <key>Hour</key>
-            <integer>10</integer>
             <key>Minute</key>
             <integer>0</integer>
         </dict>

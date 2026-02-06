@@ -20,22 +20,22 @@ if [ "$HOUR" = "18" ]; then
     exit 0
 fi
 
-# Weekly news: Sunday 8:00 AM
-if [ "$HOUR" = "08" ] && [ "$WEEKDAY" = "7" ]; then
+# Weekly news: Sunday 7:00 AM
+if [ "$HOUR" = "07" ] && [ "$(date +%M)" -lt "30" ] && [ "$WEEKDAY" = "7" ]; then
     echo "Running weekly news briefing..."
     ./update-weekly-news.sh
     exit 0
 fi
 
-# Weekly science: Sunday 9:00 AM
-if [ "$HOUR" = "09" ] && [ "$WEEKDAY" = "7" ]; then
+# Weekly science: Sunday 7:30 AM
+if [ "$HOUR" = "07" ] && [ "$(date +%M)" -ge "30" ] && [ "$WEEKDAY" = "7" ]; then
     echo "Running weekly science briefing..."
     ./update-weekly-science.sh
     exit 0
 fi
 
-# Weekly finance: Sunday 10:00 AM
-if [ "$HOUR" = "10" ] && [ "$WEEKDAY" = "7" ]; then
+# Weekly finance: Sunday 8:00 AM
+if [ "$HOUR" = "08" ] && [ "$WEEKDAY" = "7" ]; then
     echo "Running weekly finance briefing..."
     ./update-weekly-finance.sh
     exit 0
