@@ -305,6 +305,8 @@
         <button class="tts-btn" id="stopBtn" onclick="stopPlayback()">
             ⏹️ Stop
         </button>
+        <button class="tts-btn" onclick="jumpAudio(-30)">-30s</button>
+        <button class="tts-btn" onclick="jumpAudio(30)">+30s</button>
         <select class="speed-select" id="speedSelect" onchange="setSpeed(this.value)">
             <option value="0.75">0.75x</option>
             <option value="1">1x</option>
@@ -679,6 +681,13 @@
             icon.textContent = '▶️';
             text.textContent = 'Listen All';
             isPlayingAll = false;
+        }
+
+        function jumpAudio(seconds) {
+            const audio = audioPlayers[currentIndex];
+            if (audio) {
+                audio.currentTime = Math.max(0, Math.min(audio.duration, audio.currentTime + seconds));
+            }
         }
 
         function setSpeed(speed) {

@@ -326,6 +326,8 @@
         <button class="tts-btn" id="stopBtn" onclick="stopSpeech()">
             ⏹️ Stop
         </button>
+        <button class="tts-btn" onclick="jumpAudio(-30)">-30s</button>
+        <button class="tts-btn" onclick="jumpAudio(30)">+30s</button>
         <select class="speed-select" id="speedSelect" onchange="setSpeed(this.value)">
             <option value="0.75">0.75x</option>
             <option value="1">1x</option>
@@ -563,6 +565,15 @@
             text.textContent = 'Listen All';
             isPlaying = false;
             isPaused = false;
+        }
+
+        function jumpAudio(seconds) {
+            // Web Speech API doesn't support seeking; jump between stories
+            if (seconds < 0 && currentIndex > 0) {
+                playNewsItem(currentIndex - 1);
+            } else if (seconds > 0 && currentIndex < allNewsText.length - 1) {
+                playNewsItem(currentIndex + 1);
+            }
         }
 
         function setSpeed(speed) {
