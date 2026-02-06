@@ -10,7 +10,7 @@
     </array>
     <key>StartCalendarInterval</key>
     <array>
-        <!-- Morning briefing: 6:00 AM daily -->
+        <!-- Morning briefing: 6:00 AM daily (script skips Sunday) -->
         <dict>
             <key>Hour</key>
             <integer>6</integer>
@@ -26,16 +26,25 @@
             <key>Minute</key>
             <integer>0</integer>
         </dict>
-        <!-- Weekly science: Saturday 9:00 AM -->
+        <!-- Weekly science: Sunday 9:00 AM -->
         <dict>
             <key>Weekday</key>
-            <integer>6</integer>
+            <integer>0</integer>
             <key>Hour</key>
             <integer>9</integer>
             <key>Minute</key>
             <integer>0</integer>
         </dict>
-        <!-- Daily/Weekly finance: 6:00 PM daily (script determines which) -->
+        <!-- Weekly finance: Sunday 10:00 AM -->
+        <dict>
+            <key>Weekday</key>
+            <integer>0</integer>
+            <key>Hour</key>
+            <integer>10</integer>
+            <key>Minute</key>
+            <integer>0</integer>
+        </dict>
+        <!-- Daily briefing: 6:00 PM every day -->
         <dict>
             <key>Hour</key>
             <integer>18</integer>
