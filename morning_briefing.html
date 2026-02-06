@@ -679,6 +679,19 @@
         }
 
         // Run Research
+        const GITHUB_OWNER = 'benjamindus';
+        const GITHUB_REPO = 'morning-briefing';
+        const WORKFLOW_FILE = 'run-research.yml';
+
+        function getGitHubToken() {
+            let token = localStorage.getItem('gh_pat');
+            if (!token) {
+                token = prompt('Enter a GitHub Personal Access Token with "actions" scope.\nThis is stored locally in your browser and never sent anywhere except GitHub API.');
+                if (token) localStorage.setItem('gh_pat', token.trim());
+            }
+            return token;
+        }
+
         async function runResearch() {
             const btn = document.getElementById('researchBtn');
             const icon = document.getElementById('researchIcon');
@@ -686,45 +699,112 @@
 
             if (btn.classList.contains('running')) return;
 
+            const token = getGitHubToken();
+            if (!token) return;
+
             btn.classList.remove('error', 'done');
             btn.classList.add('running');
             icon.textContent = '⏳';
-            text.textContent = 'Researching...';
+            text.textContent = 'Triggering...';
+
+            const triggerTime = new Date().toISOString();
 
             try {
-                const res = await fetch('/api/research', { method: 'POST' });
-                const data = await res.json();
+                const res = await fetch(
+                    `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/actions/workflows/${WORKFLOW_FILE}/dispatches`,
+                    {
+                        method: 'POST',
+                        headers: {
+                            'Authorization': `Bearer ${token}`,
+                            'Accept': 'application/vnd.github.v3+json',
+                        },
+                        body: JSON.stringify({ ref: 'main' }),
+                    }
+                );
 
-                if (res.ok) {
-                    btn.classList.remove('running');
-                    btn.classList.add('done');
-                    icon.textContent = '✅';
-                    text.textContent = 'Done! Reloading...';
-                    setTimeout(() => window.location.reload(), 1500);
+                if (res.status === 204) {
+                    text.textContent = 'Researching...';
+                    pollWorkflowStatus(token, triggerTime);
+                } else if (res.status === 401 || res.status === 403) {
+                    localStorage.removeItem('gh_pat');
+                    throw new Error('Invalid token — removed. Try again.');
                 } else {
-                    btn.classList.remove('running');
-                    btn.classList.add('error');
-                    icon.textContent = '❌';
-                    text.textContent = 'Failed';
-                    console.error('Research failed:', data.error);
-                    setTimeout(() => {
-                        btn.classList.remove('error');
-                        icon.textContent = '🔍';
-                        text.textContent = 'Run Research';
-                    }, 5000);
+                    throw new Error(`GitHub API error: ${res.status}`);
                 }
             } catch (err) {
-                btn.classList.remove('running');
-                btn.classList.add('error');
-                icon.textContent = '❌';
-                text.textContent = 'Failed';
-                console.error('Research error:', err);
-                setTimeout(() => {
-                    btn.classList.remove('error');
-                    icon.textContent = '🔍';
-                    text.textContent = 'Run Research';
-                }, 5000);
+                showResearchError(err.message);
             }
+        }
+
+        async function pollWorkflowStatus(token, triggerTime) {
+            const btn = document.getElementById('researchBtn');
+            const icon = document.getElementById('researchIcon');
+            const text = document.getElementById('researchText');
+
+            const maxWait = 10 * 60 * 1000;
+            const startTime = Date.now();
+
+            const poll = async () => {
+                if (Date.now() - startTime > maxWait) {
+                    showResearchError('Timed out after 10 minutes');
+                    return;
+                }
+
+                try {
+                    const res = await fetch(
+                        `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/actions/runs?per_page=1&event=workflow_dispatch`,
+                        {
+                            headers: {
+                                'Authorization': `Bearer ${token}`,
+                                'Accept': 'application/vnd.github.v3+json',
+                            },
+                        }
+                    );
+                    const data = await res.json();
+                    const run = data.workflow_runs?.[0];
+
+                    if (run && new Date(run.created_at) >= new Date(triggerTime)) {
+                        if (run.status === 'completed') {
+                            if (run.conclusion === 'success') {
+                                btn.classList.remove('running');
+                                btn.classList.add('done');
+                                icon.textContent = '✅';
+                                text.textContent = 'Done! Reloading...';
+                                setTimeout(() => window.location.reload(), 2000);
+                            } else {
+                                showResearchError(`Workflow ${run.conclusion}`);
+                            }
+                            return;
+                        }
+                        // Still running
+                        const elapsed = Math.round((Date.now() - startTime) / 1000);
+                        text.textContent = `Researching... (${elapsed}s)`;
+                    }
+                } catch (err) {
+                    console.error('Poll error:', err);
+                }
+
+                setTimeout(poll, 15000);
+            };
+
+            setTimeout(poll, 10000);
+        }
+
+        function showResearchError(message) {
+            const btn = document.getElementById('researchBtn');
+            const icon = document.getElementById('researchIcon');
+            const text = document.getElementById('researchText');
+
+            btn.classList.remove('running');
+            btn.classList.add('error');
+            icon.textContent = '❌';
+            text.textContent = message || 'Failed';
+            console.error('Research error:', message);
+            setTimeout(() => {
+                btn.classList.remove('error');
+                icon.textContent = '🔍';
+                text.textContent = 'Run Research';
+            }, 5000);
         }
     </script>
 </body>
