@@ -1,9 +1,17 @@
 #!/bin/bash
 
-cd /Users/borisdus/code/morning-briefing
+# Detect environment and set paths accordingly
+if [ -d "/home/briefing/morning-briefing" ]; then
+    # VPS environment
+    BRIEFING_DIR="/home/briefing/morning-briefing"
+    export PATH="/usr/local/bin:/usr/bin:$PATH"
+else
+    # Local Mac environment
+    BRIEFING_DIR="/Users/borisdus/code/morning-briefing"
+    export PATH="/opt/homebrew/bin:/usr/local/bin:$PATH"
+fi
 
-# Ensure PATH includes homebrew and common bin locations
-export PATH="/opt/homebrew/bin:/usr/local/bin:$PATH"
+cd "$BRIEFING_DIR"
 
 CURRENT_TIME=$(TZ='America/Los_Angeles' date '+%B %d, %Y, %I:%M %p PST')
 

@@ -1,7 +1,19 @@
 #!/bin/bash
 # Determine which briefing to run based on current time
 
-cd /Users/borisdus/code/morning-briefing
+# Detect environment and set paths accordingly
+if [ -d "/home/briefing/morning-briefing" ]; then
+    # VPS environment
+    BRIEFING_DIR="/home/briefing/morning-briefing"
+else
+    # Local Mac environment
+    BRIEFING_DIR="/Users/borisdus/code/morning-briefing"
+fi
+
+cd "$BRIEFING_DIR"
+
+# Auto-pull latest changes from GitHub (for VPS auto-sync)
+git pull --quiet origin main 2>/dev/null || true
 
 HOUR=$(date +%H)
 WEEKDAY=$(date +%u)  # 1=Monday, 7=Sunday
