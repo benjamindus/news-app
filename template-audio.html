@@ -365,14 +365,29 @@
             audioPlayers.forEach((audio, index) => {
                 // Stop all other audio when one starts playing, and enforce speed
                 audio.addEventListener('play', () => {
-                    const rate = parseFloat(document.getElementById('speedSelect').value);
-                    audio.playbackRate = rate;
+                    enforceRate(audio);
                     audioPlayers.forEach((other, otherIndex) => {
                         if (otherIndex !== index && !other.paused) {
                             other.pause();
                         }
                     });
                     currentIndex = index;
+                });
+
+                // playing fires after browser internals settle — re-enforce rate
+                audio.addEventListener('playing', () => {
+                    enforceRate(audio);
+                    // Delayed enforcement for mobile media controls that reset rate late
+                    setTimeout(() => enforceRate(audio), 100);
+                    setTimeout(() => enforceRate(audio), 500);
+                });
+
+                // Catch any unexpected rate changes (e.g. from iOS media controls)
+                audio.addEventListener('ratechange', () => {
+                    const expected = parseFloat(document.getElementById('speedSelect').value);
+                    if (!audio.paused && Math.abs(audio.playbackRate - expected) > 0.01) {
+                        audio.playbackRate = expected;
+                    }
                 });
 
                 // Handle ended event - auto-play next story
@@ -386,6 +401,13 @@
                 });
             });
         });
+
+        function enforceRate(audio) {
+            const rate = parseFloat(document.getElementById('speedSelect').value);
+            if (audio.playbackRate !== rate) {
+                audio.playbackRate = rate;
+            }
+        }
 
         function playAudio(index) {
             if (index >= 0 && index < audioPlayers.length) {
