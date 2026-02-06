@@ -10,6 +10,66 @@ from pydub import AudioSegment
 # Create audio directory
 os.makedirs('audio', exist_ok=True)
 
+def spoken_number(num):
+    """Convert a number to a spoken form like '1.5 million'."""
+    if num >= 1_000_000_000_000:
+        val = num / 1_000_000_000_000
+        return f"{round(val, 2):g} trillion"
+    elif num >= 1_000_000_000:
+        val = num / 1_000_000_000
+        return f"{round(val, 2):g} billion"
+    elif num >= 1_000_000:
+        val = num / 1_000_000
+        return f"{round(val, 2):g} million"
+    elif num >= 1000:
+        val = num / 1000
+        if val == int(val):
+            return f"{int(val)} thousand"
+        return f"{round(val, 1):g} thousand"
+    else:
+        return f"{num:g}"
+
+def normalize_numbers(text):
+    """Convert numbers to TTS-friendly spoken forms."""
+    # Dollar amounts with B/M/K/T suffix: $1.5B → 1.5 billion dollars
+    def money_suffix(m):
+        num = m.group(1)
+        suffix = m.group(2).upper()
+        words = {'B': 'billion', 'M': 'million', 'K': 'thousand', 'T': 'trillion'}
+        return f"{num} {words.get(suffix, '')} dollars"
+    text = re.sub(r'\$([\d]+(?:\.\d+)?)\s*([BMKTbmkt])\b', money_suffix, text)
+
+    # Plain dollar amounts with commas/digits: $16,000 → 16 thousand dollars
+    def money_plain(m):
+        num_str = m.group(1).replace(',', '')
+        try:
+            return spoken_number(float(num_str)) + ' dollars'
+        except ValueError:
+            return m.group(0)
+    text = re.sub(r'\$([\d,]+(?:\.\d+)?)', money_plain, text)
+
+    # Percentages: 3.5% → 3.5 percent
+    text = re.sub(r'([\d]+(?:\.\d+)?)\s*%', r'\1 percent', text)
+
+    # Large numbers with commas: 16,000 → 16 thousand
+    def commas_number(m):
+        num_str = m.group(0).replace(',', '')
+        try:
+            return spoken_number(float(num_str))
+        except ValueError:
+            return m.group(0)
+    text = re.sub(r'\b\d{1,3}(?:,\d{3})+(?:\.\d+)?\b', commas_number, text)
+
+    # Standalone large numbers without commas (5+ digits): 16000 → 16 thousand
+    def big_number(m):
+        try:
+            return spoken_number(float(m.group(0)))
+        except ValueError:
+            return m.group(0)
+    text = re.sub(r'\b\d{5,}\b', big_number, text)
+
+    return text
+
 def parse_markdown(filepath):
     """Parse markdown and extract news stories."""
     with open(filepath, 'r') as f:
@@ -57,8 +117,8 @@ def parse_markdown(filepath):
         full_text = re.sub(r'\*([^*]+)\*', r'\1', full_text)  # Remove italics *text*
         full_text = re.sub(r'_([^_]+)_', r'\1', full_text)  # Remove italics _text_
         full_text = re.sub(r'\*+', '', full_text)  # Remove any remaining asterisks
-        full_text = re.sub(r'\$[\d,.]+[BMK]?', lambda m: m.group().replace('$', ' dollars '), full_text)
         full_text = full_text.replace('&amp;', 'and')
+        full_text = normalize_numbers(full_text)
         full_text = full_text.replace('  ', ' ')
 
         if len(full_text) > 50:  # Only include substantial content
