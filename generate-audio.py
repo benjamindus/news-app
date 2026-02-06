@@ -1,14 +1,12 @@
 #!/usr/bin/env python3
-"""Generate audio files from morning_briefing.md using Kokoro TTS."""
+"""Generate audio files from briefing markdown using Kokoro TTS."""
 
 import os
 import re
+import sys
 import soundfile as sf
 from kokoro_onnx import Kokoro
 from pydub import AudioSegment
-
-# Create audio directory
-os.makedirs('audio', exist_ok=True)
 
 def parse_markdown(filepath):
     """Parse markdown and extract news stories."""
@@ -71,14 +69,17 @@ def parse_markdown(filepath):
 
     return stories
 
-def generate_audio(stories):
+def generate_audio(stories, output_dir):
     """Generate audio files using Kokoro."""
+    os.makedirs(output_dir, exist_ok=True)
+
     print("Loading Kokoro model...")
     kokoro = Kokoro("kokoro-v1.0.onnx", "voices-v1.0.bin")
 
     for story in stories:
-        filename = f"audio/story-{story['num']:02d}.wav"
-        print(f"Generating {filename}: {story['title']}...")
+        wav_file = f"{output_dir}/story-{story['num']:02d}.wav"
+        mp3_file = f"{output_dir}/story-{story['num']:02d}.mp3"
+        print(f"Generating {mp3_file}: {story['title']}...")
 
         try:
             # Generate audio
@@ -90,11 +91,9 @@ def generate_audio(stories):
             )
 
             # Save as WAV temporarily
-            wav_file = filename.replace('.mp3', '.wav')
             sf.write(wav_file, samples, sample_rate)
 
             # Convert to MP3
-            mp3_file = f"audio/story-{story['num']:02d}.mp3"
             audio = AudioSegment.from_wav(wav_file)
             audio.export(mp3_file, format="mp3", bitrate="64k")
             os.remove(wav_file)  # Remove WAV file
@@ -102,14 +101,24 @@ def generate_audio(stories):
         except Exception as e:
             print(f"  Error: {e}")
 
-    print(f"\nGenerated {len(stories)} audio files")
+    print(f"\nGenerated {len(stories)} audio files in {output_dir}")
 
 if __name__ == '__main__':
-    print("Parsing morning_briefing.md...")
-    stories = parse_markdown('morning_briefing.md')
+    # Default values
+    input_file = 'morning_briefing.md'
+    output_dir = 'audio/morning'
+
+    # Parse command line arguments
+    if len(sys.argv) >= 2:
+        input_file = sys.argv[1]
+    if len(sys.argv) >= 3:
+        output_dir = sys.argv[2]
+
+    print(f"Parsing {input_file}...")
+    stories = parse_markdown(input_file)
     print(f"Found {len(stories)} stories")
 
     if stories:
-        generate_audio(stories)
+        generate_audio(stories, output_dir)
     else:
         print("No stories found!")

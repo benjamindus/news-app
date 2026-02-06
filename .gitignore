@@ -5,3 +5,7 @@ logs/
 .DS_Store
 kokoro-v1.0.onnx
 voices-v1.0.bin
+
+venv/
+*.pyc
+__pycache__/
