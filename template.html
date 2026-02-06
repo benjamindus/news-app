@@ -326,11 +326,13 @@
         <button class="tts-btn" id="stopBtn" onclick="stopSpeech()">
             ⏹️ Stop
         </button>
+        <button class="tts-btn" onclick="jumpAudio(-30)">-30s</button>
+        <button class="tts-btn" onclick="jumpAudio(30)">+30s</button>
         <select class="speed-select" id="speedSelect" onchange="setSpeed(this.value)">
             <option value="0.75">0.75x</option>
-            <option value="1" selected>1x</option>
+            <option value="1">1x</option>
             <option value="1.25">1.25x</option>
-            <option value="1.5">1.5x</option>
+            <option value="1.5" selected>1.5x</option>
             <option value="2">2x</option>
         </select>
         <div class="controls-separator"></div>
@@ -345,7 +347,7 @@
         let currentUtterance = null;
         let isPlaying = false;
         let isPaused = false;
-        let currentSpeed = 1;
+        let currentSpeed = 1.5;
         let allNewsText = [];
         let currentIndex = 0;
 
@@ -563,6 +565,15 @@
             text.textContent = 'Listen All';
             isPlaying = false;
             isPaused = false;
+        }
+
+        function jumpAudio(seconds) {
+            // Web Speech API doesn't support seeking; jump between stories
+            if (seconds < 0 && currentIndex > 0) {
+                playNewsItem(currentIndex - 1);
+            } else if (seconds > 0 && currentIndex < allNewsText.length - 1) {
+                playNewsItem(currentIndex + 1);
+            }
         }
 
         function setSpeed(speed) {

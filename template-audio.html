@@ -305,11 +305,13 @@
         <button class="tts-btn" id="stopBtn" onclick="stopPlayback()">
             ⏹️ Stop
         </button>
+        <button class="tts-btn" onclick="jumpAudio(-30)">-30s</button>
+        <button class="tts-btn" onclick="jumpAudio(30)">+30s</button>
         <select class="speed-select" id="speedSelect" onchange="setSpeed(this.value)">
             <option value="0.75">0.75x</option>
-            <option value="1" selected>1x</option>
+            <option value="1">1x</option>
             <option value="1.25">1.25x</option>
-            <option value="1.5">1.5x</option>
+            <option value="1.5" selected>1.5x</option>
             <option value="2">2x</option>
         </select>
         <div class="controls-separator"></div>
@@ -355,16 +357,37 @@
                 h3.appendChild(nextBtn);
             });
 
+            // Set initial playback rate on all players
+            const initialRate = parseFloat(document.getElementById('speedSelect').value);
+            audioPlayers.forEach(audio => { audio.playbackRate = initialRate; });
+
             // Add event listeners to each audio player
             audioPlayers.forEach((audio, index) => {
-                // Stop all other audio when one starts playing
+                // Stop all other audio when one starts playing, and enforce speed
                 audio.addEventListener('play', () => {
+                    enforceRate(audio);
                     audioPlayers.forEach((other, otherIndex) => {
                         if (otherIndex !== index && !other.paused) {
                             other.pause();
                         }
                     });
                     currentIndex = index;
+                });
+
+                // playing fires after browser internals settle — re-enforce rate
+                audio.addEventListener('playing', () => {
+                    enforceRate(audio);
+                    // Delayed enforcement for mobile media controls that reset rate late
+                    setTimeout(() => enforceRate(audio), 100);
+                    setTimeout(() => enforceRate(audio), 500);
+                });
+
+                // Catch any unexpected rate changes (e.g. from iOS media controls)
+                audio.addEventListener('ratechange', () => {
+                    const expected = parseFloat(document.getElementById('speedSelect').value);
+                    if (!audio.paused && Math.abs(audio.playbackRate - expected) > 0.01) {
+                        audio.playbackRate = expected;
+                    }
                 });
 
                 // Handle ended event - auto-play next story
@@ -378,6 +401,13 @@
                 });
             });
         });
+
+        function enforceRate(audio) {
+            const rate = parseFloat(document.getElementById('speedSelect').value);
+            if (audio.playbackRate !== rate) {
+                audio.playbackRate = rate;
+            }
+        }
 
         function playAudio(index) {
             if (index >= 0 && index < audioPlayers.length) {
@@ -444,6 +474,13 @@
             icon.textContent = '▶️';
             text.textContent = 'Listen All';
             isPlayingAll = false;
+        }
+
+        function jumpAudio(seconds) {
+            const audio = audioPlayers[currentIndex];
+            if (audio) {
+                audio.currentTime = Math.max(0, Math.min(audio.duration, audio.currentTime + seconds));
+            }
         }
 
         function setSpeed(speed) {
