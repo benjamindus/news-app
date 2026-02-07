@@ -1348,6 +1348,7 @@
 
     <script>
         let audioPlayers = [];
+        let storyHeaders = [];
         let currentIndex = 0;
         let isPlayingAll = false;
         let currentBriefing = 'morning';
@@ -1392,18 +1393,21 @@
             if (!activeSection) return;
 
             audioPlayers = Array.from(activeSection.querySelectorAll('.story-audio'));
+            storyHeaders = [];
             currentIndex = 0;
 
-            // Add Next buttons to each h3 in active section
+            // Collect all story h3s and add Next buttons
             const h3s = activeSection.querySelectorAll('h3');
-            let storyIndex = 0;
             h3s.forEach((h3) => {
-                // Skip if it's a "Sources" header or already processed
+                // Skip if it's a "Sources" header
                 if (h3.textContent.toLowerCase().includes('sources')) return;
+
+                storyHeaders.push(h3);
+
+                // Skip if already processed
                 if (h3.querySelector('.next-btn')) return;
 
-                const currentStoryIndex = storyIndex;
-                storyIndex++;
+                const currentStoryIndex = storyHeaders.length - 1;
 
                 // Wrap existing title content in a span if not already wrapped
                 if (!h3.querySelector('.title-text')) {
@@ -1415,17 +1419,22 @@
                     h3.appendChild(titleSpan);
                 }
 
-                if (currentStoryIndex >= audioPlayers.length - 1) return;
-
+                // Add Next button (will hide the last one after loop)
                 const nextBtn = document.createElement('button');
                 nextBtn.className = 'next-btn';
                 nextBtn.innerHTML = '⏭️ Next';
                 nextBtn.onclick = (e) => {
                     e.stopPropagation();
-                    playNextStory(currentStoryIndex);
+                    goToNextStory(currentStoryIndex);
                 };
                 h3.appendChild(nextBtn);
             });
+
+            // Hide Next button on the last story
+            if (storyHeaders.length > 0) {
+                const lastBtn = storyHeaders[storyHeaders.length - 1].querySelector('.next-btn');
+                if (lastBtn) lastBtn.style.display = 'none';
+            }
 
             // Set initial playback rate on all players
             const initialRate = parseFloat(document.getElementById('speedSelect').value);
@@ -1565,14 +1574,25 @@
             }
         }
 
-        function playNextStory(currentIdx) {
+        function goToNextStory(currentIdx) {
+            const nextIdx = currentIdx + 1;
+            if (nextIdx >= storyHeaders.length) return;
+
+            // Check if any audio is currently playing
+            const isAudioPlaying = audioPlayers.some(audio => !audio.paused);
+
+            // Stop current audio if playing
             if (audioPlayers[currentIdx]) {
                 audioPlayers[currentIdx].pause();
             }
-            const nextIdx = currentIdx + 1;
-            if (nextIdx < audioPlayers.length) {
+
+            // If audio was playing and next story has audio, play it
+            if (isAudioPlaying && audioPlayers[nextIdx]) {
                 currentIndex = nextIdx;
                 playAudio(nextIdx);
+            } else {
+                // Just scroll to the next story
+                storyHeaders[nextIdx].scrollIntoView({ behavior: 'smooth', block: 'start' });
             }
         }
 
