@@ -40,6 +40,7 @@
             align-items: center;
             flex-wrap: wrap;
             gap: 10px;
+            scroll-margin-top: 140px;
         }
         h3 .title-text {
             flex: 1;
@@ -196,6 +197,7 @@
             height: 40px;
             margin: 10px 0;
             border-radius: 20px;
+            scroll-margin-top: 140px;
         }
         .story-audio::-webkit-media-controls-panel {
             background: #e8f4fc;
@@ -558,11 +560,8 @@
         }
 
         function scrollToElement(element) {
-            // Account for fixed header (roughly 120px)
-            const headerOffset = 130;
-            const elementPosition = element.getBoundingClientRect().top;
-            const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
-            window.scrollTo({ top: offsetPosition, behavior: 'smooth' });
+            // CSS scroll-margin-top handles the fixed header offset
+            element.scrollIntoView({ behavior: 'smooth', block: 'start' });
         }
 
         function goToNextStory(currentIdx) {
