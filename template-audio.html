@@ -552,9 +552,17 @@
                 const audio = audioPlayers[index];
                 audio.playbackRate = parseFloat(document.getElementById('speedSelect').value);
                 audio.play();
-                audio.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                scrollToElement(audio);
                 updateMediaSession(index);
             }
+        }
+
+        function scrollToElement(element) {
+            // Account for fixed header (roughly 120px)
+            const headerOffset = 130;
+            const elementPosition = element.getBoundingClientRect().top;
+            const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+            window.scrollTo({ top: offsetPosition, behavior: 'smooth' });
         }
 
         function goToNextStory(currentIdx) {
@@ -575,7 +583,7 @@
                 playAudio(nextIdx);
             } else {
                 // Just scroll to the next story
-                storyHeaders[nextIdx].scrollIntoView({ behavior: 'smooth', block: 'start' });
+                scrollToElement(storyHeaders[nextIdx]);
             }
         }
 
