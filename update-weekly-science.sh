@@ -41,7 +41,7 @@ if [ -n "$DEDUP_HEADLINES" ]; then
 $DEDUP_HEADLINES"
 fi
 
-claude -p "Search for last week's biggest science news and update weekly_science.md with: 5 top fusion energy news, 5 top human genetics/gene science advancements, and 5 top AI advancements. Focus on most cited/discussed stories.
+claude --model sonnet -p "Search for last week's biggest science news and update weekly_science.md with: 5 top fusion energy news, 5 top human genetics/gene science advancements, and 5 top AI advancements. Focus on most cited/discussed stories.
 
 PREFERRED SOURCES — prioritize stories from these outlets:
 Fusion Energy: Nature, Science, MIT Technology Review, Ars Technica, PhysicsWorld, New Scientist, ITER.org, Science Daily

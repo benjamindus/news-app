@@ -41,7 +41,7 @@ if [ -n "$DEDUP_HEADLINES" ]; then
 $DEDUP_HEADLINES"
 fi
 
-claude -p "Search for this week's biggest news and update weekly_news.md with: 15 top geopolitical stories and 15 top financial stories from the past 7 days.
+claude --model sonnet -p "Search for this week's biggest news and update weekly_news.md with: 15 top geopolitical stories and 15 top financial stories from the past 7 days.
 
 PREFERRED SOURCES — prioritize stories from these outlets:
 Geopolitical: Reuters, Associated Press, BBC News, The Guardian, Al Jazeera, Foreign Policy, The Economist, NPR, Politico, The New York Times, Washington Post, Nikkei Asia, The Diplomat, South China Morning Post, Stratfor, CSIS, France 24, Deutsche Welle
