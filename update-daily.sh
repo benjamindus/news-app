@@ -41,7 +41,7 @@ if [ -n "$DEDUP_HEADLINES" ]; then
 $DEDUP_HEADLINES"
 fi
 
-claude --model sonnet -p "Search for news from the LAST 24 HOURS ONLY and update daily_briefing.md with: 10 top geopolitical stories and 10 top financial stories. IMPORTANT: Check publication dates - REJECT any story older than 24 hours. Only include breaking news and stories published today.
+claude --model sonnet -p "Search for news from the LAST 24 HOURS ONLY and update daily_briefing.md with: 10 top geopolitical stories and 10 top financial stories. IMPORTANT: Check publication dates - REJECT any story older than 24 hours. Only include breaking news and stories published today. EXCLUDE all sports news.
 
 PREFERRED SOURCES — prioritize stories from these outlets:
 Geopolitical: Reuters, Associated Press, BBC News, The Guardian, Al Jazeera, Foreign Policy, The Economist, NPR, Politico, The New York Times, Washington Post, Nikkei Asia, The Diplomat, South China Morning Post, Stratfor, CSIS, France 24, Deutsche Welle
