@@ -15,8 +15,9 @@ cd "$BRIEFING_DIR"
 # Auto-pull latest changes from GitHub (for VPS auto-sync)
 git pull --quiet origin main 2>/dev/null || true
 
-HOUR=$(date +%H)
-WEEKDAY=$(date +%u)  # 1=Monday, 7=Sunday
+# Use PST timezone for schedule checks (VPS is in UTC)
+HOUR=$(TZ='America/Los_Angeles' date +%H)
+WEEKDAY=$(TZ='America/Los_Angeles' date +%u)  # 1=Monday, 7=Sunday
 
 # Morning briefing: 6:00 AM Mon-Sat (not Sunday)
 if [ "$HOUR" = "06" ] && [ "$WEEKDAY" != "7" ]; then
@@ -33,14 +34,14 @@ if [ "$HOUR" = "16" ]; then
 fi
 
 # Weekly news: Sunday 7:00 AM
-if [ "$HOUR" = "07" ] && [ "$(date +%M)" -lt "30" ] && [ "$WEEKDAY" = "7" ]; then
+if [ "$HOUR" = "07" ] && [ "$(TZ='America/Los_Angeles' date +%M)" -lt "30" ] && [ "$WEEKDAY" = "7" ]; then
     echo "Running weekly news briefing..."
     ./update-weekly-news.sh
     exit 0
 fi
 
 # Weekly science: Sunday 7:30 AM
-if [ "$HOUR" = "07" ] && [ "$(date +%M)" -ge "30" ] && [ "$WEEKDAY" = "7" ]; then
+if [ "$HOUR" = "07" ] && [ "$(TZ='America/Los_Angeles' date +%M)" -ge "30" ] && [ "$WEEKDAY" = "7" ]; then
     echo "Running weekly science briefing..."
     ./update-weekly-science.sh
     exit 0
