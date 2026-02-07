@@ -41,11 +41,12 @@ if [ -n "$DEDUP_HEADLINES" ]; then
 $DEDUP_HEADLINES"
 fi
 
-claude --model sonnet -p "Search for last week's biggest finance news and update weekly_finance.md with: 5 top inflation and finance metrics news, and 5 top crypto market developments. Focus on most cited/discussed stories.
+claude --model sonnet -p "Search for last week's biggest finance news and update weekly_finance.md with: 5 top inflation and finance metrics news, 5 top crypto market developments, and 5 top dedollarisation and US dollar trend news (covering dollar strength/weakness, BRICS currency moves, central bank reserve shifts, and global trade settlement changes). Focus on most cited/discussed stories.
 
 PREFERRED SOURCES — prioritize stories from these outlets:
 Inflation/Finance Metrics: Bloomberg, Financial Times, FT Alphaville, Wall Street Journal, Reuters Business, The Economist, Federal Reserve releases, Bureau of Labor Statistics, CNBC, MarketWatch, Barron's, Nikkei, Institutional Investor, The Information, Seeking Alpha, Morningstar
 Crypto: CoinDesk, The Block, Decrypt, CoinTelegraph, Bloomberg Crypto, Reuters, DL News, Blockworks
+Dedollarisation/Dollar Trends: Bloomberg, Financial Times, Reuters, The Economist, Wall Street Journal, Nikkei Asia, South China Morning Post, Foreign Policy, Council on Foreign Relations, Peterson Institute, IMF Blog, BIS
 
 Format: H3 headline with ONLY the date in italics (e.g. 'Feb 3' - use the ACTUAL publication date). Then a blockquote (>) with a 1-2 sentence summary, then 3 detailed paragraphs per story. Include Week of [date range] and use this EXACT timestamp: Research Generated: $CURRENT_TIME. List 10 sources at the end of each section.${DEDUP_INSTRUCTION}" --allowedTools "Edit,Write,WebSearch" --dangerously-skip-permissions
 
