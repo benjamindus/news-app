@@ -1,6 +1,6 @@
 # Morning Briefing
 
-Research Generated: February 06, 2026, 06:00 AM PST
+Research Generated: February 07, 2026, 10:24 AM PST
 
 ---
 
@@ -8,148 +8,148 @@ Research Generated: February 06, 2026, 06:00 AM PST
 
 ---
 
-### 1. Winter Olympics 2026 Opens with Historic Dual Cauldron Lighting in Milan and Cortina
+### 1. US-Iran Nuclear Talks Conclude in Oman with Agreement to Continue Negotiations
+*Feb 7*
+
+> The United States and Iran concluded indirect nuclear talks mediated by Oman in Muscat on Friday, with Iranian Foreign Minister Abbas Araghchi calling the session "a good start" focused solely on the nuclear issue, as both sides agreed to hold follow-on discussions.
+
+Trump envoys Steve Witkoff and Jared Kushner met directly with Iranian Foreign Minister Araghchi during the day-long session, which ran from 10 AM to 6 PM local time with Oman serving as intermediary between the two delegations. The talks represented the first restart of nuclear diplomacy between Washington and Tehran since last summer's military strikes against Iran, and focused exclusively on Iran's nuclear program rather than broader regional issues, according to IRNA.
+
+The talks took place against a backdrop of massive U.S. military buildup in the Persian Gulf, with President Trump warning he could pivot to military action if negotiations fail to produce results quickly. Prediction markets now price a U.S. strike on Iran by mid-February at 31%, rising to 44% by month's end. The deployment of the USS Abraham Lincoln carrier strike group has driven strike odds higher, particularly after an F-35 from the carrier shot down an Iranian Shahed-139 drone on February 3 that "aggressively approached" the ship.
+
+In a sign that Washington intends to maintain economic pressure alongside diplomacy, the administration announced new sanctions on the same day talks concluded, targeting 15 entities, two individuals, and 14 shadow fleet vessels linked to Iran's illicit oil trade. The inconclusive outcome — characterized as suspended "for now" rather than collapsed — leaves open the possibility of resumed negotiations, though the timeline remains unclear as both sides face significant domestic political constraints.
+
+---
+
+### 2. Ukraine Peace Talks in Abu Dhabi Yield Prisoner Swap and Military Dialogue Agreement
+*Feb 5*
+
+> Two days of trilateral peace talks between Russia, Ukraine, and the United States in Abu Dhabi produced a deal to exchange 314 prisoners of war — the first such swap since September — and an agreement to reestablish high-level U.S.-Russia military-to-military dialogue.
+
+U.S. Special Envoy Steve Witkoff announced Thursday that the talks had yielded concrete results, with both sides agreeing to the prisoner exchange and the restoration of direct military communication channels between Washington and Moscow. Russian envoy Kirill Dmitriev said there was "positive movement forward," while Ukraine's lead negotiator Rustem Umerov described the discussions as "substantive and productive, focused on concrete steps and practical solutions."
+
+The main sticking point remains the long-term fate of territory in eastern Ukraine. Moscow demands Kyiv withdraw troops from all of the Donetsk region, including a line of heavily fortified cities regarded as one of Ukraine's strongest defenses. Ukraine insists the conflict should be frozen along the current front lines and rejects any unilateral pullback. President Zelensky revealed ahead of the talks that 55,000 Ukrainian soldiers have been killed since Russia's full-scale invasion began in 2022, with a "large number" still officially missing — though independent estimates from CSIS place the toll between 100,000 and 140,000.
+
+The talks mark a significant diplomatic milestone as the war approaches its fourth anniversary this month, with the fact that all three parties are engaging directly described as notable in itself. However, European allies have expressed concern about being excluded from the process, and the fundamental territorial disputes appear far from resolution. A third round of talks has not yet been formally announced.
+
+---
+
+### 3. Islamabad Mosque Suicide Bombing Kills 31 in Deadliest Attack on Capital Since 2008
 *Feb 6*
 
-> The 2026 Winter Olympics opened with a spectacular ceremony at Milan's San Siro stadium, marking the first time in Olympic history that two cauldrons were lit simultaneously — one in Milan at the Arco della Pace and another in Cortina d'Ampezzo at Piazza Dibona.
+> A suicide bomber attacked the Khadija Tul Kubra Mosque, a Shia mosque in Islamabad's southeastern Tarlai Kalan neighborhood, during Friday congregational prayers, killing at least 31 people and injuring more than 169 in the deadliest attack on Pakistan's capital since the 2008 Marriott Hotel bombing.
 
-Over 2,900 athletes from 93 countries marched in the Parade of Nations as the Games officially began. The ceremony featured performances from Mariah Carey, Andrea Bocelli, Laura Pausini, and Italian rapper Ghali, along with world-renowned pianist Lang Lang. Actor Pierfrancesco Favino and The White Lotus star Sabrina Impacciatore also participated in the festivities. The dual cauldron lighting represented the geographical spread of the Games across the Lombardy and Veneto regions.
+The attacker was stopped at the mosque's entrance by security personnel before opening fire and detonating explosives inside or near the mosque, causing significant structural damage and scattering debris across the surrounding area. ISIL's Pakistan branch (ISPP) claimed responsibility for what appears to be its deadliest operation in the country since its formation in May 2019. Pakistani authorities arrested four alleged "facilitators" on February 7 as thousands of mourners attended funeral prayers for the victims.
 
-The opening ceremony took place from 2 PM to 5 PM ET, with activations occurring simultaneously in Predazzo, Livigno, and Cortina d'Ampezzo in addition to the main Milan venue. Greece led the Parade of Nations as the birthplace of the Olympics, followed by the other delegations in alphabetical order according to Italian. The event organizers emphasized the sustainable and innovative aspects of these Games, which span multiple competition venues across northern Italy.
+The attack comes amid a surge in militant violence across Pakistan, following the Balochistan Liberation Army's "Operation Herof 2.0" in late January that killed over 225 people across nine districts. Prime Minister Shehbaz Sharif condemned the bombing as a "cowardly act of terrorism" and declared a state of emergency in the capital, with hospitals appealing for blood donations. The UN Secretary-General also condemned the attack, calling for those responsible to be brought to justice.
 
-Italy's first Winter Olympics since Turin 2006 comes amid significant global attention, with the ceremony broadcast to an estimated worldwide audience of over 1 billion viewers. Competition begins immediately in several sports including figure skating and ski jumping. The Games will run through February 22, featuring 116 medal events across 16 disciplines.
-
----
-
-### 2. Balochistan Attacks Kill Over 225 as Pakistan Launches Massive Counterterrorism Operation
-*Feb 3*
-
-> The Balochistan Liberation Army launched "Operation Herof 2.0," a coordinated assault across at least nine districts of Pakistan's Balochistan province, triggering a 40-hour military response that left at least 225 dead including militants, security personnel, and civilians.
-
-The attacks began around 3:00 AM local time on January 31, targeting police stations, paramilitary outposts, a high-security prison in Quetta, and civilian vehicles across Quetta, Gwadar, Mastung, Nushki, Pasni, and Kharan. Militants employed guns, grenades, and suicide vests in what Pakistani officials described as the most significant coordinated insurgent operation in years. BLA released videos showing female fighters participating in the attacks, labeling the operation a follow-up to their August 2024 offensive.
-
-Pakistani military and police forces announced the conclusion of operations on February 5, claiming to have killed 145 BLA fighters while acknowledging the deaths of 17 security personnel and 31 civilians. The BLA disputed these figures, claiming to have killed 280 security personnel and captured 18 prisoners, though provided no evidence. Pakistan deployed helicopters and drones to end the standoff, with security operations extending across multiple remote districts of the restive province.
-
-The attacks highlight the ongoing insurgency in Pakistan's largest but least populated province, where separatist groups have waged a decades-long campaign against the central government. The BLA, designated a terrorist organization by Pakistan, the UK, and the US, seeks independence for the ethnic Baloch people and has increasingly targeted Chinese interests in the region, including the strategic Gwadar port. The scale of the coordinated attacks represents a significant escalation in the conflict.
+The bombing has sharpened focus on cross-border security challenges, with Pakistani officials pointing to militant safe havens along the Afghan-Pakistan border. The escalating violence — from Balochistan separatist attacks to sectarian bombings in the capital — underscores the breadth of security threats facing Pakistan's government as it struggles to contain multiple insurgent and extremist movements simultaneously.
 
 ---
 
-### 3. Sudan Famine Spreads as Acute Malnutrition Reaches Crisis Levels in Darfur
-*Feb 5*
-
-> Acute malnutrition has reached famine levels in two additional towns in Sudan's North Darfur region, with nearly 53% of children under five suffering from acute malnutrition in Um Baru — almost double the famine threshold — according to the Integrated Food Security Phase Classification.
-
-Sudan now represents the world's largest hunger crisis, with famine conditions confirmed in Al Fasher and Kadugli and the risk of famine in 20 additional areas across Greater Darfur and Greater Kordofan. Nearly 4.2 million cases of acute malnutrition are expected in 2026, including more than 800,000 cases of severe acute malnutrition — a sharp increase from 2025 levels. The UN reports that hunger is expected to worsen from February as food stocks run out and fighting continues.
-
-The humanitarian catastrophe stems from the civil war that erupted in April 2023 between the Sudanese Armed Forces and the Rapid Support Forces, which has displaced over 12 million people. In the western regions of Sudan — notably North Darfur, South Darfur, West Kordofan, and South Kordofan — conflict and severely restricted humanitarian access are driving the sharp deterioration. More than 70 percent of Sudan's hospitals have been destroyed, and UN officials estimate that rehabilitating essential infrastructure will cost $350 million.
-
-The World Food Programme and UNICEF have called for urgent international action to address the crisis, but aid delivery remains severely constrained by ongoing conflict and access restrictions. The government has declared 2026 "the Year of Peace" under a National Peace Initiative, but fighting continues in multiple regions. The UN Security Council is expected to receive a 120-day briefing on Sudan in February, with the UK — holding the Council's rotating presidency — planning to elevate the session to ministerial level.
-
----
-
-### 4. UAE Plans Housing Complex for Displaced Palestinians in Israeli-Controlled Southern Gaza
-*Feb 5*
-
-> The United Arab Emirates has drafted plans to build the "UAE Temporary Emirates Housing Complex" to house thousands of displaced Palestinians in a part of southern Gaza under Israeli military control near Rafah, according to maps obtained by Reuters and Haaretz.
-
-The proposed compound would sit near the "Yellow Line" agreed under an October ceasefire to demarcate Israeli- and Hamas-controlled areas. Rafah, once home to a quarter million people near the Egypt border, has been almost completely destroyed and depopulated by Israeli forces. The housing plan is part of broader reconstruction efforts expected to begin under U.S. President Donald Trump's framework for a durable peace, with American officials hoping that building in Israeli-controlled areas could generate momentum toward Hamas' disarmament.
-
-The "Alternative Safe Communities" concept was designed as a way of gradually "choking Hamas off" by encouraging Gazans to leave Hamas-controlled zones, depriving the militant group of its civilian population. However, for the strategy to be effective, it would need to be built at scale, housing hundreds of thousands of Palestinians. Diplomats have expressed doubt about whether Palestinians would voluntarily move to areas under Israeli control.
-
-International donors have been reluctant to commit funds to the plan, worried that disagreements over disarming Hamas militants could lead the parties back to full-scale conflict. The proposal has also raised concerns about potentially creating a permanent division of Gaza. Meanwhile, humanitarian conditions remain dire: UNRWA reports that Israel has blocked approximately 6,000 aid trucks destined for Gaza, with protesters blocking border crossings at Nitzana and Karem Abu Salem throughout early February.
-
----
-
-### 5. Japan Heads to Snap Election as PM Takaichi Seeks Mandate for Ruling Coalition
-*Feb 6*
-
-> Japanese voters head to the polls on February 8 in snap elections called by Prime Minister Sanae Takaichi, Japan's first female premier, who is seeking to translate historically high approval ratings into a clear mandate for her Liberal Democratic Party-Japan Innovation Party coalition.
-
-The election comes just four months into Takaichi's tenure, which began on October 21, 2025, after she won the LDP presidential election. Polls show the LDP and its coalition partner are likely to secure more than 300 of the 465 seats in the House of Representatives, well above the 233 needed for a majority. Takaichi's cabinet approval rating stands at 62% in NHK surveys, with some polls placing her support in the 70% range — historically high figures that prompted the decision to call early elections.
-
-The political landscape has been reshaped by a surprise opposition merger. On January 16, the Constitutional Democratic Party of Japan, the largest opposition party, joined with Komeito — the LDP's former coalition partner for 26 years — to create a new party called the "Centrist Reform Alliance." This realignment marks a significant shift in Japanese politics, with Komeito's departure from its longtime alliance with the LDP potentially signaling broader changes in the country's political dynamics.
-
-Takaichi's economic program includes significant spending plans and potential tax relief measures that will be put before voters. The election is being closely watched internationally, particularly given Japan's strategic role in the U.S.-led alliance system in the Indo-Pacific and ongoing tensions with China over Taiwan. Analysts note that snap elections can be risky, but Takaichi appears to have calculated that her current popularity provides an optimal window to consolidate power.
-
----
-
-### 6. US-Iran Indirect Talks End "For Now" in Oman After Critical Nuclear Negotiations
-*Feb 6*
-
-> Iran announced that indirect talks with the United States mediated by Oman have concluded "for now," following days of critical negotiations in Muscat where Iranian Foreign Minister Abbas Araghchi met separately with Omani officials and U.S. envoys Steve Witkoff and Jared Kushner.
-
-The talks represented a significant diplomatic effort amid weeks of escalating tensions, with negotiations shifting from the originally planned venue of Istanbul to Oman at the last minute. The Omani Foreign Minister served as intermediary, shuttling between the Iranian and American delegations. While specific details of the discussions remain confidential, the negotiations are understood to have focused on Iran's nuclear program and the broader regional security situation.
-
-The talks come amid a severe domestic crisis in Iran, where protests have resulted in thousands of deaths according to human rights organizations. In a notable development during the lead-up to negotiations, Iranian Foreign Minister Araghchi reportedly sent a personal message to U.S. Special Envoy Witkoff stating that Iran had canceled the planned execution of 800 anti-regime protesters. The international community has intensified pressure on Tehran, with the EU designating Iran's Revolutionary Guard as a terrorist organization.
-
-Oil tankers passing through the Strait of Hormuz have increased speed amid the heightened tensions between Washington and Tehran. The talks' inconclusive ending — characterized by Iran as suspended "for now" rather than collapsed — leaves open the possibility of resumed negotiations, though the timeline and conditions remain unclear. Both sides face significant domestic political constraints that complicate any potential agreement.
-
----
-
-### 7. Starmer Apologizes to Epstein Victims as Mandelson Scandal Deepens UK Leadership Crisis
-*Feb 5*
-
-> British Prime Minister Keir Starmer apologized to Jeffrey Epstein's victims for appointing Peter Mandelson as U.S. Ambassador, as Scotland Yard launched a criminal investigation into the veteran Labour politician on suspicion of misconduct in public office over allegations he shared government information with the convicted sex offender.
-
-The scandal has plunged Starmer's government into crisis, with Labour MPs describing the party mood as "febrile and mutinous." Mandelson resigned from the Labour Party on February 1 and has since stepped down from the House of Lords amid mounting scrutiny. Leaked documents revealed serious allegations including reports that Mandelson and his husband received payments from Epstein, and that in 2009 and 2010, Mandelson allegedly passed sensitive government information to the financier.
-
-Starmer defended his initial decision to appoint Mandelson, stating: "If I knew then what I know now, he would never have been anywhere near government." Officials are reportedly drafting legislation to fast-track the removal of Mandelson's peerage. The Prime Minister is facing growing calls for his resignation, with critics arguing his handling of the issue has undermined public trust and raised national security concerns stemming from poor vetting processes.
-
-The crisis comes at a challenging time for the UK government, with borrowing costs under pressure and the pound facing volatility. UK gilt yields have risen as markets assess the political uncertainty. The scandal has dominated British media coverage and Parliament, overshadowing the government's policy agenda. Opposition leaders have demanded a full independent inquiry into how Mandelson's appointment was approved despite his documented connections to Epstein.
-
----
-
-### 8. Taiwan-China Tensions Escalate as Beijing Masses 100,000 Troops for Strait Exercises
-*Feb 5*
-
-> China has assembled nearly 100,000 troops along the Taiwan Strait for military exercises, with December drills involving 90 aircraft sorties crossing the center line, four amphibious assault ship formations, and 19 Chinese ships entering Taiwan's 24-mile buffer zone in what analysts describe as rehearsals for blockade scenarios.
-
-The "Justice Mission" exercises marked the first instance of Chinese military and coast guard vessels entering Taiwan's contiguous zone in significant numbers, representing a significant escalation in Beijing's pressure campaign. The late-year drills were widely interpreted as practice for coercive scenarios short of outright war — particularly a blockade or quarantine designed to strangle Taiwan economically and politically without triggering immediate global conflict.
-
-Pentagon assessments indicate China aims to achieve by 2027 the capabilities required to prevail in a Taiwan conflict involving the United States. This requires three integrated strategic capabilities: the ability to credibly win at acceptable cost, deterring or constraining American intervention, and deterring involvement of U.S. allies and partners. The U.S. recently approved an $11 billion arms package for Taiwan and condemned Beijing's "provocative" military drills.
-
-Despite the military buildup, life in Taiwan continues largely normally, with residents expressing determination rather than fear. The State Department has urged "Beijing to exercise restraint, cease its military pressure against Taiwan, and instead engage in meaningful dialogue." However, China has rejected such calls, framing U.S. arms sales as the primary threat to cross-strait stability. Analysts note that while invasion remains unlikely in the near term, the risk of miscalculation during increasingly aggressive exercises continues to grow.
-
----
-
-### 9. Mexico's Sheinbaum Defies Trump, Vows Nation "Will Never Be Colony or Protectorate"
-*Feb 5*
-
-> Mexican President Claudia Sheinbaum delivered a defiant address marking the 109th anniversary of Mexico's 1917 Constitution, declaring "México no regresará a ser colonia ni protectorado de nadie" (Mexico will not return to being a colony or protectorate of anyone) while pledging to protect national resources.
-
-The speech came amid escalating tensions with the Trump administration over immigration, trade, and cartel violence. Sheinbaum directly rebutted Trump's assertions that criminal organizations control Mexico, stating on February 4: "It is false that cartels govern Mexico." The rhetorical confrontation follows Trump's characterization of Mexico as a "narco-state" and his threats of significant tariffs and other punitive measures.
-
-Despite the tensions, Mexico has maintained humanitarian assistance to Cuba, with Sheinbaum pledging to send food and other supplies while pursuing diplomatic channels to continue oil shipments "without seeking confrontation." The Cuba issue has become another flashpoint with Washington, as Trump has escalated pressure on the island nation by cutting off oil supplies. Mexico's position reflects its traditional foreign policy principles of non-intervention and solidarity with Latin American neighbors.
-
-Sheinbaum has also focused on domestic infrastructure development, conducting a two-day tour of Sonora where she inaugurated a highway and announced plans for a port modernization project on the Gulf of California. Her approval ratings remain strong despite the external pressures, as she seeks to balance Mexico's critical economic relationship with the United States against assertions of national sovereignty. The Trump administration's deportation operations and trade threats continue to test the bilateral relationship.
-
----
-
-### 10. North Korea Dismisses Vice Premier Ahead of Major Party Congress Unveiling Nuclear Plans
+### 4. Russia Escalates Hybrid Warfare Across Europe with Sabotage and Infrastructure Attacks
 *Feb 4*
 
-> Kim Jong Un has dismissed a vice premier over troubles in a factory modernization project as he tightens discipline among officials ahead of a major Workers' Party congress where North Korea plans to unveil "next-stage plans for further bolstering up the country's nuclear war deterrent."
+> Russia has dramatically escalated its hybrid warfare campaign against Western Europe since its full-scale invasion of Ukraine, with intelligence reports confirming a four-fold increase in sabotage operations in 2024 compared to the prior year and the surge accelerating through 2025 and into 2026.
 
-The upcoming party congress, the first of its kind in five years, represents one of the authoritarian regime's biggest propaganda spectacles and is intended to review projects, establish political and economic priorities, and reshuffle officials. Kim has been focusing on showcasing agricultural and infrastructure achievements, opening North Korea's largest greenhouse farm on the Chinese border and inaugurating the Sambaing Stockbreeding Farm with "fashionable houses," a solar power station, hospital, and kindergarten.
+Polish authorities revealed that two Ukrainian citizens hired by Russian intelligence used explosives to attempt to destroy a Warsaw-Ukraine railway line in November 2025 — a route crucially important for delivering military aid to Ukraine. A train conductor noticed the warped rail near the village of Mika, approximately 130 kilometers from the Polish-Ukrainian border, and alerted police. Poland subsequently expelled Russia's consul in Gdansk, and Interpol issued red notices for the two suspects, believed to have fled to Belarus.
 
-Rising revenues from foreign trade and cybercrime are giving Kim greater policy options, enabling him to suppress certain economic sectors and pursue military priorities with fewer constraints. The regime ordered boosted missile production in 2026 and has conducted multiple ballistic missile tests in recent months. The Congress will likely formalize new military doctrines and potentially announce leadership changes as Kim consolidates power.
+Experts identify three pillars of Russian hybrid warfare expected to escalate in 2026: sabotage targeting Europe's expanding defense production infrastructure and Ukraine-bound supply chains; subversion through information warfare during key elections including Hungary's 2026 vote and the U.S. midterms; and coercion through increasingly aggressive airspace and naval violations. The attack on Romania's Cugir arms factory last year demonstrated Russia's willingness to target defense manufacturing directly.
 
-Human Rights Watch's annual report described North Korea as maintaining "unrelenting repression, hunger, and inequality," noting continued severe restrictions on freedoms and information. The international community has limited visibility into internal regime dynamics, though analysts suggest the dismissal of senior officials signals ongoing concerns about meeting Kim's ambitious modernization targets. The party congress dates have not been officially announced but are expected in the coming weeks.
+Moscow's strategic objective is to weaken Western unity by creating a constant sense of vulnerability without crossing the threshold that would trigger a formal NATO response. Analysts warn that Europe still lacks credible hybrid deterrence, and the West's failure to establish clear thresholds for hybrid warfare has created a strategic vacuum that Russia continues to exploit. The campaign has expanded from espionage into drone-based airport shutdowns, arson attacks, and direct targeting of critical infrastructure.
+
+---
+
+### 5. State Department Orders Deletion of All Pre-Trump Social Media Posts from Official Accounts
+*Feb 7*
+
+> The U.S. State Department has directed the removal of all posts made by its official accounts on the social media platform X before President Trump returned to office on January 20, 2025, with staff told that anyone wanting to access the deleted content must file a Freedom of Information Act request.
+
+The directive applies to all the department's active official X accounts, including those for U.S. embassies and missions worldwide, ambassadors, department bureaus, and programs, according to internal guidance screenshots obtained by NPR. The posts to be removed include embassy July 4th livestreams, photos of COVID vaccine donations to other nations, holiday greetings, condolences, cultural programming, and the day-to-day record of diplomatic engagements showing who the U.S. met with, when, and how.
+
+Current and former State Department employees, as well as academics, have raised concerns that the purge will make the historical record of government communications and actions harder to trace. While the posts will be internally archived, requiring FOIA requests for access differs significantly from how the U.S. government typically handles archiving the online footprint of previous administrations. Critics argue the move effectively erases the public digital record of American diplomacy spanning multiple years.
+
+The social media purge comes as the State Department undergoes broader changes under the Trump administration, with the deletion order representing one of the most sweeping acts of institutional digital erasure in modern U.S. government history. The move raises questions about government transparency and the preservation of public records, particularly as social media has become a primary channel through which governments communicate with domestic and international audiences.
+
+---
+
+### 6. Colombia-Ecuador Trade War Escalates with Tit-for-Tat Tariffs and Energy Cutoffs
+*Feb 3*
+
+> Ecuador's imposition of a 30% "security tariff" on Colombian imports over drug trafficking failures has spiraled into a full-scale trade war, with Colombia retaliating by halting electricity exports, imposing reciprocal tariffs, and Ecuador responding with a 900% increase in oil pipeline fees for Colombian crude.
+
+The crisis erupted when President Daniel Noboa announced Ecuador would levy a 30% tariff on its neighbor until Colombia showed "a real commitment to jointly confronting drug-trafficking and illegal mining at the border." Colombia's Ministry of Commerce responded with a 30% tariff on 23 Ecuadorian products, while the Ministry of Mines and Energy announced an indefinite suspension of all international electricity sales to Ecuador, framing the move as essential to safeguarding Colombia's energy sovereignty.
+
+The escalation has spread to energy infrastructure, with Ecuador raising the tariff for each barrel of Colombian oil transported through its state-owned Trans-Ecuadorian Oil Pipeline System from $3 to $30 per barrel — a 900% increase. Colombian and Ecuadorian merchants and truckers have staged protests at border crossings, warning that the trade war will devastate border economies and disrupt energy supplies in both countries. The reciprocal tariffs are affecting bilateral commerce worth approximately $2.3 billion annually.
+
+Colombian President Gustavo Petro met with President Trump in Washington on February 3 and reportedly asked the U.S. to mediate the dispute. Ecuador faces a trade deficit of more than $1 billion with Colombia, and Noboa has framed the tariffs as a national security measure against narcotics trafficking. However, analysts warn that the economic fallout — particularly the suspension of Colombian electricity to an energy-dependent Ecuador — risks creating a humanitarian dimension to what began as a diplomatic dispute.
+
+---
+
+### 7. US Government Shutdown Ends But DHS Faces Second Closure as ICE Reform Talks Stall
+*Feb 7*
+
+> The partial U.S. government shutdown that began January 31 ended on February 3 when Trump signed a $1 trillion spending package, but the Department of Homeland Security faces a second shutdown on February 13 as negotiations over ICE reform demands remain deadlocked.
+
+The House approved the spending package 217-214, funding several of the government's largest departments through September. However, the deal separated DHS funding into a two-week extension, giving lawmakers until February 13 to negotiate Democratic demands for immigration enforcement reforms prompted by the killings of Renee Macklin Good and Alex Pretti during ICE operations in Minneapolis. Democrats are demanding body cameras, identification requirements, a ban on agents hiding their identities, and judicial warrants for enforcement operations.
+
+Democratic leaders Hakeem Jeffries and Chuck Schumer issued a list of 10 demands, while Senate Majority Leader John Thune described reaching agreement in the remaining time as "an impossibility." Republicans say they are open to body-worn cameras — already included in the underlying DHS spending bill with $20 million allocated — but reject warrant restrictions and mask bans. DHS Secretary Kristi Noem ordered body cameras for agents in Minneapolis but Democrats want reforms codified into law rather than relying on executive discretion.
+
+The funding impasse has broader consequences beyond DHS operations. The Bureau of Labor Statistics' January jobs report was delayed from February 7 to February 11 due to the shutdown's disruption of data collection. With only days remaining before the DHS funding deadline, the prospect of a second partial shutdown looms large, creating additional uncertainty for markets and federal employees already rattled by the first closure.
+
+---
+
+### 8. Zelensky Reveals 55,000 Ukrainian Soldiers Killed as War Nears Fourth Anniversary
+*Feb 4*
+
+> Ukrainian President Volodymyr Zelensky disclosed that 55,000 Ukrainian soldiers have been killed since Russia's full-scale invasion began in February 2022, with a "large number" still officially missing, as the war approaches its fourth anniversary amid ongoing peace talks in Abu Dhabi.
+
+The figure represents a significant increase from Zelensky's previous disclosures — 46,000 killed reported in February 2025 and 31,000 in February 2024 — suggesting the pace of casualties has not meaningfully slowed despite changes in the front-line dynamics. Independent estimates from the Centre for Strategic and International Studies place the actual toll significantly higher, between 100,000 and 140,000 killed, suggesting official figures substantially undercount the true cost of the conflict.
+
+Zelensky's revelation came in an interview with French media ahead of the second round of trilateral peace talks in Abu Dhabi, timed to build public support for meaningful negotiations as European and American audiences increasingly focus on the war's human cost. The disclosure represents a rare moment of public candor from Kyiv, which has generally withheld detailed casualty figures to maintain domestic morale and international support.
+
+The fourth winter of Russia's war has been particularly brutal, with heat and electricity blackouts lasting for days as Russia repeatedly targets Ukraine's energy grid. The toll on Ukrainian society extends far beyond military casualties, with millions displaced internally and abroad. As peace talks continue, the cumulative human cost of the war — now acknowledged at unprecedented scale by Ukraine's own president — is increasingly shaping the calculus of all parties involved in negotiations.
+
+---
+
+### 9. Winter Olympics Competition Begins with First Gold Medals Awarded in Milan Cortina
+*Feb 7*
+
+> The 2026 Winter Olympics entered full competition mode on Saturday, with Swiss racer Franjo von Allmen capturing the Olympic downhill to win the first gold medal of the Milan Cortina Games, as medal events begin across cross-country skiing, speed skating, snowboarding, and other disciplines.
+
+The day after Thursday's spectacular opening ceremony at Milan's San Siro stadium — which featured dual cauldron lightings in Milan and Cortina d'Ampezzo and performances by Andrea Bocelli and Mariah Carey — athletes from 93 countries began competing across venues spanning northern Italy's Lombardy and Veneto regions. The Games, Italy's first Winter Olympics since Turin 2006, feature 116 medal events across 16 disciplines through February 22.
+
+One of the most closely watched storylines is American alpine skiing legend Lindsey Vonn, who announced her return to professional racing in November 2024 with the goal of competing in Milan Cortina. However, just a week before the opening ceremony, Vonn crashed in Crans Montana, Switzerland, completely rupturing her ACL. Despite the injury, she has confirmed she will race in the women's downhill on Sunday, February 8, in what would be a remarkable feat of determination.
+
+The Games carry significant geopolitical undertones as the world's athletes compete against a backdrop of ongoing conflicts in Ukraine and the Middle East, rising U.S.-Iran tensions, and trade disputes across multiple continents. The ceremony's theme of "Harmony" — reflecting the connection between Milan and Cortina despite the physical distance — offers a contrast to the fractured state of international relations outside the Olympic venues.
+
+---
+
+### 10. EU-China Trade Tensions Deepen as Beijing's Industrial Overcapacity Threatens European Manufacturing
+*Feb 7*
+
+> The European Union faces what economists are calling a second "China shock" as Beijing's industrial overcapacity spreads beyond electric vehicles into semiconductors, wind components, pharmaceuticals, and industrial machinery, threatening the foundations of Europe's manufacturing base while bilateral trade imbalances widen.
+
+China now accounts for roughly one-third of total global value-added manufacturing, with its trade surplus approaching $1 trillion last year as domestic consumption fails to keep pace with industrial output. The EU, as China's largest export partner, is piling up protective measures including a planned fixed customs duty on low-value e-commerce parcels from July 2026, aimed at curbing cheap imports predominantly from China. Meanwhile, China has retaliated against EU electric vehicle tariffs by targeting European dairy, brandy, and pork imports.
+
+The semiconductor dimension adds a strategic security layer to the economic tensions. Beijing has long argued the EU could help rebalance trade by selling advanced chips and manufacturing equipment currently under export restrictions, but European leaders remain wary of enabling Chinese technological advancement in sensitive areas. A recent shift in U.S. policy — with Trump authorizing sales of some advanced Nvidia chips to China — has complicated Europe's own calculus, as analysts note that outright restrictions have paradoxically incentivized China to develop its own semiconductor industry.
+
+A critical moment approaches with China's anti-subsidy investigation into EU dairy imports set to conclude on February 21, with provisional tariffs on European dairy products already reduced from as high as 42.7% to 11.7%. On the EV front, both sides have made progress toward a minimum price mechanism that could replace punitive tariffs. However, the structural challenge remains: Chinese overinvestment across a range of industries shows no signs of abating, leaving Europe caught between protecting domestic industry and maintaining access to affordable goods.
 
 ---
 
 ### Sources — Geopolitical
 
-1. [NBC News — Winter Olympics 2026 opening ceremony: Where to watch, date, time, performers](https://www.nbcnews.com/sports/olympics/winter-olympics-opening-ceremony-2026-watch-time-performers-milan-rcna257086)
-2. [Al Jazeera — Pakistani forces kill 145 fighters in Balochistan after deadly attacks](https://www.aljazeera.com/news/2026/2/2/pakistani-forces-kill-145-fighters-in-balochistan-after-deadly-attacks)
-3. [Al Jazeera — Famine conditions spread to more towns in Sudan's Darfur, experts warn](https://www.aljazeera.com/news/2026/2/5/famine-conditions-spread-to-more-towns-in-sudans-darfur-experts-warn)
-4. [Haaretz — UAE Drafts Gaza Housing Compound for Displaced Palestinians in Israeli-controlled Area](https://www.haaretz.com/gaza/2026-02-05/ty-article/uae-drafts-gaza-housing-compound-for-displaced-palestinians-in-israeli-controlled-area/0000019c-2eab-d6dd-a3bc-7fbb350c0000)
-5. [CNBC — Japan's Takaichi eyes decisive mandate as polls point to snap election landslide](https://www.cnbc.com/2026/02/06/japan-election-takaichi-ldp-landslide-polls-ldp-trump-innovation-party-nikkei.html)
-6. [Al Jazeera — US-Iran talks live: Indirect negotiations in Oman ended 'for now'](https://www.aljazeera.com/news/liveblog/2026/2/6/us-iran-talks-live-critical-negotiations-set-to-begin-in-oman)
-7. [Al Jazeera — How Epstein-Mandelson files rocked the UK government](https://www.aljazeera.com/news/2026/2/5/how-epstein-mandelson-files-rocked-the-uk-government)
-8. [The Diplomat — China's Taiwan Drills Are Crossing a New Line](https://thediplomat.com/2026/01/chinas-taiwan-drills-are-crossing-a-new-line/)
-9. [ABC News — Mexico's Sheinbaum pledges to send humanitarian aid to Cuba](https://abcnews.go.com/International/wireStory/mexicos-sheinbaum-pledges-send-humanitarian-aid-cuba-129759101)
-10. [NK News — Kim Jong Un opens North Korea's largest greenhouse farm to date on China border](https://www.nknews.org/2026/02/kim-jong-un-opens-north-koreas-largest-greenhouse-farm-to-date-on-china-border/)
+1. [Al Jazeera — Iran says talks with US in Oman 'a good start'](https://www.aljazeera.com/news/2026/2/6/iran-us-hold-talks-in-oman-as-fears-of-war-hang-over-region)
+2. [Washington Post — US and Russia agree to reestablish military-to-military dialogue after Ukraine talks](https://www.washingtonpost.com/business/2026/02/05/russia-ukraine-talks-peace-abu-dhabi-witkoff/191be3d0-0272-11f1-ad9f-6f689ec6b060_story.html)
+3. [NPR — Suicide bombing at a Shiite mosque on Islamabad's outskirts kills at least 31](https://www.npr.org/2026/02/06/g-s1-108968/suicide-bombing-at-a-shiite-mosque-on-islamabads-outskirts-kills-at-least-31)
+4. [NPR — Russia's hybrid attacks throughout Europe are becoming more dangerous](https://www.npr.org/2026/02/04/nx-s1-5686272/russias-hybrid-attacks-throughout-europe-are-becoming-more-dangerous)
+5. [NPR — State Department will delete X posts from before Trump returned to office](https://www.houstonpublicmedia.org/npr/2026/02/07/nx-s1-5704785/state-department-will-delete-x-posts-from-before-trump-returned-to-office/)
+6. [Washington Post — Colombian and Ecuadorian merchants and truckers protest escalating trade war](https://www.washingtonpost.com/business/2026/02/03/ecuador-colombia-trade-war-protests-border/871f513a-0134-11f1-ad9f-6f689ec6b060_story.html)
+7. [NBC News — Negotiations to reform ICE sputter as shutdown looms for DHS](https://www.nbcnews.com/politics/congress/-impossibility-negotiations-reform-ice-sputter-shutdown-looms-dhs-rcna257552)
+8. [France 24 — Roughly 55,000 Ukrainian soldiers killed since start of war, Zelensky says](https://www.france24.com/en/europe/20260204-live-ukraine-russia-set-to-meet-in-abu-dhabi-for-us-brokered-peace-talks)
+9. [NBC Olympics — Winter Olympics 2026 full schedule Saturday, February 7](https://www.nbc.com/nbc-insider/full-olympics-schedule-saturday-february-7-2026)
+10. [MERICS — China's overcapacity and the EU](https://merics.org/en/merics-briefs/chinas-overcapacity-and-eu-german-china-policy-under-merz-eu-china-trade)
 
 ---
 
@@ -157,145 +157,145 @@ Human Rights Watch's annual report described North Korea as maintaining "unrelen
 
 ---
 
-### 1. Wall Street Selloff Turns Into Stampede as Emerging Markets Post Worst Week Since November
-*Feb 6*
-
-> Wall Street's retreat from risk accelerated into a full stampede this week, with emerging markets on track for their steepest weekly decline since November as the MSCI Emerging Markets Index fell 1.5% on Friday and Korean shares triggered a circuit breaker after a 5% dive in the KOSPI.
-
-The selloff has been driven by a steady drumbeat of negative news stoking anxiety about valuations many suspected had already run up too far. Alphabet's announcement of up to $185 billion in 2026 AI capital expenditures spooked investors concerned about the financial impact of massive AI investments. Rather than a single trigger, the rout reflects accumulated concerns about tech valuations, rising layoffs, and uncertainty over monetary policy.
-
-The S&P 500 has now turned negative for 2026 after losing 1.23% on Wednesday, while the Nasdaq Composite declined 1.59%. Korean markets saw three program-trading halts in five sessions during one of the most volatile weeks in recent years, with the Kospi falling more than 5% in a single session before retail investors stepped in to prevent a break below 5,000. The carnage has spread across asset classes, with gold, silver, and cryptocurrencies all experiencing sharp declines.
-
-The broader market tracked declines across Asian peers after Wall Street closed mostly lower overnight, amid a persistent tech sector selloff. Most "Magnificent Seven" mega-cap names remain under pressure, though the divergence between AI infrastructure enablers and application-layer software companies has become increasingly pronounced. Investors face limited visibility with the January jobs report delayed indefinitely due to the government shutdown.
-
----
-
-### 2. US January Layoffs Hit Highest Level Since 2009 as Hiring Plans Collapse
-*Feb 5*
-
-> U.S.-based employers announced 108,435 job cuts in January — a threefold increase from December and more than double January 2025 — marking the highest January layoff total since 2009, according to outplacement firm Challenger, Gray & Christmas.
-
-About 40% of the January layoff announcements came from just two firms: UPS (30,000 cuts tied to its wind-down of Amazon delivery arrangements) and Amazon (16,000 cuts). The healthcare industry announced more than 17,000 job cuts, the highest in that sector since April 2020. January's layoff announcements were concentrated in five industries: transportation, technology, healthcare and health products, chemicals, and financial services.
-
-Companies announced just 5,306 new hires in January, also the lowest for the month since Challenger began tracking the data in 2009. Initial jobless claims for the week ending January 31 rose to 231,000, an increase of 22,000 from the prior week. The data paints a picture of a "low-hire, low-fire" environment that appears to be deteriorating as employers grow pessimistic about the 2026 outlook.
-
-The labor market weakness comes at a particularly challenging time, with the Bureau of Labor Statistics unable to release the January jobs report due to the government shutdown. "Most of these plans were set at the end of 2025, signaling employers are less-than-optimistic about the outlook for 2026," noted Andy Challenger. The data may fuel concerns among Federal Reserve policymakers about whether additional support is needed for the economy.
-
----
-
-### 3. AMD Crashes 17% in Worst Rout Since 2017 as AI Guidance Disappoints
+### 1. Gold Surges Past $5,000 to Record Highs as Safe-Haven Demand Soars
 *Feb 4*
 
-> Advanced Micro Devices suffered its worst single-day decline since 2017, plunging 17% after issuing first-quarter guidance that fell short of the market's most bullish AI expectations despite posting record Q4 revenue of $10.27 billion — up 23% year-over-year.
+> Gold blasted through the $5,000 per ounce barrier for the first time in history, surging to $5,078 on Wednesday in its strongest single-day rally in 20 years, driven by geopolitical uncertainty, central bank buying, and expectations of U.S. interest rate cuts.
 
-The selloff erased more than $60 billion in market capitalization in a single trading session, with shares closing at $200.19. AMD guided Q1 revenue of approximately $9.8 billion — a 5% sequential decline that investors interpreted as a sign of slowing momentum despite the figure exceeding analyst consensus of $9.38 billion. In a market conditioned to expect "Nvidia-style" exponential growth every quarter, this seasonal dip triggered massive profit-taking.
+The precious metal's ascent has been staggering — up 73.6% compared to a year ago and 11.4% in just the past month. Central bank purchases have been a major catalyst, with Beijing extending its gold-buying streak for a 13th consecutive month, adding 30,000 ounces to reserves and bringing China's total stock to 74.12 million ounces. The de-dollarization trend among emerging market central banks has created sustained structural demand independent of traditional safe-haven flows.
 
-Prior to the crash, AMD shares had roughly doubled over the past year amid the AI infrastructure boom. CEO Lisa Su noted that the company is in "active discussions" for additional sales of its next-generation MI450 chip, with the ramp "on schedule to start in the second half of the year." However, concerns mounted that a significant portion of Q4 data center revenue came from $390 million in China-bound AI chip sales approved under a U.S. license.
+JPMorgan issued its most bullish gold forecast yet at $6,300 per ounce by year-end 2026, while Deutsche Bank and Societe Generale target $6,000. The rally reflects a convergence of factors rarely seen simultaneously: rising geopolitical tensions between the U.S. and Iran, the ongoing Ukraine war, persistent inflation concerns, a weakening U.S. dollar, and growing uncertainty about the trajectory of Federal Reserve policy. Gold's breakout above $5,000 triggered significant momentum-driven buying.
 
-Cathie Wood's ARK Invest responded to the crash by purchasing $28 million in AMD shares. Deutsche Bank maintained a hold rating, noting the second half of 2026 could be an inflection point, while Barclays maintained an overweight rating with a $300 price target implying 24% upside. The reaction reflects a broader challenge facing semiconductor companies outside of Nvidia: even strong results are being punished when guidance fails to meet the most optimistic scenarios.
-
----
-
-### 4. Oracle Announces $50 Billion Capital Raise for Cloud Infrastructure Expansion
-*Feb 1*
-
-> Oracle announced plans to raise $45-50 billion in 2026 through a combination of debt and equity sales to build additional cloud infrastructure capacity, reflecting the unprecedented scale of financing needed to meet AI-driven demand from major customers including AMD, Meta, NVIDIA, OpenAI, TikTok, and xAI.
-
-The financing structure will see approximately half raised through equity-linked and common equity issuances, including mandatory convertible preferred securities and a new at-the-market equity program of up to $20 billion. The debt portion will be completed through a single investment-grade senior unsecured bond issuance early in 2026. Goldman Sachs will lead the bond offering, while Citigroup will lead the equity issuances.
-
-Oracle's announcement underscores the massive capital requirements facing cloud infrastructure providers competing for AI workloads. Unlike hyperscalers such as Amazon, Microsoft, and Google that can largely self-fund expansion, Oracle is turning to capital markets to keep pace with contracted demand from its largest Oracle Cloud Infrastructure customers. The raise represents one of the largest corporate capital raises in recent memory.
-
-The company's stock has benefited from the AI infrastructure buildout, with Oracle positioning itself as a key player in providing the computing capacity needed for training and running large language models. The capital raise will fund new data centers, server procurement, and networking infrastructure. Analysts note that while the dilutive impact of equity issuance is a concern, Oracle's contracted backlog provides visibility into future revenue streams that justify the investment.
+However, the rally has not been without volatility. After reaching $5,600 intraday on February 4, gold experienced a sharp pullback to $4,770 by Friday, a correction of nearly 15% that rattled traders who had chased the breakout higher. The whipsaw action underscores the speculative froth that has entered the gold market alongside genuine safe-haven demand, with analysts warning that while the structural bull case remains intact, the pace of gains has created conditions ripe for violent corrections.
 
 ---
 
-### 5. Nvidia-OpenAI $100 Billion Deal Stalls as Negotiations Go "On Ice"
+### 2. Palantir Surges 11% After Blowout Earnings as AI Government Spending Boom Lifts Outlook
 *Feb 3*
 
-> Five months after OpenAI and Nvidia announced a $100 billion deal, no contract has been signed and no money has changed hands, with Wall Street Journal reporting that negotiations are "on ice" after Nvidia executives expressed doubts about OpenAI's business model and lack of business discipline.
+> Palantir Technologies reported Q4 2025 revenue of $1.41 billion — up 70% year-over-year — beating estimates of $1.33 billion with adjusted earnings of 25 cents per share versus expectations of 23 cents, sending shares up 11% as CEO Alex Karp called it "the best results that I'm aware of in tech in the last decade."
 
-Nvidia CEO Jensen Huang has told industry associates that the investment was "nonbinding and not finalized," while criticizing what he characterized as insufficient discipline in OpenAI's business strategy. Huang also shared concerns about competition from firms like Google and Anthropic. Since the deal was announced, the relationship has become more complicated: Nvidia has invested in rival AI labs, while OpenAI struck a $10 billion deal with chip startup Cerebras and has pursued partnerships with AMD and Broadcom for custom AI chips.
+U.S. commercial revenue surged 137% to $507 million, while government revenue grew 66% year-over-year, driven by new contracts including a $448 million U.S. Navy deal to launch ShipOS for AI-powered shipbuilding modernization. Total contract value reached $4.26 billion, up 138% from the prior year. The Pentagon's 2026 budget request included a record $13.4 billion dedicated line item for AI — the first in DoD history — positioning Palantir as a primary beneficiary of the government AI spending wave.
 
-Huang publicly denied reports that he was unhappy with OpenAI, calling such characterizations "nonsense" and stating: "We are going to make a huge investment in OpenAI. I believe in OpenAI, the work that they do is incredible, they are one of the most consequential companies of our time." However, analysts suggest any eventual investment will likely be in the $20-30 billion range rather than the originally announced $100 billion.
+Management guided 2026 revenue to $7.18-$7.20 billion, implying an accelerated growth rate above 60% that would make Palantir the fastest company in software history to approach $10 billion in annual revenue at its current margins. The guidance far exceeded Wall Street expectations and triggered a wave of analyst upgrades. William Blair upgraded shares to Buy ahead of the report with a $200 price target, and multiple firms raised their estimates following the results.
 
-The stalled negotiations highlight the evolving dynamics in the AI industry, where the largest players are increasingly hedging their bets across multiple partnerships and technologies. Nvidia's dominant position in AI chips gives it leverage in these negotiations, while OpenAI's need for computing capacity to train next-generation models creates pressure to secure supply from multiple sources. The ultimate resolution of these talks will signal how the AI ecosystem's major players are aligning for the next phase of competition.
+The stock's valuation remains a point of contention, with Palantir trading at approximately 174 times forward earnings and a forward price-to-sales ratio of 67.5. While the growth trajectory is exceptional, the rich multiple exposes the stock to sharp corrections on any disappointment. The company's positioning at the intersection of government AI spending and commercial enterprise adoption has made it one of the market's most debated stocks, with bulls pointing to the unprecedented demand environment and bears arguing that the valuation already prices in perfection.
 
 ---
 
-### 6. Uber Falls 5% Despite Record Quarter as Guidance Disappoints
+### 3. Crude Oil Surges to Six-Month Highs on Iran Risk Premium Before Diplomatic Whipsaw
 *Feb 5*
 
-> Uber shares dropped 5.2% after the company reported record Q4 results including 3.6 billion trips and 200 million monthly active users, but issued Q1 2026 guidance below Wall Street's aggressive targets for both mobility and delivery segments.
+> Brent crude oil breached $72 per barrel, marking a six-month high as the U.S.-Iran standoff drove a geopolitical risk premium estimated at $7-$8 per barrel, before crashing back toward $60 on Friday as diplomatic progress in Oman talks drained the war premium overnight.
 
-The company reported Q4 revenue of $14.37 billion, a 20% year-over-year increase, but adjusted EPS of $0.71 missed the analyst consensus of $0.80 by nearly 11%. The shortfall was largely attributed to a $1.6 billion pre-tax headwind from equity investment revaluations and rising operational costs. For Q1 2026, Uber projected adjusted EBITDA and bookings below expectations, suggesting a sequential slowdown in demand.
+The rally saw prices climb nearly 12% from the start of the year, fueled by the U.S. Navy's deployment of the USS Abraham Lincoln carrier strike group to the Arabian Sea and the subsequent shoot-down of an Iranian Shahed-139 drone on February 3. Iran's Revolutionary Guard Corps also harassed a U.S.-flagged merchant vessel in the Strait of Hormuz, with two IRGC boats and a drone threatening to board and seize the tanker Stena Imperative — escalating fears of a disruption to the waterway through which a fifth of global oil and LNG passes.
 
-Lyft shares fell 3.1% in sympathy with Uber's decline, with the rival ride-hailing company scheduled to report its own Q4 results on February 10. The weak guidance from Uber raises questions about the broader on-demand economy's trajectory as consumers face persistent inflation pressures. Both companies have been expanding into new verticals including autonomous vehicles, grocery delivery, and advertising.
+Energy analysts placed the probability of a U.S. strike on Iran at 75% in the coming weeks, while Polymarket volumes on Iran strike prediction markets hit $188 million. OPEC+ added to supply uncertainty by extending voluntary production cuts of 1.65 million barrels per day through Q1 2026, with Saudi Arabia, Russia, and six other producers agreeing to pause planned output increases. BloombergNEF projected oil could reach $91 per barrel by late 2026 in an Iran disruption scenario.
 
-Despite the guidance concerns, Uber announced plans to expand autonomous vehicle trips to up to 15 cities by year-end, including Houston, Los Angeles, San Francisco, London, Munich, Hong Kong, Zurich, and Madrid. CEO Dara Khosrowshahi stated that by 2029, Uber intends to be the world's largest facilitator of autonomous vehicle trips. The company's AV strategy — partnering with technology companies rather than building its own self-driving systems — positions it to benefit regardless of which autonomous technology ultimately prevails.
+The dramatic reversal came Friday after diplomatic talks in Oman produced what Iran called "a good start," with crude plunging back toward $60 as the risk premium evaporated almost instantly. The volatile week illustrated how geopolitical speculation has become the dominant short-term driver of energy markets, overwhelming fundamental factors like demand weakness and projected oversupply. The EIA forecasts Brent averaging just $56 per barrel in 2026 if geopolitical tensions ease — a staggering gap from the $72 highs reached during the week's peak anxiety.
 
 ---
 
-### 7. ECB and Bank of England Hold Rates Steady Amid Growth and Inflation Uncertainty
+### 4. Bitcoin Plummets Below $61,000 in Worst Single-Day Crash Since FTX Collapse
 *Feb 5*
 
-> The European Central Bank held interest rates unchanged at 2% for the fifth consecutive meeting, while the Bank of England voted 5-4 to maintain rates at 3.75% in a closer-than-expected decision that signals internal divisions over the pace of monetary easing.
+> Bitcoin suffered its steepest one-day decline since the FTX-driven crash in November 2022, plunging 15% to touch $60,062 as forced deleveraging cascaded through cryptocurrency markets, triggering $2.6 billion in liquidations and marking a 52% drawdown from its October 2025 record high of $126,000.
 
-The ECB commented that inflation trajectory and economic conditions did not warrant a move, but warned the outlook was "unpredictable" given tariff threats and currency volatility. Around 85% of economists surveyed by Reuters expect the ECB to leave rates unchanged for the rest of 2026, with ECB President Lagarde playing down concerns about the euro's recent rally. The updated assessment confirms that inflation should stabilize at the 2% target in the medium term.
+The selloff accelerated through the week as multiple negative catalysts converged: institutional demand reversed with U.S. spot Bitcoin ETFs recording outsized net outflows, leveraged positions worth billions were forcibly unwound, and broader risk-off sentiment from the equity market tech rout spilled into digital assets. Record realized losses of approximately $3.2 billion were recorded on February 5 alone, while the total crypto market shed roughly $900 billion in market capitalization over the preceding 22 days.
 
-The Bank of England's decision was notably closer than expected, with four members voting to cut rates by 25 basis points to 3.5% versus forecasts of a 7-2 hold. The narrow margin demonstrates building pressure for rate cuts despite inflation remaining above target. Pay growth and services price inflation have generally continued to ease, reflecting the impact of monetary policy and evidence of subdued economic growth.
+Bitwise Asset Management CIO Matt Hougan characterized the decline as "a full-bore, 2022-like crypto winter," while prediction markets placed a 56% probability on Bitcoin sliding to $70,000 or below before month's end. The token briefly recovered to $69,632 on Friday, gaining 9% in a relief bounce, but analysts warned the technical damage may take considerable time to repair. The unwinding of leveraged bets has wiped out all gains accumulated since President Trump's election.
 
-Both central banks face challenging balancing acts as they navigate persistent inflation pressures against slowing growth and external risks from potential U.S. tariffs. UK borrowing costs have come under pressure amid the Mandelson political crisis, while eurozone economies grapple with weak manufacturing and uncertain trade policy. Economists expect the Bank of England could begin cutting as early as March or April if economic data weakens further.
-
----
-
-### 8. ARM Holdings Beats Estimates as Chip Designer Posts Fourth Consecutive Billion-Dollar Quarter
-*Feb 5*
-
-> ARM Holdings reported Q3 fiscal 2026 earnings of $0.43 per share, beating the $0.41 consensus, with revenue rising 26% to $1.24 billion as the chip designer extends its record-breaking momentum driven by AI-related demand for its processor architectures.
-
-License revenue rose 25% to $505 million while royalty revenue increased 27% to $737 million, driven by higher royalty rates for newer products like Armv9 and Arm compute subsystems. The company provided strong Q4 guidance with EPS of $0.54-0.62 (versus consensus of $0.49) and revenue of $1.4-1.5 billion (above the $1.4 billion consensus), marking what would be its ninth consecutive earnings beat.
-
-ARM shares initially traded lower following the after-hours report before recovering during the regular session the next day. The volatile reaction reflects the heightened scrutiny facing semiconductor stocks amid the broader tech selloff, even when companies deliver strong results. ARM's business model — licensing chip designs rather than manufacturing them — provides exposure to virtually every segment of the semiconductor market.
-
-The company benefits from the proliferation of AI across devices from data centers to smartphones, with its power-efficient architectures increasingly favored for AI inference workloads. ARM's customer base includes nearly every major technology company, providing diversified exposure to the AI buildout. Analysts note that ARM's royalty rate increases on newer chip designs could drive continued revenue growth even if unit shipments stabilize.
+The crypto winter marks a dramatic reversal from the optimism that surrounded Trump's pro-crypto stance, his appointment of crypto-friendly regulators, and the creation of a strategic Bitcoin reserve. Despite these policy tailwinds, macroeconomic headwinds — including equity market volatility, geopolitical uncertainty, rising correlations with risk assets, and waning institutional appetite — have overwhelmed the bullish narrative. The total cryptocurrency market lost approximately $350 billion in a single day on February 6, with the selloff extending to Ethereum, Solana, and virtually every major digital asset.
 
 ---
 
-### 9. Philip Morris Reports Record Year as Smoke-Free Products Reach 41.5% of Sales
+### 5. Disney Names Josh D'Amaro as Next CEO to Succeed Bob Iger Effective March 18
+*Feb 3*
+
+> Walt Disney Company named Josh D'Amaro, the 28-year company veteran who leads its Experiences division encompassing theme parks, cruise ships, and resorts, as its next chief executive officer to replace Bob Iger, marking the second CEO succession attempt in six years after Iger's previous pick Bob Chapek was ousted in 2022.
+
+D'Amaro's appointment comes with a compensation package worth up to $45 million, with Iger remaining as a board member and senior advisor through the end of 2026. Dana Walden was simultaneously named president and chief creative officer, reporting to D'Amaro effective March 18. The transition ends a closely watched succession process that had narrowed to D'Amaro and Walden as the two internal frontrunners, with the board ultimately selecting the executive whose division generates the company's highest margins.
+
+Disney reported fiscal Q1 2026 results the same week, with revenue of $25.98 billion and adjusted EPS of $1.63 beating analyst expectations of $25.74 billion and $1.57 respectively. Strength in parks and streaming drove the outperformance, though shares initially dropped 7% after the company warned of headwinds from declining international tourist attendance at domestic parks — a trend attributed to the strong U.S. dollar and global economic uncertainty.
+
+D'Amaro inherits a company navigating multiple strategic crossroads: the streaming business has turned profitable but faces intensifying competition, the parks division requires massive capital investment to maintain competitive advantages, and the traditional media business continues its structural decline. Analysts note that D'Amaro's parks background positions him well for Disney's highest-margin business but raises questions about his approach to content strategy and the company's evolving relationship with technology platforms.
+
+---
+
+### 6. UPS to Cut 30,000 Jobs in 2026 as Amazon Breakup Reshapes Delivery Giant
+*Jan 27*
+
+> United Parcel Service announced plans to eliminate 30,000 positions in 2026 through attrition and voluntary separation programs, while closing 24 buildings in the first half of the year, as the shipping giant continues unwinding its partnership with Amazon in a transformation expected to save $3 billion.
+
+The job cuts follow 48,000 positions eliminated in 2025, making UPS one of the largest sources of U.S. job losses over the two-year period. The company reduced Amazon's volume by approximately 1 million packages per day in 2025 and plans to cut another million pieces daily in 2026, reducing total operational hours by approximately 25 million. The Amazon wind-down represents a deliberate strategic pivot away from low-margin e-commerce delivery toward higher-value healthcare, small business, and specialty shipping markets.
+
+The reductions will be accomplished primarily through attrition, with UPS offering a second voluntary separation program for full-time drivers. The 24 buildings identified for closure in the first half of 2026 reflect the shrinking physical footprint needed as Amazon volumes decline, with additional closures possible later in the year. The company's network optimization efforts aim to improve operating margins that had been compressed by the high-volume, low-margin Amazon business.
+
+The announcement contributed to January's overall layoff total of 108,435 — the highest January figure since 2009 — alongside Amazon's own 16,000 cuts and significant reductions in healthcare, technology, and financial services. The UPS transformation underscores a broader restructuring across logistics and transportation as companies reassess business relationships and workforce needs in a slowing economy. Analysts note that while the short-term pain is significant, the strategic pivot should improve UPS's margin profile and competitive positioning over the medium term.
+
+---
+
+### 7. OPEC+ Extends Production Cuts Through Q1 2026 as Iran Tensions Reshape Oil Markets
+*Feb 1*
+
+> Eight key OPEC+ producers — Saudi Arabia, Russia, Iraq, UAE, Kuwait, Kazakhstan, Algeria, and Oman — agreed to maintain voluntary production cuts of 1.65 million barrels per day through March 2026, pausing planned output increases due to seasonal factors and geopolitical uncertainty.
+
+The decision, made during a virtual meeting on February 1, keeps the alliance's most significant production restraint in place through the first quarter, with the previously announced barrels to be returned to the market "either in part or in full, depending on evolving market conditions, and only in a gradual manner." The group's next meeting is scheduled for March, when members will reassess conditions including the trajectory of U.S.-Iran tensions, Chinese demand recovery, and the impact of potential tariff escalation on global economic growth.
+
+The production freeze comes as geopolitical factors have overtaken fundamentals as the primary driver of oil prices. Brent crude rallied to $72 per barrel — its highest level in six months — on fears of a U.S. military strike on Iran, with analysts estimating a $7-$8 per barrel risk premium embedded in prices. The rally temporarily masked a more bearish fundamental outlook: the EIA forecasts global oil production will exceed demand in 2026, causing inventories to rise and prices to average just $56 per barrel absent major supply disruptions.
+
+Internal OPEC+ dynamics remain strained despite the show of unity. A Saudi-UAE spat over production quotas continues to simmer, with the UAE pressing for a larger output allocation to match its expanded production capacity. Compensation cuts have tripled as key producers move to rein in members who exceeded quotas. Meanwhile, the potential disruption of Iranian supply through military action or tighter sanctions adds a wildcard that could dramatically alter the supply-demand balance and force OPEC+ to recalibrate its strategy.
+
+---
+
+### 8. Dow Crosses 50,000 for First Time as Friday Rally Caps Volatile Week
 *Feb 6*
 
-> Philip Morris International reported full-year 2025 results with net revenue reaching $40.6 billion and smoke-free products rising to 41.5% of total sales, while guiding for 11-13% EPS growth in 2026 and setting new three-year targets for revenue and operating income growth.
+> The Dow Jones Industrial Average surged 1,207 points, or 2.47%, to close at a record 50,115 on Friday, crossing the 50,000 milestone for the first time as investors rotated aggressively from battered technology stocks into value names, financials, and industrials.
 
-Q4 results came in line with expectations, with adjusted diluted EPS of $7.54 for the full year representing growth of 14.8% versus 2024. The company's transformation away from traditional cigarettes continues to accelerate, with smoke-free products now comprising more than $17 billion of annual revenue. PMI set 2026-2028 compound annual growth targets of 6-8% for net revenues on an organic basis and 9-11% for adjusted diluted EPS.
+The historic close capped one of the most volatile weeks in recent market memory, during which the S&P 500 briefly turned negative for 2026, the Nasdaq endured a tech-driven rout, and South Korea's KOSPI triggered three circuit breakers in five sessions. Friday's rally was broad-based, with chipmakers Nvidia and Broadcom gaining 7.8% and 7.2% respectively as investors reconsidered the selloff's severity. The S&P 500 jumped 1.97% to 6,932, while the Nasdaq advanced 2.18% to 23,031.
 
-The company described 2025 as "another remarkable year of results" with a fifth consecutive year of volume growth and strong operating margin expansion. Shares traded down 1.4% to $179.50 following the release, with investors having largely priced in the strong performance. The 2026 guidance suggests continued momentum in the company's pivot toward reduced-risk products including heated tobacco and nicotine pouches.
+Despite the Friday surge, the week revealed deepening fractures beneath the market's surface. The "Magnificent Seven" mega-cap stocks diverged sharply: Alphabet's $185 billion AI spending plan initially spooked investors before shares recovered, while Amazon plunged 8% on its own $200 billion capex forecast and an earnings miss. The rotation from growth into value accelerated, with the Dow's 2.5% weekly gain contrasting with the Nasdaq's 1.8% weekly decline.
 
-PMI's transformation story contrasts with challenges facing traditional tobacco companies as smoking rates decline in developed markets. The company's IQOS heated tobacco system and ZYN nicotine pouches have emerged as significant growth drivers. However, management warned of global pricing declines in the low- to mid-teens percentage range driven by its deal with the Trump administration, new direct-to-consumer pricing, and lower Medicaid pricing on older products.
+The Dow's milestone comes in a markedly different character than previous round-number breakthroughs, driven less by broad economic optimism than by a flight from overvalued technology shares into defensive sectors. Manufacturing data provided a tailwind, with ISM and S&P Global PMIs showing the sharpest increase in production since May 2022. However, the delayed January jobs report, ongoing government shutdown uncertainty, and unresolved questions about AI spending returns leave investors navigating with limited visibility into the economy's true trajectory.
 
 ---
 
-### 10. KOSPI Triggers Three Circuit Breakers in Five Sessions as Korean Markets Whipsaw
+### 9. ECB and Bank of England Hold Rates as Central Banks Navigate Growth-Inflation Dilemma
+*Feb 5*
+
+> The European Central Bank held rates unchanged at 2% for a fifth consecutive meeting while the Bank of England voted 5-4 to maintain rates at 3.75% in a closer-than-expected decision, as both central banks grappled with persistent inflation against a backdrop of weakening growth and external risks from U.S. tariff threats.
+
+The Bank of England's narrow vote surprised markets, with four members pushing for a 25-basis-point cut to 3.5% versus forecasts of a 7-2 hold. The tight margin signals growing internal divisions over the pace of monetary easing, with pay growth and services price inflation continuing to ease while the UK economy shows signs of strain. UK borrowing costs came under additional pressure from the Mandelson-Epstein political crisis, adding to the challenging backdrop for policymakers.
+
+ECB President Christine Lagarde played down concerns about the euro's recent strength but warned the outlook remained "unpredictable" given tariff threats and currency volatility. Around 85% of economists surveyed by Reuters expect the ECB to leave rates unchanged for the rest of 2026, with the updated assessment confirming inflation should stabilize at the 2% target in the medium term. Eurozone economies continue to grapple with weak manufacturing output and uncertain trade policy under the Trump administration.
+
+The coordinated holds reflect the global challenge facing central bankers as the post-pandemic inflation cycle enters its final phase. U.S. Treasury yields fell to around 4.22% on the 10-year as weaker employment data reinforced bets on Federal Reserve rate cuts, with markets pricing a first reduction in June and a second potentially in September. The divergence between a data-dependent Fed and a politically constrained ECB creates cross-currents in currency and bond markets that add complexity to an already challenging investment landscape.
+
+---
+
+### 10. Amazon Falls 8% on $200 Billion AI Spending Forecast Despite Strong AWS Growth
 *Feb 6*
 
-> South Korea's stock market experienced one of its most volatile weeks in recent memory, with three program-trading halts triggered in five sessions as the KOSPI swung between daily drops of over 5% and rallies of nearly 7%, testing investor resolve during the global tech selloff.
+> Amazon shares plunged 8% on Friday after the company reported mixed fourth-quarter results — with earnings per share of $1.95 missing estimates of $1.97 — and stunned investors by projecting $200 billion in 2026 capital expenditure, the largest spending commitment of any technology company in history.
 
-The circuit breaker mechanism — triggered when KOSPI 200 futures move more than 5% from the previous day's close within a single minute — activated repeatedly as global tech concerns cascaded through Asian markets. On Monday, the Kospi fell 5.26% in a single session, triggering a brief halt and breaking below the 5,000 level. A day later it surged 6.84%, forcing another halt. Friday saw a third sidecar activation as panic selling briefly sent the index below 4,900.
+AWS revenue expanded 24% in Q4 to beat expectations, marking what the unit's CEO called "the fastest growth in 13 quarters," while total company revenue of $213.39 billion topped the $211.33 billion consensus. However, the bottom-line miss combined with the staggering capex guidance triggered an immediate selloff as investors questioned the returns timeline on such massive AI infrastructure investment. The spending plan represents a near-doubling from 2025 levels and would make Amazon the second-largest corporate capital spender after Alphabet, which announced its own $185 billion plan days earlier.
 
-Retail investors provided crucial support during the volatility, stepping in to buy during the sharpest selloffs and keeping the benchmark above 5,000 by Friday's close. The Korean market's sensitivity to tech sector sentiment reflects its heavy weighting toward semiconductor and electronics companies, particularly Samsung Electronics and SK hynix, which are exposed to global AI-related demand fluctuations.
+The combined $385 billion in AI spending commitments from just two companies in a single week crystallized investor anxiety about the AI investment cycle. Big Tech's aggregate AI capital expenditure is now approaching $700 billion, with investors increasingly asking whether these investments can generate proportional returns within a reasonable timeframe. The market's negative reaction to Amazon's plans contrasted with Alphabet's relatively muted response, suggesting that investor tolerance for AI spending escalation is reaching a breaking point.
 
-The extreme volatility highlights how concentrated bets on AI-related themes have created fragile market conditions that can unwind rapidly when sentiment shifts. Korean shares led the emerging market selloff, with the MSCI Emerging Markets Index posting its steepest weekly decline since November. Analysts note that while fundamental valuations have become more attractive, technical damage from the volatility may take time to repair.
+Despite the near-term concerns, Amazon's cloud computing business showed genuine strength, with AWS operating income and margins improving as AI workloads drive higher-value consumption patterns. The company is investing in custom AI chips, data center construction, and networking infrastructure to serve demand from enterprise customers and its own AI services. Analysts remain broadly positive on the stock's long-term trajectory but acknowledge that the sheer scale of capital commitment creates meaningful execution risk and limits near-term earnings growth.
 
 ---
 
 ### Sources — Financial
 
-1. [Bloomberg — Wall Street's Selloff Turned Into a Stampede This Week](https://www.bloomberg.com/news/newsletters/2026-02-06/wall-street-s-selloff-turned-into-a-stampede-this-week)
-2. [CNBC — Layoffs in January were the highest to start a year since 2009, Challenger says](https://www.cnbc.com/2026/02/05/layoff-and-hiring-announcements-hit-their-worst-january-levels-since-2009-challenger-says.html)
-3. [Bloomberg — AMD Suffers Worst Rout Since 2017 on Disappointing Forecast](https://www.bloomberg.com/news/articles/2026-02-03/amd-outlook-disappoints-investors-seeking-bigger-ai-payoff)
-4. [Bloomberg — Oracle to Raise Up to $50 Billion in Debt and Equity This Year](https://www.bloomberg.com/news/articles/2026-02-01/oracle-to-raise-up-to-50-billion-this-year-for-cloud-investment)
-5. [CNBC — Nvidia, OpenAI appear stalled on their mega deal](https://www.cnbc.com/2026/02/03/nvidia-openai-stalled-on-their-mega-deal-ai-giants-need-each-other.html)
-6. [CNBC — Uber (UBER) 2025 Q4 earnings](https://www.cnbc.com/2026/02/04/uber-uber-2025-q4-earnings.html)
-7. [Bloomberg — ECB And BOE Keep Interest Rates Unchanged](https://www.bloomberg.com/news/newsletters/2026-02-05/ecb-and-boe-keep-interest-rates-unchanged)
-8. [ARM Newsroom — Arm delivers fourth consecutive billion-dollar revenue quarter](https://newsroom.arm.com/news/arm-q3-fye26-results)
-9. [Stock Titan — Philip Morris International Reports 2025 Fourth-Quarter & Full-Year Results](https://www.stocktitan.net/news/PM/philip-morris-international-reports-2025-fourth-quarter-full-year-w5jnx7clgayx.html)
-10. [Korea Herald — Retail absorbs shock as Kospi survives volatile week](https://www.koreaherald.com/article/10671568)
+1. [CNBC — Gold surges past $5,100 to a fresh record](https://www.cnbc.com/2026/01/26/gold-record-surges-past-new-5000-record.html)
+2. [CNBC — Palantir stock rallies after company beats earnings estimates](https://www.cnbc.com/2026/02/03/palantir-stock-earnings.html)
+3. [Financial Content — Crude Oil Surges to Six-Month Highs of $72](https://markets.financialcontent.com/stocks/article/marketminute-2026-2-5-crude-oil-surges-to-six-month-highs-of-72-as-us-iran-nuclear-standoff-intensifies)
+4. [CNBC — Bitcoin drops 15%, briefly breaking below $61,000](https://www.cnbc.com/2026/02/05/bitcoin-price-today-70000-in-focus.html)
+5. [CNBC — Disney names parks boss Josh D'Amaro as its next CEO](https://www.cnbc.com/2026/02/03/disney-ceo-josh-damaro-successor-bob-iger.html)
+6. [CNBC — UPS to cut additional 30,000 jobs in Amazon unwind](https://www.cnbc.com/2026/01/27/ups-job-cuts-amazon-unwind-turnaround-plan.html)
+7. [OilPrice — OPEC+ Reaffirms Output Pause as Eight Producers Cite Market Stability](https://oilprice.com/Latest-Energy-News/World-News/OPEC-Reaffirms-Output-Pause-as-Eight-Producers-Cite-Market-Stability.html)
+8. [Yahoo Finance — Dow crosses 50,000 mark, leading S&P 500, Nasdaq higher](https://finance.yahoo.com/news/live/stock-market-today-dow-crosses-50000-mark-leading-sp-500-nasdaq-higher-as-wall-street-rebounds-from-rout-192439513.html)
+9. [Bloomberg — ECB And BOE Keep Interest Rates Unchanged](https://www.bloomberg.com/news/newsletters/2026-02-05/ecb-and-boe-keep-interest-rates-unchanged)
+10. [CNBC — Amazon stock falls 8% on $200 billion spending forecast](https://www.cnbc.com/2026/02/05/amazon-amzn-q4-earnings-report-2025.html)
