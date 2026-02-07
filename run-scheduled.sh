@@ -2,12 +2,12 @@
 # Determine which briefing to run based on current time
 
 # Detect environment and set paths accordingly
-if [ -d "/home/briefing/morning-briefing" ]; then
+if [ -d "/home/briefing/news-app" ]; then
     # VPS environment
-    BRIEFING_DIR="/home/briefing/morning-briefing"
+    BRIEFING_DIR="/home/briefing/news-app"
 else
     # Local Mac environment
-    BRIEFING_DIR="/Users/borisdus/code/morning-briefing"
+    BRIEFING_DIR="/Users/borisdus/code/news-app"
 fi
 
 cd "$BRIEFING_DIR"

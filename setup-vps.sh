@@ -37,12 +37,12 @@ set -e
 
 cd ~
 
-if [ ! -d "morning-briefing" ]; then
+if [ ! -d "news-app" ]; then
     echo "Cloning repository..."
-    git clone https://github.com/benjamindus/morning-briefing.git
+    git clone https://github.com/benjamindus/news-app.git
 fi
 
-cd morning-briefing
+cd news-app
 
 echo "Setting up Python virtual environment..."
 python3 -m venv venv
@@ -78,21 +78,21 @@ echo "   crontab -e"
 echo ""
 echo "   Add these lines (times in UTC, adjust for your timezone):"
 echo "   # Morning briefing: 6:00 AM Mon-Sat PST (14:00 UTC)"
-echo "   0 14 * * 1-6 cd /home/briefing/morning-briefing && ./run-scheduled.sh >> logs/cron.log 2>&1"
+echo "   0 14 * * 1-6 cd /home/briefing/news-app && ./run-scheduled.sh >> logs/cron.log 2>&1"
 echo ""
 echo "   # Weekly news: Sunday 7:00 AM PST (15:00 UTC)"
-echo "   0 15 * * 0 cd /home/briefing/morning-briefing && ./run-scheduled.sh >> logs/cron.log 2>&1"
+echo "   0 15 * * 0 cd /home/briefing/news-app && ./run-scheduled.sh >> logs/cron.log 2>&1"
 echo ""
 echo "   # Weekly science: Sunday 7:30 AM PST (15:30 UTC)"
-echo "   30 15 * * 0 cd /home/briefing/morning-briefing && ./run-scheduled.sh >> logs/cron.log 2>&1"
+echo "   30 15 * * 0 cd /home/briefing/news-app && ./run-scheduled.sh >> logs/cron.log 2>&1"
 echo ""
 echo "   # Weekly finance: Sunday 8:00 AM PST (16:00 UTC)"
-echo "   0 16 * * 0 cd /home/briefing/morning-briefing && ./run-scheduled.sh >> logs/cron.log 2>&1"
+echo "   0 16 * * 0 cd /home/briefing/news-app && ./run-scheduled.sh >> logs/cron.log 2>&1"
 echo ""
 echo "   # Daily briefing: 6:00 PM PST (02:00 UTC next day)"
-echo "   0 2 * * * cd /home/briefing/morning-briefing && ./run-scheduled.sh >> logs/cron.log 2>&1"
+echo "   0 2 * * * cd /home/briefing/news-app && ./run-scheduled.sh >> logs/cron.log 2>&1"
 echo ""
 echo "3. Test manually:"
 echo "   su - briefing"
-echo "   cd morning-briefing"
+echo "   cd news-app"
 echo "   ./run-scheduled.sh"

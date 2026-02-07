@@ -1,13 +1,13 @@
 #!/bin/bash
 
 # Detect environment and set paths accordingly
-if [ -d "/home/briefing/morning-briefing" ]; then
+if [ -d "/home/briefing/news-app" ]; then
     # VPS environment
-    BRIEFING_DIR="/home/briefing/morning-briefing"
+    BRIEFING_DIR="/home/briefing/news-app"
     export PATH="/usr/local/bin:/usr/bin:$PATH"
 else
     # Local Mac environment
-    BRIEFING_DIR="/Users/borisdus/code/morning-briefing"
+    BRIEFING_DIR="/Users/borisdus/code/news-app"
     export PATH="/opt/homebrew/bin:/usr/local/bin:$PATH"
 fi
 

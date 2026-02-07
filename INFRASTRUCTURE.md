@@ -1,7 +1,7 @@
 ## Morning Briefing System - Infrastructure Context
 
-**Project**: `/Users/borisdus/code/morning-briefing` (local) / `/home/briefing/morning-briefing` (VPS)
-**Repo**: https://github.com/benjamindus/morning-briefing
+**Project**: `/Users/borisdus/code/news-app` (local) / `/home/briefing/news-app` (VPS)
+**Repo**: https://github.com/benjamindus/news-app
 
 ### Architecture
 The system runs on a Hetzner VPS (CPX 11, $5.59/mo) at `5.161.109.207`. Cron jobs trigger briefings on schedule, Claude CLI generates news content, Kokoro TTS creates audio, and results are pushed to GitHub.
@@ -27,8 +27,8 @@ ssh briefing@5.161.109.207
 - `audio/*/story-XX.mp3` - Generated audio files per story
 
 ### Scripts auto-detect environment
-- VPS: `/home/briefing/morning-briefing`
-- Mac: `/Users/borisdus/code/morning-briefing`
+- VPS: `/home/briefing/news-app`
+- Mac: `/Users/borisdus/code/news-app`
 
 ### Briefing Content Format
 Each briefing markdown follows this structure:
@@ -66,7 +66,7 @@ Each update script checks other briefing files for existing headlines (`### ` li
 
 ### VPS Setup Details
 - User: `briefing`
-- Python venv at `~/morning-briefing/venv` with: kokoro-onnx, pydub, soundfile
+- Python venv at `~/news-app/venv` with: kokoro-onnx, pydub, soundfile
 - TTS models in project root: `kokoro-v1.0.onnx` (311MB), `voices-v1.0.bin` (27MB) - both in .gitignore
 - Claude CLI uses `--dangerously-skip-permissions` and `--allowedTools "Edit,Write,WebSearch"` for automated runs
 - ANTHROPIC_API_KEY stored in `~/.bashrc`
@@ -84,10 +84,10 @@ Each update script checks other briefing files for existing headlines (`### ` li
 ### Logs & Debugging
 ```bash
 # View cron output
-tail -f /home/briefing/morning-briefing/logs/cron.log
+tail -f /home/briefing/news-app/logs/cron.log
 
 # Test a briefing manually
-cd ~/morning-briefing && ./update-morning.sh
+cd ~/news-app && ./update-morning.sh
 
 # Check cron is running
 crontab -l
