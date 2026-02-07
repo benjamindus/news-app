@@ -465,6 +465,19 @@
                         updatePlayingState(false);
                     }
                 });
+
+                // Update position state for Android media controls
+                newAudio.addEventListener('timeupdate', () => {
+                    if (index === currentIndex) {
+                        updatePositionState(newAudio);
+                    }
+                });
+
+                newAudio.addEventListener('loadedmetadata', () => {
+                    if (index === currentIndex) {
+                        updatePositionState(newAudio);
+                    }
+                });
             });
         }
 
@@ -531,6 +544,26 @@
                     current.currentTime = Math.min(current.currentTime + skipTime, current.duration);
                 }
             });
+
+            // Update position state for Android seek controls
+            const audio = audioPlayers[index];
+            if (audio && audio.duration) {
+                updatePositionState(audio);
+            }
+        }
+
+        function updatePositionState(audio) {
+            if (!('mediaSession' in navigator) || !navigator.mediaSession.setPositionState) return;
+            if (!audio || !audio.duration || isNaN(audio.duration)) return;
+            try {
+                navigator.mediaSession.setPositionState({
+                    duration: audio.duration,
+                    playbackRate: audio.playbackRate,
+                    position: audio.currentTime
+                });
+            } catch (e) {
+                // Ignore errors
+            }
         }
 
         function updatePlayingState(playing) {
