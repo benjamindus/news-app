@@ -1,379 +1,379 @@
 # Weekly News Briefing
 
-**Week of:** January 31 - February 6, 2026 | **Research Generated:** February 06, 2026, 02:54 PM PST
+**Week of:** February 2 - 8, 2026 | **Research Generated:** February 08, 2026, 07:00 AM PST
 
 ---
 
 ## Geopolitical News (Top 15)
 
-### 1. Russia Launches Largest Aerial Assault of 2026 on Ukraine Energy Infrastructure
-*Feb 3*
-
-> Russia launched 71 missiles and 450 drones against Ukrainian power facilities in the most devastating energy attack of the year, leaving hundreds of thousands without heat during subzero temperatures immediately after a Trump-brokered energy truce expired.
-
-The attack came just hours after the expiration of a brief pause in strikes on energy infrastructure that both Moscow and Kyiv had agreed to at the request of President Trump. Ukrainian President Zelensky accused Russia of using the pause not for diplomatic purposes but to stockpile missiles, then striking deliberately on the coldest days of the year when temperatures plunged to -20°C across much of the country.
-
-DTEK, Ukraine's largest private energy provider, described the February 3 assault as "the most severe" since the start of 2026. More than 1,170 high-rise buildings in Kyiv lost heating, while a power plant in Kharkiv was damaged beyond repair, leaving 300,000 residents without electricity. In Odesa, over 50,000 people lost power as temperatures remained dangerously cold.
-
-Ukrainian air defenses intercepted 38 missiles and 412 drones, but the strikes that got through caused catastrophic damage. DTEK's CEO noted that Ukraine has now lost approximately 70% of its generation capacity, with many civilians receiving only 3-4 hours of electricity daily. The energy crisis has driven an estimated 600,000 people to leave Kyiv since the war began.
-
-### 2. SpaceX Blocks Russian Forces' Unauthorized Starlink Access After Ukraine's Plea
+### 1. New START Nuclear Treaty Expires, Ending Last US-Russia Arms Control Agreement
 *Feb 5*
 
-> Elon Musk's SpaceX deactivated Starlink internet terminals used by Russian military forces in Ukraine after Kyiv provided evidence of "hundreds" of drone attacks guided by the satellite system, with Russian military bloggers confirming widespread outages across the front lines.
+> The landmark New START treaty officially expired on February 5, leaving the world's two largest nuclear superpowers without binding limits on strategic nuclear weapons for the first time in decades, as President Trump called for a "new, improved and modernised" replacement while UN Secretary-General warned of a "grave moment" for global security.
 
-Ukraine's defense ministry launched a verification of all Starlink terminals operating in the country after discovering that Moscow troops had been mounting Starlink systems on attack drones to strike deeper into Ukrainian territory. The unauthorized use began in September 2024, with the Rubikon company equipping Molniya strike drones with Starlink systems starting December 2025.
+The treaty, which limited each nation to 1,550 deployed strategic nuclear warheads and 700 deployed delivery systems, could not be extended because it permitted only one five-year extension—which was exercised in 2021. Today, there are no negotiations underway, and none are even planned, leaving the arms control architecture that helped prevent nuclear escalation during the Cold War in ruins.
 
-Ukrainian officials created a "white list" of verified Starlink terminals used by the Armed Forces of Ukraine and sent them to SpaceX, requesting that Musk keep these operational while shutting down all others in the theater. Pro-Russian military bloggers confirmed sweeping outages that weakened Moscow's ability to wage drone warfare and hindered coordination between units.
+UN Secretary-General António Guterres warned that the expiration represents a critical juncture for international peace and security, as binding limits on US and Russian strategic nuclear weapons fall away amid heightened global tensions. Without New START, arms control experts warn that both nations could hedge against uncertainty by expanding their arsenals over time, potentially triggering unrestricted nuclear competition not seen since the 1960s.
 
-Musk responded on X that SpaceX's efforts to halt "unauthorized" Russian use appeared successful, posting "Let us know if more needs to be done." The Ukrainian Defense Ministry confirmed that Russian terminals had been "cut off," representing a significant blow to Russia's drone warfare capabilities just as it launched its largest aerial assault of the year.
+President Trump stated that "we should have our nuclear experts work on a new, improved and modernised treaty," but provided no details on timeline or negotiating framework. Russia has repeatedly indicated it will not engage in arms control talks while the US supports Ukraine militarily, creating a diplomatic impasse that leaves the world entering uncharted territory without legally binding constraints on the arsenals that contain 90% of global nuclear weapons.
 
-### 3. US-India Announce Landmark Trade Deal, Reducing Tariffs from 50% to 18%
+### 2. United States Accuses China of Secret 2020 Nuclear Test, Presses for Trilateral Arms Treaty
+*Feb 6*
+
+> The Trump administration accused China of conducting a secret nuclear explosive test in June 2020 and using "decoupling" techniques to hide it from international monitors, as Washington called for a new trilateral arms control agreement including Russia and China to replace the expired New START framework.
+
+Under Secretary of State for Arms Control Thomas DiNanno made the allegations at the Conference on Disarmament in Geneva, stating that China sought to conceal the June 22, 2020 explosion by "obfuscating the explosions" through methods designed to decrease the effectiveness of seismic monitoring. The timing of the accusation—just one day after New START expired—appeared calculated to build pressure for Beijing to join arms control negotiations.
+
+However, the allegations faced immediate contradiction from international monitoring organizations. The Comprehensive Nuclear-Test-Ban Treaty Organization stated its system "did not detect any event consistent with the characteristics of a nuclear weapon test explosion" on June 22, 2020, with subsequent analyses not altering that determination. The discrepancy raised questions about US intelligence assessments and diplomatic strategy.
+
+China's Embassy spokesperson rejected the allegations, stating that China "follows a policy of 'no first use' of nuclear weapons and a nuclear strategy that focuses on self-defense, and adheres to its nuclear testing moratorium." Beijing has repeatedly refused to participate in arms control negotiations, arguing that such treaties would unfairly constrain its military development and prevent it from achieving parity with the US and Russia, whose arsenals are roughly ten times larger than China's estimated 500 warheads.
+
+### 3. Congress Passes $50 Billion Foreign Aid Bill Despite Trump's Proposed 79% Cut
+*Feb 6*
+
+> Congress allocated $50 billion for foreign aid in fiscal year 2026—a 16% reduction from 2025 levels—rejecting the Trump administration's budget request for just $31 billion that would have represented a 79% cut when including proposed rescissions and cancellations.
+
+The legislation brings an end to most forms of traditional US civilian assistance and formally shutters the US Agency for International Development (USAID), redirecting tens of billions of dollars toward domestic priorities, border enforcement, and selected security commitments. The budget eliminates $6.2 billion in global health spending, $3.2 billion in humanitarian aid, and $1.6 billion in food assistance provisions that had been cornerstones of American development policy for decades.
+
+In place of traditional development aid, the legislation creates the America First Opportunity Fund, a $2.9 billion program restricted to expenditures that directly advance US economic or national security interests. The shift represents a fundamental reorientation of American foreign policy away from soft power investments and toward transactional relationships focused on immediate strategic returns.
+
+While Congress provided significantly more funding than the administration requested, the $50 billion still marks a dramatic retreat from the $58.8 billion allocated in fiscal year 2025. Development advocates warned that the cuts will undermine America's ability to compete with China's Belt and Road Initiative, damage relationships with developing nations, and create humanitarian crises that could ultimately require more expensive military interventions.
+
+### 4. Syrian Government and Kurdish SDF Implement Ceasefire Agreement in Al-Hasakah
 *Feb 2*
 
-> President Trump announced a breakthrough trade agreement with India, immediately reducing tariffs on Indian goods from 50% to 18% after Prime Minister Modi agreed to halt Russian oil purchases and commit to over $500 billion in American purchases.
+> The Syrian army moved into the northeastern city of Al-Hasakah under a US-backed ceasefire agreement with Kurdish-led Syrian Democratic Forces, beginning a gradual integration process that could reshape the balance of power in northeastern Syria after years of autonomous Kurdish administration.
 
-The deal ended a year-long tariff standoff between the two nations, with Trump also dropping the separate 25% tariff imposed over India's Russian oil imports. Under the agreement, India pledged to eliminate tariffs on American industrial goods while being allowed to maintain protections for its agricultural sector. Commerce Minister Piyush Goyal called it "the father of all deals."
+On January 30, the Syrian transitional government announced it had reached a comprehensive agreement with the SDF including a ceasefire, gradual military and administrative integration, deployment of Interior Ministry forces in Al-Hasakah and Qamishli, integration of local institutions into the state, guarantees of civil and educational rights for the Kurdish community, and the return of displaced persons. On February 2, General Security Service forces began deploying to implement the framework.
 
-Indian markets surged on the news, with the Nifty 50 jumping nearly 5% and the rupee strengthening to 90.40—its best day since November 2022. Twenty-seven of 30 Sensex stocks traded positive as trade war fears eased. The 18% US tariff rate positions India more favorably than regional competitors in the battle for American market access.
+The United States hailed the agreement as a historic milestone toward unity and reconciliation after 14 years of war. The deal establishes a framework for incorporating SDF fighters into Syria's national army and police forces while integrating civilian institutions controlled by the group into the central government structure—a process that will test whether Damascus can accommodate Kurdish autonomy demands while asserting sovereignty.
 
-However, analysts cautioned that legally binding text has yet to materialize. Prime Minister Modi notably did not mention the Russian oil commitment or tariff elimination in his public response to Trump's announcement, raising questions about how the deal will be implemented and whether it can withstand political scrutiny in both countries.
+The implementation comes as Turkey continues to pressure Kurdish forces along Syria's northern border, creating a complex three-way dynamic between Damascus, Ankara, and Washington. The outcome will significantly impact regional stability, the future of US military presence in eastern Syria, and the broader question of how post-civil war Syria manages its diverse ethnic and political factions.
 
-### 4. Australia and Indonesia Sign Historic Security Treaty for Defense Cooperation
-*Feb 6*
-
-> Australia and Indonesia signed a comprehensive security treaty establishing new military training facilities and closer defense cooperation, as Southeast Asia's largest economy aligns more closely with its southern neighbor amid rising great power competition.
-
-Prime Minister Anthony Albanese hailed the agreement as "a historic moment in our nations' relationship," building upon a 2024 defense pact that pledged closer cooperation in the contested Asia-Pacific region. The treaty creates a framework for joint military exercises, intelligence sharing, and the development of training facilities in Indonesian territory.
-
-The agreement comes as both nations navigate increasingly complex security dynamics, with China's military assertiveness in the South China Sea and the shifting priorities of the United States under President Trump creating pressure for regional powers to strengthen bilateral ties. Indonesia's strategic location straddling major shipping lanes makes the partnership particularly significant.
-
-The treaty represents a significant warming of relations that were strained in previous decades over issues including East Timor and asylum seekers. Defense analysts note the agreement signals Indonesia's willingness to engage more deeply with traditional Western security partners while maintaining its non-aligned foreign policy stance, balancing relationships with both Washington and Beijing.
-
-### 5. Trump Administration Moves to Strip Job Protections from 50,000 Federal Workers
-*Feb 6*
-
-> The Office of Personnel Management issued a final rule creating a new employment classification that will remove civil service protections from an estimated 50,000 "policy-influencing" federal employees, making them at-will workers who can be fired at the president's discretion.
-
-Under the "Schedule Policy/Career" classification, reclassified employees will lose the ability to appeal disciplinary actions, suspensions, demotions, or firings to the Merit Systems Protection Board. Starting March 9, these employees could be converted to at-will status at Trump's discretion, representing the most significant restructuring of federal employment since the civil service system was established.
-
-The proposal received over 40,000 public comments during its 45-day comment period, with approximately 94% opposing the regulation. Unions representing federal workers condemned the move as an attempt to politicize the civil service and create a workforce loyal to the president rather than to their professional responsibilities and the public interest.
-
-The Office of Personnel Management data shows that 242,260 employees have left the federal workforce—voluntarily or involuntarily—since Trump took office for his second term. Combined with the earlier DOGE initiative that reduced the federal civilian workforce by 9% in 2025, the administration has achieved the most dramatic reduction in government employment since World War II.
-
-### 6. Xi Jinping and Trump Hold Phone Call, Discussing Taiwan and Trade Ahead of Summit
+### 5. Pakistan Concludes Massive Balochistan Counterterrorism Operation, 216 Militants Killed
 *Feb 5*
 
-> President Xi Jinping emphasized that Taiwan is "the most important issue in China-U.S. relations" during a phone call with President Trump, as the two leaders discussed trade tensions and geopolitical flashpoints ahead of a planned face-to-face meeting in April.
+> Pakistan's military concluded Operation Radd-ul-Fitna-1, a week-long counterterrorism campaign in Balochistan province that killed 216 militants of the Balochistan Liberation Army following coordinated attacks on security installations, a high-security prison, and civilian areas across the province.
 
-The call came after Xi held a virtual meeting with Russian President Vladimir Putin, during which Putin confirmed plans to visit China in the first half of 2026. The timing highlighted Beijing's careful balancing act between maintaining its strategic partnership with Moscow while managing the increasingly complex relationship with Washington under Trump's trade-focused foreign policy.
+The operation was launched on January 29 in response to BLA's "Operation Herof 2.0," which involved armed assaults and suicide bombings targeting security installations, police stations, and civilian areas. Multiple attacks were attempted and carried out in Quetta, Nushki, Dalbandin, Kalat, Gwadar, Pasni, Tump, and Mastung. Around 31 civilians and 22 security personnel were also killed during the violence that triggered the military response.
 
-Xi noted that over the past year the two countries have enjoyed sound communication following their successful meeting in Busan, which charted the direction for China-U.S. relations. However, he made clear that Taiwan remains a red line, declaring that "Taiwan is China's territory" and any American actions regarding the island could fundamentally damage bilateral ties.
+Pakistani security forces stated that the 40-hour operation resulted in the deaths of 216 militants and insurgents, according to the Armed Forces' media wing, the ISPR. The offensive included deployment of helicopters and drones to end the standoff with Baloch rebels, with the government accusing India of backing the separatist movement—claims that New Delhi has consistently denied.
 
-The planned April summit will be closely watched for signs of progress on trade issues, particularly as Trump's tariff threats against allies and adversaries alike have created uncertainty in global markets. Western leaders including Canada's Prime Minister Mark Carney, the UK's Keir Starmer, and Germany's Friedrich Merz have all visited or plan to visit Beijing, reflecting China's central role in global economic and security calculations.
+The attacks and subsequent military operation were widely condemned by China, France, Turkey, the US Embassy, and the UN Security Council. The violence highlights the persistent insurgency in Pakistan's largest but least developed province, where separatist groups have waged a decades-long campaign for independence, citing exploitation of natural resources and political marginalization by the central government.
 
-### 7. ASEAN Refuses to Recognize Myanmar's Junta-Led Elections
+### 6. Costa Rica Elects First Female President Since 2010 in First-Round Victory
 *Feb 1*
 
-> The Association of Southeast Asian Nations issued a formal statement rejecting the legitimacy of elections held in Myanmar, marking a significant escalation in regional pressure on the military junta as the country approaches five years since the February 2021 coup.
+> Laura Fernández Delgado of the ruling Sovereign People's Party won Costa Rica's presidential election with 48.30% of the vote, exceeding the 40% threshold required to avoid a runoff and becoming the Central American nation's second female president after Laura Chinchilla (2010-2014).
 
-The elections, held in December 2025 and January 2026, were designed to provide a "controlled veneer of legitimacy" for the military government, according to analysts. However, the junta remains unable to assert full authority across the country, with resistance forces controlling significant territory and ongoing armed conflict preventing voting in many regions.
+The February 1 elections saw Fernández defeat Álvaro Ramos Chaves of the National Liberation Party and 18 other candidates in a contest that centered on security, economic growth, and the controversial legacy of outgoing President Rodrigo Chaves. Her party also secured a commanding majority in the Legislative Assembly with 31 of 57 seats, against the PLN's 17, giving her government significant power to implement its agenda.
 
-Myanmar, along with Bangladesh and Pakistan, remains among the countries most susceptible to major civil unrest in Asia through 2026, according to intelligence assessments. Economic hardship, inflation, and widespread corruption continue to fuel protests, while armed resistance groups have made significant territorial gains against the military.
+Fernández will be sworn in on May 8, 2026, continuing the aggressive reorienting of Costa Rican politics started by her political sponsor President Chaves. Her victory reflects voter support for the PPSO's conservative populist platform, which emphasizes law enforcement, economic development, and a nationalist approach to foreign policy—a departure from Costa Rica's traditional moderate centrism.
 
-The media landscape in Myanmar continues to deteriorate as the nation approaches the fifth anniversary of the coup. New legislation across South Korea, Australia, and Indonesia affecting press freedom has drawn regional attention, while journalists in Myanmar face ongoing persecution, arbitrary detention, and violence for reporting on the conflict.
+The election took place amid heightened political tensions in Central America, with neighboring countries experiencing democratic backsliding and increased Chinese influence in the region. How Fernández balances relations between Washington and Beijing while managing domestic economic challenges will define her presidency and Costa Rica's role in a strategically contested region.
 
-### 8. Bangladesh Heads to Polls After Two Years of Political Upheaval
-*Feb 6*
+### 7. Record Snowstorm Kills 45 in Japan, Self-Defense Forces Deploy for First Time in 21 Years
+*Feb 3*
 
-> Bangladeshis are set to vote on February 12 in national elections that will determine the country's direction nearly two years after the July Uprising of 2024 that ousted former Prime Minister Sheikh Hasina in a violent popular revolt.
+> Japan deployed Self-Defense Forces to Aomori Prefecture for the first time in 21 years as record-breaking snowfall killed at least 45 people and injured over 500 since January 20, with many victims suffering fatal falls while attempting to clear snow from roofs or heart attacks from extreme physical exertion.
 
-The Islamic conservative party Jamaat-e-Islami announced it would maintain "constructive and cooperative" relations with neighboring countries including India as part of its election platform. The party's outreach to New Delhi represents an attempt to reassure regional powers concerned about political instability in the densely populated nation of 170 million.
+The death toll varies across reports, with Japan's Fire and Disaster Management Agency confirming at least 30 deaths and 324 injuries as of early February, while more recent tallies exceed 45 fatalities and 500 injuries. Niigata Prefecture saw the highest death toll with 12 fatalities, followed by six deaths in Akita Prefecture and four in Aomori Prefecture, with most occurring when people attempted to remove accumulated snow from around their homes.
 
-The elections come amid continued civil unrest that intelligence analysts predict will persist into 2026. Economic hardship, inflation, and public anger over widespread corruption drove the protests that toppled Hasina's government, and these underlying conditions remain largely unaddressed nearly two years later.
+Many victims suffered sudden heart attacks due to extreme physical exhaustion during snow removal, while others died after slipping from building roofs or being buried by snow that slid from high places. The severity of the storm prompted the unprecedented military deployment to assist with snow removal and emergency operations in communities cut off by drifts exceeding three meters in some mountain valleys.
 
-Bangladesh's relationship with India has been strained since the 2024 uprising, with concerns in New Delhi about the treatment of Hindu minorities and the rise of Islamic political movements. The election results will significantly impact India's eastern security calculus and the broader dynamics of South Asian geopolitics.
+The snowfall represents one of the deadliest winter weather events in modern Japanese history, highlighting the vulnerability of rural and mountain communities to extreme weather despite Japan's advanced infrastructure and disaster preparedness systems. Climate scientists note that warming atmospheric patterns can paradoxically increase heavy snowfall events in some regions through enhanced moisture transport.
 
-### 9. Trump Abandons Greenland Tariff Threats After European Backlash
-*Feb 1*
-
-> President Trump canceled threatened tariffs on eight European nations that were scheduled to take effect on February 1, backing away from his demand that Denmark sell Greenland to the United States after the crisis sparked a significant deterioration in European public opinion of America.
-
-Trump had initially announced a 10% tariff on Denmark, Norway, Sweden, France, Germany, the United Kingdom, the Netherlands, and Finland, with threats to increase duties to 25% by June 1 unless Denmark agreed to cede Greenland. At the World Economic Forum in Davos on January 21, Trump reversed his position, pledging not to use force or tariffs to acquire the autonomous territory.
-
-The crisis prompted Denmark to deploy hundreds of elite combat soldiers trained in arctic warfare to Greenland, including the Chief of the Royal Danish Army. A YouGov poll from February 2026 showed the standoff led to a significant increase in unfavorable views of the United States across Western Europe, potentially complicating future diplomatic initiatives.
-
-Despite the de-escalation, Trump's broader tariff agenda continues to reshape transatlantic relations. The administration maintains 10% tariffs on European goods that took effect February 1 under separate trade disputes, with threats of further escalation if trade imbalances are not addressed to Washington's satisfaction.
-
-### 10. Ethiopia and Kenya Launch Joint Defense Committee Amid Regional Security Cooperation
+### 8. Washington Post Lays Off One-Third of Newsroom, Eliminates Sports and Foreign Bureaus
 *Feb 4*
 
-> Ethiopia and Kenya concluded the inaugural meeting of their Joint Defence Committee, institutionalizing bilateral defense cooperation as the two nations emerge as primary drivers of East Africa's economic and security architecture.
+> The Washington Post laid off nearly 300 of its roughly 800 journalists—one-third of the newsroom—eliminating its sports section, several foreign bureaus, and books coverage in the most extensive cuts at the storied newspaper in years as owner Jeff Bezos restructures the organization amid sustained financial losses.
 
-The three-day meeting in Nairobi followed the signing of a Defense Cooperation Agreement that established a framework for coordinating military relations between the neighboring countries. The partnership aims to address shared security threats including terrorism, border instability, and the spillover effects of conflicts in Somalia and Sudan.
+Executive Editor Matt Murray announced the layoffs during a Zoom call with employees, stating that the changes are necessary after years of financial challenges. Murray noted that the media environment has evolved greatly, with search traffic that once helped the paper "thrive" now in decline due to the growth of artificial intelligence—organic search traffic has fallen by nearly half in the last three years alone.
 
-Ethiopia is positioning itself as Africa's "green powerhouse," generating over 90% of its electricity from renewable sources through decades of investment in hydroelectric, wind, solar, and geothermal infrastructure. Surplus electricity from large hydropower stations is increasingly exported to Kenya and Sudan under regional power trade agreements, strengthening economic interdependence.
+The wide-ranging job losses primarily affected sports, books, and podcast units, with foreign desks also heavily impacted, along with cuts to business and national teams. The Washington Post Guild stated that the outlet's workforce had shrunk by 400 people in the past three years, representing a wholesale transformation of one of America's most influential news organizations.
 
-The UN projects Ethiopia and Kenya will be the main drivers of East Africa's economic expansion in 2026, with the region's economy expected to grow by 5.8%—up from 5.4% in 2025—outperforming all other African sub-regions. This economic dynamism is enabling both countries to invest more heavily in defense and regional security initiatives.
+The layoffs mark the culmination of a difficult period for the Post that has included leadership turnover, controversial editorial decisions, and subscriber losses following the newspaper's decision not to endorse a presidential candidate in the 2024 election. The cuts reflect broader challenges facing legacy media as digital advertising revenues decline, subscription growth stagnates, and AI-powered search threatens to disintermediate news organizations from their audiences.
 
-### 11. DRC Peace Process Launched with Former African Leaders as Facilitators
+### 9. Myanmar Junta Creates Union Consultative Council to Maintain Military Control After Elections
+*Feb 3*
+
+> Myanmar's military leader Min Aung Hlaing signed the Union Consultative Council Law, creating a powerful new body that will provide "guidance and coordination" on security, foreign relations, and legislative matters—a mechanism analysts say allows him to retain decisive authority even if he does not directly hold the presidency.
+
+The Union Consultative Council was formally proposed on February 3 after the conclusion of Myanmar's 2025-26 general election, which saw the military-backed party declared the winner in voting that ASEAN and international observers refused to recognize as legitimate. Under the new legislation, the council is formed by the president and must include a minimum of five members, including a chairperson and secretary.
+
+Critics point out that the law's provisions effectively place the council above the president in influence but below the president in formal authority, creating a position—that of council chief—that could allow Min Aung Hlaing to consolidate power around himself even in a nominal civilian government. The structure mirrors arrangements used by military regimes to maintain control while creating a facade of democratic governance.
+
+The new consultative council law is widely interpreted as a pre-emptive move to ensure military dominance as Myanmar remains mired in civil war nearly five years after the February 2021 coup. Resistance forces control significant territory across the country, the economy has collapsed, and international isolation has deepened—yet the junta shows no signs of relinquishing power or engaging in meaningful political dialogue.
+
+### 10. Storm Leonardo Kills Two, Forces 11,000 Evacuations Across Spain and Portugal
 *Feb 5*
 
-> African nations appointed former Kenya president Uhuru Kenyatta, former Ethiopia prime minister Hailemariam Desalegn, and former Nigeria president Olusegun Obasanjo as facilitators of a new peace process for the Democratic Republic of Congo, as fighting continues in the mineral-rich east.
+> Storm Leonardo battered the Iberian Peninsula with more than 40 centimeters of rain in 24 hours, killing at least two people—one in Portugal and one in Spain—and forcing more than 11,000 residents to evacuate their homes as emergency services dealt with over 3,300 incidents including flooding, falling trees, and landslides.
 
-The appointment of the elder statesmen comes as Rwanda's President Kagame continues to defy international pressure over the DRC conflict, with the M23 rebel group—widely understood to receive Rwandan backing—controlling significant territory including the Rubaya coltan mines that produce 15% of the world's supply of the critical mineral used in electronics.
+A man in his 60s was killed after being swept away by floodwaters while attempting to drive across a flooded area in southeastern Portugal. In southern Spain's Malaga province, a girl remains missing after being dragged away by the Turvilla River in Sayalonga while trying to rescue her dog. Emergency responders continue search operations despite dangerous conditions and receding floodwaters complicating recovery efforts.
 
-Kenya faces its own humanitarian crisis as a deepening drought pushes pastoralist families to the brink, with livestock losses spreading across the arid north. The dual crises of conflict in the DRC and climate-related disasters across the Horn of Africa are straining regional resources and diplomatic bandwidth.
+The storm brought added hardship for Portugal, which was still reeling from Storm Kristin the previous week, which killed at least five people, injured hundreds, and cut off tens of thousands from the power grid. Portuguese Prime Minister Luis Montenegro estimated damage from the consecutive storms exceeded four billion euros ($4.7 billion), putting enormous strain on emergency services and disaster relief budgets.
 
-The new peace process faces significant obstacles, as previous initiatives have failed to address the fundamental drivers of conflict: control over mineral wealth, ethnic tensions, and the competing interests of regional powers. The facilitators must navigate these challenges while managing pressure from Western nations and China, both of which have significant economic interests in the DRC's mineral sector.
+Portugal extended its state of emergency amid the destruction brought by Storm Leonardo, with meteorologists warning that climate change is increasing the frequency and intensity of such extreme weather events. The back-to-back storms overwhelmed drainage systems, triggered devastating mudslides, and demonstrated the vulnerability of Mediterranean infrastructure to intensifying Atlantic storm systems.
 
-### 12. Super Bowl LX Set for Sunday as Seahawks Face Patriots in Epic Rematch
-*Feb 6*
-
-> The Seattle Seahawks and New England Patriots prepare to face off at Levi's Stadium in Santa Clara, California, on Sunday in a Super Bowl rematch of their legendary 2015 clash, with both teams having finished the season at 14-3.
-
-The NFL Honors ceremony on Thursday announced Los Angeles Rams quarterback Matthew Stafford as the league's Most Valuable Player, while the 2026 Hall of Fame class was revealed: Drew Brees, Larry Fitzgerald, Luke Kuechly, Adam Vinatieri, and Roger Craig. The class includes three of the NFL's all-time greats at their positions.
-
-Seattle enters as 4.5-point favorites, with quarterback Sam Darnold and wide receiver Jaxon Smith-Njigba leading an explosive offense. Bad Bunny will headline the halftime show, with Charlie Puth performing the national anthem and Green Day opening the ceremony. Brandi Carlile will sing "America the Beautiful" and Coco Jones will perform "Lift Every Voice and Sing."
-
-The game carries enormous stakes for both franchises. A Seahawks victory would help erase the bitter memory of Malcolm Butler's game-winning interception at the goal line in Super Bowl XLIX. For New England, a win would mark the Patriots' seventh championship and validate the team's complete rebuild since Tom Brady's departure.
-
-### 13. European Leaders Face Mounting Unpopularity as Reform Agendas Stall
-*Feb 4*
-
-> France, Germany, and the United Kingdom entered 2026 with historically unpopular governments, with polling showing just 18% of Britons viewing Keir Starmer favorably and only 16% of French respondents holding a positive view of Emmanuel Macron.
-
-Germany's Chancellor Friedrich Merz, who came to power in May 2025 after February's snap election, began his term with just 38% approval—which had fallen to 32% by December. His coalition faces pressure from five upcoming state elections where the far-right Alternative for Germany is expected to gain seats, limiting his ability to pursue controversial reforms.
-
-France entered 2026 for the second consecutive year without an approved budget after Prime Minister Sébastien Lecornu's minority government collapsed under pressure from both left and right. A new budget agreement is expected by late February or March, but the political paralysis has limited the government's ability to respond to economic challenges or the Trump administration's trade demands.
-
-In the UK, domestic pressure grows on Starmer to pursue closer economic integration with the European Union, including potentially joining the customs union. However, official talks between London and Brussels have gone nowhere, leaving Britain isolated between an uninterested Europe and a Trump administration focused on bilateral trade confrontation.
-
-### 14. Brazil, Argentina, and Guyana to Lead Latin American Oil Production Surge
+### 11. Iran's Revolutionary Guard Seizes Two Oil Tankers in Persian Gulf Over Fuel Smuggling
 *Feb 5*
 
-> Latin America's three emerging oil powers—Brazil, Argentina, and Guyana—are projected to add more than 700,000 barrels per day of production in 2026, far outpacing a potential 300,000 bpd contribution from Venezuela as the region reshapes global energy markets.
+> Iran's Revolutionary Guard Navy seized two foreign oil tankers carrying approximately 1 million liters of fuel near Farsi Island in the Persian Gulf, detaining 15 crew members on fuel smuggling charges just one day before scheduled high-level nuclear talks with the United States in Muscat, Oman.
 
-Brazil leads the surge, with production expected to exceed 4.2 million barrels per day this year. The increase is specifically linked to ramp-ups and start-ups of new floating production, storage, and offloading (FPSO) vessels in the country's prolific pre-salt offshore fields. Petrobras and international partners continue to invest heavily in the deep-water Santos and Campos basins.
+The tankers were carrying about 6,300 barrels of fuel including diesel and were transferred to Bushehr after being seized on Thursday. Iranian authorities did not provide the nationality of the tankers or specify what flags they were flying, nor did they disclose the nationalities of the 15 crew members taken into custody by judicial bodies for investigation.
 
-Argentina's shale revolution is accelerating, with investment in the Vaca Muerta formation expected to drive Latin American shale sector spending to nearly $11 billion in 2026, up from $9.4 billion in 2025. The country's vast unconventional resources are attracting international capital despite ongoing macroeconomic challenges.
+The seizure comes amid heightened tensions between Tehran and Washington following Iran's bloody crackdown on nationwide protests and the Trump administration's deployment of significant military forces to the region. Iran occasionally seizes oil-carrying vessels in the Persian Gulf over smuggling charges, though the timing—just before nuclear negotiations—appeared designed to demonstrate Iran's control over the strategic waterway.
 
-Despite sanctions relief, Venezuela's oil output is projected to lag regional competitors through 2030. Years of underinvestment, mismanagement, and the departure of international partners have left the country's once-mighty oil industry struggling to ramp production, even as global demand and prices create incentives for increased output.
+The incident highlights the fragility of diplomatic efforts to de-escalate US-Iran tensions, with both sides engaging in shows of force even as they pursue negotiations. The Strait of Hormuz and surrounding waters remain one of the world's most critical energy chokepoints, with roughly one-fifth of global oil supply transiting the narrow passage, making any disruption a matter of international economic concern.
 
-### 15. India Assumes BRICS Presidency, Pushes Local Currency Trade Agenda
+### 12. Nigerian Forces Kill Senior Boko Haram Commander in Sambisa Forest Raid
 *Feb 1*
 
-> India took over the BRICS chairship for the fourth time with a focus on "Building for Resilience, Innovation, Cooperation and Sustainability," promoting trade in local currencies while carefully distancing itself from proposals for a common BRICS currency that have raised concerns in Washington.
+> Nigeria's military announced the death of Abu Khalid, described as Boko Haram's deputy leader in the Sambisa Forest, along with ten other militants during a Saturday night raid in the Kodunga area of Borno State, recovering weapons, food items, and medical supplies from the extremist group.
 
-Prime Minister Modi announced he would give "a new form" to BRICS during India's tenure, emphasizing policy coordination, development finance, trade facilitation, and reform of global institutional governance. India's Rupee-Rouble trade with Russia is estimated to now account for over 90% of bilateral commerce, demonstrating the growing viability of de-dollarized transactions.
+Army spokesman Sani Uba identified Abu Khalid as a key figure within "the terrorist hierarchy, coordinating operations and logistics in the Sambisa axis." The operation targeted a Boko Haram command post that had been used to plan attacks across northeastern Nigeria, where the Islamic extremist group has waged an insurgency since 2009 that has killed tens of thousands and displaced millions.
 
-India's BRICS presidency gains particular significance amid global geopolitical turbulence, with New Delhi navigating complex relationships with both the United States—following the landmark trade deal announced on February 2—and its traditional strategic partner Russia. The balancing act requires careful diplomacy as Washington increases pressure on nations to reduce ties with Moscow.
+The raid represents part of Nigeria's ongoing counterterrorism efforts in the Lake Chad Basin region, where Boko Haram and its Islamic State-affiliated splinter group ISWAP continue to mount attacks despite years of military pressure. The Sambisa Forest has served as a primary stronghold for the militants, providing dense vegetation cover and proximity to civilian populations that complicate military operations.
 
-The expanded BRICS+ grouping now includes Saudi Arabia, UAE, Egypt, Ethiopia, and Iran, creating a coalition that represents a significant share of global population, GDP, and energy production. India's leadership will be tested by managing diverse interests within the group while advancing its own strategic objectives in an increasingly multipolar world.
+While Nigerian authorities have announced the deaths of senior Boko Haram commanders numerous times over the years, the group has demonstrated resilience through decentralized leadership and continued ability to recruit from marginalized communities. The killing of Abu Khalid, if confirmed, would represent a tactical victory but is unlikely to fundamentally alter the conflict dynamics without broader efforts to address the poverty, governance failures, and ethnic tensions that fuel the insurgency.
+
+### 13. Sudan Forces Break Two-Year Siege of Kadugli, Advance in South Kordofan
+*Feb 3*
+
+> The Sudanese Armed Forces announced they opened a road into Kadugli, breaking through an over two-year siege and achieving their second major advance in South Kordofan in as many weeks, as the brutal civil war between SAF and the Rapid Support Forces enters its third year with no diplomatic resolution in sight.
+
+Conflict continues to escalate across multiple frontlines as both the Sudanese Armed Forces and the Rapid Support Forces seek to consolidate territorial control through ground operations, artillery shelling, heavy drone strikes, and aerial bombardments. The Kordofan region has emerged as a key epicenter of hostilities, while fighting persists in North Darfur and Sennar states.
+
+On January 11, the SAF announced the official return of national institutions to the capital, Khartoum, after recapturing the city in March 2025 from RSF forces that had seized control in April 2023 when the conflict erupted. The government had relocated to Port Sudan following the outbreak of the war that has devastated Africa's third-largest nation.
+
+The humanitarian crisis continues to worsen, with an estimated 33.7 million people—around two-thirds of Sudan's population—expected to need humanitarian assistance in 2026. More than 20 million require health assistance, while 21 million face acute food insecurity. Sudan represents the world's largest displacement crisis, with 13.6 million people uprooted—9.3 million internally displaced and 4.3 million seeking refuge in neighboring countries. Overcrowded conditions and disrupted services have fueled outbreaks of cholera, malaria, dengue, and measles across much of the country.
+
+### 14. Trump Cuts India Tariffs to 18% After Modi Pledges to Halt Russian Oil Purchases
+*Feb 2*
+
+> President Trump announced he would slash US tariffs on Indian goods from 50% to 18% and remove a separate 25% Russia-related duty after Prime Minister Modi pledged to stop buying Russian oil and committed to purchasing more than $500 billion worth of American energy, technology, agricultural, and other products.
+
+The trade deal ended months of escalating tensions between the two countries, with the administration also rescinding punitive tariffs imposed over India's purchases of Russian oil that had stacked on top of reciprocal tariff rates. Indian markets surged on the announcement, with the Nifty 50 jumping nearly 5% and the rupee strengthening to 90.40—its best day since November 2022—as trade war fears eased dramatically.
+
+However, Prime Minister Modi notably welcomed the reduced tariffs in a post on social media but did not mention cutting purchases of Russian oil, raising questions about the specifics of the agreement. Nevertheless, India has begun slowing oil purchases from Russia, with January imports around 1.2 million barrels per day and projections showing declines to about 1 million bpd in February and 800,000 bpd in March.
+
+Analysts cautioned that legally binding text has yet to materialize, and implementation details remain unclear. The 18% US tariff rate positions India more favorably than regional competitors in the battle for American market access, but whether the deal can withstand political scrutiny in both countries—particularly regarding the Russian oil commitment and agricultural tariff eliminations—will determine its longevity and economic impact.
+
+### 15. European Central Bank Holds Rates at 2% for Fifth Consecutive Meeting Amid Uncertain Outlook
+*Feb 5*
+
+> The European Central Bank maintained its key policy rate at 2% for the fifth consecutive meeting, with policymakers emphasizing that inflation trajectory and wider economic conditions did not warrant a move despite eurozone inflation cooling to 1.7% in January—below the ECB's 2% target.
+
+The decision comes amid heightened economic uncertainty, with ECB officials monitoring the euro's recent appreciation and its potential disinflationary effects on the economy. Around 85% of economists surveyed by Reuters in their January poll predicted the ECB would leave rates unchanged for the remainder of 2026, reflecting expectations that inflation will remain contained even as growth remains subdued.
+
+The ECB's cautious stance contrasts with more aggressive rate-cutting cycles in some other major economies but aligns with the Bank of England, which also held rates at 3.75% in February by a narrow 5-4 vote. The close vote reflects divisions on the committee about when to begin cutting rates, with some policymakers concerned about persistent services inflation while others worry about weak economic growth across the eurozone.
+
+Meanwhile, the Federal Reserve held its policy rate at 3.5-3.75% in late January, with Chairman Powell emphasizing that economic activity remains solid and the balance of risks to the Fed's dual mandate is improving. The divergent monetary policy paths across major central banks reflect different inflation dynamics, labor market conditions, and growth trajectories as the global economy navigates the post-pandemic adjustment period.
 
 **Sources:**
-1. [Washington Post - Russia Resumes Energy Attacks](https://www.washingtonpost.com/world/2026/02/03/trump-war-russia-ukraine-attacks-power-sector/)
-2. [CNN - SpaceX Blocks Russian Starlink](https://www.cnn.com/2026/02/05/europe/starlink-ukraine-russia-blocked-intl/)
-3. [CNBC - Trump India Trade Deal](https://www.cnbc.com/2026/02/02/trump-india-trade-deal-tariffs.html)
-4. [Jakarta Post - Australia Indonesia Security Treaty](https://www.thejakartapost.com/world/2026/02/06/australia-indonesia-sign-new-security-treaty.html)
-5. [NPR - Federal Workers Rule](https://www.npr.org/2026/02/06/nx-s1-5704171/trump-fire-federal-employees-schedule-f)
-6. [CNBC - Xi Trump Phone Call](https://www.cnbc.com/2026/02/05/chinas-xi-taiwan-trump-trade-talks-iran-russia.html)
-7. [JURIST - ASEAN Myanmar Elections](https://www.jurist.org/news/2026/01/asian-bloc-refuses-to-recognize-myanmar-elections/)
-8. [Myanmar News - Bangladesh Elections](http://www.myanmarnews.net/news/278849619/bangladesh-jamaat-pledges-constructive-relations-with-india-ahead-of-elections)
-9. [Axios - Trump Greenland Tariffs](https://www.axios.com/2026/01/21/greenland-deal-trump-denmark-sovereignty)
-10. [Fana Media - Ethiopia Kenya Defense](https://www.fanamc.com/english/amp/ethiopia-kenya-advance-joint-defence-framework-as-first-jdc-meeting-concludes/)
-11. [VOA Africa - DRC Peace Process](https://www.voaafrica.com/a/7971527.html)
-12. [CBS Sports - Super Bowl 2026](https://www.cbssports.com/nfl/news/super-bowl-2026-seahawks-patriots-picks-score-prediction-nfl-best-bets/)
-13. [YouGov - European Leaders Polling](https://yougov.co.uk/politics/articles/54020-how-popular-are-national-leaders-in-europe-january-2026)
-14. [Invezz - Latin America Oil Production](https://invezz.com/news/2026/02/05/argentina-guyana-brazil-to-drive-2026-oil-growth-as-venezuela-output-returns/)
-15. [BRICS India 2026 Official Site](https://www.brics2026.gov.in/)
+1. [UN News - New START Expiration](https://news.un.org/en/story/2026/02/1166892)
+2. [NPR - New START Treaty Expires](https://www.npr.org/2026/02/04/nx-s1-5697382/new-start-nuclear-treaty-expired-us-russia)
+3. [Washington Post - China Nuclear Test Allegations](https://www.washingtonpost.com/national-security/2026/02/06/china-secret-nuclear-test-state-department/)
+4. [CNN - US Accuses China Nuclear Testing](https://www.cnn.com/2026/02/06/politics/us-china-nuclear-weapons)
+5. [NPR - Foreign Aid Bill](https://www.npr.org/2026/02/06/nx-s1-5702252/foreign-aid-trump-cuts)
+6. [Al Jazeera - Syria SDF Ceasefire](https://www.aljazeera.com/news/2026/2/2/syrian-forces-deploy-in-hasakah-under-ceasefire-agreement-with-sdf)
+7. [NBC News - Pakistan Balochistan Operation](https://www.nbcnews.com/world/pakistan/balochistan-forces-kill-militants-battle-attacks-rcna256918)
+8. [NPR - Costa Rica Election](https://www.npr.org/2026/02/02/g-s1-108418/costa-rica-election-laura-fernandez-wins)
+9. [Al Jazeera - Japan Snowstorm](https://www.aljazeera.com/news/2026/2/3/record-breaking-snow-blankets-japan-killing-at-least-30-people)
+10. [CNN - Washington Post Layoffs](https://www.cnn.com/2026/02/04/media/washington-post-layoffs)
+11. [The Diplomat - Myanmar Union Consultative Council](https://thediplomat.com/2026/02/military-proxy-party-declared-lopsided-victor-in-sham-myanmar-election/)
+12. [Al Jazeera - Storm Leonardo](https://www.aljazeera.com/news/2026/2/7/spain-portugal-brace-for-new-storm-after-floods-kill-2-displace-11000)
+13. [ABC News - Iran Oil Tanker Seizure](https://abcnews.go.com/Business/wireStory/iran-seizes-2-foreign-oil-tankers-persian-gulf-129880932)
+14. [ABC News - Nigeria Boko Haram](https://abcnews.go.com/International/wireStory/nigerian-army-killed-boko-haram-commander-10-militants-129750699)
+15. [Al Jazeera - Sudan Crisis](https://www.aljazeera.com/news/2026/1/28/sudans-war-displaced-crisis-peaks-as-millions-eye-return-to-ruined-homes)
 
 ---
 
 ## Financial News (Top 15)
 
-### 1. Alphabet Announces $185 Billion AI Spending Plan, Doubling 2025 Investment
+### 1. Alphabet Projects $185 Billion AI Capex for 2026, Doubling Annual Investment
 *Feb 4*
 
-> Google's parent company reported record fourth-quarter earnings while projecting capital expenditures of up to $185 billion for 2026—more than double its $91.4 billion spend in 2025—as CEO Sundar Pichai acknowledged the "staggering" scale of AI infrastructure investment is keeping him up at night.
+> Google's parent company reported record fourth-quarter earnings while announcing capital expenditure plans of $175-185 billion for 2026—more than double its $91.4 billion spend in 2025—marking the largest capital expenditure commitment ever announced by a technology company as CEO Sundar Pichai acknowledged the AI infrastructure investment is keeping him awake at night.
 
-Alphabet beat Wall Street expectations, reporting earnings per share of $2.82 versus $2.63 estimated and revenue of $113.83 billion versus $111.43 billion expected. The company's annual revenues exceeded $400 billion for the first time, with net income growing 15% to $132.2 billion. Google Cloud revenues surged 48% to $17.7 billion, driven by enterprise AI solutions.
+Alphabet beat Wall Street expectations with Q4 2025 earnings per share of $2.82 versus $2.63 estimated and revenue of $113.83 billion versus $111.43 billion expected. Annual revenues exceeded $400 billion for the first time, with net income growing 15% to $132.2 billion. Google Cloud revenues surged 48% year-over-year to $17.7 billion, driven by enterprise AI adoption and infrastructure services.
 
-The company's Gemini AI app now has more than 750 million monthly active users, up from 650 million last quarter. Alphabet achieved a 78% reduction in Gemini serving unit costs over 2025 through model optimizations and efficiency improvements. Pichai emphasized that AI is driving Search revenue growth as users engage with Google's AI mode features.
+The company's Gemini AI app reached more than 750 million monthly active users, up from 650 million in the previous quarter. Alphabet achieved a 78% reduction in Gemini serving unit costs over 2025 through model optimizations, efficiency gains, and improved utilization. Approximately 60% of Q4 capex was invested in servers, with 40% allocated to data centers and networking equipment.
 
-Despite the strong earnings, shares traded flat as investors weighed the massive spending commitment. The $185 billion guidance represents the largest capital expenditure plan ever announced by a technology company, raising questions about returns on AI infrastructure investment even as competitors race to match Alphabet's spending.
+Despite strong operational performance, shares traded relatively flat as investors weighed the enormous spending commitment against uncertain returns on AI infrastructure. The guidance implies Alphabet is betting hundreds of billions of dollars that AI will transform internet services, cloud computing, and advertising—a wager that could reshape the technology industry but carries significant execution risk if demand fails to materialize or competition erodes margins.
 
-### 2. Waymo Raises $16 Billion at $126 Billion Valuation, Plans Global Robotaxi Expansion
-*Feb 2*
+### 2. Meta Surges 10% After Beating Expectations, Announces $115-135 Billion AI Spending Plan
+*Feb 4*
 
-> Alphabet's autonomous driving unit secured the largest investment ever in an autonomous vehicle company, with Dragoneer, DST Global, and Sequoia Capital leading a round that values Waymo at $126 billion—more than double its valuation from the October 2024 funding round.
+> Meta Platforms reported Q4 2025 earnings per share of $8.88—beating forecasts by 8.42%—and revenue of $59.9 billion representing 24% year-over-year growth, while announcing plans to spend $115-135 billion in capital expenditures for 2026 to build AI infrastructure, sending shares surging 10% in extended trading.
 
-The investor roster reads like a who's who of Silicon Valley: Andreessen Horowitz, Mubadala Capital, Bessemer Venture Partners, Silver Lake, Tiger Global, T. Rowe Price, BDT & MSD Partners, CapitalG, Fidelity, GV, Kleiner Perkins, Perry Creek Capital, and Temasek all participated. Parent company Alphabet supported the round and maintained its position as majority investor.
+Meta's advertising business generated $58.1 billion for the quarter, making up nearly 97% of total revenue, demonstrating continued dominance in digital advertising despite competition from TikTok and other platforms. Operating income reached $24.7 billion with a 41% margin, while net income hit $22.8 billion, reflecting the company's ability to monetize its massive user base across Facebook, Instagram, WhatsApp, and Threads.
 
-Waymo plans to use the capital to expand to over 20 new cities in 2026, including its first international markets. Tokyo and London are confirmed as the company's initial overseas destinations, marking a significant milestone in the global deployment of autonomous vehicle technology. The expansion will require substantial investment in local regulatory approvals, mapping, and support infrastructure.
+For Q1 2026, Meta projected revenue between $53.5-56.5 billion, with full-year expenses estimated at $162-169 billion. CEO Mark Zuckerberg emphasized AI's transformative potential, noting that the company is planning significant investments in AI infrastructure and talent acquisition despite potential supply chain constraints limiting GPU availability from Nvidia and other chip manufacturers.
 
-The massive valuation reflects investor confidence in Waymo's technological lead over competitors following General Motors' decision to shut down its Cruise robotaxi unit. With Tesla still struggling to deliver on autonomous driving promises and Chinese competitors facing geopolitical headwinds, Waymo appears positioned to capture the lion's share of the emerging robotaxi market.
+The results and guidance contrast sharply with broader tech sector volatility, positioning Meta as a winner in the AI infrastructure race as it builds capacity for both internal AI products and potential future monetization through AI-powered advertising, content recommendation, and business tools. The company's cash generation provides flexibility to invest aggressively while maintaining shareholder returns through its ongoing buyback program.
 
-### 3. Big Tech AI Spending Approaches $700 Billion as Hyperscalers Double Down
+### 3. Microsoft Stock Plunges 10% on Azure Growth Slowdown Despite Record Capital Spending
+*Feb 4*
+
+> Microsoft shares suffered their biggest single-day decline since 2020, falling 10% after reporting that Azure cloud growth slowed from 40% in Q1 to 39% in Q2, disappointing investors despite the company announcing record capital expenditures of $37.5 billion for the quarter—66% higher than the prior year.
+
+The decline extended through the following trading days, with shares falling an additional 3.5% as analysts digested implications of slowing cloud growth amid surging AI infrastructure investment. Stifel downgraded the stock from buy to hold on February 5, warning that consensus expectations for 2027 "are too optimistic" given the gap between capex spending and revenue acceleration.
+
+Azure growth is projected to decelerate further to 37-38% in fiscal Q3, forming a concerning trend for investors who had expected AI services to accelerate cloud revenue growth. CFO Amy Hood noted that about two-thirds of the $37.5 billion quarterly capex was spent on GPUs and CPUs to keep up with AI demand, raising questions about return on investment as infrastructure spending outpaces revenue growth.
+
+The stock decline reflects growing investor skepticism about whether massive AI spending by hyperscale cloud providers will generate adequate returns, or if the industry is building excess capacity that could lead to price competition and margin compression. Microsoft's struggle to translate record AI investment into accelerating cloud growth has become a cautionary tale as the sector grapples with what some analysts call an "AI infrastructure wall."
+
+### 4. Amazon Plummets 8% on $200 Billion AI Spending Forecast Despite Strong AWS Growth
+*Feb 4*
+
+> Amazon shares tumbled 8% after the e-commerce and cloud giant reported Q4 earnings of $1.95 per share—narrowly missing the $1.97 consensus—and guided to capital expenditures potentially reaching $200 billion in 2026, more than double its 2025 spending, to build AI infrastructure for Amazon Web Services.
+
+Despite the stock decline, AWS revenue grew robustly, maintaining its position as the market-leading cloud platform ahead of Microsoft Azure and Google Cloud. The division continues to be Amazon's profit engine, generating operating margins significantly higher than the company's retail business, but the massive capex commitment raises questions about how long the AI spending surge can continue without more visible revenue acceleration.
+
+The $200 billion guidance represents one of the largest capital investment programs in corporate history, rivaling or exceeding commitments from Alphabet and Meta as tech giants race to build the infrastructure necessary for training and deploying next-generation AI models. Approximately 60-70% of the spending will go toward securing GPU inventory from Nvidia, AMD, and potentially custom silicon from Amazon's own chip design teams.
+
+Analysts questioned whether customer demand for AI services justifies the enormous infrastructure buildout, or whether hyperscalers are engaging in a prisoner's dilemma where none can afford to fall behind in capacity even if overall industry returns remain uncertain. Amazon CFO Brian Olsavsky defended the spending as necessary to meet "significant cloud customer demand" but acknowledged that near-term margin pressure is inevitable.
+
+### 5. S&P 500 Earnings Growth Hits 13% in Q4 2025, Tenth Consecutive Quarter of Expansion
 *Feb 6*
 
-> The four major cloud hyperscalers—Microsoft, Meta, Alphabet, and Amazon—announced combined 2026 capital expenditure plans approaching $700 billion, up from $350 billion in 2025, as the AI infrastructure arms race enters a new phase of intensity.
+> Corporate America reported blended earnings growth of 13.0% for the fourth quarter of 2025, marking the tenth consecutive quarter of annual earnings expansion and the fifth straight quarter of double-digit growth, as 76% of companies reporting beat analyst expectations despite macroeconomic headwinds.
 
-Meta intends to spend between $115 billion and $135 billion in capex for 2026, joining Alphabet's $175-185 billion commitment. Microsoft and Amazon are also scaling investments dramatically, though exact figures vary. The spending surge reflects fierce competition to secure GPU capacity from Nvidia and build data center infrastructure capable of training and serving increasingly powerful AI models.
+With 59% of S&P 500 companies having reported Q4 results, companies are delivering earnings that are 7.6% above estimates in aggregate, demonstrating continued resilience in corporate profitability. Ten sectors are reporting year-over-year revenue growth, led by Information Technology, Communication Services, and Health Care sectors, with technology sector earnings exploding 25% year-over-year.
 
-Oracle announced plans to raise $45-50 billion this year through debt and equity financing to build additional cloud infrastructure capacity for its largest customers including AMD and Meta. The company is selling $25 billion in investment-grade bonds as part of the effort, highlighting how the AI boom is reshaping corporate finance across the technology sector.
+Wall Street analysts are projecting earnings growth rates of 11.3% for Q1 2026 and 14.9% for Q2 2026, with full calendar year 2026 expected to deliver 14.1% earnings expansion. The optimistic forecasts reflect expectations that AI-driven productivity gains, moderating inflation, and potential interest rate cuts will support profit margins even as revenue growth faces tougher comparisons.
 
-The massive spending is taking a significant toll on cash reserves. Analysts note that while revenue growth remains strong, free cash flow is being consumed by infrastructure investment at an unprecedented rate. The question of whether this spending will generate adequate returns remains the central uncertainty for technology investors.
+However, the earnings strength masks significant divergence between AI beneficiaries and the broader market. Technology giants investing heavily in AI infrastructure are reporting explosive revenue and profit growth, while traditional cyclical sectors face margin pressure from tariffs, wage inflation, and slowing global demand. The concentration of earnings growth in a handful of mega-cap stocks raises questions about the sustainability of market valuations if AI monetization disappoints.
 
-### 4. Disney Experiences Division Crosses $10 Billion in Quarterly Revenue for First Time
-*Feb 2*
+### 6. Gold Surges Past $5,500 to Record High as Safe-Haven Demand and Central Bank Buying Intensify
+*Feb 6*
 
-> Walt Disney Company reported fiscal first-quarter earnings that beat analyst estimates, with its theme parks, resorts, and cruises division posting record revenue, though shares fell 7% after investors focused on slowing streaming growth and succession uncertainty.
+> Gold reached a new all-time high of $5,555 per ounce, marking a 100% gain over the last twelve months, as escalating geopolitical uncertainty, Federal Reserve independence concerns, and massive central bank purchases drive unprecedented safe-haven demand for the precious metal.
 
-Overall revenue for the quarter was roughly $26 billion, up 5% year over year, with the experiences division generating $10 billion for the first time in history. Domestic theme parks recorded $6.91 billion in revenue while international parks reported $1.75 billion—each up 7% compared with the prior-year period. The cruise line expansion is contributing increasingly to the segment's performance.
+Spot gold increased to $5,501.18 per ounce, with February futures contracts exceeding $5,568 per unit. The rally reflects a fundamental repricing of gold as investors no longer view current prices as "imminent crisis" levels but rather as appropriate for "a world of persistent instability, heavy debt burdens and eroding monetary trust," according to market strategists.
 
-Net income for the quarter was $2.48 billion, or $1.34 per share, down from $2.64 billion, or $1.40 per share, in the same period a year earlier. Adjusting for one-time items including tax charges related to a deal with Fubo, Disney reported $1.63 in earnings per share, exceeding analyst expectations of $1.58.
+Global gold ETFs witnessed their strongest year of inflows on record in 2025, with annual inflows surging to $89 billion and global gold ETF assets doubling to $559 billion. Central bank purchases remained robust as nations diversify reserves away from dollar-denominated assets amid concerns about US fiscal sustainability and the weaponization of the dollar in geopolitical disputes.
 
-Despite the strong operational performance, Disney shares came under pressure as investors digested news about CEO Bob Iger's succession timeline. The company reaffirmed its plan to repurchase $7 billion in stock for fiscal 2026, projected double-digit adjusted EPS growth, and expects $19 billion in cash provided by operations—but questions about leadership transition overshadowed the results.
+A weakening US dollar has provided additional tailwind, making dollar-priced assets like gold more affordable for holders of other currencies. Additionally, a Trump administration criminal investigation of Federal Reserve Chairman Jerome Powell has elevated safe-haven demand due to implications for central bank independence. Deutsche Bank and Societe Generale forecast gold reaching $6,000 per ounce by year-end as structural drivers remain intact.
 
-### 5. Tesla Reports First-Ever Annual Revenue Decline as Musk Pivots to AI and Robotics
-*Feb 2*
+### 7. Emerging Markets Suffer Worst Week Since November as Global Risk Appetite Collapses
+*Feb 6*
 
-> Tesla reported 2025 full-year revenue of $94.8 billion, down 3% from $97.7 billion the previous year—the first annual decline in the electric vehicle maker's history—as CEO Elon Musk announced plans to end Model S and Model X production to make room for Optimus humanoid robots.
+> Emerging market stocks fell 1.4%—their steepest weekly drop since mid-December—as a global flight to safety drove investors out of developing-nation equities from record highs, with volatility spanning commodities and technology shares unsettling portfolio managers worldwide.
 
-Fourth-quarter earnings beat expectations with adjusted EPS of 50 cents versus 45 cents estimated on revenue of $24.90 billion. However, net profit fell 61% to $840 million for the quarter, bringing full-year profit to $3.8 billion—down sharply from $7.1 billion in 2024. The margin compression reflects intensified price competition in the global EV market.
+The MSCI Emerging Markets Index fell as much as 1.5% on Friday before paring losses, while a similar measure tracking currencies showed mixed performance. Both gauges were poised for their steepest weekly drop since November, pulling a key index down from record highs reached in January as risk-off sentiment gripped global markets.
 
-During the earnings call, Musk outlined a dramatic strategic transformation: Tesla will transition from an EV manufacturer to "a full-blown real-world AI and robotics company." Model S and Model X production will end in Q2 2026, with Fremont factory space converted to manufacture Optimus humanoid robots. CFO Vaibhav Taneja said investors should expect approximately $20 billion in capital expenditure for 2026.
+The selloff reflects multiple converging pressures: geopolitical tensions including US-Iran standoffs and the expiration of New START, uncertainty over Federal Reserve policy outlook, concerns about lofty technology valuations following massive AI capex announcements, and fears that tariff policies could disrupt global trade flows that many emerging economies depend upon.
 
-Musk claimed Tesla's robotaxi service has been "rolled out in a few cities" and will be "very, very widespread by the end of this year within the US." The bold prediction drew skepticism from analysts who noted regulatory hurdles and the company's history of missed autonomous driving timelines. Wall Street's median year-end target implies roughly 10% upside from current levels.
+Developing-nation central banks face a challenging environment as they balance domestic growth concerns against the need to defend currencies and control inflation. Countries with high dollar-denominated debt loads are particularly vulnerable if the risk-off sentiment persists, potentially forcing interest rate hikes that could trigger recessions in economies already struggling with weak external demand and capital outflow pressures.
 
-### 6. Eli Lilly Posts Blowout Earnings as Weight Loss Drug Demand Soars
+### 8. Eli Lilly Posts Blowout Q4 Earnings, Guides to $80-83 Billion Revenue on Weight Loss Drug Boom
 *Feb 4*
 
-> The pharmaceutical giant reported fourth-quarter net income of $6.64 billion, or $7.39 per share, crushing Wall Street expectations as blockbuster demand for weight loss drug Zepbound and diabetes treatment Mounjaro drives unprecedented revenue growth.
+> Eli Lilly reported fourth-quarter net income of $6.64 billion or $7.39 per share, crushing Wall Street expectations, as blockbuster demand for weight loss drug Zepbound and diabetes treatment Mounjaro drives unprecedented revenue growth in the rapidly expanding GLP-1 drug category.
 
-Eli Lilly guided to 2026 revenue between $80 billion and $83 billion, dramatically exceeding analyst expectations of $77.62 billion. The company projects adjusted earnings between $33.50 and $35 per share, compared with the $33.23 consensus estimate. The guidance implies continued market share gains in the rapidly expanding GLP-1 drug category.
+The pharmaceutical giant guided to 2026 revenue between $80-83 billion, dramatically exceeding analyst expectations of $77.62 billion, with adjusted earnings projected between $33.50-35 per share compared to consensus estimates of $33.23. The guidance implies continued market share gains against competitor Novo Nordisk, which has faced supply constraints limiting its ability to meet surging demand.
 
-The earnings report contrasted sharply with Novo Nordisk's struggles earlier in the week, as Lilly appeared to be winning the competitive battle for weight loss drug market share. Production capacity investments are paying off, allowing Lilly to meet surging demand while Novo Nordisk faces supply constraints that have limited its growth.
+Production capacity investments are paying off, allowing Lilly to meet demand while Novo Nordisk struggles with shortages. The company's success reflects broader transformation in the pharmaceutical industry as GLP-1 drugs emerge as potentially the largest drug class in history, with applications expanding beyond obesity and diabetes into cardiovascular disease, kidney disease, and other conditions.
 
-The company's success reflects broader transformation in the pharmaceutical industry, as GLP-1 drugs emerge as potentially the largest drug class in history. Beyond obesity and diabetes, trials are exploring applications in cardiovascular disease, kidney disease, and other conditions—expanding the total addressable market beyond current analyst models.
+Clinical trials exploring new indications could expand the total addressable market well beyond current analyst models, potentially justifying Lilly's premium valuation despite shares trading at historically elevated price-to-earnings multiples. The company's execution in ramping production capacity faster than competitors has established a structural advantage that could persist for years as the global obesity epidemic drives sustained demand growth.
 
-### 7. Pfizer Beats Estimates Despite Declining COVID Revenue, Reaffirms Modest Outlook
+### 9. Chipotle Stock Sinks 11% on Fourth Consecutive Quarter of Traffic Declines
 *Feb 3*
 
-> Pfizer reported fourth-quarter results that topped analyst expectations even as demand for its COVID-19 products continued to decline, while reaffirming a 2026 outlook that projects essentially flat revenue compared to 2025 levels.
+> Chipotle Mexican Grill shares fell as much as 11% in extended trading after reporting a fourth consecutive quarter of falling customer traffic and projecting flat same-store sales growth for 2026, signaling that the burrito chain's woes are not expected to disappear quickly.
 
-The company expects 2026 adjusted profit between $2.80 and $3.00 per share, with revenue totaling $59.5 billion to $62.5 billion. The guidance reflects the challenges of managing a post-pandemic portfolio as COVID vaccine and treatment revenues fade while the company works to develop new growth drivers.
+The company posted adjusted earnings of $0.25 per share for Q4, slightly above the $0.24 consensus estimate, with revenue of $2.98 billion compared to expectations of $2.96 billion. However, traffic to Chipotle restaurants fell 3.2% and comparable restaurant sales declined 1.7%—the first annual same-store sales drop since 2016, alarming investors accustomed to consistent growth.
 
-Pfizer's results stand in stark contrast to the explosive growth reported by competitors like Eli Lilly, highlighting the divergent fortunes of pharmaceutical companies depending on their exposure to the GLP-1 weight loss drug category. Pfizer's attempts to enter the obesity market have faced setbacks, leaving the company without a clear path to matching rivals' growth rates.
+Executives noted pullback in spending from consumers of all income cohorts, although low-income diners have made the most significant shift in behavior. The 2026 outlook disappointed Wall Street as the company projected flat sales while analysts had forecast 1.8% growth, suggesting management sees limited near-term improvement in consumer spending patterns.
 
-The company continues to invest in its oncology pipeline and other therapeutic areas, but investors remain skeptical about the timeline for meaningful revenue contributions. The modest guidance keeps Pfizer in a transition period as it seeks to replace pandemic-era profits with sustainable new product revenues.
+The traffic declines raise questions about whether Chipotle's premium pricing strategy has reached its limits, or whether broader economic pressures are forcing consumers to cut back on fast-casual dining. The company faces the dual challenge of maintaining value perception while protecting margins in an inflationary environment where ingredient costs, labor expenses, and occupancy charges continue to rise.
 
-### 8. Mortgage Rates Fall to Three-Year Lows as Housing Activity Improves
+### 10. Snowflake and OpenAI Announce $200 Million Partnership for Enterprise AI Integration
+*Feb 2*
+
+> Snowflake and OpenAI entered a multi-year, $200 million partnership that brings OpenAI frontier intelligence directly into Snowflake's data cloud, enabling the company's 12,600 enterprise customers to build AI applications and agents using their proprietary data without moving information outside Snowflake's governed environment.
+
+Under the agreement, OpenAI models like GPT-5.2 will be available natively within Snowflake's AI Data Cloud across all three major cloud providers, allowing organizations to build custom applications and agents grounded in their enterprise data. Snowflake customers can use the models with tools like Snowflake Cortex AI to develop intelligent assistants, automated analytics, and AI-driven decision support tied directly to enterprise datasets.
+
+The partnership is significant because it represents a direct, first-party integration of OpenAI's frontier models into Snowflake's platform rather than being mediated through a cloud provider like Microsoft Azure, Amazon Web Services, or Google Cloud. This establishes deep technical integration that could provide performance and governance advantages over alternative architectures.
+
+Analysts view the deal as strategic positioning in the enterprise AI race, where the battle is shifting from model development to production deployment at scale. Snowflake's emphasis on data governance and security—combined with OpenAI's leading language models—addresses enterprise concerns about deploying AI while maintaining control over proprietary information, intellectual property, and customer data.
+
+### 11. Producer Price Inflation Jumps 0.5% as Businesses Begin Passing Tariff Costs to Consumers
+*Feb 2*
+
+> The Producer Price Index increased 0.5% in December—more than double the forecast of 0.2%—driven by a 0.7% surge in service prices, as businesses signal they are beginning to pass tariff costs down the supply chain after absorbing the majority of duties in 2025.
+
+Core goods PPI rose 0.4% in December, pointing to continued pass-through of tariffs into wholesale prices. JPMorgan estimates businesses absorbed roughly 80% of tariff costs in 2025, but that proportion could flip to just 20% in 2026 as inventory stockpiles run out and price increases become unavoidable, setting the stage for renewed consumer inflation pressures.
+
+The jump in wholesale prices fits into a wider trend of "deglobalization inflation," where tariffs and supply chain domestication are raising the floor for prices across goods and services. With businesses passing more tariff costs to consumers, forecasters project US inflation rising to 2.7% in 2026 from current levels, complicating the Federal Reserve's efforts to return inflation to its 2% target.
+
+Service sector price increases of 0.7%—the largest gain since July—suggest that inflation pressures are broadening beyond goods affected by tariffs. Wage growth, commercial real estate costs, and business services expenses are all contributing to wholesale price gains that will eventually flow through to consumer prices in industries from healthcare to hospitality.
+
+### 12. European Central Bank and Bank of England Hold Rates as Inflation Cools Below Targets
 *Feb 5*
 
-> The average rate for a 30-year fixed mortgage dropped to 6.11%, the lowest level in more than three years, driving a surge in purchase applications and refinance activity as the spring selling season approaches.
+> The European Central Bank maintained its key policy rate at 2% for the fifth consecutive meeting while the Bank of England held rates at 3.75% by a narrow 5-4 vote, as both institutions navigate slowing growth and below-target inflation amid uncertainty about economic trajectory and the impact of potential US tariffs.
 
-Freddie Mac reported the 15-year fixed mortgage averaged 5.50%, while some lenders offered rates below 6% for well-qualified borrowers. The decline followed the Federal Reserve's decision to hold rates steady while signaling openness to future cuts. Analysts at Morgan Stanley project rates could hit 5.75% later this year if inflation continues to moderate.
+Eurozone inflation cooled to 1.7% in January—below the ECB's 2% target—yet policymakers emphasized that inflation trajectory and wider economic conditions did not warrant immediate rate cuts. Concerns about the euro's appreciation led some policymakers to monitor its potential disinflationary effects, while uncertainty about US trade policy creates additional complexity for monetary policy decisions.
 
-Purchase and refinance applications have jumped year-over-year as lower rates create opportunities for both first-time buyers and existing homeowners seeking to reduce monthly payments. Mortgage industry experts note that housing activity "is improving and poised for a solid spring sales season" after two years of elevated rate headwinds.
+Around 85% of economists surveyed by Reuters expect the ECB to leave rates unchanged for the remainder of 2026, reflecting views that inflation will remain contained even as economic growth disappoints. The Bank of England's 5-4 vote reflects deeper divisions, with some members concerned about persistent services inflation while others worry about weak growth across major European economies.
 
-A recent analysis revealed that a surprising share of homeowners still carry mortgage rates above 5%, creating significant refinance demand as rates decline. The combination of pent-up buyer demand, falling rates, and limited inventory could produce competitive spring housing markets despite affordability challenges persisting in many metropolitan areas.
+The cautious approach from both central banks contrasts with expectations earlier in 2025 that aggressive rate cutting would be necessary to support growth. Resilient services inflation, tight labor markets, and uncertainty about fiscal policy in major economies have convinced policymakers to maintain restrictive policy despite below-target headline inflation and sluggish economic performance.
 
-### 9. CFPB Secures Emergency Funding Through March After Court Rejects Shutdown Attempt
-*Feb 4*
+### 13. Oil Prices Hold Near $63 as Iran Tensions Create Risk Premium Amid Oversupply Concerns
+*Feb 6*
 
-> The Consumer Financial Protection Bureau obtained $145 million in emergency funding from the Federal Reserve after a federal judge ruled in December that the Trump administration cannot close a congressionally-created agency without an act of Congress.
+> West Texas Intermediate crude settled above $63 a barrel after a volatile week that saw prices whipsaw on US-Iran tensions, upcoming nuclear talks, and competing concerns about global oversupply as production surges from non-OPEC+ countries outpace demand growth projections.
 
-Acting Director Russell Vought had attempted to effectively shut down the CFPB in February 2025 by ordering staff to stop work on proposed rules, suspend finalized regulations, halt investigations, and cease supervision and examination activities. Most staff were placed on administrative leave as the administration sought to eliminate the consumer watchdog agency.
+Oil markets rallied earlier in the week on geopolitical risk premium following US military deployments to the Gulf and threats of strikes on Iranian nuclear facilities, but gave back gains as diplomatic talks scheduled in Muscat reduced immediate conflict probability. Iran's seizure of two oil tankers added modest upward pressure but failed to sustain momentum amid fundamental concerns about supply-demand balance.
 
-The December 30, 2025 court ruling rejected Vought's argument that he could unilaterally close the agency, ordering the CFPB to remain funded and operational. The $145 million transfer from the Federal Reserve Board will allow the agency to continue operations through at least March 2026, though its long-term future remains uncertain.
+OPEC+ extended production cuts through Q1 2026, attempting to support prices as surging output from Brazil, Argentina, Guyana, and US shale producers threatens to create oversupply conditions. Latin America's three emerging oil powers are projected to add more than 700,000 barrels per day of production in 2026, far outpacing Venezuela's recovery despite sanctions relief.
 
-Consumer advocacy groups have warned that the ongoing attempts to neutralize the CFPB leave Americans more vulnerable to predatory lending, debt collection abuses, and financial fraud. Industry groups have welcomed the reduced regulatory oversight, arguing the agency exceeded its statutory authority under previous leadership.
+Energy analysts project crude prices will remain range-bound in the $60-70 range through mid-2026 barring major geopolitical shocks, with the balance between growing non-OPEC supply and uncertain global demand creating a cap on price appreciation. Chinese economic weakness, electric vehicle adoption acceleration, and efficiency gains in transportation continue to moderate long-term demand forecasts.
 
-### 10. GM Projects $4 Billion in Tariff Costs for 2026 Despite Increased US Production
-*Feb 3*
-
-> General Motors announced plans to top Ford in US vehicle production while warning that tariff costs will reach between $3 billion and $4 billion in 2026, highlighting the significant financial burden of trade policy on American automakers.
-
-CEO Mary Barra outlined the production targets as part of the company's 2025 earnings report and 2026 guidance. The expansion of domestic manufacturing is partly designed to mitigate tariff exposure, but vehicles and components that cross borders multiple times during production still face significant duties under current trade policies.
-
-The tariff burden comes as GM navigates the costly transition to electric vehicles while maintaining profitability in its traditional internal combustion engine business. The company must balance investment in next-generation technology against the headwinds of trade policy and increasingly competitive global EV markets.
-
-Ford is scheduled to report earnings on February 10 and is expected to face similar tariff challenges. Both Detroit automakers have warned that tariff costs are being passed along to consumers through higher vehicle prices, contributing to affordability challenges that have dampened new car demand despite strong consumer interest.
-
-### 11. Semiconductor Industry Enters 2nm Manufacturing Race as AI Demand Strains Supply
-*Feb 2*
-
-> TSMC's 2nm process entered mass production with strong yields as the company battles Samsung and Intel for AI chip supremacy, with Apple reportedly exploring alternative foundries as capacity constraints force diversification of the global semiconductor supply chain.
-
-TSMC sees its AI revenue growing at a mid- to high-50% compound annual growth rate through 2029, with Nvidia now surpassing Apple as the company's largest customer. Capacity is expected to ramp faster in 2026 driven by smartphones, high-performance computing, and AI applications, but demand continues to outpace supply.
-
-Intel's 18A node has allowed the American chipmaker to regain technical parity with TSMC by some metrics, featuring power delivery innovation that TSMC does not expect to match until late 2026. Samsung's SF2 node offers unique design flexibility, enabling engineers to optimize for either ultra-low-power mobile chips or high-performance AI accelerators.
-
-The computer microchip market is projected to grow from $26.43 billion in 2025 to $29.1 billion in 2026, with a compound annual growth rate of 10.1%. Intel and Samsung have both commenced the transition from organic resin substrates to glass to meet the thermal and interconnect demands of generative AI, signaling the next phase of manufacturing innovation.
-
-### 12. Saudi Arabia in Talks with Boeing and Airbus for Historic Aircraft Order
+### 14. Mortgage Rates Fall to 6.11%, Lowest Level in Three Years, Spurring Housing Activity
 *Feb 5*
 
-> Saudi Arabia's flagship carrier Saudia is negotiating with both Boeing and Airbus for what could be its largest plane purchase ever, seeking at least 150 narrowbody and widebody jets as the kingdom invests billions to become a global travel and tourism hub.
+> The average rate for a 30-year fixed mortgage dropped to 6.11%—the lowest level since late 2022—driving a surge in purchase applications and refinance activity as the spring home-buying season approaches, with some lenders offering rates below 6% for well-qualified borrowers.
 
-The potential order reflects Saudi Arabia's Vision 2030 initiative, which aims to diversify the economy away from oil dependence through massive investment in tourism, entertainment, and aviation infrastructure. The kingdom is developing new airports and expanding existing facilities to accommodate ambitious passenger growth targets.
+Freddie Mac reported the 15-year fixed mortgage averaged 5.50%, while Morgan Stanley projects rates could decline to 5.75% later in 2026 if inflation continues moderating and the Federal Reserve signals openness to additional rate cuts. The decline creates opportunities for both first-time buyers entering the market and existing homeowners seeking to reduce monthly payments.
 
-Both Boeing and Airbus are positioning for the deal as they work to increase production rates significantly in 2026. Industry analysts project deliveries of 1,044 aircraft for Airbus and 708 for Boeing this year, rising to 1,188 and 870 respectively in 2027. Combined backlogs exceed 11 years, giving airlines limited alternatives for new aircraft.
+Purchase and refinance applications have jumped year-over-year as lower rates improve affordability despite home prices remaining elevated in many markets. A surprising share of homeowners still carry mortgage rates above 5%, creating significant refinance demand as rates decline toward 6%. Housing industry experts note that activity "is improving and poised for a solid spring sales season" after two years of rate-driven headwinds.
 
-Boeing has advanced the 737 Max 10 into the second phase of FAA flight testing, moving closer to certification of the stretched variant that would compete for narrowbody orders. The company is recovering from production challenges and regulatory scrutiny, while Airbus faces its own capacity constraints in meeting surging global demand.
+However, affordability challenges persist in major metropolitan areas where inventory shortages and elevated prices offset the benefit of lower rates. The combination of pent-up buyer demand, falling rates, and limited housing stock could produce highly competitive spring markets with bidding wars returning in desirable locations, potentially preventing the price cooling that would make homeownership accessible to middle-income families.
 
-### 13. Netflix Guides to $51 Billion Revenue as Ad Business Set to Double
+### 15. US Manufacturing Expands for First Time in 12 Months as New Orders and Production Surge
 *Feb 2*
 
-> Netflix projected 2026 revenue between $50.7 billion and $51.7 billion, with advertising revenue expected to roughly double compared to 2025 as the streaming giant's ad-supported tier gains momentum in its second year of operation.
+> The ISM Manufacturing Index showed factory activity expanding in January for the first time in a year, with surges in new orders and production signaling potential economic resilience and ending the longest manufacturing contraction streak since the 2008 financial crisis.
 
-Fourth-quarter 2025 earnings per share came in at 56 cents versus 55 cents estimated, with revenue of $12.05 billion versus $11.97 billion expected. Revenue during the period rose 18% year over year, driven by membership growth, higher subscription pricing, and increased advertising revenue from the tier launched in late 2024.
+The expansion reflects improved business confidence, easing supply chain pressures, and stabilizing demand conditions after months of inventory reduction and cautious ordering patterns. Transport stocks hit new all-time highs with the Dow Jones Transportation Average rising 2%, led by United Airlines, Old Dominion, and Delta Air Lines as investors positioned for strengthening economic activity.
 
-The company reported 325 million global subscribers, continuing its position as the world's largest streaming service despite intensifying competition. Password-sharing crackdowns implemented in 2024 have contributed to subscriber growth, while the ad-supported tier has attracted price-sensitive consumers who might otherwise have canceled.
+Goldman Sachs projects the US will substantially outperform global growth forecasts—estimating 2.6% GDP growth versus 2.0% consensus—due to reduced tariff drag, potential tax cuts, and easier financial conditions. The manufacturing rebound reinforces the bullish thesis that the economy can achieve a soft landing despite 18 months of restrictive Federal Reserve policy.
 
-Spotify also raised prices in February, increasing its Individual Premium plan from $11.99 to $12.99 per month. The price hike is expected to serve as a tailwind for earnings reports in the first and second quarters of 2026, as streaming services across audio and video demonstrate pricing power despite consumer concerns about subscription fatigue.
-
-### 14. Fintech and Homebuilders Emerge as Midterm Election Trades
-*Feb 3*
-
-> Wall Street is positioning for the November midterm elections, with investors eyeing trades that would benefit from Trump administration efforts to lower the cost of living—particularly fintech firms and homebuilders that would see tailwinds if mortgage rates continue to decline.
-
-The election-focused positioning comes as markets navigate heightened volatility driven by tariff uncertainty, AI spending concerns, and geopolitical tensions. With nine months until Americans vote for Congress, traders are gaming out scenarios where policy shifts could create sector-specific opportunities.
-
-Homebuilders have attracted attention as mortgage rates fall to three-year lows, potentially unlocking pent-up housing demand. The sector's performance is closely tied to interest rate trajectory and consumer confidence—both of which could be influenced by the political environment and economic policy heading into the election.
-
-Fintech companies that facilitate lower-cost financial services could benefit from an administration focused on reducing living costs. Payment processors, digital banks, and mortgage technology platforms are being evaluated for their exposure to potential regulatory tailwinds and consumer demand for affordable financial products.
-
-### 15. US Manufacturing Expands for First Time in 12 Months as New Orders Surge
-*Feb 2*
-
-> The ISM Manufacturing Index showed factory activity expanding in January for the first time in a year, with surges in new orders and production signaling potential economic resilience despite ongoing tariff uncertainty and elevated interest rates.
-
-The expansion ended the longest manufacturing contraction streak since the 2008 financial crisis, suggesting that industrial activity may be turning a corner. Transport stocks hit new all-time highs with the Dow Jones Transportation Average up 2%, led by United Airlines, Old Dominion, and Delta Air Lines.
-
-Goldman Sachs expects the US to substantially outperform global growth forecasts—projecting 2.6% GDP growth versus the 2.0% consensus—due to reduced tariff drag, tax cuts, and easier financial conditions. The manufacturing rebound reinforces the bullish thesis that the economy can achieve a soft landing despite 18 months of restrictive monetary policy.
-
-The sector rotation away from growth stocks reflects geopolitical turbulence driving commodity prices and defensive positioning. Energy led January sector performance at 14.37%, followed by materials and consumer staples. Health care, information technology, and financials ended January lower as investors reassessed growth expectations and valuation levels.
+However, the sustainability of the manufacturing recovery remains uncertain given ongoing tariff threats, elevated interest rates relative to historical norms, and slowing global demand from major trading partners. Energy led January sector performance at 14.37%, followed by materials and consumer staples, while health care, information technology, and financials declined as investors rotated toward defensive positioning amid geopolitical turbulence.
 
 **Sources:**
-1. [CNBC - Alphabet Earnings](https://www.cnbc.com/2026/02/04/alphabet-googl-q4-2025-earnings.html)
-2. [Electrek - Waymo Funding Round](https://electrek.co/2026/02/02/waymo-raises-16-billion-round-at-126-billion-valuation-plans-expansion/)
-3. [CNBC - Tech AI Spending](https://www.cnbc.com/2026/02/06/google-microsoft-meta-amazon-ai-cash.html)
-4. [CNBC - Disney Earnings](https://www.cnbc.com/2026/02/02/disney-dis-earnings-q1-26.html)
-5. [Al Jazeera - Tesla Revenue Decline](https://www.aljazeera.com/economy/2026/1/29/elon-musks-tesla-reports-first-ever-annual-decline-in-revenue)
-6. [CNBC - Eli Lilly Earnings](https://www.cnbc.com/2026/02/04/eli-lilly-lly-earnings-q4-2025.html)
-7. [CNBC - Pfizer Earnings](https://www.cnbc.com/2026/02/03/pfizer-pfe-earnings-q4-2025.html)
-8. [Freddie Mac - Mortgage Rates](https://www.freddiemac.com/pmms)
-9. [EPI - CFPB Shutdown](https://www.epi.org/policywatch/trump-administration-closes-the-cfpb/)
-10. [CNBC - GM Tariff Costs](https://www.cnbc.com/2026/01/27/gm-plans-to-top-ford-in-us-production-amid-trumps-tariff.html)
-11. [Technobezz - Apple TSMC Capacity](https://www.technobezz.com/news/apple-explores-samsung-and-intel-foundries-amid-tsmc-capacit-2026-02-02-zukc)
-12. [Bloomberg - Saudi Arabia Aircraft Order](https://www.bloomberg.com/news/articles/2026-02-05/boeing-airbus-in-talks-with-saudi-arabia-for-historic-jet-order)
-13. [CNBC - Netflix Earnings](https://www.cnbc.com/2026/01/20/netflix-nflx-earnings-q4-2025.html)
-14. [Bloomberg - Midterm Trading Themes](https://www.bloomberg.com/news/articles/2026-02-03/midterm-stock-trading-themes-emerge-led-by-fintech-builders)
+1. [CNBC - Alphabet Q4 Earnings](https://www.cnbc.com/2026/02/04/alphabet-googl-q4-2025-earnings.html)
+2. [CNBC - Meta Q4 Earnings](https://www.cnbc.com/2026/01/28/meta-q4-earnings-report-2025.html)
+3. [CNBC - Microsoft Stock Decline](https://www.cnbc.com/2026/01/28/microsoft-msft-q2-earnings-report-2026.html)
+4. [Yahoo Finance - Amazon Stock](https://finance.yahoo.com/news/alphabet-2026-spending-forecast-soars-past-wall-street-expectations-as-google-parent-goes-all-in-on-ai-195254701.html)
+5. [FactSet - S&P 500 Earnings](https://insight.factset.com/sp-500-earnings-season-update-february-6-2026)
+6. [Morningstar - Gold Prices](https://global.morningstar.com/en-nd/markets/gold-price-surges-above-5500-heres-why)
+7. [Bloomberg - Emerging Markets](https://www.bloomberg.com/news/articles/2026-02-06/emerging-market-assets-set-for-worst-week-since-november)
+8. [CNBC - Eli Lilly Earnings](https://www.cnbc.com/2026/02/04/eli-lilly-lly-earnings-q4-2025.html)
+9. [CNBC - Chipotle Earnings](https://www.cnbc.com/2026/02/03/chipotle-cmg-q4-2025-earnings.html)
+10. [OpenAI - Snowflake Partnership](https://openai.com/index/snowflake-partnership/)
+11. [Spokesman - Producer Prices](https://www.spokesman.com/stories/2026/jan/30/us-producer-prices-post-biggest-gain-in-five-month/)
+12. [CNBC - ECB Rate Decision](https://www.cnbc.com/2026/02/05/ecb-rate-decision-economists-analysts-next-move.html)
+13. [Bloomberg - Oil Markets February 6](https://www.bloomberg.com/news/articles/2026-02-05/latest-oil-market-news-and-analysis-for-feb-6)
+14. [Freddie Mac - Mortgage Rates](https://www.freddiemac.com/pmms)
 15. [ISM - Manufacturing Report](https://www.ismworld.org/)
 
 ---
 
-*Generated at 2026-02-06 02:54 PM PST by Claude Code*
+*Generated at 2026-02-08 07:00 AM PST by Claude Code*
