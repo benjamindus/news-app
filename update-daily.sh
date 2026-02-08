@@ -50,9 +50,7 @@ Financial: Bloomberg, Financial Times, Wall Street Journal, CNBC, MarketWatch, T
 Format: H3 headline with ONLY the date in italics (e.g. 'Feb 3' - use the ACTUAL publication date). Then a blockquote (>) with a 1-2 sentence summary, then 3 detailed paragraphs per story. Use this EXACT timestamp in header: Research Generated: $CURRENT_TIME. List 10 sources at the end of each section.${DEDUP_INSTRUCTION}" --allowedTools "Edit,Write,WebSearch" --dangerously-skip-permissions
 
 # Generate audio with Kokoro TTS
-source venv/bin/activate
-python3 generate-audio.py daily_briefing.md audio/daily
-deactivate
+./venv/bin/python generate-audio.py daily_briefing.md audio/daily
 
 # Build styled HTML
 node build-html.js

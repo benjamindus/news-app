@@ -50,11 +50,7 @@ Dedollarisation/Dollar Trends: Bloomberg, Financial Times, Reuters, The Economis
 
 Format: H3 headline with ONLY the date in italics (e.g. 'Feb 3' - use the ACTUAL publication date). Then a blockquote (>) with a 1-2 sentence summary, then 3 detailed paragraphs per story. Include Week of [date range] and use this EXACT timestamp: Research Generated: $CURRENT_TIME. List 10 sources at the end of each section.${DEDUP_INSTRUCTION}" --allowedTools "Edit,Write,WebSearch" --dangerously-skip-permissions
 
-# Generate audio with Kokoro TTS
-source venv/bin/activate
-python3 generate-audio.py weekly_finance.md audio/weekly-finance
-deactivate
-
+./venv/bin/python generate-audio.py weekly_finance.md audio/weekly-finance
 # Build styled HTML
 node build-html.js
 
