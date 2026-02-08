@@ -48,7 +48,7 @@ Fusion Energy: Nature, Science, MIT Technology Review, Ars Technica, PhysicsWorl
 Genetics/Gene Science: Nature, Nature Genetics, Science, STAT News, MIT Technology Review, New England Journal of Medicine, The Lancet, GenomeWeb
 AI: MIT Technology Review, Ars Technica, The Verge, Wired, VentureBeat, IEEE Spectrum, arXiv blog, DeepMind blog, OpenAI blog
 
-Format: H3 headline with ONLY the date in italics (e.g. 'Feb 3' - use the ACTUAL publication date). Then a blockquote (>) with a 1-2 sentence summary, then 3 detailed paragraphs per story. Include Week of [date range] and use this EXACT timestamp: Research Generated: $CURRENT_TIME. List 10 sources at the end of each section.${DEDUP_INSTRUCTION}" --allowedTools "Edit,Write,WebSearch" --dangerously-skip-permissions
+Format: H3 headline with NUMBER and date in italics (e.g. '### 1. Headline Title - *Feb 3*'). Number stories 1-5 within each section. Then a blockquote (>) with a 1-2 sentence summary, then 3 detailed paragraphs per story. Include Week of [date range] and use this EXACT timestamp: Research Generated: $CURRENT_TIME. List 10 sources at the end of each section.${DEDUP_INSTRUCTION}" --allowedTools "Edit,Write,WebSearch" --dangerously-skip-permissions
 
 ./venv/bin/python generate-audio.py weekly_science.md audio/weekly-science
 # Build styled HTML
