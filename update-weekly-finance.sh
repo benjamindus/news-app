@@ -41,7 +41,7 @@ if [ -n "$DEDUP_HEADLINES" ]; then
 $DEDUP_HEADLINES"
 fi
 
-claude --model sonnet -p "Search for last week's biggest finance news and update weekly_finance.md with: 5 top inflation and finance metrics news, 5 top crypto market developments, and 5 top dedollarisation and US dollar trend news (covering dollar strength/weakness, BRICS currency moves, central bank reserve shifts, and global trade settlement changes). Focus on most cited/discussed stories.
+claude --model sonnet -p "Search for finance news from the LAST 7 DAYS ONLY and update weekly_finance.md with: 5 top inflation and finance metrics news, 5 top crypto market developments, and 5 top dedollarisation and US dollar trend news (covering dollar strength/weakness, BRICS currency moves, central bank reserve shifts, and global trade settlement changes). IMPORTANT: Check publication dates - REJECT any story older than 7 days. Only include news published within the past week. Focus on most cited/discussed stories.
 
 PREFERRED SOURCES — prioritize stories from these outlets:
 Inflation/Finance Metrics: Bloomberg, Financial Times, FT Alphaville, Wall Street Journal, Reuters Business, The Economist, Federal Reserve releases, Bureau of Labor Statistics, CNBC, MarketWatch, Barron's, Nikkei, Institutional Investor, The Information, Seeking Alpha, Morningstar
