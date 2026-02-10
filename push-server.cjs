@@ -1,18 +1,13 @@
 #!/usr/bin/env node
-// Simple push notification subscription server (HTTPS)
+// Simple push notification subscription server (HTTP)
+// Vercel proxy handles SSL termination
 
-const https = require('https');
+const http = require('http');
 const fs = require('fs');
 const path = require('path');
 
 const PORT = 3001;
 const subscriptionsFile = path.join(__dirname, 'subscriptions.json');
-
-// SSL certificate options (certs stored in project directory)
-const sslOptions = {
-  key: fs.readFileSync(path.join(__dirname, 'ssl', 'server.key')),
-  cert: fs.readFileSync(path.join(__dirname, 'ssl', 'server.crt'))
-};
 
 function loadSubscriptions() {
   try {
@@ -29,7 +24,7 @@ function saveSubscriptions(subs) {
   fs.writeFileSync(subscriptionsFile, JSON.stringify(subs, null, 2));
 }
 
-const server = https.createServer(sslOptions, (req, res) => {
+const server = http.createServer((req, res) => {
   // CORS headers
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
@@ -81,5 +76,5 @@ const server = https.createServer(sslOptions, (req, res) => {
 });
 
 server.listen(PORT, '0.0.0.0', () => {
-  console.log(`Push subscription server running on HTTPS port ${PORT}`);
+  console.log(`Push subscription server running on HTTP port ${PORT}`);
 });
