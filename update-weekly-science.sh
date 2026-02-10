@@ -59,4 +59,7 @@ git add weekly_science.md briefing.html audio/weekly-science/*.mp3
 git commit -m "Weekly science briefing update $(date +%Y-%m-%d)"
 GIT_TERMINAL_PROMPT=0 git push || gh repo sync
 
+# Send push notification
+node send-notification.cjs "Weekly Science Ready" "Your weekly science briefing has been updated."
+
 echo "Weekly science briefing updated and pushed to GitHub"

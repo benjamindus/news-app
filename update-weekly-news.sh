@@ -58,4 +58,7 @@ git add weekly_news.md briefing.html audio/weekly-news/*.mp3
 git commit -m "Weekly news briefing update $(date +%Y-%m-%d)"
 GIT_TERMINAL_PROMPT=0 git push || gh repo sync
 
+# Send push notification
+node send-notification.cjs "Weekly News Ready" "Your weekly news briefing has been updated."
+
 echo "Weekly news briefing updated and pushed to GitHub"

@@ -14,30 +14,52 @@ fi
 cd "$BRIEFING_DIR"
 
 CURRENT_TIME=$(TZ='America/Los_Angeles' date '+%B %d, %Y, %I:%M %p PST')
+TODAY=$(date '+%Y-%m-%d')
+HISTORY_DIR="$BRIEFING_DIR/headline_history"
+HISTORY_FILE="$HISTORY_DIR/morning_daily_history.txt"
 
-# --- Cross-briefing deduplication ---
-ALL_BRIEFINGS=(
-  "morning_briefing.md"
-  "daily_briefing.md"
+# Ensure history directory exists
+mkdir -p "$HISTORY_DIR"
+
+# --- Clean up headlines older than 7 days ---
+if [ -f "$HISTORY_FILE" ]; then
+  CUTOFF_DATE=$(date -v-7d '+%Y-%m-%d' 2>/dev/null || date -d '7 days ago' '+%Y-%m-%d')
+  # Keep only lines with dates >= cutoff
+  awk -F'|' -v cutoff="$CUTOFF_DATE" '$1 >= cutoff' "$HISTORY_FILE" > "$HISTORY_FILE.tmp"
+  mv "$HISTORY_FILE.tmp" "$HISTORY_FILE"
+fi
+
+# --- Load week-long headline history for morning/daily cross-check ---
+HISTORY_HEADLINES=""
+if [ -f "$HISTORY_FILE" ]; then
+  # Extract just the headlines (after the date|type| prefix)
+  HISTORY_HEADLINES=$(cut -d'|' -f3- "$HISTORY_FILE" | grep -v '^$')
+fi
+
+# --- Cross-briefing deduplication (weekly briefings) ---
+WEEKLY_BRIEFINGS=(
   "weekly_news.md"
   "weekly_science.md"
   "weekly_finance.md"
 )
 
-DEDUP_HEADLINES=""
-for bf in "${ALL_BRIEFINGS[@]}"; do
-  [ "$bf" = "morning_briefing.md" ] && continue
+WEEKLY_HEADLINES=""
+for bf in "${WEEKLY_BRIEFINGS[@]}"; do
   [ -f "$bf" ] || continue
   HEADLINES=$(grep '^### ' "$bf" | grep -vi '^### sources')
   if [ -n "$HEADLINES" ]; then
-    DEDUP_HEADLINES="$DEDUP_HEADLINES
+    WEEKLY_HEADLINES="$WEEKLY_HEADLINES
 $HEADLINES"
   fi
 done
 
+# Combine history and weekly headlines
+DEDUP_HEADLINES="$HISTORY_HEADLINES
+$WEEKLY_HEADLINES"
+
 DEDUP_INSTRUCTION=""
-if [ -n "$DEDUP_HEADLINES" ]; then
-  DEDUP_INSTRUCTION=" IMPORTANT DEDUPLICATION: The following stories have ALREADY been covered in other briefings. Do NOT cover these stories again, even if the headline is worded differently. Match by TOPIC, not exact title. Find COMPLETELY DIFFERENT stories instead:
+if [ -n "$(echo "$DEDUP_HEADLINES" | grep -v '^$')" ]; then
+  DEDUP_INSTRUCTION=" IMPORTANT DEDUPLICATION: The following stories have ALREADY been covered in the past 7 days of morning/daily briefings or in weekly briefings. Do NOT cover these stories again, even if the headline is worded differently. Match by TOPIC, not exact title. Find COMPLETELY DIFFERENT stories instead:
 $DEDUP_HEADLINES"
 fi
 
@@ -49,6 +71,16 @@ Financial: Bloomberg, Financial Times, Wall Street Journal, CNBC, MarketWatch, T
 
 Format: H3 headline with ONLY the date in italics (e.g. 'Feb 3' - use the ACTUAL publication date). Then a blockquote (>) with a 1-2 sentence summary, then 3 detailed paragraphs per story. Use this EXACT timestamp in header: Research Generated: $CURRENT_TIME. List 10 sources at the end of each section.${DEDUP_INSTRUCTION}" --allowedTools "Edit,Write,WebSearch" --dangerously-skip-permissions
 
+# --- Save new headlines to history ---
+if [ -f "morning_briefing.md" ]; then
+  NEW_HEADLINES=$(grep '^### ' morning_briefing.md | grep -vi '^### sources')
+  if [ -n "$NEW_HEADLINES" ]; then
+    echo "$NEW_HEADLINES" | while read -r headline; do
+      echo "${TODAY}|morning|${headline}" >> "$HISTORY_FILE"
+    done
+  fi
+fi
+
 ./venv/bin/python generate-audio.py morning_briefing.md audio/morning
 # Build styled HTML
 node build-html.js
@@ -57,5 +89,8 @@ node build-html.js
 git add morning_briefing.md briefing.html audio/morning/*.mp3
 git commit -m "Morning briefing update $(date +%Y-%m-%d)"
 GIT_TERMINAL_PROMPT=0 git push || gh repo sync
+
+# Send push notification
+node send-notification.cjs "Morning Briefing Ready" "Your morning news briefing has been updated."
 
 echo "Morning briefing updated and pushed to GitHub"

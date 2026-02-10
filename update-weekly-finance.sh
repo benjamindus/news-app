@@ -59,4 +59,7 @@ git add weekly_finance.md briefing.html audio/weekly-finance/*.mp3
 git commit -m "Weekly finance briefing update $(date +%Y-%m-%d)"
 GIT_TERMINAL_PROMPT=0 git push || gh repo sync
 
+# Send push notification
+node send-notification.cjs "Weekly Finance Ready" "Your weekly finance briefing has been updated."
+
 echo "Weekly finance briefing updated and pushed to GitHub"

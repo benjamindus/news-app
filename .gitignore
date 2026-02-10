@@ -9,3 +9,6 @@ voices-v1.0.bin
 venv/
 *.pyc
 __pycache__/
+.vercel
+.env*.local
+headline_history/
