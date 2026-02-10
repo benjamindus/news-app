@@ -6,7 +6,12 @@ const fs = require('fs');
 const path = require('path');
 
 const VAPID_PUBLIC = 'BEItfMYBHFrt7hwvOrgXd5B7P5GLtZ3fJTgle_IG_ex3KV82VNY1AqqBjbKnpxFSpFxMcbtYkIpZGe9UarNcoIE';
-const VAPID_PRIVATE = 'vX6ztHQM2iPMF56SGFLoxrB0DgET7ORFi5lgAgQ96M0';
+const VAPID_PRIVATE = process.env.VAPID_PRIVATE_KEY;
+
+if (!VAPID_PRIVATE) {
+  console.error('Error: VAPID_PRIVATE_KEY environment variable is not set');
+  process.exit(1);
+}
 
 webpush.setVapidDetails(
   'mailto:ben.dus.email@gmail.com',
