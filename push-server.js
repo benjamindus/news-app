@@ -1,12 +1,18 @@
 #!/usr/bin/env node
-// Simple push notification subscription server
+// Simple push notification subscription server (HTTPS)
 
-const http = require('http');
+const https = require('https');
 const fs = require('fs');
 const path = require('path');
 
 const PORT = 3001;
 const subscriptionsFile = path.join(__dirname, 'subscriptions.json');
+
+// SSL certificate options
+const sslOptions = {
+  key: fs.readFileSync('/etc/ssl/private/push-server.key'),
+  cert: fs.readFileSync('/etc/ssl/certs/push-server.crt')
+};
 
 function loadSubscriptions() {
   try {
@@ -23,7 +29,7 @@ function saveSubscriptions(subs) {
   fs.writeFileSync(subscriptionsFile, JSON.stringify(subs, null, 2));
 }
 
-const server = http.createServer((req, res) => {
+const server = https.createServer(sslOptions, (req, res) => {
   // CORS headers
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
@@ -75,5 +81,5 @@ const server = http.createServer((req, res) => {
 });
 
 server.listen(PORT, '0.0.0.0', () => {
-  console.log(`Push subscription server running on port ${PORT}`);
+  console.log(`Push subscription server running on HTTPS port ${PORT}`);
 });
