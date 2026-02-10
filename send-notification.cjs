@@ -5,7 +5,7 @@ const webpush = require('web-push');
 const fs = require('fs');
 const path = require('path');
 
-const VAPID_PUBLIC = 'BEItfMYBHFrt7hwvOrgXd5B7P5GLtZ3fJTgle_IG_ex3KV82VNY1AqqBjbKnpxFSpFxMcbtYkIpZGe9UarNcoIE';
+const VAPID_PUBLIC = 'BODcbyNqGOZ7tKq89PVuHQycXdxNDq-HGQT4R-1VGzaPQJqxPzKA4TCno3tk2sI4YfRbaGt-W8B62qaQJv-33KY';
 const VAPID_PRIVATE = process.env.VAPID_PRIVATE_KEY;
 
 if (!VAPID_PRIVATE) {
