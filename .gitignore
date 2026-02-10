@@ -12,3 +12,5 @@ __pycache__/
 .vercel
 .env*.local
 headline_history/
+ssl/
+subscriptions.json

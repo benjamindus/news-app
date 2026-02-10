@@ -8,10 +8,10 @@ const path = require('path');
 const PORT = 3001;
 const subscriptionsFile = path.join(__dirname, 'subscriptions.json');
 
-// SSL certificate options
+// SSL certificate options (certs stored in project directory)
 const sslOptions = {
-  key: fs.readFileSync('/etc/ssl/private/push-server.key'),
-  cert: fs.readFileSync('/etc/ssl/certs/push-server.crt')
+  key: fs.readFileSync(path.join(__dirname, 'ssl', 'server.key')),
+  cert: fs.readFileSync(path.join(__dirname, 'ssl', 'server.crt'))
 };
 
 function loadSubscriptions() {
