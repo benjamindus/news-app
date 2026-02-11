@@ -1503,6 +1503,7 @@
         let currentIndex = 0;
         let isPlayingAll = false;
         let currentBriefing = 'morning';
+        let positionUpdateInterval = null;
 
         document.addEventListener('DOMContentLoaded', function() {
             // Load saved briefing preference
@@ -1612,6 +1613,13 @@
                     enforceRate(newAudio);
                     setTimeout(() => enforceRate(newAudio), 100);
                     setTimeout(() => enforceRate(newAudio), 500);
+                    startPositionUpdates();
+                });
+
+                newAudio.addEventListener('pause', () => {
+                    stopPositionUpdates();
+                    // Update position one final time when paused
+                    updatePositionState(newAudio);
                 });
 
                 newAudio.addEventListener('ratechange', () => {
@@ -1622,6 +1630,7 @@
                 });
 
                 newAudio.addEventListener('ended', () => {
+                    stopPositionUpdates();
                     if (index < audioPlayers.length - 1) {
                         currentIndex = index + 1;
                         playAudio(currentIndex);
@@ -1734,6 +1743,24 @@
             }
         }
 
+        function startPositionUpdates() {
+            stopPositionUpdates();
+            // Update position every second for reliable Media Session sync
+            positionUpdateInterval = setInterval(() => {
+                const audio = audioPlayers[currentIndex];
+                if (audio && !audio.paused) {
+                    updatePositionState(audio);
+                }
+            }, 1000);
+        }
+
+        function stopPositionUpdates() {
+            if (positionUpdateInterval) {
+                clearInterval(positionUpdateInterval);
+                positionUpdateInterval = null;
+            }
+        }
+
         function updatePlayingState(playing) {
             const btn = document.getElementById('playAllBtn');
             const icon = document.getElementById('playAllIcon');
@@ -1798,6 +1825,7 @@
         }
 
         function stopPlayback() {
+            stopPositionUpdates();
             audioPlayers.forEach(audio => {
                 audio.pause();
                 audio.currentTime = 0;
