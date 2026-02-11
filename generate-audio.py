@@ -56,6 +56,10 @@ def parse_markdown(filepath):
         full_text = re.sub(r'_([^_]+)_', r'\1', full_text)  # Remove italics _text_
         full_text = re.sub(r'\*+', '', full_text)  # Remove any remaining asterisks
         full_text = re.sub(r'\$[\d,.]+[BMK]?', lambda m: m.group().replace('$', ' dollars '), full_text)
+        # Fix abbreviations like U.S. -> US, U.K. -> UK so TTS reads them naturally
+        full_text = re.sub(r'\b([A-Z])\.([A-Z])\.([A-Z])\.([A-Z])\.?', r'\1\2\3\4', full_text)  # 4-letter abbrevs
+        full_text = re.sub(r'\b([A-Z])\.([A-Z])\.([A-Z])\.?', r'\1\2\3', full_text)  # 3-letter abbrevs like U.A.E.
+        full_text = re.sub(r'\b([A-Z])\.([A-Z])\.?', r'\1\2', full_text)  # 2-letter abbrevs like U.S., U.K.
         full_text = full_text.replace('&amp;', 'and')
         full_text = full_text.replace('  ', ' ')
 
