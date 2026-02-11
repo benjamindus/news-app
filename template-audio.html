@@ -559,9 +559,11 @@
             if (!('mediaSession' in navigator) || !navigator.mediaSession.setPositionState) return;
             if (!audio || !audio.duration || isNaN(audio.duration)) return;
             try {
+                // Use the expected rate from speed selector, not audio.playbackRate (can be stale)
+                const rate = parseFloat(document.getElementById('speedSelect').value);
                 navigator.mediaSession.setPositionState({
                     duration: audio.duration,
-                    playbackRate: audio.playbackRate,
+                    playbackRate: rate,
                     position: audio.currentTime
                 });
             } catch (e) {
