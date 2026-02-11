@@ -56,7 +56,8 @@ node build-html.js
 # Push to GitHub
 git add weekly_news.md briefing.html audio/weekly-news/*.mp3
 git commit -m "Weekly news briefing update $(date +%Y-%m-%d)"
-GIT_TERMINAL_PROMPT=0 git push || gh repo sync
+git pull --rebase origin main
+GIT_TERMINAL_PROMPT=0 git push
 
 # Send push notification
 node send-notification.cjs "Weekly News Ready" "Your weekly news briefing has been updated."

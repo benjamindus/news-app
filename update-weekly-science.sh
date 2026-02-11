@@ -57,7 +57,8 @@ node build-html.js
 # Push to GitHub
 git add weekly_science.md briefing.html audio/weekly-science/*.mp3
 git commit -m "Weekly science briefing update $(date +%Y-%m-%d)"
-GIT_TERMINAL_PROMPT=0 git push || gh repo sync
+git pull --rebase origin main
+GIT_TERMINAL_PROMPT=0 git push
 
 # Send push notification
 node send-notification.cjs "Weekly Science Ready" "Your weekly science briefing has been updated."
