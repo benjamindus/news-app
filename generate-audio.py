@@ -8,6 +8,31 @@ import soundfile as sf
 from kokoro_onnx import Kokoro
 from pydub import AudioSegment
 
+def format_number_for_tts(match):
+    """Convert numbers like 48,000 to '48 thousand' for natural TTS reading."""
+    num_str = match.group().replace(',', '')
+    try:
+        num = float(num_str)
+        if num >= 1_000_000_000:
+            formatted = num / 1_000_000_000
+            if formatted == int(formatted):
+                return f"{int(formatted)} billion"
+            return f"{formatted:.1f} billion".replace('.0 ', ' ')
+        elif num >= 1_000_000:
+            formatted = num / 1_000_000
+            if formatted == int(formatted):
+                return f"{int(formatted)} million"
+            return f"{formatted:.1f} million".replace('.0 ', ' ')
+        elif num >= 1_000:
+            formatted = num / 1_000
+            if formatted == int(formatted):
+                return f"{int(formatted)} thousand"
+            return f"{formatted:.1f} thousand".replace('.0 ', ' ')
+        else:
+            return num_str
+    except:
+        return match.group()
+
 def parse_markdown(filepath):
     """Parse markdown and extract news stories."""
     with open(filepath, 'r') as f:
@@ -60,6 +85,8 @@ def parse_markdown(filepath):
         full_text = re.sub(r'\b([A-Z])\.([A-Z])\.([A-Z])\.([A-Z])\.?', r'\1\2\3\4', full_text)  # 4-letter abbrevs
         full_text = re.sub(r'\b([A-Z])\.([A-Z])\.([A-Z])\.?', r'\1\2\3', full_text)  # 3-letter abbrevs like U.A.E.
         full_text = re.sub(r'\b([A-Z])\.([A-Z])\.?', r'\1\2', full_text)  # 2-letter abbrevs like U.S., U.K.
+        # Convert large numbers to readable format: 48,000 -> "48 thousand"
+        full_text = re.sub(r'\b\d{1,3}(?:,\d{3})+\b', format_number_for_tts, full_text)
         full_text = full_text.replace('&amp;', 'and')
         full_text = full_text.replace('  ', ' ')
 
