@@ -55,9 +55,12 @@ Format: H3 headline with NUMBER and date in italics (e.g. '### 1. Headline Title
 node build-html.js
 
 # Push to GitHub
+git checkout -- package-lock.json 2>/dev/null || true  # Reset any package changes
 git add weekly_science.md briefing.html audio/weekly-science/*.mp3
 git commit -m "Weekly science briefing update $(date +%Y-%m-%d)"
-git pull --rebase origin main
+git stash --include-untracked || true
+git pull --rebase origin main || git pull origin main
+git stash pop 2>/dev/null || true
 GIT_TERMINAL_PROMPT=0 git push
 
 # Send push notification

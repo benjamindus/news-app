@@ -86,9 +86,12 @@ fi
 node build-html.js
 
 # Push to GitHub
+git checkout -- package-lock.json 2>/dev/null || true  # Reset any package changes
 git add morning_briefing.md briefing.html audio/morning/*.mp3
 git commit -m "Morning briefing update $(date +%Y-%m-%d)"
-git pull --rebase origin main
+git stash --include-untracked || true
+git pull --rebase origin main || git pull origin main
+git stash pop 2>/dev/null || true
 GIT_TERMINAL_PROMPT=0 git push
 
 # Send push notification
