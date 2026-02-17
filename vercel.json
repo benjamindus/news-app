@@ -1,4 +1,5 @@
 {
+  "outputDirectory": ".",
   "buildCommand": "node build-html.js",
   "rewrites": [
     { "source": "/", "destination": "/briefing.html" }
