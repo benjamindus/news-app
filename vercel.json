@@ -1,7 +1,11 @@
 {
-  "outputDirectory": ".",
   "buildCommand": "node build-html.js",
   "rewrites": [
     { "source": "/", "destination": "/briefing.html" }
-  ]
+  ],
+  "functions": {
+    "api/*.js": {
+      "runtime": "nodejs18.x"
+    }
+  }
 }
