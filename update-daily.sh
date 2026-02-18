@@ -96,14 +96,17 @@ fi
 # Build styled HTML
 node build-html.js
 
-# Push to GitHub - stash first to avoid rebase conflicts from other uncommitted files
-git stash --include-untracked 2>/dev/null || true
+# Push to GitHub
 git checkout -- package-lock.json 2>/dev/null || true
 git add daily_briefing.md briefing.html audio/daily/*.mp3
 git commit -m "Daily briefing update $(date +%Y-%m-%d)"
-git pull --rebase origin main || git pull origin main
+# Pull with rebase; if it fails due to other uncommitted files, stash them and retry
+if ! git pull --rebase origin main; then
+    git stash --include-untracked 2>/dev/null || true
+    git pull --rebase origin main || git pull origin main
+    git stash pop 2>/dev/null || true
+fi
 GIT_TERMINAL_PROMPT=0 git push
-git stash pop 2>/dev/null || true
 
 # Send push notification
 node send-notification.cjs "Daily Briefing Ready" "Your daily news briefing has been updated with fresh stories."

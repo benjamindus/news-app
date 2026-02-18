@@ -63,14 +63,17 @@ Format: H3 headline with NUMBER and date in italics (e.g. '### 1. Headline Title
 # Build styled HTML
 node build-html.js
 
-# Push to GitHub - stash first to avoid rebase conflicts from other uncommitted files
-git stash --include-untracked 2>/dev/null || true
+# Push to GitHub
 git checkout -- package-lock.json 2>/dev/null || true
 git add weekly_science.md briefing.html audio/weekly-science/*.mp3
 git commit -m "Weekly science briefing update $(date +%Y-%m-%d)"
-git pull --rebase origin main || git pull origin main
+# Pull with rebase; if it fails due to other uncommitted files, stash them and retry
+if ! git pull --rebase origin main; then
+    git stash --include-untracked 2>/dev/null || true
+    git pull --rebase origin main || git pull origin main
+    git stash pop 2>/dev/null || true
+fi
 GIT_TERMINAL_PROMPT=0 git push
-git stash pop 2>/dev/null || true
 
 # Send push notification
 node send-notification.cjs "Weekly Science Ready" "Your weekly science briefing has been updated."
