@@ -13,6 +13,15 @@ fi
 
 cd "$BRIEFING_DIR"
 
+# Timeout command (works on both Linux and macOS with coreutils)
+if command -v timeout &> /dev/null; then
+    TIMEOUT_CMD="timeout 1200"
+elif command -v gtimeout &> /dev/null; then
+    TIMEOUT_CMD="gtimeout 1200"
+else
+    TIMEOUT_CMD=""
+fi
+
 CURRENT_TIME=$(TZ='America/Los_Angeles' date '+%B %d, %Y, %I:%M %p PST')
 
 # --- Cross-briefing deduplication ---
@@ -41,7 +50,7 @@ if [ -n "$DEDUP_HEADLINES" ]; then
 $DEDUP_HEADLINES"
 fi
 
-claude --model sonnet -p "Search for science news from the LAST 7 DAYS ONLY and update weekly_science.md with: 5 top fusion energy news, 5 top human genetics/gene science advancements, and 5 top AI advancements. IMPORTANT: Check publication dates - REJECT any story older than 7 days. Only include news published within the past week. Focus on most cited/discussed stories.
+$TIMEOUT_CMD claude --model sonnet -p "Search for science news from the LAST 7 DAYS ONLY and update weekly_science.md with: 5 top fusion energy news, 5 top human genetics/gene science advancements, and 5 top AI advancements. IMPORTANT: Check publication dates - REJECT any story older than 7 days. Only include news published within the past week. Focus on most cited/discussed stories.
 
 PREFERRED SOURCES — prioritize stories from these outlets:
 Fusion Energy: Nature, Science, MIT Technology Review, Ars Technica, PhysicsWorld, New Scientist, ITER.org, Science Daily

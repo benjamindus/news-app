@@ -13,6 +13,15 @@ fi
 
 cd "$BRIEFING_DIR"
 
+# Timeout command (works on both Linux and macOS with coreutils)
+if command -v timeout &> /dev/null; then
+    TIMEOUT_CMD="timeout 1200"
+elif command -v gtimeout &> /dev/null; then
+    TIMEOUT_CMD="gtimeout 1200"
+else
+    TIMEOUT_CMD=""
+fi
+
 CURRENT_TIME=$(TZ='America/Los_Angeles' date '+%B %d, %Y, %I:%M %p PST')
 TODAY=$(date '+%Y-%m-%d')
 HISTORY_DIR="$BRIEFING_DIR/headline_history"
@@ -63,7 +72,7 @@ if [ -n "$(echo "$DEDUP_HEADLINES" | grep -v '^$')" ]; then
 $DEDUP_HEADLINES"
 fi
 
-claude --model sonnet -p "Search for news from the LAST 24 HOURS ONLY and update daily_briefing.md with: 10 top geopolitical stories and 10 top financial stories. IMPORTANT: Check publication dates - REJECT any story older than 24 hours. Only include breaking news and stories published today. EXCLUDE all sports news.
+$TIMEOUT_CMD claude --model sonnet -p "Search for news from the LAST 24 HOURS ONLY and update daily_briefing.md with: 10 top geopolitical stories and 10 top financial stories. IMPORTANT: Check publication dates - REJECT any story older than 24 hours. Only include breaking news and stories published today. EXCLUDE all sports news.
 
 PREFERRED SOURCES — prioritize stories from these outlets:
 Geopolitical: Reuters, Associated Press, BBC News, The Guardian, Al Jazeera, Foreign Policy, The Economist, NPR, Politico, The New York Times, Washington Post, Nikkei Asia, The Diplomat, South China Morning Post, Stratfor, CSIS, France 24, Deutsche Welle
