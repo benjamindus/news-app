@@ -490,6 +490,33 @@
                         updatePositionState(newAudio);
                     }
                 });
+
+                // Handle errors - retry or skip to next
+                newAudio.addEventListener('error', (e) => {
+                    console.error('Audio error:', e);
+                    if (isPlayingAll && index < audioPlayers.length - 1) {
+                        // Skip to next story on error
+                        setTimeout(() => {
+                            currentIndex = index + 1;
+                            playAudio(currentIndex);
+                        }, 1000);
+                    }
+                });
+
+                // Handle stalled playback - try to resume
+                newAudio.addEventListener('stalled', () => {
+                    console.warn('Audio stalled, attempting resume...');
+                    setTimeout(() => {
+                        if (newAudio.paused && isPlayingAll) {
+                            newAudio.play().catch(e => console.error('Resume failed:', e));
+                        }
+                    }, 2000);
+                });
+
+                // Handle waiting (buffering) - just log for now
+                newAudio.addEventListener('waiting', () => {
+                    console.log('Audio buffering...');
+                });
             });
         }
 
@@ -618,7 +645,16 @@
             if (index >= 0 && index < audioPlayers.length) {
                 const audio = audioPlayers[index];
                 audio.playbackRate = parseFloat(document.getElementById('speedSelect').value);
-                audio.play();
+                const playPromise = audio.play();
+                if (playPromise !== undefined) {
+                    playPromise.catch(error => {
+                        console.error('Playback failed:', error);
+                        // Retry once after a short delay
+                        setTimeout(() => {
+                            audio.play().catch(e => console.error('Retry failed:', e));
+                        }, 500);
+                    });
+                }
                 scrollToElement(audio);
                 updateMediaSession(index);
             }
@@ -769,6 +805,24 @@
             }
             return outputArray;
         }
+
+        // Handle visibility changes (tab switching, screen lock)
+        let wasPlayingBeforeHidden = false;
+        document.addEventListener('visibilitychange', () => {
+            if (document.hidden) {
+                // Tab hidden - remember if we were playing
+                wasPlayingBeforeHidden = isPlayingAll && audioPlayers[currentIndex] && !audioPlayers[currentIndex].paused;
+            } else {
+                // Tab visible again - resume if we were playing
+                if (wasPlayingBeforeHidden && audioPlayers[currentIndex]) {
+                    const audio = audioPlayers[currentIndex];
+                    if (audio.paused) {
+                        console.log('Resuming playback after visibility change');
+                        audio.play().catch(e => console.error('Resume after visibility failed:', e));
+                    }
+                }
+            }
+        });
 
         // Initialize notifications on page load
         if (document.readyState === 'loading') {
